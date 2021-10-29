@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_adyen
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 12:24+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-10-29 09:25+0000\n"
+"PO-Revision-Date: 2021-10-29 11:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_api_key
@@ -33,44 +31,43 @@ msgstr "Adyen"
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
-msgid ""
-"An error occurred during the processing of your payment. Please try again."
-msgstr ""
+msgid "An error occurred during the processing of your payment. Please try again."
+msgstr "Se ha producido un error durante el procesamiento de su pago. Inténtelo de nuevo."
 
 #. module: payment_adyen
 #. openerp-web
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 #, python-format
 msgid "An error occurred when displayed this payment form."
-msgstr ""
+msgstr "Se ha producido un error al mostrar este formulario de pago."
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_checkout_api_url
 msgid "Checkout API URL"
-msgstr ""
+msgstr "URL de la API de pago"
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_client_key
 msgid "Client Key"
-msgstr ""
+msgstr "Clave de cliente"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_acquirer.py:0
 #, python-format
 msgid "Could not establish the connection to the API."
-msgstr ""
+msgstr "No se pudo establecer la conexión con la API."
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_hmac_key
 msgid "HMAC Key"
-msgstr ""
+msgstr "HMAC Key"
 
 #. module: payment_adyen
 #. openerp-web
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 #, python-format
 msgid "Incorrect Payment Details"
-msgstr ""
+msgstr "Detalles de pago incorrectos"
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_merchant_account
@@ -81,12 +78,12 @@ msgstr "Cuenta de comerciante"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "No transaction found matching reference %s."
-msgstr ""
+msgstr "No se encontró ninguna transacción que coincida con la referencia %s."
 
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_payment_acquirer
 msgid "Payment Acquirer"
-msgstr "Método de pago"
+msgstr "Método de Pago"
 
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_account_payment_method
@@ -108,7 +105,7 @@ msgstr "Transacción de pago"
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 #, python-format
 msgid "Please verify your payment details."
-msgstr ""
+msgstr "Por favor, verifique sus detalles de pago."
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__provider
@@ -119,121 +116,116 @@ msgstr "Proveedor"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "Received data with invalid payment state: %s"
-msgstr ""
+msgstr "Datos recibidos con estado de pago no válido: %s"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "Received data with missing merchant reference"
-msgstr ""
+msgstr "Datos recibidos con referencia de comerciante faltante"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "Received data with missing payment state."
-msgstr ""
+msgstr "Datos recibidos con estado de pago faltante."
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "Received refund data with missing transaction values"
-msgstr ""
+msgstr "Datos de reembolso recibidos con valores de transacción faltantes"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/controllers/main.py:0
 #, python-format
 msgid "Received tampered payment request data."
-msgstr ""
+msgstr "Se recibieron datos de solicitud de pago manipulados."
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_acquirer__adyen_recurring_api_url
 msgid "Recurring API URL"
-msgstr ""
+msgstr "URL de API recurrente"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_token.py:0
 #, python-format
 msgid "Saved payment methods cannot be restored once they have been deleted."
-msgstr ""
+msgstr "Los métodos de pago guardados no se pueden restaurar una vez que se han eliminado."
 
 #. module: payment_adyen
 #. openerp-web
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
-#: code:addons/payment_adyen/static/src/js/payment_form.js:0
-#: code:addons/payment_adyen/static/src/js/payment_form.js:0
-#: code:addons/payment_adyen/static/src/js/payment_form.js:0
 #, python-format
 msgid "Server Error"
-msgstr "Error en el servidor"
+msgstr "Error de Servidor"
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "Shopper Reference"
-msgstr ""
+msgstr "Referencia del comprador"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_api_key
 msgid "The API key of the webservice user"
-msgstr ""
+msgstr "La clave de API del usuario del servicio web"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_hmac_key
 msgid "The HMAC key of the webhook"
-msgstr ""
+msgstr "La clave HMAC del webhook"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__provider
 msgid "The Payment Service Provider to use with this acquirer"
-msgstr ""
+msgstr "El Proveedor de Servicios de Pago a utilizar con este adquirente"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_checkout_api_url
 msgid "The base URL for the Checkout API endpoints"
-msgstr ""
+msgstr "La dirección URL base para los extremos de la API de retirada"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_recurring_api_url
 msgid "The base URL for the Recurring API endpoints"
-msgstr ""
+msgstr "La dirección URL base de los extremos de api recurrentes"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_client_key
 msgid "The client key of the webservice user"
-msgstr ""
+msgstr "La clave de cliente del usuario del servicio web"
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_acquirer__adyen_merchant_account
 msgid "The code of the merchant account to use with this acquirer"
-msgstr ""
+msgstr "El código de la cuenta de comerciante a utilizar con este adquirente"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_acquirer.py:0
 #, python-format
 msgid "The communication with the API failed."
-msgstr ""
+msgstr "Error en la comunicación con la API."
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "The transaction is not linked to a token."
-msgstr ""
+msgstr "La transacción no está vinculada a un token."
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "The unique reference of the partner owning this token"
-msgstr ""
+msgstr "La referencia única del socio propietario de este token"
 
 #. module: payment_adyen
 #. openerp-web
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
-#: code:addons/payment_adyen/static/src/js/payment_form.js:0
-#: code:addons/payment_adyen/static/src/js/payment_form.js:0
 #, python-format
 msgid "We are not able to process your payment."
-msgstr ""
+msgstr "No podemos procesar su pago."
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 #, python-format
 msgid "Your payment was refused. Please try again."
-msgstr ""
+msgstr "Su pago fue rechazado. Inténtelo de nuevo."

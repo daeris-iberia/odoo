@@ -1,38 +1,33 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_sale
-# 
-# Translators:
-# Martin Trigaux, 2021
-# Rick Hunter <rick.hunter.ec@gmail.com>, 2021
-# Jorge Luis Alfonso <jlalfonso21@gmail.com>, 2021
-# José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 12:25+0000\n"
-"Last-Translator: José Cabrera Lozano <jose.cabrera@edukative.es>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-10-29 09:58+0000\n"
+"PO-Revision-Date: 2021-10-29 12:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "(tax incl.)"
-msgstr ""
+msgstr "(IVA incl.)"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "<span class=\"o_form_label\">Down Payment Product</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Producto de pago inicial</span>"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
@@ -42,7 +37,7 @@ msgstr "<span class=\"o_form_label\">Equipo de Ventas</span>"
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
 msgid "<span style=\"margin: 0px 5px;\">:</span>"
-msgstr ""
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 
 #. module: pos_sale
 #. openerp-web
@@ -91,30 +86,30 @@ msgstr "Cliente"
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
 #, python-format
 msgid "Date"
-msgstr "Fechad"
+msgstr "Fecha"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.message_body
 msgid "Delivered from"
-msgstr ""
+msgstr "Entregado desde"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
-msgstr ""
+msgstr "¿Desea cargar el SN/Lotes vinculados a la Orden de Venta?"
 
 #. module: pos_sale
 #: model:product.product,name:pos_sale.default_downpayment_product
 #: model:product.template,name:pos_sale.default_downpayment_product_product_template
 msgid "Down Payment (POS)"
-msgstr ""
+msgstr "Pago inicial (TPV)"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
-msgstr ""
+msgstr "Detalles del pago inicial"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
@@ -145,18 +140,18 @@ msgstr "Facturado"
 #: code:addons/pos_sale/models/sale_order.py:0
 #, python-format
 msgid "Linked POS Orders"
-msgstr ""
+msgstr "Pedidos TPV vinculados"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
 msgid "Linked Sale Order"
-msgstr ""
+msgstr "Orden de venta vinculada"
 
 #. module: pos_sale
 #: code:addons/pos_sale/models/pos_order.py:0
 #, python-format
 msgid "Linked Sale Orders"
-msgstr ""
+msgstr "Órdenes de venta vinculadas"
 
 #. module: pos_sale
 #. openerp-web
@@ -181,14 +176,12 @@ msgstr "Nuevo"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
-#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "Next Order List"
 msgstr "Siguiente lista de pedidos"
 
 #. module: pos_sale
 #. openerp-web
-#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "No"
@@ -215,7 +208,7 @@ msgstr "Pedido"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
-msgstr ""
+msgstr "Líneas de pedido transferidas al punto de venta"
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
@@ -223,31 +216,16 @@ msgid "Paid"
 msgstr "Pagado"
 
 #. module: pos_sale
-#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
-msgid "Paid on"
-msgstr "Pagado en"
-
-#. module: pos_sale
-#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
-msgid "Paid with"
-msgstr ""
-
-#. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Percentage of %s"
-msgstr ""
-
-#. module: pos_sale
-#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
-msgid "Please use the following communication for your payment :"
-msgstr "Por favor utilice la siguiente referencia al realizar su pago: "
+msgstr "Porcentaje de %s"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Configuración del TPV"
+msgstr "Configuración de punto de venta"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order_line
@@ -282,7 +260,6 @@ msgstr "Publicado"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
-#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "Previous Order List"
 msgstr "Anterior lista de pedidos"
@@ -292,7 +269,7 @@ msgstr "Anterior lista de pedidos"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Products not available in POS"
-msgstr ""
+msgstr "Productos no disponibles en TPV"
 
 #. module: pos_sale
 #. openerp-web
@@ -313,22 +290,21 @@ msgstr "Presupuesto enviado"
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Quotation/Order"
-msgstr ""
+msgstr "Presupuesto / Pedido"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "SN/Lots Loading"
-msgstr ""
+msgstr "Carga de SN/Lotes"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
-#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "SO"
-msgstr ""
+msgstr "SO"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
@@ -396,10 +372,9 @@ msgstr "Sesiones en ejecución"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
-#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Set Sale Order"
-msgstr ""
+msgstr "Establecer orden de venta"
 
 #. module: pos_sale
 #. openerp-web
@@ -409,11 +384,13 @@ msgid ""
 "Some of the products in your Sale Order are not available in POS, do you "
 "want to import them?"
 msgstr ""
+"Algunos de los productos de su orden de venta no están disponibles en TPV, "
+"¿desea importarlos?"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
-msgstr ""
+msgstr "Fuente Línea de orden de venta"
 
 #. module: pos_sale
 #. openerp-web
@@ -447,12 +424,12 @@ msgstr ""
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "This product will be applied when down payment is made"
-msgstr ""
+msgstr "Este producto se aplicará cuando se realice el pago inicial"
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
-msgstr ""
+msgstr "Este producto se utilizará como pago inicial en una orden de venta."
 
 #. module: pos_sale
 #. openerp-web
@@ -467,6 +444,8 @@ msgid ""
 "Transfered<br/>\n"
 "                                from Sale"
 msgstr ""
+"Transferido<br/>\n"
+"                                de Venta"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
@@ -474,6 +453,8 @@ msgid ""
 "Transfered<br/>\n"
 "                                to POS"
 msgstr ""
+"Transferido<br/>\n"
+"                                a TPV"
 
 #. module: pos_sale
 #. openerp-web
@@ -497,7 +478,6 @@ msgstr "¿Qué quiere hacer?"
 
 #. module: pos_sale
 #. openerp-web
-#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Yes"

@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* note
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:49+0000\n"
-"PO-Revision-Date: 2021-09-14 12:24+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-10-29 08:49+0000\n"
+"PO-Revision-Date: 2021-10-29 10:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_kanban
@@ -42,12 +40,11 @@ msgstr "Acción requerida"
 #. module: note
 #: model:ir.model.fields,help:note.field_mail_activity_type__category
 msgid ""
-"Actions may trigger specific behavior like opening calendar view or "
-"automatically mark as done when a document is uploaded"
+"Actions may trigger specific behavior like opening calendar view or automatically mark "
+"as done when a document is uploaded"
 msgstr ""
-"Las acciones pueden desencadenar comportamientos específicos como abrir la "
-"vista de calendario o marcar automáticamente como hecho cuando un documento "
-"es subido"
+"Las acciones pueden desencadenar comportamientos específicos como abrir la vista de "
+"calendario o marcar automáticamente como hecho cuando un documento es subido"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__open
@@ -216,14 +213,14 @@ msgstr "Agrupar por"
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Tiene mensaje"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__id
 #: model:ir.model.fields,field_description:note.field_note_stage__id
 #: model:ir.model.fields,field_description:note.field_note_tag__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_exception_icon
@@ -310,7 +307,7 @@ msgstr "Nuevo"
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Próximo evento del calendario de actividades"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_date_deadline
@@ -357,8 +354,7 @@ msgstr "Etiqueta de la nota"
 #. module: note
 #: code:addons/note/models/res_users.py:0
 #: model:ir.actions.act_window,name:note.action_note_note
-#: model:ir.ui.menu,name:note.menu_note_notes
-#: model:note.stage,name:note.note_stage_02
+#: model:ir.ui.menu,name:note.menu_note_notes model:note.stage,name:note.note_stage_02
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 #, python-format
 msgid "Notes"
@@ -448,7 +444,6 @@ msgstr "Secuencia"
 #. module: note
 #. openerp-web
 #: code:addons/note/static/src/xml/systray.xml:0
-#: code:addons/note/static/src/xml/systray.xml:0
 #, python-format
 msgid "Set date and time"
 msgstr "Establecer fecha y hora"
@@ -456,9 +451,7 @@ msgstr "Establecer fecha y hora"
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Show all records which has next action date is before today"
-msgstr ""
-"Mostrar todos los registros que tienen la próxima fecha de acción antes de "
-"hoy"
+msgstr "Mostrar todos los registros que tienen la próxima fecha de acción antes de hoy"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__stage_id
