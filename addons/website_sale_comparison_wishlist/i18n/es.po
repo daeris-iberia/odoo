@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* website_form_project
+# 	* website_sale_comparison_wishlist
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-03 10:56+0000\n"
-"PO-Revision-Date: 2021-11-03 11:56+0100\n"
+"POT-Creation-Date: 2021-11-03 11:30+0000\n"
+"PO-Revision-Date: 2021-11-03 12:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,9 +17,7 @@ msgstr ""
 "Language: es\n"
 "X-Generator: Poedit 3.0\n"
 
-#. module: website_form_project
-#. openerp-web
-#: code:addons/website_form_project/static/src/js/website_form_project_editor.js:0
-#, python-format
-msgid "Project"
-msgstr "Proyecto"
+#. module: website_sale_comparison_wishlist
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison_wishlist.product_wishlist
+msgid "Add to compare"
+msgstr "Añadir para comparar"

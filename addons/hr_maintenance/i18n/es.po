@@ -1,28 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_maintenance
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
-"PO-Revision-Date: 2021-09-14 12:22+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-03 11:43+0000\n"
+"PO-Revision-Date: 2021-11-03 11:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: hr_maintenance
 #: model:ir.model.fields,field_description:hr_maintenance.field_maintenance_equipment__assign_date
 msgid "Assigned Date"
-msgstr "Fecha asignada"
+msgstr "Fecha de asignación"
 
 #. module: hr_maintenance
 #: model:ir.model.fields,field_description:hr_maintenance.field_maintenance_equipment__department_id
@@ -87,7 +83,7 @@ msgstr "Equipo de mantenimiento"
 #. module: hr_maintenance
 #: model:ir.model,name:hr_maintenance.model_maintenance_request
 msgid "Maintenance Request"
-msgstr "Solicitud de mantenimiento"
+msgstr "Petición de mantenimiento"
 
 #. module: hr_maintenance
 #: model:ir.model.fields,field_description:hr_maintenance.field_res_users__equipment_ids

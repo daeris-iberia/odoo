@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_mrp
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
-"PO-Revision-Date: 2021-09-14 12:26+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-03 09:37+0000\n"
+"PO-Revision-Date: 2021-11-03 10:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_form_mrp
@@ -74,4 +72,9 @@ msgstr "Línea de pedido de venta"
 #: code:addons/sale_mrp/models/mrp_production.py:0
 #, python-format
 msgid "Sources Sale Orders of %s"
-msgstr ""
+msgstr "Pedidos de Venta Fuente de %s"
+
+#. module: sale_mrp
+#: model:ir.model,name:sale_mrp.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
