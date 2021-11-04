@@ -1,28 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_mercury
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:49+0000\n"
-"PO-Revision-Date: 2021-09-14 12:25+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-04 10:40+0000\n"
+"PO-Revision-Date: 2021-11-04 11:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.res_config_settings_view_form_inherit_pos_mercury
 msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Buy a card reader"
-msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Comprar un lector de tarjetas"
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
@@ -34,9 +32,11 @@ msgid ""
 "                                configuration you should associate it with a Point Of Sale payment method."
 msgstr ""
 "Las <i>configuraciones de Vantiv</i> definen qué cuenta de Vantiv se utilizará cuando\n"
-"                                 se procesa transacciones con tarjeta de crédito en el punto de venta. Configurar un configuración  de Vantiv\n"
+"                                 se procesa transacciones con tarjeta de crédito en el punto de venta. Configurar "
+"un configuración  de Vantiv\n"
 "                                  le permitirá permitir pagos con varias tarjetas de crédito\n"
-"                                 (por ejemplo, Visa, MasterCard, Discovery, American Express, ...). Después de configurar esta\n"
+"                                 (por ejemplo, Visa, MasterCard, Discovery, American Express, ...). Después de "
+"configurar esta\n"
 "                                 configuración, debe asociarla con un método de pago de Punto de Venta."
 
 #. module: pos_mercury
@@ -56,7 +56,7 @@ msgstr "CÓDIGO DE APROBACIÓN:"
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_barcode_rule
 msgid "Barcode Rule"
-msgstr "Regla de código de barras"
+msgstr "Regla del código de barras"
 
 #. module: pos_mercury
 #. openerp-web
@@ -126,14 +126,11 @@ msgstr "Tarjetas de Crédito"
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
 msgid ""
-"Credit card refunds are not supported. Instead select your credit card "
-"payment method, click 'Validate' and refund the original charge manually "
-"through the Vantiv backend."
+"Credit card refunds are not supported. Instead select your credit card payment method, click 'Validate' and refund "
+"the original charge manually through the Vantiv backend."
 msgstr ""
-"No se puede procesar reembolsos de tarjetas de crédito. En su lugar, "
-"seleccione el método de pago de su tarjeta de crédito, haga clic en "
-"'Validar' y reembolse el cargo original manualmente a través del backend "
-"Vantiv."
+"No se puede procesar reembolsos de tarjetas de crédito. En su lugar, seleccione el método de pago de su tarjeta de "
+"crédito, haga clic en 'Validar' y reembolse el cargo original manualmente a través del backend Vantiv."
 
 #. module: pos_mercury
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_mercury_configuration__display_name
@@ -170,13 +167,12 @@ msgstr "Gestionando transacción..."
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_mercury_configuration__id
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_mercury_mercury_transaction__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_mercury_configuration__merchant_id
 msgid "ID of the merchant to authenticate him on the payment provider server"
-msgstr ""
-"ID del comerciante para identificarlo en el servidor del proveedor de pagos"
+msgstr "ID del comerciante para identificarlo en el servidor del proveedor de pagos"
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
@@ -185,7 +181,7 @@ msgid ""
 "                                to create one."
 msgstr ""
 "Si aún no tiene una cuenta Vantiv, comuníquese con Vantiv al +1 (800) 846-4472\n"
-"                                 para crear una"
+"                                 para crear una."
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_invoice_no
@@ -240,8 +236,7 @@ msgstr "No hay configuración Vantiv asociada con el método de pago."
 #: code:addons/pos_mercury/models/pos_mercury_transaction.py:0
 #, python-format
 msgid "No opened point of sale session for user %s found."
-msgstr ""
-"No se encontró ninguna sesión de punto de venta abierta para el usuario %s."
+msgstr "No se encontró ninguna sesión de punto de venta abierta para el usuario %s."
 
 #. module: pos_mercury
 #. openerp-web
@@ -260,10 +255,9 @@ msgstr "Si respuesta del servidor (¿está conectado a la red?)"
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
-#: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
 msgid "Odoo error while processing transaction."
-msgstr "Error de Odoo al momento de procesar a transacción."
+msgstr "Error de Daeris al momento de procesar a transacción."
 
 #. module: pos_mercury
 #. openerp-web
@@ -274,18 +268,15 @@ msgstr "Aprobado parcialmente"
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_mercury_configuration__merchant_pwd
-msgid ""
-"Password of the merchant to authenticate him on the payment provider server"
-msgstr ""
-"Contraseña del comerciante para identificarlo en el servidor del proveedor "
-"de pagos"
+msgid "Password of the merchant to authenticate him on the payment provider server"
+msgstr "Contraseña del comerciante para identificarlo en el servidor del proveedor de pagos"
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
 msgid "Pay with: "
-msgstr "Pagar con:"
+msgstr "Pagar con: "
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_record_no
@@ -312,7 +303,7 @@ msgstr "Pedidos del TPV"
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
-msgstr "Métodos de pago en el punto de venta "
+msgstr "Métodos de pago en el punto de venta"
 
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_pos_payment
@@ -372,7 +363,7 @@ msgstr "El tipo de tarjeta de pago (ej: Visa, AMEX, ...)"
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_prefixed_card_number
 msgid "The card number used for the payment."
-msgstr "El número de la tarjeta de crédito usada para el pago"
+msgstr "El número de la tarjeta de crédito usada para el pago."
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment_method__pos_mercury_config_id
@@ -394,11 +385,11 @@ msgstr "El nombre del titular de la tarjeta"
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
 msgid ""
-"This can be caused by a badly executed swipe or by not having your keyboard "
-"layout set to US QWERTY (not US International)."
+"This can be caused by a badly executed swipe or by not having your keyboard layout set to US QWERTY (not US "
+"International)."
 msgstr ""
-"Esto puede ser causado por un pase mal ejecutado o por no tener su "
-"configuración de teclado a QWERTY de EE.UU. (no internacional de EE.UU.)."
+"Esto puede ser causado por un pase mal ejecutado o por no tener su configuración de teclado a QWERTY de EE.UU. (no "
+"internacional de EE.UU.)."
 
 #. module: pos_mercury
 #. openerp-web
@@ -416,13 +407,16 @@ msgstr "Tipo"
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
 msgid ""
 "Using the Vantiv integration in the Point Of Sale is easy: just press the\n"
-"                                associated payment method. After that the amount can be adjusted (eg. for cashback)\n"
+"                                associated payment method. After that the amount can be adjusted (eg. for "
+"cashback)\n"
 "                                just like on any other payment line. Whenever the payment line is set up, a card\n"
 "                                can be swiped through the card reader device."
 msgstr ""
 "Usar la integración de Vantiv en el Punto de Venta es fácil: solo presione el\n"
-"                                 método de pago asociado. Después de eso, la cantidad se puede ajustar (por ejemplo, para devolución de dinero)\n"
-"                                 al igual que en cualquier otra línea de pago. Cada vez que se configura la línea de pago, una tarjeta\n"
+"                                 método de pago asociado. Después de eso, la cantidad se puede ajustar (por "
+"ejemplo, para devolución de dinero)\n"
+"                                 al igual que en cualquier otra línea de pago. Cada vez que se configura la línea "
+"de pago, una tarjeta\n"
 "                                 se puede pasar por el dispositivo lector de tarjetas."
 
 #. module: pos_mercury
@@ -439,7 +433,7 @@ msgstr "Configuraciones Vantiv"
 #. module: pos_mercury
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_payment_method__pos_mercury_config_id
 msgid "Vantiv Credentials"
-msgstr "credenciales Vantiv"
+msgstr "Credenciales Vantiv"
 
 #. module: pos_mercury
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_payment__mercury_invoice_no

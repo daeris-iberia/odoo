@@ -1,32 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
-# 
-# Translators:
-# Martin Trigaux, 2021
-# Jon Perez <jop@odoo.com>, 2021
-# Daniela Cervantes <dace@odoo.com>, 2021
-# Braulio D. López Vázquez <bdl@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 12:23+0000\n"
-"Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-04 10:56+0000\n"
+"PO-Revision-Date: 2021-11-04 11:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: hr_work_entry_contract
 #: code:addons/hr_work_entry_contract/models/hr_work_entry.py:0
 #, python-format
 msgid "%s does not have a contract from %s to %s."
-msgstr "%sno tiene contrato del%sal%s."
+msgstr "%s no tiene contrato del %s al %s."
 
 #. module: hr_work_entry_contract
 #: code:addons/hr_work_entry_contract/models/hr_work_entry.py:0
@@ -35,7 +30,7 @@ msgid ""
 "%s has multiple contracts from %s to %s. A work entry cannot overlap "
 "multiple contracts."
 msgstr ""
-"%stiene multiples contratos del %sal%s. Una entrada de trabajo no puede "
+"%s tiene multiples contratos del %s al %s. Una entrada de trabajo no puede "
 "coincidir con múltiples contratos."
 
 #. module: hr_work_entry_contract
@@ -56,11 +51,13 @@ msgstr "<i class=\"fa fa-info-circle mr-1\" title=\"Pista\"/>"
 #: model:ir.model.fields,help:hr_work_entry_contract.field_hr_work_entry_type__is_leave
 msgid "Allow the work entry type to be linked with time off types."
 msgstr ""
+"Permita que el tipo de entrada de trabajo se vincule con los tipos de "
+"tiempo libre."
 
 #. module: hr_work_entry_contract
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_compensatory
 msgid "Compensatory Time Off"
-msgstr ""
+msgstr "Tiempo libre compensatorio"
 
 #. module: hr_work_entry_contract
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_work_entry__contract_id
@@ -112,11 +109,6 @@ msgid "Everybody's work entries"
 msgstr "Entradas de trabajo de todos"
 
 #. module: hr_work_entry_contract
-#: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_extra_hours
-msgid "Extra Hours"
-msgstr ""
-
-#. module: hr_work_entry_contract
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_work_entry_regeneration_wizard__date_from
 msgid "From"
 msgstr "Desde"
@@ -134,7 +126,7 @@ msgstr "Generado hasta"
 #. module: hr_work_entry_contract
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_leave
 msgid "Generic Time Off"
-msgstr ""
+msgstr "Tiempo libre genérico"
 
 #. module: hr_work_entry_contract
 #: model:ir.model,name:hr_work_entry_contract.model_hr_work_entry
@@ -154,16 +146,16 @@ msgstr "Trabajando en casa"
 #. module: hr_work_entry_contract
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_work_entry_regeneration_wizard__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: hr_work_entry_contract
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 #, python-format
 msgid ""
-"In order to regenerate the work entries, you need to provide the wizard with"
-" an employee_id, a date_from and a date_to. In addition to that, the time "
-"interval defined by date_from and date_to must not contain any validated "
-"work entries."
+"In order to regenerate the work entries, you need to provide the wizard "
+"with an employee_id, a date_from and a date_to. In addition to that, the "
+"time interval defined by date_from and date_to must not contain any "
+"validated work entries."
 msgstr ""
 "Con el fin de regenerar las entradas de trabajo, necesitas proporcionar al "
 "asistente el employee_id, date_from y date_to. Además de eso, el intervalo "
@@ -198,12 +190,7 @@ msgstr "Última fecha"
 #. module: hr_work_entry_contract
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_legal_leave
 msgid "Legal Leaves 2021"
-msgstr ""
-
-#. module: hr_work_entry_contract
-#: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_long_leave
-msgid "Long Term Time Off"
-msgstr ""
+msgstr "Ausencias legales 2021"
 
 #. module: hr_work_entry_contract
 #: model:ir.model,name:hr_work_entry_contract.model_hr_work_entry_regeneration_wizard

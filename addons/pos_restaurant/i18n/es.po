@@ -1,24 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_restaurant
-# 
-# Translators:
-# Martin Trigaux, 2021
-# Pascual Lorente <pasculorente@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 12:25+0000\n"
-"Last-Translator: Pascual Lorente <pasculorente@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-04 10:42+0000\n"
+"PO-Revision-Date: 2021-11-04 11:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: pos_restaurant
 #: model:ir.model.fields.selection,name:pos_restaurant.selection__restaurant_printer__printer_type__iot
@@ -30,16 +27,16 @@ msgstr " Utilizar una impresora conectada al IoT Box"
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "!props.isBill"
-msgstr ""
+msgstr "!props.isBill"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid ""
-"<span class=\"fa fa-lg fa-cutlery\" title=\"For bars and restaurants\" "
-"role=\"img\" aria-label=\"For bars and restaurants\"/>"
+"<span class=\"fa fa-lg fa-cutlery\" title=\"For bars and restaurants\" role=\"img"
+"\" aria-label=\"For bars and restaurants\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-cutlery\" title=\"Para bares y restaurantes\" "
-"role=\"img\" aria-label=\"Para bares y restaurantes\"/>"
+"<span class=\"fa fa-lg fa-cutlery\" title=\"Para bares y restaurantes\" role=\"img"
+"\" aria-label=\"Para bares y restaurantes\"/>"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
@@ -54,19 +51,20 @@ msgstr "<strong/>"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor__background_image
 msgid ""
-"A background image used to display a floor layout in the point of sale "
-"interface"
+"A background image used to display a floor layout in the point of sale interface"
 msgstr ""
-"Una imagen de fondo usada para mostrar la disposición del piso en la "
-"interfaz del punto de venta "
+"Una imagen de fondo usada para mostrar la disposición del piso en la interfaz del "
+"punto de venta"
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid ""
-"A restaurant floor represents the place where customers are served, this is where you can\n"
+"A restaurant floor represents the place where customers are served, this is where "
+"you can\n"
 "                define and position the tables."
 msgstr ""
-"El piso de un restaurante representa el lugar donde se da servicio a los clientes, ahí es donde\n"
+"El piso de un restaurante representa el lugar donde se da servicio a los clientes, "
+"ahí es donde\n"
 "puedes definir la posición de las mesas."
 
 #. module: pos_restaurant
@@ -78,7 +76,6 @@ msgstr "Activo"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Add"
 msgstr "Añadir"
@@ -88,7 +85,7 @@ msgstr "Añadir"
 #: code:addons/pos_restaurant/static/src/js/Screens/ProductScreen/ControlButtons/OrderlineNoteButton.js:0
 #, python-format
 msgid "Add Internal Note"
-msgstr ""
+msgstr "Agregar nota interna"
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -110,7 +107,6 @@ msgstr "Añadir propina"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:0
 #, python-format
 msgid "Add button"
 msgstr "Agregar botón"
@@ -118,7 +114,7 @@ msgstr "Agregar botón"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Add internal notes on order lines"
-msgstr ""
+msgstr "Agregar notas internas en las líneas de pedido"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -128,24 +124,23 @@ msgstr "Agregar propina después del pago (específico para Norteamérica)"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreenElectronicPayment.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreenElectronicPayment.xml:0
 #, python-format
 msgid "Adjust Amount"
-msgstr ""
+msgstr "Ajustar la cantidad"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__set_tip_after_payment
 msgid ""
-"Adjust the amount authorized by payment terminals to add a tip after the "
-"customers left or at the end of the day."
+"Adjust the amount authorized by payment terminals to add a tip after the customers "
+"left or at the end of the day."
 msgstr ""
-"Ajustar la cantidad autorizada por las terminales de pago para agregar "
-"propina después de que el cliente se fuera o al final del día"
+"Ajustar la cantidad autorizada por las terminales de pago para agregar propina "
+"después de que el cliente se fuera o al final del día."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_orderline_notes
 msgid "Allow custom internal notes on Orderlines."
-msgstr ""
+msgstr "Permitir notas internas personalizadas en pedidos de venta."
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -209,7 +204,6 @@ msgstr "Volver"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/ChromeWidgets/BackToFloorButton.xml:0
-#: code:addons/pos_restaurant/static/src/xml/ChromeWidgets/BackToFloorButton.xml:0
 #, python-format
 msgid "Back to floor"
 msgstr "Volver al piso"
@@ -223,12 +217,6 @@ msgstr "Color de Fondo"
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__background_image
 msgid "Background Image"
 msgstr "Imagen de fondo"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_bacon
-#: model:product.template,name:pos_restaurant.pos_food_bacon_product_template
-msgid "Bacon Burger"
-msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -256,9 +244,6 @@ msgstr "Separación de la cuenta"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Blue"
 msgstr "Azul"
@@ -271,22 +256,7 @@ msgid "CANCELLED"
 msgstr "CANCELADO"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_cheeseburger
-#: model:product.template,name:pos_restaurant.pos_food_cheeseburger_product_template
-msgid "Cheese Burger"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_chicken
-#: model:product.template,name:pos_restaurant.pos_food_chicken_product_template
-msgid "Chicken Curry Sandwich"
-msgstr ""
-
-#. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Close"
@@ -297,19 +267,7 @@ msgstr "Cerrar"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Close Tab"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_club
-#: model:product.template,name:pos_restaurant.pos_food_club_product_template
-msgid "Club Sandwich"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.coke
-#: model:product.template,name:pos_restaurant.coke_product_template
-msgid "Coca-Cola"
-msgstr "Coca-Cola"
+msgstr "Cerrar pestaña"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__color
@@ -333,7 +291,6 @@ msgstr "Creado el"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Delete"
 msgstr "Suprimir"
@@ -341,7 +298,7 @@ msgstr "Suprimir"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Design floors and assign orders to tables"
-msgstr ""
+msgstr "Diseña pisos y asigna pedidos a las mesas"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__display_name
@@ -351,13 +308,7 @@ msgid "Display Name"
 msgstr "Nombre mostrado"
 
 #. module: pos_restaurant
-#: model:pos.category,name:pos_restaurant.drinks
-msgid "Drinks"
-msgstr "Bebidas"
-
-#. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Duplicate"
@@ -367,14 +318,22 @@ msgstr "Duplicar"
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
 msgid ""
 "Each Order Printer has an IP Address that defines the IoT Box/Hardware\n"
-"                Proxy where the printer can be found, and a list of product categories.\n"
-"                An Order Printer will only print updates for products belonging to one of\n"
+"                Proxy where the printer can be found, and a list of product "
+"categories.\n"
+"                An Order Printer will only print updates for products belonging to "
+"one of\n"
 "                its categories."
 msgstr ""
+"Cada impresora de pedidos tiene una dirección IP que define la caja/hardware de "
+"IoT\n"
+"                Proxy donde se puede encontrar la impresora y una lista de "
+"categorías de productos.\n"
+"                Una impresora de pedidos solo imprimirá actualizaciones para "
+"productos que pertenezcan a uno de\n"
+"                sus categorías."
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:0
 #, python-format
 msgid "Edit"
@@ -405,7 +364,7 @@ msgstr "Diseño del Piso"
 #: code:addons/pos_restaurant/models/pos_restaurant.py:0
 #, python-format
 msgid "Floor: %s - PoS Config: %s \n"
-msgstr ""
+msgstr "Planta: %s - TPV Config: %s \n"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -415,31 +374,17 @@ msgstr "Zonas"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__is_table_management
 msgid "Floors & Tables"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:pos.category,name:pos_restaurant.food
-msgid "Food"
-msgstr "Alimentos"
+msgstr "Pisos y mesas"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "For convenience, we are providing the following gratuity calculations:"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_funghi
-#: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
-msgid "Funghi"
-msgstr ""
+msgstr "Para mayor comodidad, proporcionamos los siguientes cálculos de propina:"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Green"
@@ -447,9 +392,6 @@ msgstr "Verde"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Grey"
@@ -492,16 +434,14 @@ msgstr "Posición Horizontal"
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer__id
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
 msgid ""
-"If false, the table is deactivated and will not be available in the point of"
-" sale"
+"If false, the table is deactivated and will not be available in the point of sale"
 msgstr ""
-"Si es falso, la mesa es desactivada y no va a estar disponible en el punto "
-"de venta"
+"Si es falso, la mesa es desactivada y no va a estar disponible en el punto de venta"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -513,7 +453,7 @@ msgstr "Nota interna"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__note
 msgid "Internal Note added by the waiter."
-msgstr ""
+msgstr "Nota interna añadida por el camarero."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__iface_orderline_notes
@@ -530,7 +470,7 @@ msgstr "Es un bar/restaurante"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Keep Open"
-msgstr ""
+msgstr "Mantener abierto"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor____last_update
@@ -556,9 +496,6 @@ msgstr "Última actualización el"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Light grey"
 msgstr "Gris claro"
@@ -571,50 +508,14 @@ msgid "Logo"
 msgstr "Logo"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_maki
-#: model:product.template,name:pos_restaurant.pos_food_maki_product_template
-msgid "Lunch Maki 18pc"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_salmon
-#: model:product.template,name:pos_restaurant.pos_food_salmon_product_template
-msgid "Lunch Salmon 20pc"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_temaki
-#: model:product.template,name:pos_restaurant.pos_food_temaki_product_template
-msgid "Lunch Temaki mix 3pc"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_margherita
-#: model:product.template,name:pos_restaurant.pos_food_margherita_product_template
-msgid "Margherita"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.minute_maid
-#: model:product.template,name:pos_restaurant.minute_maid_product_template
-msgid "Minute Maid"
-msgstr "Minute Maid"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_mozza
-#: model:product.template,name:pos_restaurant.pos_food_mozza_product_template
-msgid "Mozzarella Sandwich"
-msgstr ""
-
-#. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_dirty
 msgid "Mp Dirty"
-msgstr ""
+msgstr "Mp Sucio"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__multiprint_resume
 msgid "Multiprint Resume"
-msgstr ""
+msgstr "Multiprint Resume"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -625,7 +526,6 @@ msgstr "NUEVO"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/multiprint.xml:0
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:0
 #, python-format
 msgid "NOTE"
@@ -640,7 +540,6 @@ msgstr "Sin propina"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/ProductScreen/Orderline.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "Note"
@@ -663,8 +562,6 @@ msgstr "¿Número de asientos?"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
-#: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
-#: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Offline"
 msgstr "Desconectado"
@@ -686,9 +583,6 @@ msgstr "Abierto"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Orange"
 msgstr "Naranja"
@@ -703,7 +597,7 @@ msgstr "Pedido"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__is_order_printer
 msgid "Order Printer"
-msgstr ""
+msgstr "Pedido en impresora"
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_printer_form
@@ -718,7 +612,8 @@ msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
 "                order updates in the kitchen/bar when the waiter updates the order."
 msgstr ""
-"Las Impresoras de Órdenes son usadas por los restaurantes y bares para imprimir los\n"
+"Las Impresoras de Órdenes son usadas por los restaurantes y bares para imprimir "
+"los\n"
 "cambios en las ordenes en la cocina/bar cuando el mesero actualiza la orden."
 
 #. module: pos_restaurant
@@ -731,19 +626,7 @@ msgstr "Impresora POS"
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "PRO FORMA"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_4formaggi
-#: model:product.template,name:pos_restaurant.pos_food_4formaggi_product_template
-msgid "Pasta 4 formaggi "
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_bolo
-#: model:product.template,name:pos_restaurant.pos_food_bolo_product_template
-msgid "Pasta Bolognese"
-msgstr ""
+msgstr "PRO FORMA"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -760,7 +643,7 @@ msgstr "Punto de venta"
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Configuración del TPV"
+msgstr "Configuración de punto de venta"
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_order_line
@@ -814,20 +697,19 @@ msgstr "Impresoras"
 #: code:addons/pos_restaurant/static/src/js/Screens/TipScreen.js:0
 #, python-format
 msgid "Printing is not supported on some browsers"
-msgstr "La impresión no es compatible con algunos navegadores."
+msgstr "La impresión no es compatible con algunos navegadores"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/TipScreen.js:0
 #, python-format
 msgid ""
-"Printing is not supported on some browsers due to no default printing "
-"protocol is available. It is possible to print your tickets by making use of"
-" an IoT Box."
+"Printing is not supported on some browsers due to no default printing protocol is "
+"available. It is possible to print your tickets by making use of an IoT Box."
 msgstr ""
 "La impresión no es compatible con algunos navegadores debido a que no hay "
-"disponible un protocolo de impresión predeterminado. Es posible imprimir sus"
-" boletos haciendo uso de un IoT Box."
+"disponible un protocolo de impresión predeterminado. Es posible imprimir sus "
+"recibos haciendo uso de un IoT Box."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer__proxy_ip
@@ -837,18 +719,12 @@ msgstr "Dirección IP del proxy"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Purple"
 msgstr "Morado"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Red"
@@ -864,7 +740,6 @@ msgstr "La eliminación de una mesa no se puede deshacer"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Rename"
 msgstr "Renombrar"
@@ -874,7 +749,7 @@ msgstr "Renombrar"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Reprint receipts"
-msgstr ""
+msgstr "Reimprimir recibos"
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_floor
@@ -926,20 +801,12 @@ msgstr "Ronda"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Round Shape"
 msgstr "Forma redonda"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_chirashi
-#: model:product.template,name:pos_restaurant.pos_food_chirashi_product_template
-msgid "Salmon and Avocado"
-msgstr ""
-
-#. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__seats
 #, python-format
@@ -969,7 +836,7 @@ msgstr "Establecer una propina después del pago"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Settle"
-msgstr ""
+msgstr "Acomodar"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__shape
@@ -986,13 +853,7 @@ msgstr "Firma"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_skip
 msgid "Skip line when sending ticket to kitchen printers."
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_tuna
-#: model:product.template,name:pos_restaurant.pos_food_tuna_product_template
-msgid "Spicy Tuna Sandwich"
-msgstr ""
+msgstr "Evite las colas al enviar el ticket a las impresoras de cocina."
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1013,7 +874,6 @@ msgstr "Cuadrado"
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Square Shape"
@@ -1062,8 +922,7 @@ msgstr "Tel.:"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_printer__proxy_ip
 msgid "The IP Address or hostname of the Printer's hardware proxy"
-msgstr ""
-"La dirección IP o el nombre de host del proxy hardware de la impresora"
+msgstr "La dirección IP o el nombre de host del proxy hardware de la impresora"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order__customer_count
@@ -1073,11 +932,11 @@ msgstr "La cantidad de clientes que van a ser servidos en está orden."
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor__background_color
 msgid ""
-"The background color of the floor layout, (must be specified in a html-"
-"compatible format)"
+"The background color of the floor layout, (must be specified in a html-compatible "
+"format)"
 msgstr ""
-"El color de fondo en el diseño del piso, (debe ser especificado en un "
-"formato compatible con html)"
+"El color de fondo en el diseño del piso, (debe ser especificado en un formato "
+"compatible con html)"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__seats
@@ -1101,11 +960,9 @@ msgstr "La mesa donde ésta orden fue servida"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__color
-msgid ""
-"The table's color, expressed as a valid 'background' CSS property value"
+msgid "The table's color, expressed as a valid 'background' CSS property value"
 msgstr ""
-"El color de la mesa, expresado como un valor de 'fondo' con propiedad CSS "
-"válido"
+"El color de la mesa, expresado como un valor de 'fondo' con propiedad CSS válido"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__height
@@ -1115,19 +972,16 @@ msgstr "Altura de la mesa en pixeles"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
-"The table's horizontal position from the left side to the table's center, in"
-" pixels"
+"The table's horizontal position from the left side to the table's center, in pixels"
 msgstr ""
-"La posición horizontal de la mesa desde el lado izquierdo del centro de la "
-"mesa, en pixeles"
+"La posición horizontal de la mesa desde el lado izquierdo del centro de la mesa, "
+"en pixeles"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_v
-msgid ""
-"The table's vertical position from the top to the table's center, in pixels"
+msgid "The table's vertical position from the top to the table's center, in pixels"
 msgstr ""
-"La posición vertical desde la parte superior hasta el centro de la mesa, en "
-"pixeles"
+"La posición vertical desde la parte superior hasta el centro de la mesa, en pixeles"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__width
@@ -1139,18 +993,17 @@ msgstr "El ancho de la mesa en pixeles"
 #: code:addons/pos_restaurant/static/src/js/Screens/ProductScreen/ControlButtons/PrintBillButton.js:0
 #, python-format
 msgid "There are no order lines"
-msgstr ""
+msgstr "No hay líneas de pedido"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:0
 #, python-format
 msgid "This floor has no tables yet, use the"
-msgstr "El  piso no tiene mesas aún, usa el "
+msgstr "El piso no tiene mesas aún, usa el "
 
 #. module: pos_restaurant
 #. openerp-web
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Tint"
@@ -1194,9 +1047,6 @@ msgstr "Albarán"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Turquoise"
 msgstr "Turquesa"
@@ -1206,61 +1056,21 @@ msgstr "Turquesa"
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to change background color"
-msgstr ""
+msgstr "No se puede cambiar el color de fondo"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to create table because you are offline."
-msgstr ""
+msgstr "No se puede crear una mesa porque está sin conexión."
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to delete table"
-msgstr ""
-
-#. module: pos_restaurant
-#: model:product.product,uom_name:pos_restaurant.coke
-#: model:product.product,uom_name:pos_restaurant.minute_maid
-#: model:product.product,uom_name:pos_restaurant.pos_food_4formaggi
-#: model:product.product,uom_name:pos_restaurant.pos_food_bacon
-#: model:product.product,uom_name:pos_restaurant.pos_food_bolo
-#: model:product.product,uom_name:pos_restaurant.pos_food_cheeseburger
-#: model:product.product,uom_name:pos_restaurant.pos_food_chicken
-#: model:product.product,uom_name:pos_restaurant.pos_food_chirashi
-#: model:product.product,uom_name:pos_restaurant.pos_food_club
-#: model:product.product,uom_name:pos_restaurant.pos_food_funghi
-#: model:product.product,uom_name:pos_restaurant.pos_food_maki
-#: model:product.product,uom_name:pos_restaurant.pos_food_margherita
-#: model:product.product,uom_name:pos_restaurant.pos_food_mozza
-#: model:product.product,uom_name:pos_restaurant.pos_food_salmon
-#: model:product.product,uom_name:pos_restaurant.pos_food_temaki
-#: model:product.product,uom_name:pos_restaurant.pos_food_tuna
-#: model:product.product,uom_name:pos_restaurant.pos_food_vege
-#: model:product.product,uom_name:pos_restaurant.water
-#: model:product.template,uom_name:pos_restaurant.coke_product_template
-#: model:product.template,uom_name:pos_restaurant.minute_maid_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_4formaggi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_bacon_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_bolo_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_cheeseburger_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_chicken_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_chirashi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_club_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_funghi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_maki_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_margherita_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_mozza_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_salmon_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_temaki_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_tuna_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_vege_product_template
-#: model:product.template,uom_name:pos_restaurant.water_product_template
-msgid "Units"
-msgstr "Unidades"
+msgstr "No se puede eliminar la mesa"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor__sequence
@@ -1272,24 +1082,12 @@ msgstr "Usado para organizar Pisos"
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "VAT:"
-msgstr "NIF:"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_vege
-#: model:product.template,name:pos_restaurant.pos_food_vege_product_template
-msgid "Vegetarian"
-msgstr ""
+msgstr "CIF/NIF:"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__position_v
 msgid "Vertical Position"
 msgstr "Posición Vertical"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.water
-#: model:product.template,name:pos_restaurant.water_product_template
-msgid "Water"
-msgstr "Agua"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__width
@@ -1306,9 +1104,6 @@ msgstr "Con un"
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
-#: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
 msgid "Yellow"
 msgstr "Amarillo"
@@ -1317,34 +1112,35 @@ msgstr "Amarillo"
 #: code:addons/pos_restaurant/models/pos_restaurant.py:0
 #, python-format
 msgid ""
-"You cannot remove a floor that is used in a PoS session, close the "
-"session(s) first: \n"
+"You cannot remove a floor that is used in a PoS session, close the session(s) "
+"first: \n"
 msgstr ""
-"No puede eliminar un piso que se utiliza en una sesión de TPV, cierre "
-"primero la(s) sesión(es):\n"
+"No puede eliminar un piso que se utiliza en una sesión de TPV, cierre primero "
+"la(s) sesión(es):\n"
 
 #. module: pos_restaurant
 #: code:addons/pos_restaurant/models/pos_restaurant.py:0
 #, python-format
 msgid ""
-"You cannot remove a table that is used in a PoS session, close the "
-"session(s) first."
+"You cannot remove a table that is used in a PoS session, close the session(s) "
+"first."
 msgstr ""
+"No puede quitar una mesa que se utiliza en una sesión de TPV, cierre primero las "
+"sesiones."
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
-#: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "________________________"
-msgstr ""
+msgstr "________________________"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "______________________________________________"
-msgstr ""
+msgstr "______________________________________________"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1379,4 +1175,4 @@ msgstr "descuento"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
-msgstr ""
+msgstr "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
