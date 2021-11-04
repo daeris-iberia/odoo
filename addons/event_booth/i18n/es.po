@@ -1,115 +1,113 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#   * event_booth
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+# 	* event_booth
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-04 16:31+0000\n"
+"PO-Revision-Date: 2021-11-04 17:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Email</b>:"
-msgstr ""
+msgstr "<b>Correo electrónico del arrendatario</b>:"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Mobile</b>:"
-msgstr ""
+msgstr "<b>Móvil del arrendatario</b>:"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Name</b>:"
-msgstr ""
+msgstr "<b>Nombre del arrendatario</b>:"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Phone</b>:"
-msgstr ""
+msgstr "<b>Teléfono del arrendatario</b>:"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_event_view_form
 msgid "<span class=\"o_stat_text\">Booths</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Stands</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span class=\"text-white\">4m²</span>"
-msgstr ""
+msgstr "<span class=\"text-white\">4m²</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span class=\"text-white\">8m²</span>"
-msgstr ""
+msgstr "<span class=\"text-white\">8m²</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 Branded Booth</span>"
-msgstr ""
+msgstr "<span>1 stand de marca</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 desk</span>"
-msgstr ""
+msgstr "<span>1 escritorio</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>10 + 1 passes</span>"
-msgstr ""
+msgstr "<span>10 + 1 pases</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>100 words description on website</span>"
-msgstr ""
+msgstr "<span>Descripción de 100 palabras en el sitio web</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 Branded Booth</span>"
-msgstr ""
+msgstr "<span>2 Stand de Marca</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 desks</span>"
-msgstr ""
+msgstr "<span>2 escritorios</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 x 46\" display screens</span>"
-msgstr ""
+msgstr "<span>2 pantallas de visualización de 46\"</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>46\" display screen</span>"
-msgstr ""
+msgstr "<span>Pantalla de visualización de 46\"</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 msgid "<span>50 words description on website</span>"
-msgstr ""
+msgstr "<span>Descripción de 50 palabras en el sitio web</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>Logo &amp; link on website</span>"
-msgstr ""
+msgstr "<span>Logotipo y enlace en el sitio web</span>"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_needaction
@@ -161,40 +159,22 @@ msgstr "Disponible"
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count_available
 msgid "Available Booths"
-msgstr ""
+msgstr "Stands disponibles"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "Booth"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_00_event_7
-#: model:event.booth,name:event_booth.event_booth_0_event_0
-msgid "Booth A1"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_01_event_7
-#: model:event.booth,name:event_booth.event_booth_1_event_0
-msgid "Booth A2"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_02_event_7
-#: model:event.booth,name:event_booth.event_booth_2_event_0
-msgid "Booth A3"
-msgstr ""
+msgstr "Stand"
 
 #. module: event_booth
 #: model:mail.message.subtype,name:event_booth.mt_event_booth_booked
 msgid "Booth Booked"
-msgstr ""
+msgstr "Stand reservado"
 
 #. module: event_booth
 #: model:ir.ui.menu,name:event_booth.menu_event_booth_category
 msgid "Booth Categories"
-msgstr ""
+msgstr "Categorías de stands"
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_booth_category_action
@@ -202,19 +182,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__booth_category_id
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "Booth Category"
-msgstr ""
+msgstr "Categoría de stand"
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_event__event_booth_category_available_ids
 msgid "Booth Category for which booths are still available. Used in frontend"
 msgstr ""
+"Categoría de stand para la que todavía hay stands disponibles. Utilizado en "
+"frontend"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 msgid "Booth Type"
-msgstr ""
+msgstr "Tipo de stand"
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_category_action
@@ -222,6 +204,8 @@ msgid ""
 "Booth categories are used to represent the different types of booths you "
 "rent (Premium Booth, Table and Chairs, ...)"
 msgstr ""
+"Las categorías de stands se utilizan para representar los diferentes tipos "
+"de stands que alquila (Stand Premium, Mesa y Sillas, ...)"
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_booth_action
@@ -235,30 +219,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_booth.event_event_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_view_form
 msgid "Booths"
-msgstr ""
+msgstr "Crea Stands y gestiona sus reservas"
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action_from_event
 #: model_terms:ir.actions.act_window,help:event_booth.event_type_booth_action
 msgid "Booths are the physical stands that you rent during your event."
-msgstr ""
+msgstr "Los stands son los stands físicos que alquilas durante tu evento."
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action_from_event
 msgid "Create a Booth"
-msgstr ""
+msgstr "Crear un stand"
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_category_action
 msgid "Create a Booth Category"
-msgstr ""
+msgstr "Crear una categoría de stand"
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_type_booth_action
 msgid "Create a Type Booth"
-msgstr ""
+msgstr "Crear un tipo de stand"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__create_uid
@@ -298,23 +282,23 @@ msgstr "Evento"
 #: model:ir.model,name:event_booth.model_event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Event Booth"
-msgstr ""
+msgstr "Stand del evento"
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_booth_category
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_category_ids
 msgid "Event Booth Category"
-msgstr ""
+msgstr "Categoría de stand de eventos"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_category_available_ids
 msgid "Event Booth Category Available"
-msgstr ""
+msgstr "Categoría de stand de evento disponible"
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_type_booth
 msgid "Event Booth Template"
-msgstr ""
+msgstr "Plantilla de stand de evento"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__event_type_id
@@ -330,14 +314,14 @@ msgstr "Plantilla de evento"
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "Event Type Booth"
-msgstr ""
+msgstr "Stand tipo evento"
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_type_booth_action
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_tree_from_type
 msgid "Event Type Booths"
-msgstr ""
+msgstr "Stands de tipo evento"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_follower_ids
@@ -355,21 +339,6 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Icono de Font Awesome ej. fa-tasks"
 
 #. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_20_event_7
-msgid "Gold Booth 1"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_21_event_7
-msgid "Gold Booth 2"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_22_event_7
-msgid "Gold Booth 3"
-msgstr ""
-
-#. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 msgid "Group By"
@@ -378,14 +347,14 @@ msgstr "Agrupar por"
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Tiene mensaje"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__id
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__id
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_exception_icon
@@ -499,7 +468,7 @@ msgstr "Nombre"
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Próximo evento del calendario de actividades"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_date_deadline
@@ -542,73 +511,41 @@ msgid "Number of unread messages"
 msgstr "Número de mensajes sin leer"
 
 #. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_10_event_7
-msgid "OpenWood Demonstrator 1"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_11_event_7
-msgid "OpenWood Demonstrator 2"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_12_event_7
-msgid "OpenWood Demonstrator 3"
-msgstr ""
-
-#. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_premium
 msgid "Premium Booth"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_3_event_0
-msgid "Premium Booth A4"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_2_event_2
-#: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_2
-msgid "Premium Showbooth 1"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_3_event_2
-#: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_3
-msgid "Premium Showbooth 2"
-msgstr ""
+msgstr "Stand Premium"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__partner_id
 msgid "Renter"
-msgstr ""
+msgstr "Inquilino"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_email
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Email"
-msgstr ""
+msgstr "Correo electrónico del inquilino"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_mobile
 msgid "Renter Mobile"
-msgstr ""
+msgstr "Móvil del inquilino"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_name
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Name"
-msgstr ""
+msgstr "Nombre del inquilino"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_phone
 msgid "Renter Phone"
-msgstr ""
+msgstr "Teléfono del arrendatario"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_user_id
@@ -626,21 +563,9 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_0_event_2
-#: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_0
-msgid "Showbooth 1"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_1_event_2
-#: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_1
-msgid "Showbooth 2"
-msgstr ""
-
-#. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__state
 msgid "Shows the availability of a Booth"
-msgstr ""
+msgstr "Muestra la disponibilidad de un stand"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
@@ -650,7 +575,7 @@ msgstr "Estándar"
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_standard
 msgid "Standard Booth"
-msgstr ""
+msgstr "Stand Estándar"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__state
@@ -673,7 +598,7 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count
 msgid "Total Booths"
-msgstr ""
+msgstr "Total de stands"
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_exception_decoration
@@ -684,7 +609,7 @@ msgstr "Tipo de actividad de excepción registrada."
 #: model:ir.model.fields.selection,name:event_booth.selection__event_booth__state__unavailable
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Unavailable"
-msgstr ""
+msgstr "No disponible"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_unread
@@ -704,12 +629,7 @@ msgstr "VIP"
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_vip
 msgid "VIP Booth"
-msgstr ""
-
-#. module: event_booth
-#: model:event.booth,name:event_booth.event_booth_4_event_0
-msgid "VIP Booth A5"
-msgstr ""
+msgstr "Stand VIP"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__website_message_ids
@@ -726,9 +646,9 @@ msgstr "Historial de comunicaciones del sitio web"
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "e.g. First Booth Alley 1"
-msgstr ""
+msgstr "por ejemplo, First Booth Alley 1"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "e.g. Premium Booth"
-msgstr ""
+msgstr "por ejemplo, Stand Premium"
