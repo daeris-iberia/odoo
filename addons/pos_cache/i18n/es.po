@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_cache
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
-"PO-Revision-Date: 2021-09-14 12:24+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-05 08:54+0000\n"
+"PO-Revision-Date: 2021-11-05 09:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__cache
@@ -53,7 +51,7 @@ msgstr "Nombre mostrado"
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__id
 msgid "ID"
-msgstr "ID"
+msgstr "Identificación"
 
 #. module: pos_cache
 #: model_terms:ir.ui.view,arch_db:pos_cache.pos_config_view_form_inherit_pos_cache
@@ -78,7 +76,7 @@ msgstr "Última actualización el"
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_config__limit_products_per_request
 msgid "Limit Products Per Request"
-msgstr ""
+msgstr "Limitar productos por solicitud"
 
 #. module: pos_cache
 #. openerp-web
@@ -97,7 +95,7 @@ msgstr "Cache más antiguo"
 #: model:ir.cron,cron_name:pos_cache.refresh_pos_cache_cron
 #: model:ir.cron,name:pos_cache.refresh_pos_cache_cron
 msgid "PoS: refresh cache"
-msgstr "PdV: actualizar caché"
+msgstr "TPV: actualizar caché"
 
 #. module: pos_cache
 #: model:ir.model,name:pos_cache.model_pos_cache
@@ -107,7 +105,7 @@ msgstr "Caché del Punto de Venta"
 #. module: pos_cache
 #: model:ir.model,name:pos_cache.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Configuración del TPV"
+msgstr "Configuración de punto de venta"
 
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__product_domain

@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product_expiry
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
-"PO-Revision-Date: 2021-09-14 12:25+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-05 08:59+0000\n"
+"PO-Revision-Date: 2021-11-05 10:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -31,7 +29,7 @@ msgstr ""
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "<span> days</span>"
-msgstr "<span> días</span> "
+msgstr "<span> días</span>"
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot__alert_date
@@ -63,12 +61,12 @@ msgstr "Consumir preferentemente antes de"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "Best before:"
-msgstr "Consumir preferentemente antes de"
+msgstr "Consumir preferentemente antes de:"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Opciones de Configuración"
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
@@ -236,17 +234,17 @@ msgid ""
 "Number of days before the Expiration Date after which the goods should be "
 "removed from the stock. It will be computed on the lot/serial number."
 msgstr ""
-"Número de días antes de la fecha de caducidad después de los cuales se deben"
-" retirar los bienes de las existencias. Se registrará sobre el número de "
-"lote/serie."
+"Número de días antes de la fecha de caducidad después de los cuales se "
+"deben retirar los bienes de las existencias. Se registrará sobre el número "
+"de lote/serie."
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__use_time
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
-"deteriorating, without being dangerous yet. It will be computed on the "
-"lot/serial number."
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
 msgstr ""
 "Número de días antes de la fecha de caducidad después de los cuales los "
 "bienes se empiezan a deteriorar sin llegar a representar un peligro. Se "
@@ -260,7 +258,7 @@ msgstr "Albarán"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Proceed except for expired one"
-msgstr "Continuar excepto por el que está caducado."
+msgstr "Continuar excepto por el que está caducado"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_procurement_group
@@ -290,7 +288,7 @@ msgstr "Plantilla de producto"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
 msgid "Quants"
-msgstr "Quants"
+msgstr "Cantidades"
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot__removal_date
@@ -323,7 +321,7 @@ msgstr "Se llegó a la fecha de caducidad."
 #: code:addons/product_expiry/models/production_lot.py:0
 #, python-format
 msgid "The alert date has been reached for this lot/serial number"
-msgstr "Se ha alcanzado la fecha de alerta para este número de lote/serie."
+msgstr "Se ha alcanzado la fecha de alerta para este número de lote/serie"
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__expiration_date
@@ -343,8 +341,8 @@ msgid ""
 "removed from the stock. This date will be used in FEFO removal strategy."
 msgstr ""
 "Es la fecha en la que las mercancías con este número de serie deben "
-"retirarse del stock. Esta fecha se utilizará en la estrategia de eliminación"
-" de la FIFO."
+"retirarse del stock. Esta fecha se utilizará en la estrategia de "
+"eliminación de la FIFO."
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_production_lot__use_date
@@ -369,7 +367,7 @@ msgstr "Usar fecha de caducidad"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "Use by:"
-msgstr "Consumir antes de"
+msgstr "Consumir antes de:"
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__use_expiration_date
@@ -378,13 +376,13 @@ msgstr "Consumir antes de"
 #: model:ir.model.fields,help:product_expiry.field_stock_production_lot__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
-"When this box is ticked, you have the possibility to specify dates to manage"
-" product expiration, on the product and on the corresponding lot/serial "
-"numbers"
+"When this box is ticked, you have the possibility to specify dates to "
+"manage product expiration, on the product and on the corresponding lot/"
+"serial numbers"
 msgstr ""
-"Cuando se selecciona esta casilla puedes especificar fechas para administrar"
-" la caducidad de un producto, ya sea en el producto o en los números de "
-"lote/serie."
+"Cuando se selecciona esta casilla puedes especificar fechas para "
+"administrar la caducidad de un producto, ya sea en el producto o en los "
+"números de lote/serie"
 
 #. module: product_expiry
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
@@ -400,8 +398,10 @@ msgstr ""
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 #, python-format
 msgid ""
-"You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
+"You are going to deliver the product %(product_name)s, %(lot_name)s which "
+"is expired.\n"
 "Do you confirm you want to proceed ?"
 msgstr ""
-"Se va a entregar el producto %(product_name)s.%(lot_name)s que está caducado.\n"
+"Se va a entregar el producto %(product_name)s.%(lot_name)s que está "
+"caducado.\n"
 "¿Confirmas la acción?"

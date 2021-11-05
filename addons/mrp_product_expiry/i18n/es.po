@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp_product_expiry
-# 
-# Translators:
-# Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
-"PO-Revision-Date: 2021-09-14 12:24+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"POT-Creation-Date: 2021-11-05 08:45+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: mrp_product_expiry
 #: model_terms:ir.ui.view,arch_db:mrp_product_expiry.confirm_expiry_view_mrp_inherit
@@ -53,7 +51,7 @@ msgstr "Orden de producción"
 #. module: mrp_product_expiry
 #: model:ir.model.fields,field_description:mrp_product_expiry.field_expiry_picking_confirmation__workorder_id
 msgid "Workorder"
-msgstr ""
+msgstr "Orden de trabajo"
 
 #. module: mrp_product_expiry
 #: code:addons/mrp_product_expiry/wizard/confirm_expiry.py:0
@@ -62,6 +60,8 @@ msgid ""
 "You are going to use some expired components.\n"
 "Do you confirm you want to proceed ?"
 msgstr ""
+"Vas a utilizar algunos componentes caducados.\n"
+"¿Confirma que desea continuar?"
 
 #. module: mrp_product_expiry
 #: code:addons/mrp_product_expiry/wizard/confirm_expiry.py:0
@@ -70,3 +70,5 @@ msgid ""
 "You are going to use the component %(product_name)s, %(lot_name)s which is expired.\n"
 "Do you confirm you want to proceed ?"
 msgstr ""
+"Va a utilizar el componente %(product_name)s, %(lot_name)s el cual ha caducado.\n"
+"¿Confirma que desea continuar?"
