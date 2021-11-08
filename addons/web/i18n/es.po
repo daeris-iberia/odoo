@@ -33,6 +33,13 @@ msgstr "N.º de editor de código"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/legacy/xml/base.xml:0
+#, python-format
+msgid "Action"
+msgstr "Acción"
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/core/l10n/translation.js:0
 #: code:addons/web/static/src/legacy/js/core/translation.js:0
 #, python-format
