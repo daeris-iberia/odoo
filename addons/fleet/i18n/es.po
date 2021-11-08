@@ -1877,7 +1877,7 @@ msgstr "Información del vehículo"
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_model_menu
 msgid "Vehicle Models"
-msgstr "Modelos de veh&iacute;culo"
+msgstr "Modelos de vehículo"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__name

@@ -2563,12 +2563,12 @@ msgstr "No se encontraron etiquetas. ¡Creemos uno!"
 #: model_terms:ir.actions.act_window,help:project.act_project_project_2_project_task_all model_terms:ir.actions.act_window,help:project.action_view_all_task
 #: model_terms:ir.actions.act_window,help:project.action_view_task model_terms:ir.actions.act_window,help:project.project_sharing_project_task_action
 msgid "No tasks found. Let's create one!"
-msgstr "No se encontraron tareas. ¡Creemos uno!"
+msgstr "No se encontraron tareas. ¡Creemos una!"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_update_all_action
 msgid "No updates found. Let's create one!"
-msgstr "No se han encontrado actualizaciones. ¡Vamos a crear uno!"
+msgstr "No se han encontrado actualizaciones. ¡Vamos a crear una!"
 
 #. module: project
 #: code:addons/project/controllers/portal.py:0
