@@ -367,7 +367,7 @@ msgid ""
 "            (Useful for meeting minutes)."
 msgstr ""
 "Las notas son privadas, a menos que la comparta invitando a un seguidor a una nota.\n"
-"              (Útil para el acta de la reunión)."
+"              (Útil para el acta de la reunión)."
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_needaction_counter
