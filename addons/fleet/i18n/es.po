@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-29 08:04+0000\n"
-"PO-Revision-Date: 2021-10-29 10:06+0200\n"
+"PO-Revision-Date: 2021-11-25 14:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Acción requerida"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Activation Cost"
-msgstr "Costo de activación"
+msgstr "Coste de activación"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__active
@@ -126,7 +126,7 @@ msgstr "Todos los vehículos"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Apply New Driver"
-msgstr "Aplicar nuevo controlador"
+msgstr "Aplicar nuevo conductor"
 
 #. module: fleet
 #. openerp-web
@@ -345,7 +345,7 @@ msgstr "Contacto"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Contains Vehicles"
-msgstr "Contiene vehículos"
+msgstr "Fabricante"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_service_type__category__contract
@@ -358,7 +358,7 @@ msgstr "Contrato"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_graph
 msgid "Contract Costs Per Month"
-msgstr "Costos contractuales por mes"
+msgstr "Costes contractuales por mes"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_count
@@ -409,32 +409,32 @@ msgstr "Contratos"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__amount
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__amount
 msgid "Cost"
-msgstr "Costo"
+msgstr "Coste"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__cost_type
 msgid "Cost Type"
-msgstr "Tipo de costo"
+msgstr "Tipo de coste"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Cost that is paid only once at the creation of the contract"
-msgstr "Costo que se paga solo una vez a la creación del contrato"
+msgstr "Coste que se paga solo una vez en la creación del contrato"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__cost_subtype_id
 msgid "Cost type purchased with this cost"
-msgstr "Tipo de costo comprado con este costo"
+msgstr "Tipo de coste comprado con este coste"
 
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting_costs
 msgid "Costs"
-msgstr "Costos"
+msgstr "Costes"
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_costs_reporting_action
 msgid "Costs Analysis"
-msgstr "Análisis de costos"
+msgstr "Análisis de costes"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__country_id
@@ -454,7 +454,7 @@ msgstr "Crear una nueva categoría"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid "Create a new contract"
-msgstr "Crear un nuevo contracto"
+msgstr "Crear un nuevo contrato"
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_brand_action
@@ -550,7 +550,7 @@ msgstr "Fecha"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__date
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__date
 msgid "Date when the cost has been executed"
-msgstr "Fecha en la que se ha ejecutado el costo"
+msgstr "Fecha en la que se ha ejecutado el coste"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__start_date
@@ -581,7 +581,7 @@ msgstr "Descripción"
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__frame_type__diamant
 msgid "Diamant"
-msgstr "Diamant"
+msgstr "Diamante"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__diesel
@@ -619,7 +619,7 @@ msgstr "Nº de puertas"
 #. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_downgraded
 msgid "Downgraded"
-msgstr "Degradado"
+msgstr "Desguazado"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__driver_id
@@ -755,7 +755,7 @@ msgstr "Informe de análisis de flota"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vechicle_costs_report_view_tree
 msgid "Fleet Costs Analysis"
-msgstr "Análisis de costos de flota"
+msgstr "Análisis de costes de flota"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
@@ -777,7 +777,7 @@ msgstr "Tipo de servicio de flota"
 #: model:ir.cron,cron_name:fleet.ir_cron_contract_costs_generator
 #: model:ir.cron,name:fleet.ir_cron_contract_costs_generator
 msgid "Fleet: Generate contracts costs based on costs frequency"
-msgstr "Flota: Genera costos de contratos basados en la frecuencia de los costos"
+msgstr "Flota: Genera costes de contratos basados en la frecuencia de los costes"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_follower_ids
@@ -818,7 +818,7 @@ msgstr "Tipo de cuadro de la bicicleta"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__cost_frequency
 msgid "Frequency of the recuring cost"
-msgstr "Frecuencia del costo recurrente"
+msgstr "Frecuencia del coste recurrente"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__fuel_type
@@ -901,7 +901,7 @@ msgstr "Caballos de fuerza"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__horsepower_tax
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__horsepower_tax
 msgid "Horsepower Taxation"
-msgstr "Impuestos sobre caballos de fuerza"
+msgstr "Impuestos sobre caballos fiscales"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__hybrid
@@ -1134,13 +1134,13 @@ msgid ""
 "            you when some contracts have to be renewed."
 msgstr ""
 "Gestiona todos tus contratos (leasing, seguros, etc) con\n"
-"            sus servicios y costos relacionados. Daeris te advertirá automáticamente\n"
+"            sus servicios y costes relacionados. Daeris te avisará automáticamente\n"
 "            cuando se tengan que renovar algunos contratos."
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid "Manage efficiently your different effective vehicles Costs with Odoo."
-msgstr "Gestione eficientemente sus diferentes vehículos efectivos Costos con Daeris."
+msgstr "Gestiona eficientemente tus diferentes Costes de vehículos con Daeris."
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__transmission__manual
@@ -1260,7 +1260,7 @@ msgstr "Nombre"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_name
 msgid "Name of contract to renew soon"
-msgstr "Nombre del contrato a renovar pronto"
+msgstr "Nombre del contrato a renovar próximamente"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
@@ -1500,12 +1500,12 @@ msgstr "¿Listo para gestionar tu flota de forma más eficiente?"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_generated
 msgid "Recurring Cost"
-msgstr "Costo recurrente"
+msgstr "Coste recurrente"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_frequency
 msgid "Recurring Cost Frequency"
-msgstr "Frecuencia de los costos recurrentes"
+msgstr "Frecuencia de los costes recurrentes"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__ins_ref
@@ -1622,7 +1622,7 @@ msgstr "Mostrar todos los registros que tienen la próxima fecha de acción ante
 #: code:addons/fleet/models/fleet_vehicle.py:0
 #, python-format
 msgid "Specify the End date of %s"
-msgstr "Especifique la fecha de finalización de %s"
+msgstr "Especifica la fecha de finalización de %s"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__state
@@ -1674,7 +1674,7 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vechicle_costs_report_view_tree
 msgid "Sum of Cost"
-msgstr "Suma del costo"
+msgstr "Suma del coste"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__name
@@ -1721,7 +1721,7 @@ msgstr ""
 #. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_to_order
 msgid "To Order"
-msgstr "Para Ordenar"
+msgstr "Por Asignar"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
@@ -1745,7 +1745,7 @@ msgid ""
 "Track all the services done on your vehicle.\n"
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
 msgstr ""
-"Lleva el seguimiento de todos los servicies realizados a tu vehículo.\n"
+"Lleva el seguimiento de todos los servicios realizados a tu vehículo.\n"
 "            Los servicios pueden ser de muchos tipos: reparaciones ocasionales, mantenimiento fijo, etc."
 
 #. module: fleet
@@ -1774,7 +1774,7 @@ msgstr "Transmisión usada por el vehículo"
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__frame_type__trapez
 msgid "Trapez"
-msgstr "Trapez"
+msgstr "Trapezoide"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_subtype_id
@@ -1786,7 +1786,7 @@ msgstr "Tipo"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__activity_exception_decoration
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo de actividad de excepción registrada."
+msgstr "Tipo de excepción de actividad registrada."
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__vin_sn
@@ -1936,7 +1936,7 @@ msgstr "Contratos de vehículos"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Vehicles costs"
-msgstr "Costos de los vehículos"
+msgstr "Costes de los vehículos"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
@@ -1969,7 +1969,7 @@ msgstr "Fecha de advertencia"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
 msgid "Warning: renewal due soon"
-msgstr "Advertencia: renovación pronto"
+msgstr "Advertencia: renovación próxima"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__frame_type__wave
