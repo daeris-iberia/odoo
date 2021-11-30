@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-29 08:24+0000\n"
-"PO-Revision-Date: 2021-10-29 10:26+0200\n"
+"PO-Revision-Date: 2021-11-29 12:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -54,18 +54,18 @@ msgid ""
 "* The 'Done' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
-"* El estado 'Borrador' se utiliza cuando un usuario está codificando una orden "
+"* El estado 'Borrador' se utiliza cuando un usuario está registrando una orden "
 "de reparación nueva y no confirmada.\n"
-"* El estado 'Confirmado' se utiliza cuando un usuario confirma el pedido de "
+"* El estado 'Confirmado' se utiliza cuando un usuario confirma la orde de "
 "reparación.\n"
 "* El estado 'Listo para reparar' se utiliza para comenzar a reparar, el usuario "
-"puede comenzar a reparar solo después de que se confirme la orden de "
+"puede empezar a reparar solo después de que se confirme la orden de "
 "reparación.\n"
 "* El estado 'En reparación' se utiliza cuando la reparación está en curso.\n"
 "* El estado 'A facturar' se utiliza para generar la factura antes o después de "
 "la reparación realizada.\n"
 "* El estado 'Listo' se establece cuando se completa la reparación.\n"
-"* El estado 'Cancelado' se utiliza cuando el usuario cancela el pedido de "
+"* El estado 'Cancelado' se utiliza cuando el usuario cancela la orden de "
 "reparación."
 
 #. module: repair
@@ -83,9 +83,6 @@ msgid ""
 ">\n"
 "        Here is your repair order <strong t-out=\"object.name or ''\">RO/00004</"
 "strong>\n"
-"        <t t-if=\"object.origin\">\n"
-"            (with reference: <t t-out=\"object.origin\"/> )\n"
-"        </t>\n"
 "        <t t-if=\"object.invoice_method != 'none'\">\n"
 "            amounting in <strong><t t-out=\"format_amount(object.amount_total, "
 "object.pricelist_id.currency_id) or ''\">$ 100.00</t>.</strong><br/>\n"
@@ -105,27 +102,23 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px;font-size: 13px;\">\n"
-"        Hola <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/"
-">\n"
-"        Aquí está su orden de reparación <strong t-out=\"object.name or "
+"        Hola <t t-out=\"object.partner_id.name or ''\">Alex García</t>,<br/>\n"
+"        Aquí está tu orden de reparación <strong t-out=\"object.name or "
 "''\">RO/00004</strong>\n"
-"        <t t-if=\"object.origin\">\n"
-"            (con referencia: <t t-out=\"object.origin\"/> )\n"
-"        </t>\n"
 "        <t t-if=\"object.invoice_method != 'none'\">\n"
 "            por un total de <strong><t t-out=\"format_amount(object."
-"amount_total, object.pricelist_id.currency_id) or ''\">$ 100.00</t>.</"
+"amount_total, object.pricelist_id.currency_id) or ''\">100.00 €</t>.</"
 "strong><br/>\n"
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            .<br/>\n"
 "        </t>\n"
-"        Puede responder a este correo electrónico si tiene alguna pregunta.\n"
+"        Puedes responder a este correo electrónico si tienes alguna consulta.\n"
 "        <br/><br/>\n"
 "        Gracias,\n"
 "        <t t-if=\"user.signature\">\n"
 "            <br/>\n"
-"            <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"            <t t-out=\"user.signature or ''\">--<br/>Daeris Admin</t>\n"
 "        </t>\n"
 "    </p>\n"
 "</div>"
@@ -197,7 +190,7 @@ msgstr "<strong>Garantía:</strong>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
 msgid "? This may lead to inconsistencies in your inventory."
-msgstr "? Esto puede dar lugar a inconsistencias en su inventario."
+msgstr "? Esto puede dar lugar a inconsistencias en tu inventario."
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_needaction
@@ -237,7 +230,7 @@ msgstr "Agrega notas internas."
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Add quotation notes."
-msgstr "Agregue notas de cotización."
+msgstr "Añadir notas a las líneas del pedido"
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__invoice_method__after_repair
@@ -283,8 +276,8 @@ msgid ""
 "Choose partner for whom the order will be invoiced and delivered. You can find "
 "a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
-"Elija el socio para el que se facturará y entregará el pedido. Puede encontrar "
-"un socio por su Nombre, RFC, Correo Electrónico o Referencia Interna."
+"Selecciona el contacto al que se facturará y entregará la orden. Puedes "
+"encontrarlo por su Nombre, RFC, Correo Electrónico o Referencia Interna."
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_tags__color
@@ -334,9 +327,8 @@ msgid ""
 "Couldn't find a pricelist line matching this product and quantity.\n"
 "You have to change either the product, the quantity or the pricelist."
 msgstr ""
-"No se ha encontrado una línea de tarifa que concuerde con este producto y "
-"cantidad.\n"
-"Debe cambiar el producto, la cantidad o la tarifa."
+"No se ha encontrado una línea en la lista de precios para este producto.\n"
+"Debes cambiar el producto, cantidad o la lista de precios"
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_make_invoice
@@ -433,7 +425,7 @@ msgstr "Confirma que desea reparar"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_make_invoice
 msgid "Do you really want to create the invoice(s)?"
-msgstr "¿Desea crear la(s) factura(s)?"
+msgstr "¿Deseas crear la(s) factura(s)?"
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__state__done
@@ -450,7 +442,7 @@ msgstr "Borrador"
 msgid ""
 "Draft invoices for this order will be cancelled. Do you confirm the action?"
 msgstr ""
-"Se cancelarán los borradores de las facturas de este pedido. ¿Confirmas la "
+"Se cancelarán los borradores de las facturas de esta orden. ¿Confirmas la "
 "acción?"
 
 #. module: repair
@@ -765,7 +757,7 @@ msgstr "Ningún producto definido en las tarifas."
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid "No repair order found. Let's create one!"
-msgstr "No se encontró ninguna orden de reparación. ¡Creemos uno!"
+msgstr "No se ha encontrado ninguna orden de reparación. ¡Creemos una!"
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
@@ -916,7 +908,7 @@ msgstr "Presupuesto"
 #. module: repair
 #: model:ir.actions.report,name:repair.action_report_repair_order
 msgid "Quotation / Order"
-msgstr "Presupuesto / Pedido"
+msgstr "Presupuesto / Orden"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__quotation_notes
@@ -993,7 +985,7 @@ msgstr "Orden de reparación"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Repair Order #:"
-msgstr "Orden de reparación nº:"
+msgstr "Orden de reparación Nº:"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_fee__repair_id
@@ -1119,7 +1111,7 @@ msgstr "Pedido de venta"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_id
 msgid "Sale Order from which the product to be repaired comes from."
-msgstr "Orden de venta de la que proviene el producto a reparar."
+msgstr "Pedido de venta de la que proviene el producto a reparar."
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__schedule_date
@@ -1249,7 +1241,7 @@ msgid ""
 "The product unit of measure you chose has a different category than the product "
 "unit of measure."
 msgstr ""
-"La unidad de medida del producto que elija tiene una categoría diferente a la "
+"La unidad de medida del producto que elijes tiene una categoría diferente a la "
 "unidad de medida del producto."
 
 #. module: repair
@@ -1386,8 +1378,8 @@ msgid ""
 "You can not delete a repair order once it has been confirmed. You must first "
 "cancel it."
 msgstr ""
-"No puede eliminar una orden de reparación una vez confirmada. Primero debes "
-"cancelarlo."
+"No puedes eliminar una orden de reparación una vez confirmada. Primero debes "
+"cancelarla."
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
@@ -1396,14 +1388,14 @@ msgid ""
 "You can not delete a repair order which is linked to an invoice which has been "
 "posted once."
 msgstr ""
-"No puede eliminar una orden de reparación que esté vinculada a una factura que "
+"No puedes eliminar una orden de reparación que esté vinculada a una factura que "
 "se haya contabilizado una vez."
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
 #, python-format
 msgid "You can not enter negative quantities."
-msgstr "No puede ingresar cantidades negativas."
+msgstr "No puedes ingresar cantidades negativas."
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
@@ -1412,15 +1404,15 @@ msgid ""
 "You have to select a pricelist in the Repair form !\n"
 " Please set one before choosing a product."
 msgstr ""
-"¡Tiene que seleccionar una tarifa en el formulario de reparación!\n"
-" Por favor, indique una antes de elegir un producto."
+"¡Tienes que seleccionar una tarifa en el formulario de reparación!\n"
+" Por favor, indica una antes de elegir un producto."
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
 #, python-format
 msgid "You have to select an invoice address in the repair form."
 msgstr ""
-"Tiene que seleccionar una dirección de factura en el formulario de reparación."
+"Tienes que seleccionar una dirección de factura en el formulario de reparación."
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
