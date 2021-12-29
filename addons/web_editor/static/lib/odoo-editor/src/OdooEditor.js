@@ -115,6 +115,8 @@ const CLIPBOARD_WHITELISTS = {
         'img-thumbnail',
         'rounded',
         'rounded-circle',
+        'table',
+        'table-bordered',
         /^padding-/,
         /^shadow/,
         // Odoo colors
@@ -2887,7 +2889,7 @@ export class OdooEditor extends EventTarget {
         }
     }
     _pluginAdd(Plugin) {
-        this._plugins.push(new Plugin(this));
+        this._plugins.push(new Plugin({ editor: this }));
     }
     _pluginCall(method, args) {
         for (const plugin of this._plugins) {
