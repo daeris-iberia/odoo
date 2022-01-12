@@ -243,7 +243,11 @@ const Wysiwyg = Widget.extend({
                 ev.preventDefault();
             }
 
-            if ($target.is(this.customizableLinksSelector) && $target.is('a') && !$target.attr('data-oe-model') && !$target.find('> [data-oe-model]').length) {
+            if ($target.is(this.customizableLinksSelector)
+                    && $target.is('a')
+                    && !$target.attr('data-oe-model')
+                    && !$target.find('> [data-oe-model]').length
+                    && !$target[0].closest('.o_extra_menu_items')) {
                 this.linkPopover = $target.data('popover-widget-initialized');
                 if (!this.linkPopover) {
                     // TODO this code is ugly maybe the mutex should be in the
@@ -534,7 +538,7 @@ const Wysiwyg = Widget.extend({
         if (this.linkPopover) {
             this.linkPopover.hide();
         }
-
+        window.removeEventListener('beforeunload', this._onBeforeUnload);
         this._super();
     },
     /**
@@ -756,7 +760,7 @@ const Wysiwyg = Widget.extend({
     setValue: function (value) {
         this.$editable.html(value);
         this.odooEditor.sanitize();
-        this.odooEditor.historyStep();
+        this.odooEditor.historyStep(true);
     },
     /**
      * Undo one step of change in the editor.
@@ -776,7 +780,7 @@ const Wysiwyg = Widget.extend({
      * Set cursor to the editor latest position before blur or to the last editable node, ready to type.
      */
     focus: function () {
-        if (!this.odooEditor.historyResetLatestComputedSelection()) {
+        if (this.odooEditor && !this.odooEditor.historyResetLatestComputedSelection()) {
             // If the editor don't have an history step to focus to,
             // We place the cursor after the end of the editor exiting content.
             const range = document.createRange();
@@ -1300,9 +1304,16 @@ const Wysiwyg = Widget.extend({
      * Handle custom keyboard shortcuts.
      */
     _handleShortcuts: function (e) {
-        // Open the link modal / tool when CTRL+K is pressed.
+        // Open the link tool when CTRL+K is pressed.
         if (e && e.key === 'k' && (e.ctrlKey || e.metaKey)) {
             e.preventDefault();
+            const targetEl = this.odooEditor.document.getSelection().baseNode; // FIXME this is undefined on Firefox after clicking on an image and hitting CTRL-K
+            // Link tool is different if the selection is an image or a text.
+            if (targetEl instanceof HTMLElement
+                    && (targetEl.tagName === 'IMG' || targetEl.querySelectorAll('img').length === 1)) {
+                core.bus.trigger('activate_image_link_tool');
+                return;
+            }
             this.toggleLinkTools();
         }
         // Override selectAll (CTRL+A) to restrict it to the editable zone / current snippet and prevent traceback.
@@ -1427,7 +1438,9 @@ const Wysiwyg = Widget.extend({
                 if (!this.showTooltip || $target.attr('title') !== undefined) {
                     return;
                 }
+                this.odooEditor.observerUnactive();
                 $target.tooltip({title: _t('Double-click to edit'), trigger: 'manual', container: 'body'}).tooltip('show');
+                this.odooEditor.observerActive();
                 setTimeout(() => $target.tooltip('dispose'), 800);
             }, 400);
         }
