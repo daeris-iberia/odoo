@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-28 10:21+0000\n"
-"PO-Revision-Date: 2021-11-17 07:01+0100\n"
+"PO-Revision-Date: 2022-01-15 08:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,12 +21,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "$18"
-msgstr "18$"
+msgstr "18€"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount2
 msgid "$20"
-msgstr "20$"
+msgstr "20€"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -41,7 +41,7 @@ msgstr "% de destinatarios."
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "% receive one of the"
-msgstr "% recepción uno de los"
+msgstr "% recibido uno de los"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mass_mailing_kpi_link_trackers
@@ -58,7 +58,7 @@ msgstr "%s (copia)"
 #: code:addons/mass_mailing/wizard/mailing_contact_to_list.py:0
 #, python-format
 msgid "%s Mailing Contacts have been added. "
-msgstr "%s contactos de correo agregados. "
+msgstr "%s contactos de correo añadidos. "
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
@@ -181,7 +181,7 @@ msgstr "<b>OBTÉN 20€ DE DESCUENTO</b>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_title
 msgid "<font style=\"font-size: 42px;\">Your Title</font>"
-msgstr "<font style=\"font-size: 42px;\">Su título</font>"
+msgstr "<font style=\"font-size: 42px;\">Tu título</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
@@ -273,7 +273,7 @@ msgid ""
 "<i>Write a quote here from one of your customers. Quotes are a great way to build confidence in your products "
 "or services.</i>"
 msgstr ""
-"<i>Escriba una recomendación aquí de uno de sus clientes. Las recomendaciones son una excelente manera de "
+"<i>Escribe una recomendación aquí de uno de tus clientes. Las recomendaciones son una excelente manera de "
 "generar confianza en sus productos o servicios.</i>"
 
 #. module: mass_mailing
@@ -498,7 +498,7 @@ msgstr "<span>Contactos</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "<span>Select a template</span>"
-msgstr "<span>Seleccionar una plantilla</span>"
+msgstr "<span>Tema</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
