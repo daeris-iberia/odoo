@@ -49,6 +49,14 @@ class AccountMove(models.Model):
     _check_company_auto = True
     _sequence_index = "journal_id"
 
+    def init(self):
+        self.env.cr.execute("""
+            CREATE INDEX IF NOT EXISTS account_move_to_check_idx
+            ON account_move(journal_id) WHERE to_check = true;
+            CREATE INDEX IF NOT EXISTS account_move_payment_idx
+            ON account_move(journal_id, state, payment_state, move_type, date);
+        """)
+
     @property
     def _sequence_monthly_regex(self):
         return self.journal_id.sequence_override_regex or super()._sequence_monthly_regex
@@ -757,12 +765,6 @@ class AccountMove(models.Model):
                 continue
 
             currency = self.env['res.currency'].browse(taxes_map_entry['grouping_dict']['currency_id'])
-
-            # Don't create tax lines with zero balance.
-            if currency.is_zero(taxes_map_entry['amount']):
-                if taxes_map_entry['tax_line'] and not recompute_tax_base_amount:
-                    self.line_ids -= taxes_map_entry['tax_line']
-                continue
 
             # tax_base_amount field is expressed using the company currency.
             tax_base_amount = currency._convert(taxes_map_entry['tax_base_amount'], self.company_currency_id, self.company_id, self.date or fields.Date.context_today(self))
