@@ -1001,7 +1001,9 @@ const Wysiwyg = Widget.extend({
         const restoreSelection = preserveCursor(this.odooEditor.document);
 
         const $node = $(params.node);
-        const $editable = $(OdooEditorLib.closestElement(range.startContainer, '.o_editable'));
+        // We need to keep track of FA icon because media.js will _clear those classes
+        const wasFontAwesome = $node.hasClass('fa');
+        const $editable = $(this.odooEditor.editable);
         const model = $editable.data('oe-model');
         const field = $editable.data('oe-field');
         const type = $editable.data('oe-type');
@@ -1024,7 +1026,7 @@ const Wysiwyg = Widget.extend({
                 element.className += " " + params.htmlClass;
             }
             restoreSelection();
-            if (wysiwygUtils.isImg($node[0])) {
+            if (wysiwygUtils.isImg($node[0]) || wasFontAwesome) {
                 $node.replaceWith(element);
                 this.odooEditor.unbreakableStepUnactive();
                 this.odooEditor.historyStep();
@@ -1265,7 +1267,7 @@ const Wysiwyg = Widget.extend({
                         this._processAndApplyColor(eventName, ev.data.color);
                         this._updateEditorUI();
                     });
-                    colorpicker.on('color_hover color_leave', null, ev => {
+                    colorpicker.on('color_hover', null, ev => {
                         if (hadNonCollapsedSelection) {
                             this.odooEditor.historyResetLatestComputedSelection(true);
                         }
@@ -1275,6 +1277,9 @@ const Wysiwyg = Widget.extend({
                         } finally {
                             this.odooEditor.historyUnpauseSteps();
                         }
+                    });
+                    colorpicker.on('color_leave', null, ev => {
+                        this.odooEditor.historyRevertCurrentStep();
                     });
                     colorpicker.on('enter_key_color_colorpicker', null, () => {
                         $dropdown.children('.dropdown-toggle').dropdown('hide');
