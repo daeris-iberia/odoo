@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 13:42+0000\n"
-"PO-Revision-Date: 2021-10-27 16:03+0200\n"
+"POT-Creation-Date: 2022-03-06 10:20+0000\n"
+"PO-Revision-Date: 2022-03-06 11:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -234,12 +234,12 @@ msgstr "<b>Arrastra y suelta</b> la tarjeta para cambiar tu tarea desde el escen
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid ""
-"<b>Log notes</b> for internal communications <i>(the people following this task won't be notified \r\n"
-"    of the note you are logging unless you specifically tag them)</i>. Use @ <b>mentions</b> to ping a colleague \r\n"
+"<b>Log notes</b> for internal communications <i>(the people following this task won't be notified \n"
+"    of the note you are logging unless you specifically tag them)</i>. Use @ <b>mentions</b> to ping a colleague \n"
 "    or # <b>mentions</b> to reach an entire team."
 msgstr ""
-"<b>Notas de registro</b> para las comunicaciones internas <i>(las personas que siguen esta tarea no serán notificadas \r\n"
-"    de la nota que está registrando a menos que los etiquete específicamente)</i>. Usar @ <b>menciones</b> para hacer ping a un colega \r\n"
+"<b>Registre notas</b> para comunicaciones internas <i>(las personas que sigan esta tarea no serán notificadas \n"
+"    de la nota que está registrando a menos que las etiquete específicamente)</i>. Utilice @ <b>menciones</b> para hacer ping a un colega \n"
 "    o # <b>menciones</b> para llegar a todo un equipo."
 
 #. module: project
@@ -416,7 +416,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Gestiona\" title=\"Gestiona\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -476,15 +476,6 @@ msgstr "<span class=\"fa fa-user mr-2\" aria-label=\"Socio\" title=\"Socio\"/>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
-"<span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible':  [('alias_name', '=', False)]}\">Create tasks by sending an email to </span>\n"
-"                                        <span class=\"font-weight-bold oe_edit_only\">Create tasks by sending an email to </span>"
-msgstr ""
-"<span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible':  [('alias_name', '=', False)]}\">Crear tareas enviando un correo electrónico a </span>\n"
-"                                        <span class=\"font-weight-bold oe_edit_only\">Crear tareas enviando un correo electrónico a</span>"
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.edit_project
-msgid ""
 "<span class=\"o_stat_text\">\n"
 "                                    Collaborators\n"
 "                                </span>"
@@ -540,6 +531,17 @@ msgstr "<span class=\"o_stat_text\">Margen bruto</span>"
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">in Recurrence</span>"
 msgstr "<span class=\"o_stat_text\">en Recurrencia</span>"
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.edit_project
+msgid ""
+"<span class=\"oe_read_only\" attrs=\"{'invisible': [('alias_name', '!=', False)]}\">Create tasks by sending an email to </span>\n"
+"                                        <span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible': [('alias_name', '=', False)]}\">Create tasks by sending an email to </span>\n"
+"                                        <span class=\"font-weight-bold oe_edit_only\">Create tasks by sending an email to </span>"
+msgstr ""
+"<span class=\"oe_read_only\" attrs=\"{'invisible': [('alias_name', '!=', False)]}\">Crear tareas enviando un correo electrónico a </span>\n"
+"                                        <span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible': [('alias_name', '=', False)]}\">Crear tareas enviando un correo electrónico a </span>\n"
+"                                        <span class=\"font-weight-bold oe_edit_only\">Crear tareas enviando un correo electrónico a </span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
@@ -835,7 +837,7 @@ msgstr "Abril"
 #: code:addons/project/static/src/js/project_form.js:0 code:addons/project/static/src/js/project_list.js:0
 #, python-format
 msgid "Archive"
-msgstr "Archivo"
+msgstr "Archivar"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
@@ -853,6 +855,12 @@ msgstr "Archivar proyecto"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter model_terms:ir.ui.view,arch_db:project.view_task_form2 model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Archived"
 msgstr "Archivado"
+
+#. module: project
+#: code:addons/project/models/project.py:0
+#, python-format
+msgid "Archived tasks cannot be recurring. Please unarchive the task first."
+msgstr "Las tareas archivadas no pueden ser recurrentes. Por favor, desarchive la tarea primero."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
@@ -1050,10 +1058,10 @@ msgstr "Texto secundario"
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid ""
-"Choose a <b>name</b> for your project. <i>It can be anything you want: the name of a customer,\r\n"
+"Choose a <b>name</b> for your project. <i>It can be anything you want: the name of a customer,\n"
 "     of a product, of a team, of a construction site, etc.</i>"
 msgstr ""
-"Elija un <b>nombre</b> para su proyecto. <i>Puede ser lo que quieras: el nombre de un cliente,\r\n"
+"Elija un <b>nombre</b> para su proyecto. <i>Puede ser lo que quieras: el nombre de un cliente,\n"
 "     de un producto, de un equipo, de una obra, etc.</i>"
 
 #. module: project
@@ -1401,6 +1409,11 @@ msgstr "Días hasta la fecha límite"
 #, python-format
 msgid "Deadline"
 msgstr "Fecha límite"
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
+msgid "Dear"
+msgstr "Querido"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_month__december model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_month__december
@@ -1887,7 +1900,7 @@ msgstr "Lo tengo"
 #: model:ir.model.fields,field_description:project.field_project_task_type_delete_wizard__id model:ir.model.fields,field_description:project.field_project_update__id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__id
 msgid "ID"
-msgstr "ID"
+msgstr "ID (identificación)"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
@@ -2052,6 +2065,13 @@ msgstr "Parece que algunas tareas son parte de una recurrencia."
 #, python-format
 msgid "It seems that this task is part of a recurrence."
 msgstr "Parece que esta tarea es parte de una recurrencia."
+
+#. module: project
+#. openerp-web
+#: code:addons/project/static/src/js/project_form.js:0
+#, python-format
+msgid "It seems that this task is part of a recurrence. You must keep it as a model to create the next occurences."
+msgstr "Parece que esta tarea es parte de una recurrencia. Debe mantenerlo como modelo para crear las próximas ocurrencias."
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_month__january model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_month__january
@@ -2475,7 +2495,7 @@ msgstr "Nueva solicitud"
 #: code:addons/project/controllers/portal.py:0
 #, python-format
 msgid "Newest"
-msgstr "Más Reciente"
+msgstr "Más reciente"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_tree_activity
@@ -2704,8 +2724,7 @@ msgid "Open"
 msgstr "Abierto"
 
 #. module: project
-#: code:addons/project/models/project.py:0 model:ir.model.fields,field_description:project.field_digest_digest__kpi_project_task_opened
-#, python-format
+#: model:ir.model.fields,field_description:project.field_digest_digest__kpi_project_task_opened
 msgid "Open Tasks"
 msgstr "Tareas Abiertas"
 
@@ -4243,12 +4262,6 @@ msgid "Update"
 msgstr "Actualización"
 
 #. module: project
-#: code:addons/project/models/project.py:0
-#, python-format
-msgid "Updated (Last 30 Days)"
-msgstr "Actualizado (Últimos 30 días)"
-
-#. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
@@ -4314,16 +4327,21 @@ msgstr "Usa etiquetas para categorizar tus tareas."
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid ""
-"Use the chatter to <b>send emails</b> and communicate efficiently with your customers. \r\n"
+"Use the chatter to <b>send emails</b> and communicate efficiently with your customers. \n"
 "    Add new people to the followers' list to make them aware of the main changes about this task."
 msgstr ""
-"Utilice la charla para <b>enviar correos electrónicos</b> y comunicarse de manera eficiente con sus clientes. \r\n"
+"Utilice chatter para <b>enviar correos electrónicos</b> y comunicarse de manera eficiente con sus clientes. \r\n"
 "    Añade nuevas personas a la lista de seguidores para que estén al tanto de los principales cambios sobre esta tarea."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_stage_personal__user_id model:res.groups,name:project.group_project_user
 msgid "User"
 msgstr "Usuario"
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
+msgid "View"
+msgstr "Ver"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -4492,8 +4510,29 @@ msgstr "No puede eliminar etapas que contienen tareas. Primero debe eliminar tod
 #. module: project
 #: code:addons/project/models/project.py:0
 #, python-format
+msgid "You have been assigned to %s"
+msgstr "Ha sido asignado a %s"
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
+msgid "You have been assigned to the"
+msgstr "Has sido asignado al"
+
+#. module: project
+#: code:addons/project/models/project.py:0
+#, python-format
 msgid "You have not write access of %s field."
 msgstr "No tiene acceso de escritura de %s campo."
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
+msgid "assignee"
+msgstr "cesionario"
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
+msgid "assignees"
+msgstr "cesionarios"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form model_terms:ir.ui.view,arch_db:project.quick_create_task_form
