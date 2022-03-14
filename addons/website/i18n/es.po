@@ -1954,7 +1954,7 @@ msgstr "BSgzTvR5L1GB9jriT451iTN4huVPxHmltG6T6eo"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "Backdrop"
-msgstr "Perde Arkası"
+msgstr "Color de fondo"
 
 #. module: website
 #. openerp-web
@@ -2540,7 +2540,7 @@ msgstr "Cerrar"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "Close Button Color"
-msgstr "Color del botón para cerrar"
+msgstr "Color Botón Cierre"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_list
@@ -3384,7 +3384,7 @@ msgstr "Disco"
 #: model_terms:ir.ui.view,arch_db:website.s_blockquote_options model_terms:ir.ui.view,arch_db:website.s_countdown_options model_terms:ir.ui.view,arch_db:website.s_popup_options
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar_options
 msgid "Display"
-msgstr "Mostrar en pantalla"
+msgstr "¿Cuando mostrar?"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
@@ -4608,7 +4608,7 @@ msgstr "Ocultar"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "Hide For"
-msgstr "Ocultar para"
+msgstr "Ocultar durante"
 
 #. module: website
 #. openerp-web
@@ -5684,7 +5684,7 @@ msgstr "Encabezado de medios"
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options model_terms:ir.ui.view,arch_db:website.s_countdown_options model_terms:ir.ui.view,arch_db:website.s_popup_options
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options model_terms:ir.ui.view,arch_db:website.s_share_options model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Medium"
-msgstr "Media"
+msgstr "Medio"
 
 #. module: website
 #. openerp-web
@@ -6293,7 +6293,7 @@ msgstr "Al hacer clic"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "On Exit"
-msgstr "A la salida"
+msgstr "Al salir"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6689,7 +6689,7 @@ msgstr "Portafolio"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options model_terms:ir.ui.view,arch_db:website.s_table_of_content_options
 msgid "Position"
-msgstr "Cargo"
+msgstr "Posición"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
