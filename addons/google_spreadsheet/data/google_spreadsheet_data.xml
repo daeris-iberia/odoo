@@ -5,7 +5,9 @@
         <record id="google_spreadsheet_template" model="google.drive.config">
             <field name="name">Base Spreadsheet Template</field>
             <field name="model_id" ref="base.model_res_partner"/>
-            <field name="google_drive_template_url">https://docs.google.com/spreadsheet/ccc?key=1KUlSSzZMzkEEzyroyZ2NerRt1RVCspkG9VQIh2V6dnM</field>
+            <!--Modificamos la plantilla de URL de Odoo para incluir una plantilla traducida para Daeris-->
+            <!--field name="google_drive_template_url">https://docs.google.com/spreadsheet/ccc?key=1KUlSSzZMzkEEzyroyZ2NerRt1RVCspkG9VQIh2V6dnM</field-->
+            <field name="google_drive_template_url">https://docs.google.com/spreadsheet/ccc?key=1tPmEJ8gM21l1Zmr1VM-W84a55qqC8Tuw6ktSYAZJQA4</field>
             <field name="name_template">Reporting %(name)s</field>
             <field name="active" eval="0" />
         </record>
