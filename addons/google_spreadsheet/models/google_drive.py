@@ -77,7 +77,7 @@ class GoogleDrive(models.Model):
     @api.model
     def set_spreadsheet(self, model, domain, groupbys, view_id):
         config = self.env.ref('google_spreadsheet.google_spreadsheet_template')
-        title = 'Hoja de cálculo %s' % model
+        title = 'Spreadsheet %s' % model
         res = self.copy_doc(False, config.google_drive_resource_id, title, model)
 
         mo = re.search("(key=|/d/)([A-Za-z0-9-_]+)", res['url'])
