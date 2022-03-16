@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-28 14:43+0000\n"
-"PO-Revision-Date: 2021-10-28 17:03+0200\n"
+"PO-Revision-Date: 2022-03-16 17:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -1085,7 +1085,7 @@ msgstr "Dirección en la lista negra"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_blacklist_action
 msgid "Blacklisted Email Addresses"
-msgstr "Direcciones de correo electrónico incluidas en la lista negra"
+msgstr "Lista negra"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template__body_html model:ir.model.fields,field_description:mail.field_mail_template_preview__body_html
