@@ -1007,7 +1007,7 @@ msgstr "Dirección en la lista negra"
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.mail_blacklist_mm_menu
 msgid "Blacklisted Email Addresses"
-msgstr "Direcciones de correo electrónico incluidas en la lista negra"
+msgstr "Lista negra"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__body_arch
