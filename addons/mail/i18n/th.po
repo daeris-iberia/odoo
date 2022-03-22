@@ -10,8 +10,8 @@
 # Seksan Poltree <seksan.poltree@gmail.com>, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
-# Martin Trigaux, 2021
 # Krisa C, 2021
+# Martin Trigaux, 2022
 # Wichanon Jamwutthipreecha, 2022
 # 
 msgid ""
@@ -205,6 +205,13 @@ msgstr "(จาก"
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_done
 msgid "(originally assigned to"
 msgstr "(เดิมกำหนดให้"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/models/thread/thread.js:0
+#, python-format
+msgid ", "
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -985,6 +992,13 @@ msgstr ""
 msgid ""
 "Are you sure you want to discard %s mail delivery failures? You won't be "
 "able to re-send these mails later!"
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/models/mail_blacklist.py:0
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Email Address?"
 msgstr ""
 
 #. module: mail
@@ -1813,7 +1827,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_search
 msgid "Created By"
-msgstr ""
+msgstr "สร้างโดย"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__create_uid
@@ -3906,7 +3920,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_notification__mail_mail_id
 #, python-format
 msgid "Mail"
-msgstr ""
+msgstr "เมล"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_activity
@@ -4079,7 +4093,7 @@ msgstr "ตั้งเป็นสิงที่ต้องทำ"
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:0
 #, python-format
 msgid "Mark as done"
-msgstr ""
+msgstr "ทำเครื่องหมายว่าเสร็จสิ้น"
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_meeting
@@ -4394,7 +4408,7 @@ msgstr "เพิ่มเติม"
 #: code:addons/mail/static/src/components/rtc_controller/rtc_controller.xml:0
 #, python-format
 msgid "Mute"
-msgstr ""
+msgstr "ปิดเสียง"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_mixin__my_activity_date_deadline
@@ -5088,7 +5102,7 @@ msgstr "เจ้าของ"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "PDF file"
-msgstr ""
+msgstr "ไฟล์ PDF"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__parent_id
@@ -5830,6 +5844,11 @@ msgid "Restrict mail templates and Jinja rendering."
 msgstr ""
 
 #. module: mail
+#: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
+msgid "Restrict mail templates edition and QWEB placeholders usage."
+msgstr ""
+
+#. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Retry"
@@ -5909,7 +5928,7 @@ msgstr "กำหนดเวลา"
 #: code:addons/mail/static/src/models/chatter/chatter.js:0
 #, python-format
 msgid "Schedule Activity"
-msgstr ""
+msgstr "กำหนดการกิจกรรม"
 
 #. module: mail
 #. openerp-web
@@ -6039,7 +6058,10 @@ msgid ""
 msgstr ""
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel__public__groups
+#, python-format
 msgid "Selected group of users"
 msgstr "กลุ่มของผู้ใช้ที่ถูกเลือก"
 
@@ -6511,6 +6533,12 @@ msgstr "การแจ้งเตือนระบบ"
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__model_id
 msgid "Targeted model"
 msgstr ""
+
+#. module: mail
+#: model:ir.model.fields,field_description:mail.field_res_partner__vat
+#: model:ir.model.fields,field_description:mail.field_res_users__vat
+msgid "Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษี"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__has_recommended_activities
@@ -7362,12 +7390,6 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_res_partner__vat
-#: model:ir.model.fields,field_description:mail.field_res_users__vat
-msgid "VAT/Tax ID"
-msgstr ""
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:0
 #: code:addons/mail/static/src/xml/thread.xml:0
@@ -7631,6 +7653,14 @@ msgstr ""
 msgid ""
 "You cannot use anything else than unaccented latin characters in the alias "
 "address (%s)."
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist emails. Please contact your "
+"administrator."
 msgstr ""
 
 #. module: mail

@@ -8,8 +8,8 @@
 # Léonie Bouchat <lbo@odoo.com>, 2021
 # Cécile Collart <cco@odoo.com>, 2021
 # Stefano Consolaro <stefano.consolaro@mymage.it>, 2022
-# Sergio Zanchetta <primes2h@gmail.com>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
+# Sergio Zanchetta <primes2h@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,6 +83,17 @@ msgid ""
 " - Hungarian Bank information\n"
 " "
 msgstr ""
+"\n"
+"\n"
+"Modulo base per la localizzazione ungherese\n"
+"================================================\n"
+"\n"
+"Consiste in:\n"
+"\n"
+" - piano dei conti generico ungherese\n"
+" - imposte ungheresi\n"
+" - informazioni bancarie ungheresi\n"
+" "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_dk
@@ -481,6 +492,11 @@ msgid ""
 "        Also adds DATEV export options to general ledger\n"
 "    "
 msgstr ""
+"\n"
+"        Rendiconti contabili per la Germania\n"
+"        Contiene stato patrimoniale, conto economico, IVA e rendiconti IVA del partner\n"
+"        Aggiunge anche le opzioni di esportazione DATEV nel libro mastro\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_lt_reports
@@ -551,6 +567,12 @@ msgid ""
 "        MTD-VAT API to HMRC.\n"
 "    "
 msgstr ""
+"\n"
+"        Rendiconti contabili per il Regno Unito\n"
+"\n"
+"        Consente di inviare il resoconto fiscale ad\n"
+"        HMRC tramite le API MTD-VAT.\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_us_reports
@@ -667,6 +689,9 @@ msgid ""
 "        Bridge module between point_of_sale and account_reports,\n"
 "        for tax reporting."
 msgstr ""
+"\n"
+"        Modulo ponte tra point_of_sale e account_reports,\n"
+"        per rendicontazione fiscale."
 
 #. module: base
 #: model:ir.module.module,description:base.module_purchase_intrastat
@@ -1794,6 +1819,11 @@ msgid ""
 "Demo data for account automatic transfers module\n"
 "    "
 msgstr ""
+"\n"
+"Dimostrazione di trasferimenti automatici dei conti\n"
+"=============================================\n"
+"Dati dimostrativi per il modulo dei trasferimenti automatici tra i conti\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_us_consolidation_demo
@@ -2822,6 +2852,11 @@ msgid ""
 "button on Accounting's reports allowing to save the report into the\n"
 "Documents app in the desired format(s).\n"
 msgstr ""
+"\n"
+"Modulo ponte tra le applicazioni contabilità e documenti. Abilita\n"
+"la creazione di fatture dal modulo documenti e aggiunge un pulsante\n"
+"nei rendiconti contabili consentendo di salvarli nel formato desiderato\n"
+"nell'applicazione documenti.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail_enterprise
@@ -2915,6 +2950,11 @@ msgid ""
 "This module adds certification to resumé for employees.\n"
 "        "
 msgstr ""
+"\n"
+"Certificazione e competenze per le risorse umane\n"
+"===============================\n"
+"\n"
+"Questo modulo aggiunge la certificazione al curriculum dei dipendenti."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ve
@@ -3684,6 +3724,8 @@ msgid ""
 "\n"
 "Employee contracts files will be automatically integrated to the Document app.\n"
 msgstr ""
+"\n"
+"I file dei contratti dei dipendenti saranno integrati automaticamente nell'app Documenti.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_documents_hr_payroll
@@ -3811,6 +3853,9 @@ msgid ""
 "Full Traceability Report Demo Data\n"
 "==================================\n"
 msgstr ""
+"\n"
+"Dati dimostrativi per documento di tracciabilità completo\n"
+"======================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar_edi
@@ -4641,6 +4686,11 @@ msgid ""
 "This application allows you to integrate time off in payslips.\n"
 "    "
 msgstr ""
+"\n"
+"Gestire il tempo libero nelle buste paga\n"
+"============================\n"
+"\n"
+"Questa applicazione ti permette di integrare il tempo libero nelle buste paga."
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_dropshipping
@@ -8063,6 +8113,9 @@ msgid ""
 "Validate stock moves for Field Service\n"
 "======================================\n"
 msgstr ""
+"\n"
+"Convalida movimenti di magazzino per assistenza sul campo\n"
+"=========================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_fleet
@@ -8199,6 +8252,10 @@ msgid ""
 "a periodic and automatic synchronization of their bank statements.\n"
 "    "
 msgstr ""
+"\n"
+"Con questo modulo, gli utenti saranno in grado di collegare i giornali bancari ai loro\n"
+"conti bancari online (per gli istituti bancari supportati) e configurare\n"
+"una sincronizzazione periodica e automatica dei loro estratti conto."
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_sips
@@ -13896,7 +13953,7 @@ msgstr "Personalizzazioni"
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase_stock_enterprise
 msgid "Customized Dashboard for Purchase Stock"
-msgstr ""
+msgstr "Bacheca personalizzata per magazzino acquisti"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_ui_view_custom
@@ -16628,7 +16685,7 @@ msgstr "Schermo intero"
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp_workorder_quality
 #: model:ir.module.module,summary:base.module_purchase_mrp_workorder_quality
 msgid "Full Traceability Report Demo Data"
-msgstr ""
+msgstr "Dati dimostrativi per documento di tracciabilità completo"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging__func
@@ -22970,6 +23027,8 @@ msgid ""
 "Once the delivery is validated, update the cost on the SO to have an exact "
 "margin computation."
 msgstr ""
+"Dopo la convalida della consegna, per ottenere un calcolo esatto del margine"
+" aggiornare il costo nell'OdV."
 
 #. module: base
 #: code:addons/models.py:0
@@ -24621,7 +24680,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_hr_payroll_account
 msgid "Project Payroll Accounting"
-msgstr ""
+msgstr "Contabilità libro paga progetto"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_forecast
@@ -24895,7 +24954,7 @@ msgstr "Magazzino acquisti"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock_enterprise
 msgid "Purchase Stock Enterprise"
-msgstr ""
+msgstr "Magazzino acquisti per Enterprise"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp
