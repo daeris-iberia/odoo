@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-01 17:39+0000\n"
-"PO-Revision-Date: 2022-02-01 17:39+0000\n"
+"POT-Creation-Date: 2022-03-16 18:12+0000\n"
+"PO-Revision-Date: 2022-03-16 18:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1471,6 +1471,13 @@ msgid "DEFAULT"
 msgstr ""
 
 #. module: mass_mailing
+#. openerp-web
+#: code:addons/mass_mailing/static/src/js/mass_mailing_widget.js:0
+#, python-format
+msgid "DRAG BUILDING BLOCKS HERE"
+msgstr ""
+
+#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert_options
 msgid "Danger"
 msgstr ""
@@ -2606,11 +2613,6 @@ msgid "Models"
 msgstr ""
 
 #. module: mass_mailing
-#: model:mailing.mailing,sms_subject:mass_mailing.mass_mail_1
-msgid "Monthly Newsletter"
-msgstr ""
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "More"
@@ -2666,17 +2668,6 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_list_merge__new_list_name
 msgid "New Mailing List Name"
-msgstr ""
-
-#. module: mass_mailing
-#: model:utm.campaign,name:mass_mailing.mass_mail_campaign_1
-msgid "Newsletter"
-msgstr ""
-
-#. module: mass_mailing
-#: model:mailing.mailing,name:mass_mailing.mass_mail_1
-#: model:utm.source,name:mass_mailing.utm_source_0
-msgid "Newsletter 1"
 msgstr ""
 
 #. module: mass_mailing
