@@ -8,10 +8,10 @@
 # Ahmed Aly <ahmed.aly@datenpol.at>, 2021
 # Christian Kubicki, 2021
 # Chris Egal <sodaswed@web.de>, 2021
-# Martin Trigaux, 2021
 # Raymond Vetter, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
 # Patrick Heuel <patrick.heuel@odoo-bs.com>, 2022
+# Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
 # 
 msgid ""
@@ -207,6 +207,13 @@ msgstr "(von"
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_done
 msgid "(originally assigned to"
 msgstr "(ursprünglich zugewiesen an"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/models/thread/thread.js:0
+#, python-format
+msgid ", "
+msgstr ", "
 
 #. module: mail
 #. openerp-web
@@ -1025,6 +1032,15 @@ msgstr ""
 "Sie können diese Mails später nicht erneut versenden!"
 
 #. module: mail
+#: code:addons/mail/models/mail_blacklist.py:0
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Email Address?"
+msgstr ""
+"Sind Sie sicher, dass Sie diese E-Mail-Adresse von der Liste streichen "
+"möchten?"
+
+#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/m2x_avatar_user.js:0
 #: code:addons/mail/static/src/js/m2x_avatar_user.js:0
@@ -1596,7 +1612,7 @@ msgstr "Klicken um die Anhänge zu sehen"
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_preview_view_form
 #, python-format
 msgid "Close"
-msgstr "Abschließen"
+msgstr "Schließen"
 
 #. module: mail
 #. openerp-web
@@ -1936,7 +1952,7 @@ msgstr "Erzeugt am"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_ice_server__credential
 msgid "Credential"
-msgstr ""
+msgstr "Anmeldedaten"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__currency_id
@@ -2192,7 +2208,7 @@ msgstr "Trennen"
 #: code:addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:0
 #, python-format
 msgid "Disconnected from the RTC call by the server"
-msgstr ""
+msgstr "Verbindung zum RTC-Call durch den Server unterbrochen"
 
 #. module: mail
 #. openerp-web
@@ -2752,7 +2768,7 @@ msgstr "QWeb-Vorlage konnte nicht gerendert werden : %s)"
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render inline_template template : %s)"
-msgstr ""
+msgstr "Die Vorlage inline_template konnte nicht gerendert werden : %s)"
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
@@ -2812,7 +2828,7 @@ msgstr "Feld"
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Field \"Mail Activity\" cannot be changed to \"False\"."
-msgstr ""
+msgstr "Das Feld \"Mail Activity\" kann nicht auf \"False\" geändert werden."
 
 #. module: mail
 #: code:addons/mail/models/ir_model.py:0
@@ -2834,7 +2850,7 @@ msgstr "Feld Beschreibung"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_groups
 msgid "Field Groups"
-msgstr ""
+msgstr "Feldgruppen"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_type
@@ -3012,7 +3028,7 @@ msgstr "Gateway"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__activity_user_type__generic
 msgid "Generic User From Record"
-msgstr ""
+msgstr "Generischer Benutzer aus Datensatz"
 
 #. module: mail
 #: code:addons/mail/models/res_users.py:0
@@ -3357,6 +3373,9 @@ msgid ""
 "the email will be send as soon as possible. You can use dynamic expressions "
 "expression."
 msgstr ""
+"Wenn diese Option gesetzt ist, sendet der Warteschlangenmanager die E-Mail "
+"nach diesem Datum. Wenn nicht festgelegt, wird die E-Mail so schnell wie "
+"möglich versendet. Sie können dynamische Ausdrücke verwenden."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_bounced_content
@@ -3883,7 +3902,7 @@ msgstr "Layout"
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_kanban
 #, python-format
 msgid "Leave"
-msgstr "Urlaub"
+msgstr "Verlassen"
 
 #. module: mail
 #. openerp-web
@@ -4048,7 +4067,7 @@ msgstr "Formular für E-Mail-Kanal"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_composer_mixin
 msgid "Mail Composer Mixin"
-msgstr ""
+msgstr "Mail Composer Mixin"
 
 #. module: mail
 #. openerp-web
@@ -5030,6 +5049,8 @@ msgstr "Nur Administratoren dürfen E-Mail-Nachrichten exportieren"
 #, python-format
 msgid "Only administrators are allowed to use grouped read on message model"
 msgstr ""
+"Nur Administratoren dürfen das gruppierte Lesen im Nachrichtenmodell "
+"verwenden"
 
 #. module: mail
 #: code:addons/mail/models/ir_model.py:0
@@ -5944,7 +5965,7 @@ msgstr "Report Dateiname"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__request_partner_id
 msgid "Requesting Partner"
-msgstr ""
+msgstr "Anfordernder Partner"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users__res_users_settings_ids
@@ -6003,6 +6024,12 @@ msgstr "Rendering von Vorlagen einschränken"
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Restrict mail templates and Jinja rendering."
 msgstr "Mail-Vorlagen und Jinja-Rendering einschränken."
+
+#. module: mail
+#: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
+msgid "Restrict mail templates edition and QWEB placeholders usage."
+msgstr ""
+"Schränken Sie die Verwendung von E-Mail-Vorlagen und QWEB-Platzhaltern ein."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -6217,7 +6244,10 @@ msgstr ""
 "entsprechenden Kontakt gespeichert."
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel__public__groups
+#, python-format
 msgid "Selected group of users"
 msgstr "Ausgewählte Gruppe von Nutzern"
 
@@ -6703,6 +6733,12 @@ msgid "Targeted model"
 msgstr ""
 
 #. module: mail
+#: model:ir.model.fields,field_description:mail.field_res_partner__vat
+#: model:ir.model.fields,field_description:mail.field_res_users__vat
+msgid "Tax ID"
+msgstr "USt-IdNr"
+
+#. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__has_recommended_activities
 msgid "Technical field for UX purpose"
 msgstr "Datenfeld für die Benutzerfreundlichkeit"
@@ -6749,6 +6785,8 @@ msgstr "Vorlagenvorschau Sprache"
 #, python-format
 msgid "Template rendering for language should be called with a list of IDs."
 msgstr ""
+"Das Template-Rendering für die Sprache sollte mit einer Liste von IDs "
+"aufgerufen werden."
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
@@ -6772,6 +6810,8 @@ msgid ""
 "Template rendering supports only inline_template, qweb, or qweb_view (view "
 "or raw)."
 msgstr ""
+"Das Rendern von Vorlagen unterstützt nur inline_template, qweb oder "
+"qweb_view (view oder raw)."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -6796,7 +6836,7 @@ msgstr "Der"
 #: code:addons/mail/models/ir_actions_server.py:0
 #, python-format
 msgid "The 'Due Date In' value can't be negative."
-msgstr ""
+msgstr "Der Wert \"Fälligkeitsdatum in\" kann nicht negativ sein."
 
 #. module: mail
 #. openerp-web
@@ -7591,12 +7631,6 @@ msgstr ""
 "(@mycompany.odoo.com) profitieren."
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_res_partner__vat
-#: model:ir.model.fields,field_description:mail.field_res_users__vat
-msgid "VAT/Tax ID"
-msgstr "MwSt./Steuer-ID"
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:0
 #: code:addons/mail/static/src/xml/thread.xml:0
@@ -7875,6 +7909,16 @@ msgid ""
 msgstr ""
 "Sie können in der Alias-Adresse (%s) nur lateinische Zeichen ohne Akzent "
 "verwenden."
+
+#. module: mail
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist emails. Please contact your "
+"administrator."
+msgstr ""
+"Sie haben keine Zugriffsrechte, um E-Mails aus der Blacklist zu entfernen. "
+"Bitte wenden Sie sich an Ihren Administrator."
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
@@ -8237,6 +8281,8 @@ msgstr ""
 #, python-format
 msgid "message_post partner_ids and must be integer list, not commands."
 msgstr ""
+"message_post partner_ids und muss eine ganzzahlige Liste sein, keine "
+"Befehle."
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
@@ -8333,6 +8379,8 @@ msgid ""
 "reply to missing document (%(model)s,%(thread)s), fall back on document "
 "creation"
 msgstr ""
+"Antwort auf fehlendes Dokument (%(model)s, %(thread)s), Rückgriff auf "
+"Dokumentenerstellung"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
@@ -8365,7 +8413,7 @@ msgstr "beschränkt auf unbekannte Autoren"
 #: code:addons/mail/static/src/components/channel_invitation_form/channel_invitation_form.xml:0
 #, python-format
 msgid "results out of"
-msgstr ""
+msgstr "Ergebnisse von"
 
 #. module: mail
 #: model:mail.channel,name:mail.channel_1
@@ -8419,7 +8467,7 @@ msgstr "zu schließen für"
 #: code:addons/mail/static/src/components/rtc_configuration_menu/rtc_configuration_menu.xml:0
 #, python-format
 msgid "toggle push-to-talk"
-msgstr ""
+msgstr "Push-to-Talk einschalten"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_ice_server__server_type__turn

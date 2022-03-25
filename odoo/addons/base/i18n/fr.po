@@ -16,6 +16,7 @@
 # Geoffrey_GMF <gmf@odoo.com>, 2022
 # Martin Trigaux, 2022
 # Cécile Collart <cco@odoo.com>, 2022
+# Antoine Dupuis (andu), 2022
 # 
 msgid ""
 msgstr ""
@@ -23,7 +24,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2022\n"
+"Last-Translator: Antoine Dupuis (andu), 2022\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5244,7 +5245,7 @@ msgid ""
 "If required, you can manually adjust the descriptions via the CODA configuration menu.\n"
 msgstr ""
 "\n"
-"Module d'importation des relevés de banque CODA.\n"
+"Module d'importation des relevés bancaires CODA.\n"
 "=========================================\n"
 "\n"
 "Prise en compte des fichiers plats CODA V2 des comptes bancaires belges.\n"
@@ -8506,8 +8507,8 @@ msgid ""
 " another model requires the record being deleted. If possible, archive it "
 "instead."
 msgstr ""
-"un autre modèle nécessite la suppression de l'enregistrement. Si possible, "
-"archivez-le à la place."
+"l'enregistrement que vous tentez de supprimer est requis par un autre "
+"modèle. Si possible, archivez-le plutôt."
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -8753,7 +8754,7 @@ msgid ""
 "- Delete: another model requires the record being deleted. If possible, archive it instead."
 msgstr ""
 "- Créer / mettre à jour: un champ obligatoire n'est pas défini.\n"
-"- Supprimer: un autre modèle nécessite la suppression de l'enregistrement. Si possible, archivez-le."
+"- Supprimer: l'enregistrement que vous tentez de supprimer est requis par un autre modèle. Si possible, archivez-le."
 
 #. module: base
 #: code:addons/models.py:0
@@ -9802,7 +9803,7 @@ msgstr "Données de Démonstration pour les Transferts Automatiques de Compte"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_import
 msgid "Account Bank Statement Import"
-msgstr "Import de Relevé de Compte Bancaire"
+msgstr "Import de Relevés Bancaires"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_accountant_batch_payment
@@ -23308,7 +23309,7 @@ msgstr "Rendez-vous en ligne"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_online_synchronization
 msgid "Online Bank Statement Synchronization"
-msgstr ""
+msgstr "Synchronisation des relevés bancaires en ligne"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_booth_sale

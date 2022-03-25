@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Stephen Schmidt <stephen.schmidt@linserv.se>, 2021
+# Daniel Osser <danielosser@gmail.com>, 2021
 # Anto Nilsson <anton.nilsson@vertel.se>, 2021
 # Christelle Wehbe <libanon_cristelle@hotmail.com>, 2021
 # Frida E, 2021
@@ -21,12 +22,11 @@
 # Lisa <lisa.oskoma@vertel.se>, 2021
 # STefan Rundgren <stefanrundgren@cellglas.com>, 2021
 # Kim Asplund <kim.asplund@gmail.com>, 2021
-# Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
 # Martin Trigaux, 2021
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
-# Daniel Osser <danielosser@gmail.com>, 2021
-# Victor Ekström, 2022
 # Robin Calvin, 2022
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2022
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2022
+# Victor Ekström, 2022
 # Simon S, 2022
 # 
 msgid ""
@@ -222,6 +222,13 @@ msgstr "(från"
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_done
 msgid "(originally assigned to"
 msgstr "(ursprungligen tilldelad"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/models/thread/thread.js:0
+#, python-format
+msgid ", "
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -702,7 +709,7 @@ msgstr "Dekoration för aktivitetsundantag"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_mixin
 msgid "Activity Mixin"
-msgstr ""
+msgstr "Aktivitets mixin"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form
@@ -1018,6 +1025,13 @@ msgstr "Är du säker på att du vill radera det här meddelandet?"
 msgid ""
 "Are you sure you want to discard %s mail delivery failures? You won't be "
 "able to re-send these mails later!"
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/models/mail_blacklist.py:0
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Email Address?"
 msgstr ""
 
 #. module: mail
@@ -2346,7 +2360,7 @@ msgstr "Förfallodatum"
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__activity_date_deadline_range
 #: model:ir.model.fields,field_description:mail.field_ir_cron__activity_date_deadline_range
 msgid "Due Date In"
-msgstr ""
+msgstr "Förfallodatum"
 
 #. module: mail
 #. openerp-web
@@ -2360,7 +2374,7 @@ msgstr "Förfaller om %d dagar"
 #: code:addons/mail/static/src/components/activity/activity.js:0
 #, python-format
 msgid "Due in %d days:"
-msgstr ""
+msgstr "Förfaller om %d dagar"
 
 #. module: mail
 #. openerp-web
@@ -4537,7 +4551,7 @@ msgstr "Nya meddelanden syns här."
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
 msgid "New values"
-msgstr ""
+msgstr "Nya värden"
 
 #. module: mail
 #. openerp-web
@@ -5859,6 +5873,11 @@ msgid "Restrict mail templates and Jinja rendering."
 msgstr ""
 
 #. module: mail
+#: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
+msgid "Restrict mail templates edition and QWEB placeholders usage."
+msgstr ""
+
+#. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Retry"
@@ -6071,7 +6090,10 @@ msgstr ""
 "kontakt."
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel__public__groups
+#, python-format
 msgid "Selected group of users"
 msgstr ""
 
@@ -6547,6 +6569,12 @@ msgid "Targeted model"
 msgstr ""
 
 #. module: mail
+#: model:ir.model.fields,field_description:mail.field_res_partner__vat
+#: model:ir.model.fields,field_description:mail.field_res_users__vat
+msgid "Tax ID"
+msgstr "Moms-ID"
+
+#. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__has_recommended_activities
 msgid "Technical field for UX purpose"
 msgstr ""
@@ -6634,7 +6662,7 @@ msgstr "Den"
 #: code:addons/mail/models/ir_actions_server.py:0
 #, python-format
 msgid "The 'Due Date In' value can't be negative."
-msgstr ""
+msgstr "Förfallodatum kan inte vara negativt"
 
 #. module: mail
 #. openerp-web
@@ -7387,12 +7415,6 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_res_partner__vat
-#: model:ir.model.fields,field_description:mail.field_res_users__vat
-msgid "VAT/Tax ID"
-msgstr "VAT/Orgnr"
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:0
 #: code:addons/mail/static/src/xml/thread.xml:0
@@ -7658,6 +7680,14 @@ msgid ""
 msgstr ""
 
 #. module: mail
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist emails. Please contact your "
+"administrator."
+msgstr ""
+
+#. module: mail
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "You have been assigned to %s"
@@ -7723,7 +7753,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 msgid "Your"
-msgstr ""
+msgstr "Ditt"
 
 #. module: mail
 #. openerp-web
@@ -7957,7 +7987,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_origin_link
 msgid "has been created from:"
-msgstr ""
+msgstr "har skapats från:"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_origin_link

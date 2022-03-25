@@ -2232,6 +2232,14 @@ msgid "It has already been unblocked."
 msgstr "已经解除阻塞"
 
 #. module: mrp
+#: code:addons/mrp/models/mrp_workorder.py:0
+#, python-format
+msgid ""
+"It is not possible to unplan one single Work Order. You should unplan the "
+"Manufacturing Order instead in order to unplan all the linked operations."
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_planned
 msgid "Its Operations are Planned"
 msgstr "已计划其作业"
@@ -4515,7 +4523,7 @@ msgstr "序列号的数量多于生产的数量"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid ""
 "There are no components to consume. Are you still sure you want to continue?"
-msgstr ""
+msgstr "没有要消耗的组件。 您仍然确定要继续吗？"
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves

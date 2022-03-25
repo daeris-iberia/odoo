@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-28 15:25+0000\n"
-"PO-Revision-Date: 2021-10-28 17:45+0200\n"
+"PO-Revision-Date: 2022-03-24 13:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,14 +36,14 @@ msgid ""
 "%(date_start)s at %(time_start)s To\n"
 " %(date_end)s at %(time_end)s (%(timezone)s)"
 msgstr ""
-"%(date_start)s a %(time_start)s Para\n"
-" %(date_end)s a %(time_end)s (%(timezone)s)"
+"%(date_start)s a las %(time_start)s a\n"
+" %(date_end)s a las %(time_end)s (%(timezone)s)"
 
 #. module: calendar
 #: code:addons/calendar/models/calendar_event.py:0
 #, python-format
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
-msgstr "%(day)s a (%(start)s Para %(end)s) (%(timezone)s)"
+msgstr "%(day)s de (%(start)s a %(end)s) (%(timezone)s)"
 
 #. module: calendar
 #: code:addons/calendar/models/calendar_attendee.py:0

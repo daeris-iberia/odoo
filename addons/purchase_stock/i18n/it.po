@@ -470,7 +470,7 @@ msgstr "Categoria prodotto"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenishment_info__supplierinfo_id
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__supplier_id
 msgid "Product Supplier"
-msgstr ""
+msgstr "Fornitore del prodotto"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_product_template
@@ -480,7 +480,7 @@ msgstr "Modello prodotto"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__propagate_cancel
 msgid "Propagate cancellation"
-msgstr ""
+msgstr "Propagare annullamento"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_res_partner__purchase_line_ids

@@ -5,8 +5,8 @@
 # Translators:
 # Mustafa Rawi <mustafa@cubexco.com>, 2021
 # Talal Albahra <talal.albahra@outlook.com>, 2021
-# Martin Trigaux, 2021
 # Paul Andrawes, 2021
+# Martin Trigaux, 2022
 # Malaz Abuidris <msea@odoo.com>, 2022
 # 
 msgid ""
@@ -200,6 +200,13 @@ msgstr "(من"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_done
 msgid "(originally assigned to"
+msgstr ""
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/models/thread/thread.js:0
+#, python-format
+msgid ", "
 msgstr ""
 
 #. module: mail
@@ -444,7 +451,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "<span>@</span>"
-msgstr ""
+msgstr "<span>@</span>"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -985,6 +992,13 @@ msgid ""
 msgstr ""
 
 #. module: mail
+#: code:addons/mail/models/mail_blacklist.py:0
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Email Address?"
+msgstr ""
+
+#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/m2x_avatar_user.js:0
 #: code:addons/mail/static/src/js/m2x_avatar_user.js:0
@@ -1155,22 +1169,22 @@ msgstr "الصورة الرمزية"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_guest__avatar_1024
 msgid "Avatar 1024"
-msgstr ""
+msgstr "الصورة الرمزية 1024 "
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_guest__avatar_128
 msgid "Avatar 128"
-msgstr ""
+msgstr "الصورة الرمزية 128 "
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_guest__avatar_256
 msgid "Avatar 256"
-msgstr ""
+msgstr "الصورة الرمزية 256 "
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_guest__avatar_512
 msgid "Avatar 512"
-msgstr ""
+msgstr "الصورة الرمزية 512 "
 
 #. module: mail
 #. openerp-web
@@ -5866,6 +5880,11 @@ msgid "Restrict mail templates and Jinja rendering."
 msgstr ""
 
 #. module: mail
+#: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
+msgid "Restrict mail templates edition and QWEB placeholders usage."
+msgstr ""
+
+#. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Retry"
@@ -6077,7 +6096,10 @@ msgstr ""
 "سيتم حفظ العنوان المعدل لجهة الاتصال المقابلة له."
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel__public__groups
+#, python-format
 msgid "Selected group of users"
 msgstr "مجموعة المستخدمين المحددة"
 
@@ -6554,6 +6576,12 @@ msgstr "إخطار من النظام"
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__model_id
 msgid "Targeted model"
 msgstr ""
+
+#. module: mail
+#: model:ir.model.fields,field_description:mail.field_res_partner__vat
+#: model:ir.model.fields,field_description:mail.field_res_users__vat
+msgid "Tax ID"
+msgstr "معرف الضريبة"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__has_recommended_activities
@@ -7416,12 +7444,6 @@ msgstr ""
 "بالفعل من سيرفر بريد إلكتروني جاهز للاستعمال (@mycompany.odoo.com)."
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_res_partner__vat
-#: model:ir.model.fields,field_description:mail.field_res_users__vat
-msgid "VAT/Tax ID"
-msgstr "الضريبة/معرف الضريبة "
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:0
 #: code:addons/mail/static/src/xml/thread.xml:0
@@ -7688,6 +7710,14 @@ msgstr ""
 msgid ""
 "You cannot use anything else than unaccented latin characters in the alias "
 "address (%s)."
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist emails. Please contact your "
+"administrator."
 msgstr ""
 
 #. module: mail
