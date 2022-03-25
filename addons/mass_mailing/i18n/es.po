@@ -31,17 +31,17 @@ msgstr "20€"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "% of recipients"
-msgstr "% de destinatarios"
+msgstr "% de los destinatarios"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "% of recipients."
-msgstr "% de destinatarios."
+msgstr "% de los destinatarios."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "% receive one of the"
-msgstr "% recibido uno de los"
+msgstr "% recibirá una de las"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mass_mailing_kpi_link_trackers
@@ -110,7 +110,7 @@ msgstr "&amp;nbsp;&amp;nbsp;"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ", and"
-msgstr ", y"
+msgstr ", y una muestra del"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
@@ -504,13 +504,13 @@ msgid ""
 "<span name=\"canceled_text\">emails have been canceled and will not be sent."
 "</span>"
 msgstr ""
-"<span name=\"canceled_text\">los correos electrónicos han sido cancelados y "
+"<span name=\"canceled_text\">correos electrónicos han sido cancelados y "
 "no se enviarán.</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_mailing_view_form_full_width
 msgid "<span name=\"failed_text\">email(s) not sent.</span>"
-msgstr "<span name=\"failed_text\">correo electrónico(s) no enviado(s).</span>"
+msgstr "<span name=\"failed_text\">correos electrónicos no han sido enviado.</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -529,7 +529,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_mailing_view_form_full_width
 msgid "<span name=\"scheduled_text\">email(s) scheduled for </span>"
 msgstr ""
-"<span name=\"scheduled_text\">correo electrónico (s) programado (s) para </"
+"<span name=\"scheduled_text\">correos electrónicos programados para </"
 "span>"
 
 #. module: mass_mailing
@@ -538,13 +538,13 @@ msgid ""
 "<span name=\"scheduled_text\">emails are in queue and will be sent soon.</"
 "span>"
 msgstr ""
-"<span name=\"scheduled_text\">los correos electrónicos están en cola y se "
+"<span name=\"scheduled_text\">correos electrónicos están en cola y se "
 "enviarán pronto.</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "<span name=\"sent\">emails have been sent.</span>"
-msgstr "<span name=\"sent\">se han enviado correos electrónicos.</span>"
+msgstr "<span name=\"sent\">correos electrónicos han sido enviados.</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount2
@@ -664,7 +664,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "A sample of"
-msgstr "Una muestra de"
+msgstr "Una muestra del "
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
@@ -1337,7 +1337,7 @@ msgstr "Haga clic en este párrafo para editarlo."
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Clicked"
-msgstr "Seleccionado"
+msgstr "Clic"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
@@ -2620,7 +2620,7 @@ msgstr "Gestionar campañas de envíos masivos"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Manage campaigns and A/B test your mailings"
-msgstr "Crear campañas para agrupar tus mailings"
+msgstr "Crear campañas para agrupar tus mailings y efectuar pruebas A/B"
 
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__utm_campaign__ab_testing_winner_selection__manual
@@ -3576,7 +3576,7 @@ msgstr "Enviar"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__ab_testing_schedule_datetime
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_schedule_datetime
 msgid "Send Final On"
-msgstr "Enviar final en"
+msgstr "Enviar definitivo el"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__email_from
@@ -4016,7 +4016,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "Then on"
-msgstr "Luego en"
+msgstr "Posteriormente, el"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mailing.py:0
@@ -4281,7 +4281,7 @@ msgstr "Usa Este Código Promocional ANTES del 1 de Agosto"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Use a dedicated server for mailings"
-msgstr "Use un servidor dedicado para correos"
+msgstr "Usa un servidor dedicado para correos"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__mail_server_id
@@ -4292,7 +4292,7 @@ msgid ""
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Use un servidor de correo específico con prioridad. De lo contrario, Daeris "
+"Usa un servidor de correo específico con prioridad. De lo contrario, Daeris "
 "usa el primer servidor de correo saliente disponible (según su secuencia) "
 "como lo hace para los correos normales."
 
@@ -4318,7 +4318,7 @@ msgid ""
 "or right-aligned image alongside textual content. Duplicate the element to "
 "create a list that fits your needs."
 msgstr ""
-"Utilice este fragmento de código para crear varios tipos de componentes que "
+"Utiliza este fragmento de código para crear varios tipos de componentes que "
 "presenten una imagen alineada a la izquierda o a la derecha junto con el "
 "contenido textual. Duplica el elemento para crear una lista que se ajuste a "
 "tus necesidades."
@@ -4464,7 +4464,7 @@ msgstr "Ancho"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__ab_testing_winner_selection
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
-msgstr "Selección del ganador"
+msgstr "Obtener ganador"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
@@ -4673,7 +4673,7 @@ msgstr "de la misma campaña."
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "having the"
-msgstr "teniendo el"
+msgstr "que tenga la"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
