@@ -1090,7 +1090,7 @@ msgstr "Agregarme a la lista negra"
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__show_blacklist_buttons
 msgid "Blacklist Option when Unsubscribing"
 msgstr ""
-"Mostrar botón de añadir a la lista negra en la pagina de cancelación de la "
+"Mostrar botón de añadir a la lista negra en la página de cancelación de la "
 "suscripción"
 
 #. module: mass_mailing
