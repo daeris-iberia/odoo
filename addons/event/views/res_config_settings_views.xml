@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h2>Attendance</h2>
+                        <!--h2>Attendance</h2-->
                         <div class="row mt16 o_settings_container" name="attendance_setting_container">
                             <div class="col-12 col-lg-6 o_setting_box" id="event_barcode">
                                 <div class="o_setting_left_pane">
