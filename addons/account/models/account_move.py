@@ -2343,7 +2343,7 @@ class AccountMove(models.Model):
 
     def _creation_subtype(self):
         # OVERRIDE
-        if self.move_type in ('out_invoice', 'out_refund', 'out_receipt'):
+        if self.move_type in ('out_invoice', 'out_receipt'):
             return self.env.ref('account.mt_invoice_created')
         else:
             return super(AccountMove, self)._creation_subtype()
@@ -4043,8 +4043,9 @@ class AccountMoveLine(models.Model):
                 'discount': 0.0,
                 'price_unit': amount_currency / (quantity or 1.0),
             }
-        elif not discount_factor:
-            # balance of line is 0, but discount  == 100% so we display the normal unit_price
+        elif not discount_factor or not amount_currency:
+            # balance of line is 0, but discount == 100% or taxes (price included) == 100%,
+            # so we display the normal unit_price
             vals = {}
         else:
             # balance is 0, so unit price is 0 as well
@@ -4754,6 +4755,17 @@ class AccountMoveLine(models.Model):
             name += (line.name or line.product_id.display_name) and (' ' + (line.name or line.product_id.display_name)) or ''
             result.append((line.id, name))
         return result
+
+    @api.model
+    def invalidate_cache(self, fnames=None, ids=None):
+        # Invalidate cache of related moves
+        if fnames is None or 'move_id' in fnames:
+            field = self._fields['move_id']
+            lines = self.env.cache.get_records(self, field) if ids is None else self.browse(ids)
+            move_ids = {id_ for id_ in self.env.cache.get_values(lines, field) if id_}
+            if move_ids:
+                self.env['account.move'].invalidate_cache(ids=move_ids)
+        return super().invalidate_cache(fnames=fnames, ids=ids)
 
     # -------------------------------------------------------------------------
     # TRACKING METHODS
