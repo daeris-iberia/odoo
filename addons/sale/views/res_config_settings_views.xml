@@ -424,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="mt32">Connectors</h2>
+                    <!--h2 class="mt32">Connectors</h2-->
                     <div class="row mt16 o_settings_container" id="connectors_setting_container">
                         <div class="col-12 col-lg-6 o_setting_box" id="amazon_connector">
                             <div class="o_setting_left_pane">
