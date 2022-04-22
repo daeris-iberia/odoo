@@ -510,7 +510,7 @@ msgstr ""
 "\n"
 "\n"
 "Mit diesem Modul kann der Kassierer schnell prozentbasierte\n"
-"Rabatt für einen Kunden.\n"
+"Rabatt für einen Kunden berechnen und anwenden.\n"
 "\n"
 
 #. module: base
@@ -807,6 +807,9 @@ msgid ""
 "        Bridge module between point_of_sale and account_reports,\n"
 "        for tax reporting."
 msgstr ""
+"\n"
+"Bridgemodul zwischen point_of_sale und account_reports,\n"
+"für Steuerberichte."
 
 #. module: base
 #: model:ir.module.module,description:base.module_purchase_intrastat
@@ -2838,7 +2841,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Ermöglicht es Rechnungen per Post zu senden."
+"Ermöglicht den Rechnungsversand per Post.\n"
+"====================================================="
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_iot
@@ -7967,6 +7971,8 @@ msgid ""
 "widget.\n"
 "    "
 msgstr ""
+"\n"
+"Dieses Modul fügt die Möglichkeit hinzu, im Abstimmungs-Widget nach Schecknummer zu filtern."
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_attendance
@@ -10613,7 +10619,7 @@ msgstr "Inhaber der Bankverbindung, wenn dieser nicht der Kunde ist"
 #. module: base
 #: model:ir.module.module,summary:base.module_account_sale_timesheet
 msgid "Account sale timesheet"
-msgstr ""
+msgstr "Konto Verkauf Stundenzettel"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting
@@ -10787,7 +10793,7 @@ msgstr "Verwendung"
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_act_window
 msgid "Action Window"
-msgstr "Aktives Fenster"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_act_window_close
@@ -10874,8 +10880,8 @@ msgstr "Sprache hinzufügen"
 #: model:ir.module.module,summary:base.module_data_merge_helpdesk
 msgid "Add Merge action in contextual menu of helpdesk ticket model."
 msgstr ""
-"das Produkt aus der Kostenbeschreibung auf der Grundlage alter "
-"Beschreibungen vorhersagen"
+"Hinzufügen der Aktion Zusammenführen im Kontextmenü des Helpdesk-Ticket-"
+"Modells."
 
 #. module: base
 #: model:ir.module.module,description:base.module_data_merge_project
@@ -11030,6 +11036,8 @@ msgstr "Unterstützung für Verkaufsabonnements in Massenmailings hinzufügen"
 #: model:ir.module.module,summary:base.module_stock_barcode_picking_batch
 msgid "Add the support of batch transfers into the barcode view"
 msgstr ""
+"Aggiungi il supporto dei trasferimenti in batch nella vista dei codici a "
+"barre"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_product_matrix
@@ -11044,7 +11052,7 @@ msgstr "Ansichten und Optimierungen zum Event hinzufügen"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_31
 msgid "Addison Olson is a mighty sales representative at Deco Addict."
-msgstr "Addison Olson ist eine starke Handelsvertreterin bei Deco Addict."
+msgstr "Addison Olson ist eine starke Vertriebsmitarbeiterin bei Deco Addict."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_31
@@ -11055,7 +11063,7 @@ msgid ""
 msgstr ""
 "Addison Olson arbeitet <b>seit 10 Jahren</b> im IT-Sektor. Er ist vor allem bekannt\n"
 " für den Verkauf von Mausefallen. Mit diesem Trick hat er\n"
-"das IT-Budget in den letzten 2 Jahren fast um die Hälfte."
+"das IT-Budget in den letzten 2 Jahren fast um die Hälfte gekürzt."
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -11461,7 +11469,7 @@ msgid ""
 "Allows to send sms to website visitor if the visitor is linked to a lead."
 msgstr ""
 "Erlaubt das Senden von SMS an Website-Besucher, wenn der Besucher mit einem "
-"Lead verlinkt ist."
+"Lead verknüpft ist."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sms
@@ -11904,7 +11912,7 @@ msgstr "Beziehungsmanagement"
 #: code:addons/base/models/res_lang.py:0
 #, python-format
 msgid "At least one language must be active."
-msgstr "Es muss wenigstens eine Sprache aktiviert sein."
+msgstr "Es muss mindestens eine Sprache aktiviert sein."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_attachment
@@ -12335,7 +12343,7 @@ msgstr "Barbados"
 #: model:ir.module.module,shortdesc:base.module_barcodes
 #: model:ir.module.module,shortdesc:base.module_stock_barcode
 msgid "Barcode"
-msgstr "Strichcode"
+msgstr "Barcode"
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -12475,7 +12483,8 @@ msgstr "Grundlegende Modelle und Helfer zur Unterstützung von In-App-Käufen."
 #. module: base
 #: model:ir.module.module,summary:base.module_iot
 msgid "Basic models and helpers to support Internet of Things."
-msgstr "Grundmodelle und Helfer zur Unterstützung des Internets der Dinge."
+msgstr ""
+"Grundmodelle und Helfer zur Unterstützung des Internets der Dinge (IoT)."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_batch_payment
@@ -12631,7 +12640,7 @@ msgstr "Benin"
 #. module: base
 #: model:res.country,name:base.bm
 msgid "Bermuda"
-msgstr "Bermudas"
+msgstr "Bermuda"
 
 #. module: base
 #: model:res.country,name:base.bt
@@ -12737,7 +12746,7 @@ msgstr "Botswana"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__margin_bottom
 msgid "Bottom Margin (mm)"
-msgstr "Fußrand (mm)"
+msgstr "unterer Seitenrand (mm)"
 
 #. module: base
 #: model:res.country,name:base.bv
@@ -13519,7 +13528,7 @@ msgstr "Stadt"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_city
 msgid "City Addresses"
-msgstr "Stadt-Adressen"
+msgstr "Stadt Adressen"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_logging__type__client
@@ -15297,7 +15306,7 @@ msgstr "Demo-Fehlerassistent"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_demo_failure_wizard__failure_ids
 msgid "Demo Installation Failures"
-msgstr "Demo Installationsfehler"
+msgstr "Installationsfehler Demo"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
@@ -15376,7 +15385,7 @@ msgstr "Beschreibung HTML"
 #. module: base
 #: model:ir.module.module,summary:base.module_mass_mailing_themes
 msgid "Design gorgeous mails"
-msgstr "Entwurf von großartigen E-Mails"
+msgstr "Entwerfen Sie großartige E-Mails"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_quotation_builder
@@ -16011,7 +16020,7 @@ msgstr "ESC/POS Hardware-Treiber"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eu_oss
 msgid "EU One Stop Shop (OSS)"
-msgstr ""
+msgstr "EU One-Stop-Shop (OSS)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eu_oss_reports
@@ -16388,7 +16397,7 @@ msgstr "Unterhaltung"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__entry_count
 msgid "Entry count"
-msgstr ""
+msgstr "Anzahl Einträge"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_epson_printer_restaurant
@@ -17557,7 +17566,7 @@ msgstr "E-Mail Adressenformat \"Name <email@domain>\""
 #: model:ir.model.fields,field_description:base.field_res_partner__email_formatted
 #: model:ir.model.fields,field_description:base.field_res_users__email_formatted
 msgid "Formatted Email"
-msgstr "Formatierte Email"
+msgstr "Formatierte E-Mail"
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -17859,7 +17868,7 @@ msgstr "Schlüssel generieren"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_crm
 msgid "Generate leads from a contact form"
-msgstr "Generieren Sie Interessenten aus einem Kontaktformular."
+msgstr "Generieren Sie Leads aus einem Kontaktformular."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_appointment_crm
@@ -18031,7 +18040,7 @@ msgstr "Geschenkkarte für Point of Sale-Modul"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_gift_card
 msgid "Gift Card for sales module"
-msgstr ""
+msgstr "Geschenkkarte für Verkaufsmodul"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_rule__global
@@ -18711,7 +18720,7 @@ msgstr "HR Spesenauszug"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_expense_predict_product
 msgid "Hr Expense Predict product"
-msgstr ""
+msgstr "Operazione di ricerca non supportata"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_survey
@@ -19198,7 +19207,7 @@ msgstr "Implementierung von dünnbesetzten Feldern."
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_l10n_se
 msgid "Implements the registered cash system"
-msgstr ""
+msgstr "Führt das Registrierkassensystem ein"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_blackbox_be
@@ -19253,7 +19262,7 @@ msgstr "Importiere QIF Bankauszug"
 #: code:addons/base/models/res_partner.py:0
 #, python-format
 msgid "Import Template for Customers"
-msgstr "Vorlagen für Kunden importieren"
+msgstr "Vorlage für Kunden importieren"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_import_language
@@ -20096,7 +20105,7 @@ msgstr "Jersey"
 #: model:ir.model.fields,field_description:base.field_res_partner__function
 #: model:ir.model.fields,field_description:base.field_res_users__function
 msgid "Job Position"
-msgstr "Stelle"
+msgstr "Arbeitsstelle"
 
 #. module: base
 #: model:res.country,name:base.jo
@@ -21375,6 +21384,8 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base.action_country
 msgid "Manage the list of countries that can be set on your contacts."
 msgstr ""
+"Verwalten Sie die Liste der Länder, die für Ihre Kontakte festgelegt werden "
+"können."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_work_entry
@@ -21600,7 +21611,7 @@ msgstr "Massenversand von SMS zu Leads/Opportunities"
 #: model:ir.module.module,description:base.module_mass_mailing_sale_sms
 #: model:ir.module.module,shortdesc:base.module_mass_mailing_sale_sms
 msgid "Mass mailing sms on sale orders"
-msgstr ""
+msgstr "Massenversand von SMS bei Verkaufsbestellungen"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_mps
@@ -21651,7 +21662,7 @@ msgstr "Menü"
 #: model:ir.actions.act_window,name:base.grant_menu_access
 #: model:ir.ui.menu,name:base.menu_grant_menu_access
 msgid "Menu Items"
-msgstr "Menüeinträge"
+msgstr "Menüposten"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__name
@@ -21848,7 +21859,7 @@ msgstr "Sonstiges"
 #: model:res.partner.title,name:base.res_partner_title_miss
 #: model:res.partner.title,shortcut:base.res_partner_title_miss
 msgid "Miss"
-msgstr "Frl."
+msgstr "Fr."
 
 #. module: base
 #: code:addons/base/models/ir_mail_server.py:0
@@ -21989,7 +22000,7 @@ msgstr "Modellname"
 #. module: base
 #: model:ir.actions.report,name:base.report_ir_model_overview
 msgid "Model Overview"
-msgstr "Modulübersicht"
+msgstr "Modellübersicht"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__crud_model_id
@@ -21998,8 +22009,8 @@ msgid ""
 "Model for record creation / update. Set this field only to specify a "
 "different model than the base model."
 msgstr ""
-"Datenmodell für das Beleg erstellen / updaten . Setzen Sie dies Modul nur "
-"für den Fall ein,"
+"Modell für die Datensatzerstellung/-aktualisierung. Wählen Sie dieses Feld "
+"nur, wenn Sie ein anderes Modell als das Basismodell angeben möchten."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_act_window__res_model
@@ -25032,6 +25043,9 @@ msgid ""
 "One or more of the selected modules have already been uninstalled, if you "
 "believe this to be an error, you may try again later or contact support."
 msgstr ""
+"Eines oder mehrere der ausgewählten Module wurden bereits deinstalliert. "
+"Wenn Sie glauben, dass dies ein Fehler ist, können Sie es später noch einmal"
+" versuchen oder den Support kontaktieren."
 
 #. module: base
 #: code:addons/base/models/res_partner.py:0
@@ -25066,7 +25080,7 @@ msgstr "Online-Veranstaltungsstände"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_sale
 msgid "Online Event Ticketing"
-msgstr "Online Event Ticketing"
+msgstr "Online Event Ticketverkauf"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_hr_recruitment
@@ -25081,12 +25095,12 @@ msgstr "Online-Mitgliederverzeichnis"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_form_project
 msgid "Online Task Submission"
-msgstr "Online Task Submission"
+msgstr "Online Aufgabenübermittlung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_helpdesk_form
 msgid "Online Ticket Submission"
-msgstr "Online Ticket Submission"
+msgstr "Online-Ticket-Einreichung"
 
 #. module: base
 #: code:addons/base/models/res_config.py:0
@@ -25902,7 +25916,7 @@ msgstr "Oberkategorie"
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_parent_id
 #: model:ir.model.fields,field_description:base.field_res_company__parent_id
 msgid "Parent Company"
-msgstr "Stamm-Unternehmen"
+msgstr "Muttergesellschaft"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_menu__parent_id
@@ -26608,7 +26622,7 @@ msgstr "Professor"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_profile_view_list
 msgid "Profile Session"
-msgstr ""
+msgstr "Profil Sitzung"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_ir_profile
@@ -27027,7 +27041,7 @@ msgstr "Veranstaltungen veröffentlichen, Tickets verkaufen"
 #. module: base
 #: model:ir.module.module,summary:base.module_event_social
 msgid "Publish on social account from Event"
-msgstr ""
+msgstr "Veröffentlichen auf sozialen Konten aus Events"
 
 #. module: base
 #: model:ir.module.module,description:base.module_event_social
@@ -27154,7 +27168,7 @@ msgstr "Python Code"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_server_object_lines__evaluation_type__equation
 msgid "Python expression"
-msgstr "Python Ausdruck"
+msgstr "Python Expression"
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_Q
@@ -27392,7 +27406,7 @@ msgstr "RTN"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__font__raleway
 msgid "Raleway"
-msgstr "Autobahn"
+msgstr "Raleway"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency__rate_string
@@ -27553,7 +27567,7 @@ msgstr "Referenz"
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "Reference date"
-msgstr "Referenz-datum"
+msgstr "Bezugsdatum"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_referrals
@@ -28052,7 +28066,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_mail_server__smtp_host
 msgid "SMTP Server"
-msgstr "Postausgang-Server (SMTP)"
+msgstr "SMTP Server"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_purchase_stock
@@ -28308,7 +28322,7 @@ msgstr "Zeiterfassung im Vertrieb"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_timesheet_enterprise
 msgid "Sales Timesheet: Invoicing"
-msgstr ""
+msgstr "Stundenzettel Verkauf: Rechnungsstellung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_mrp
@@ -28915,8 +28929,8 @@ msgid ""
 "Setting a value makes this action available in the sidebar for the given "
 "model."
 msgstr ""
-"Das Setzen eines Wertes macht diese Aktion in der Sidebar für das gegebene "
-"Modell verfügbar."
+"Durch das Setzen eines Wertes wird diese Aktion in der Seitenleiste für das "
+"angegebene Modell verfügbar."
 
 #. module: base
 #: code:addons/base/models/res_users.py:0
@@ -29119,7 +29133,7 @@ msgstr "Slowenien - Buchführung"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_snailmail
 msgid "Snail Mail"
-msgstr "Snail Mail"
+msgstr "Schneckenpost"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_snailmail_account_followup
@@ -29150,7 +29164,7 @@ msgstr "Social Instagram"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_social_linkedin
 msgid "Social LinkedIn"
-msgstr "Sozialer LinkedIn"
+msgstr "LinkedIn"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_marketing_social_marketing
@@ -29607,7 +29621,7 @@ msgstr "Subcontract Productions"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_mrp_subcontracting
 msgid "Subcontract with Barcode"
-msgstr ""
+msgstr "Untervertrag mit Barcode"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_account
@@ -30109,6 +30123,8 @@ msgstr "Tests für Feldumwandlungen"
 #: model:ir.module.module,shortdesc:base.module_test_auth_custom
 msgid "Tests that custom auth works & is not impaired by CORS"
 msgstr ""
+"Tests, ob die benutzerdefinierte Autorisierung funktioniert und nicht durch "
+"CORS beeinträchtigt wird"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_report__report_type__qweb-text
@@ -30400,7 +30416,7 @@ msgstr "Der interne Benutzer, der für diesen Kontakt verantwortlich ist."
 #: code:addons/base/models/res_country.py:0
 #, python-format
 msgid "The layout contains an invalid format key"
-msgstr ""
+msgstr "Das Layout enthält einen ungültigen Formatschlüssel"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model__inherited_model_ids
@@ -31056,8 +31072,8 @@ msgid ""
 "This module ensures that the taxes are computed on the invoice before a payment is created automatically for a subscription.\n"
 "    "
 msgstr ""
-"This module ensures that the taxes are computed on the invoice before a payment is created automatically for a subscription.\n"
-"    "
+"Questo modulo assicura che le imposte siano calcolate sulla fattura prima "
+"che un pagamento sia creato automaticamente per un abbonamento."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_taxcloud_delivery
@@ -31391,7 +31407,7 @@ msgstr "Verfolgen Sie Geräte und verwalten Sie Wartungsanfragen"
 #. module: base
 #: model:ir.module.module,summary:base.module_crm
 msgid "Track leads and close opportunities"
-msgstr "Track leads and close opportunities"
+msgstr "Leads verfolgen und Verkaufschancen erfolgreich wahrnehmen"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_recruitment
@@ -32562,7 +32578,7 @@ msgstr "Venezuelanische Buchführung"
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "Vertical bar"
-msgstr ""
+msgstr "Vertikaler Balken"
 
 #. module: base
 #: model:res.country,name:base.vn
@@ -32791,7 +32807,7 @@ msgstr "Web Editor"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_enterprise
 msgid "Web Enterprise"
-msgstr "Web-Enterprise"
+msgstr "Web Enterprise"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_gantt
@@ -32903,7 +32919,7 @@ msgstr "Website Mail"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_mail_group
 msgid "Website Mail Group"
-msgstr ""
+msgstr "Website Mail Group"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_mail
@@ -33170,7 +33186,7 @@ msgstr "Arbeitsblatt für Qualitätskontrolle"
 #. module: base
 #: model:ir.module.module,summary:base.module_helpdesk_fsm_report
 msgid "Worksheet template when planning an intervention"
-msgstr ""
+msgstr "Arbeitsblattvorlage für die Planung einer Aktion"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_payment_sips
@@ -33752,7 +33768,7 @@ msgstr "z.B. Französisch"
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
 msgid "e.g. John Doe"
-msgstr "z.B. John Doe"
+msgstr "z.B. Lieschen Müller"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -33958,7 +33974,7 @@ msgstr "minute"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog
 msgid "module(s) failed to install and were disabled"
-msgstr "Modul (e) konnten nicht installiert werden und wurden deaktiviert"
+msgstr "Modul(e) konnte(n) nicht installiert werden und wurden deaktiviert"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__ttype__monetary
@@ -34149,7 +34165,7 @@ msgstr "Test Übernahme"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_inherit_depends
 msgid "test-inherit-depends"
-msgstr ""
+msgstr "test-inherit-depends"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_inherits
