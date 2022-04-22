@@ -2,7 +2,7 @@
 <odoo>
 <data noupdate="1">
     <record id="lunch_location_main" model="lunch.location" forcecreate="0">
-        <field name="name">HQ Office</field>
+        <field name="name">Oficina central</field>
     </record>
 
     <record model="lunch.product.category" id="categ_sandwich" forcecreate="0">
@@ -15,17 +15,17 @@
     </record>
 
     <record id="categ_burger" model="lunch.product.category" forcecreate="0">
-        <field name="name">Burger</field>
+        <field name="name">Hamburguesa</field>
         <field name="image_1920" type="base64" file="lunch/static/img/burger.png"/>
     </record>
 
     <record id="categ_drinks" model="lunch.product.category" forcecreate="0">
-        <field name="name">Drinks</field>
+        <field name="name">Bebidas</field>
         <field name="image_1920" type="base64" file="lunch/static/img/drink.png"/>
     </record>
 
     <record id="partner_hungry_dog" model="res.partner" forcecreate="0">
-        <field name="name">Lunch Supplier</field>
+        <field name="name">Proveedor de Comida</field>
     </record>
 
     <record id="supplier_hungry_dog" model="lunch.supplier" forcecreate="0">
