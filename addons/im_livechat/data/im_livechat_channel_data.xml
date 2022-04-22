@@ -2,8 +2,9 @@
 <odoo>
     <data noupdate="1">
         <record id="im_livechat_channel_data" model="im_livechat.channel">
-            <field name="name">YourWebsite.com</field>
-            <field name="default_message">Hello, how may I help you?</field>
+            <field name="name">TuSitioWeb.com</field>
+            <field name="default_message">¿Hola, como puedo ayudarte?</field>
+            <field name="button_text">¿Tienes una pregunta? Chatea con nosotros.</field>
         </record>
     </data>
 </odoo>

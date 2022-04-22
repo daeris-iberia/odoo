@@ -37,7 +37,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_0"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">You're welcome, have a nice day!</field>
+            <field name="body">¡De nada, tenga un bonito día!</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=5)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_4_data" model="mail.message">
@@ -45,7 +45,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_0"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Great! Thanks for the info</field>
+            <field name="body">¡Estupendo! Gracias por la info</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=4)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_3_data" model="mail.message">
@@ -53,7 +53,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_0"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Yes, you can use our Timesheets application and Awesome Timesheets to record your time efficiently!</field>
+            <field name="body">¡Sí, puede usar nuestra aplicación de Partes de Horas para registrar su tiempo de manera eficiente!</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=3)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_2_data" model="mail.message">
@@ -61,7 +61,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_0"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">I'm looking for an application to record my timesheet, any tips?</field>
+            <field name="body">Estoy buscando una aplicación para registrar mi hoja de tiempo, ¿algún consejo?</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=2)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_1_data" model="mail.message">
@@ -69,7 +69,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_0"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=1)" name="date"/>
         </record>
         <!-- Session 1 -->
@@ -77,8 +77,8 @@
             <field name="channel_type">livechat</field>
             <field name="livechat_channel_id" ref="im_livechat_channel_data"/>
             <field name="livechat_operator_id" ref="base.partner_demo"/>
-            <field name="name">Visitor #323, Marc Demo</field>
-            <field name="anonymous_name">Visitor #323, Marc Demo</field>
+            <field name="name">Visitante #323, Marc Demo</field>
+            <field name="anonymous_name">Visitante #323, Marc Demo</field>
         </record>
         <record id="im_livechat_rating_2" model="rating.rating">
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
@@ -93,7 +93,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">You're welcome, enjoy Odoo!</field>
+            <field name="body">¡De nada, disfruta de Daeris!</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=10)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_9_data" model="mail.message">
@@ -101,7 +101,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Awesome, thanks!</field>
+            <field name="body">¡Genial gracias!</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=9)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_8_data" model="mail.message">
@@ -109,7 +109,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Yes, we just released a new application called Social Marketing that should fit your needs! Check it out :)</field>
+            <field name="body">¡Sí, acabamos de lanzar una nueva aplicación llamada Social Marketing que debería ajustarse a sus necesidades! Échale un vistazo :)</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=8)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_7_data" model="mail.message">
@@ -117,7 +117,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">I was wondering if Odoo has an application to easily manage social media for my business..</field>
+            <field name="body">Me preguntaba si Daeris tiene una aplicación para administrar fácilmente las redes sociales para mi negocio...</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=7)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_6_data" model="mail.message">
@@ -125,7 +125,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=6)" name="date"/>
         </record>
         <!-- Session 2 -->
@@ -157,7 +157,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_2"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Nope, sorry to disappoint :(</field>
+            <field name="body">No, siento decepcionarte :(</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-2, minutes=13)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_12_data" model="mail.message">
@@ -165,7 +165,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_2"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo_portal"/>
-            <field name="body">Hello, are you single?</field>
+            <field name="body">Hola, ¿estás soltero?</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-2, minutes=12)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_11_data" model="mail.message">
@@ -173,7 +173,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_2"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-2, minutes=11)" name="date"/>
         </record>
         <!-- Session 3 -->
@@ -197,7 +197,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_3"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo_portal"/>
-            <field name="body">Thanks for the info, I'll look into it!</field>
+            <field name="body">Gracias por la información, lo miraré!</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-3, minutes=17)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_16_data" model="mail.message">
@@ -205,7 +205,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_3"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Hello Joel Willis, you're at the right place! You can customize Odoo using our Studio application in just a few clicks.</field>
+            <field name="body">Hola Joel Willis, ¡estás en el lugar correcto! Puedes personalizar Daeris usando nuestra aplicación Studio con solo unos pocos clics.</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-3, minutes=16)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_15_data" model="mail.message">
@@ -213,7 +213,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_3"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo_portal"/>
-            <field name="body">Hello, I'm looking for a software that can be easily updated with my needs.</field>
+            <field name="body">Hola, estoy buscando un software que pueda actualizarse fácilmente con mis necesidades.</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-3, minutes=15)" name="date"/>
         </record>
         <!-- Session 4 -->
@@ -221,8 +221,8 @@
             <field name="channel_type">livechat</field>
             <field name="livechat_channel_id" ref="im_livechat_channel_data"/>
             <field name="livechat_operator_id" ref="base.partner_admin"/>
-            <field name="name">Visitor #532, Mitchell Admin</field>
-            <field name="anonymous_name">Visitor #532, Mitchell Admin</field>
+            <field name="name">Visitante #532, Mitchell Admin</field>
+            <field name="anonymous_name">Visitante #532, Mitchell Admin</field>
         </record>
         <record id="im_livechat_rating_5" model="rating.rating">
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_4"/>
@@ -237,7 +237,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_4"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Ok.. Will do, thanks</field>
+            <field name="body">Ok...Lo haré, gracias</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-4, minutes=21)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_20_data" model="mail.message">
@@ -245,7 +245,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_4"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hi, if you need help with your database, feel free to contact our support via http://www.odoo.com/help</field>
+            <field name="body">Hola, si necesita ayuda con su base de datos, no dude en ponerse en contacto con nuestro soporte a través de http://www.daeris.com</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-4, minutes=20)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_19_data" model="mail.message">
@@ -253,7 +253,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_4"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Hello, it seems that I can't log in to my database. Can you help?</field>
+            <field name="body">Hola, parece que no puedo iniciar sesión en mi base de datos. ¿Puede usted ayudarme?</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-4, minutes=19)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_18_data" model="mail.message">
@@ -261,7 +261,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_4"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-4, minutes=18)" name="date"/>
         </record>
         <!-- Session 5 -->
@@ -269,8 +269,8 @@
             <field name="channel_type">livechat</field>
             <field name="livechat_channel_id" ref="im_livechat_channel_data"/>
             <field name="livechat_operator_id" ref="base.partner_admin"/>
-            <field name="name">Visitor #649, Mitchell Admin</field>
-            <field name="anonymous_name">Visitor #649, Mitchell Admin</field>
+            <field name="name">Visitante #649, Mitchell Admin</field>
+            <field name="anonymous_name">Visitante #649, Mitchell Admin</field>
         </record>
         <record id="im_livechat_rating_6" model="rating.rating">
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_5"/>
@@ -285,7 +285,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_5"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Thanks!</field>
+            <field name="body">¡Gracias!</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-5, minutes=25)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_24_data" model="mail.message">
@@ -293,7 +293,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_5"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Yes, of course, you can find it here: https://www.odoo.com/documentation/user/14.0/</field>
+            <field name="body">Sí, por supuesto, puede encontrarlo aquí: https://www.daeris.com</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-5, minutes=24)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_23_data" model="mail.message">
@@ -301,7 +301,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_5"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Hello, I'm a bit lost in the Invetory module, is there some documentation I could find?</field>
+            <field name="body">Hola, estoy un poco perdido en el módulo de Inventario, ¿hay alguna documentación que pueda encontrar?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-5, minutes=23)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_22_data" model="mail.message">
@@ -309,7 +309,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_5"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-5, minutes=22)" name="date"/>
         </record>
         <!-- Session 6 -->
@@ -333,7 +333,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_6"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo_portal"/>
-            <field name="body">Good to hear, thanks!</field>
+            <field name="body">¡Buenas noticias, gracias!</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-6, minutes=29)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_28_data" model="mail.message">
@@ -341,7 +341,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_6"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Joel Willis, you'll need our Inventory and Sales application to do so. You can try them for 15 days, FOR FREE :)</field>
+            <field name="body">Joel Willis, necesitará nuestra aplicación de Inventario y Ventas para hacerlo. Puedes probarlos durante 15 días, GRATIS :)</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-6, minutes=28)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_27_data" model="mail.message">
@@ -349,7 +349,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_6"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo_portal"/>
-            <field name="body">Hi, I need a software to easily manage my stock, and generate sales orders.</field>
+            <field name="body">Hola, necesito un software para administrar fácilmente mi stock y generar órdenes de venta.</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-6, minutes=27)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_26_data" model="mail.message">
@@ -357,7 +357,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_6"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_admin"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-6, minutes=26)" name="date"/>
         </record>
         <!-- Session 7 -->
@@ -365,8 +365,8 @@
             <field name="channel_type">livechat</field>
             <field name="livechat_channel_id" ref="im_livechat_channel_data"/>
             <field name="livechat_operator_id" ref="base.partner_demo"/>
-            <field name="name">Visitor #722, Marc Demo</field>
-            <field name="anonymous_name">Visitor #722, Marc Demo</field>
+            <field name="name">Visitante #722, Marc Demo</field>
+            <field name="anonymous_name">Visitante #722, Marc Demo</field>
         </record>
         <record id="im_livechat_rating_8" model="rating.rating">
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_7"/>
@@ -381,7 +381,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_7"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">I'm great, thanks for asking!</field>
+            <field name="body">¡Estoy bien, gracias por preguntar!</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-7, minutes=33)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_32_data" model="mail.message">
@@ -389,7 +389,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_7"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">I'm fine, and you?</field>
+            <field name="body">¿Estoy bien, y tú?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-7, minutes=32)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_31_data" model="mail.message">
@@ -397,7 +397,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_7"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">Heeeey Marc, how are you?</field>
+            <field name="body">Heeeey Marc, ¿cómo estás?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-7, minutes=31)" name="date"/>
         </record>
         <record id="im_livechat_mail_message_30_data" model="mail.message">
@@ -405,12 +405,12 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_7"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field eval="DateTime.today() + relativedelta(months=-3, days=-7, minutes=30)" name="date"/>
         </record>
 
         <record id="mail_channel_livechat_1" model="mail.channel">
-            <field name="name">Visitor, Mitchell Admin</field>
+            <field name="name">Visitante, Mitchell Admin</field>
             <field name="livechat_operator_id" ref="base.partner_admin"/>
             <field name="livechat_channel_id" ref="im_livechat.im_livechat_channel_data"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1)"/>
@@ -419,10 +419,10 @@
 
         <record id="mail_message_livechat_1" model="mail.message">
             <field name="author_id" eval="False"/>
-            <field name="record_name">Visitor</field>
+            <field name="record_name">Visitante</field>
             <field name="date" eval="datetime.now() - timedelta(days=1)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1)"/>
-            <field name="body">Hi</field>
+            <field name="body">Hola</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
@@ -430,16 +430,16 @@
             <field name="author_id" ref="base.partner_admin"/>
             <field name="date" eval="datetime.now() - timedelta(days=1, seconds=-15)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1, seconds=-15)"/>
-            <field name="body">Hello, how may I help you?</field>
+            <field name="body">¿Hola, como puedo ayudarte?</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
         <record id="mail_message_livechat_3" model="mail.message">
             <field name="author_id" eval="False"/>
-            <field name="record_name">Visitor</field>
+            <field name="record_name">Visitante</field>
             <field name="date" eval="datetime.now() - timedelta(days=1, seconds=-25)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1, seconds=-25)"/>
-            <field name="body">I would like to know more about the CRM application</field>
+            <field name="body">Me gustaría saber más sobre la aplicación CRM</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
@@ -447,25 +447,25 @@
             <field name="author_id" ref="base.partner_admin"/>
             <field name="date" eval="datetime.now() - timedelta(days=1, seconds=-33)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1, seconds=-33)"/>
-            <field name="body">The CRM application helps you to track leads, close opportunities and get accurate forecasts. You can test it for free on our website.</field>
+            <field name="body">La aplicación CRM lo ayuda a rastrear clientes potenciales, cerrar oportunidades y obtener pronósticos precisos. Puedes probarlo gratis en nuestro sitio web.</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
         <record id="mail_message_livechat_5" model="mail.message">
             <field name="author_id" eval="False"/>
-            <field name="record_name">Visitor</field>
+            <field name="record_name">Visitante</field>
             <field name="date" eval="datetime.now() - timedelta(days=1, seconds=-42)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1, seconds=-42)"/>
-            <field name="body">Great, thanks!</field>
+            <field name="body">¡Muchas gracias!</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
         <record id="mail_message_livechat_6" model="mail.message">
             <field name="author_id" eval="False"/>
-            <field name="record_name">Visitor</field>
+            <field name="record_name">Visitante</field>
             <field name="date" eval="datetime.now() - timedelta(days=1, seconds=-53)"/>
             <field name="create_date" eval="datetime.now() - timedelta(days=1, seconds=-53)"/>
-            <field name="body">Rating: :-)</field>
+            <field name="body">Calificación: :-)</field>
             <field name="res_id" ref="im_livechat.mail_channel_livechat_1"/>
             <field name="model">mail.channel</field>
         </record>
