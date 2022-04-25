@@ -440,7 +440,7 @@
           <field name="license_plate">1-ACK-205</field>
           <field name="vin_sn">5454541</field>
           <field name="model_id" ref="model_astra"/>
-          <field name="color">Black</field>
+          <field name="color">Negro</field>
           <field name="location">Grand-Rosiere</field>
           <field name="doors">5</field>
           <field name="driver_id" ref="base.partner_demo" />
@@ -455,7 +455,7 @@
           <field name="license_plate">1-SYN-404</field>
           <field name="vin_sn">1337</field>
           <field name="model_id" ref="model_corsa"/>
-          <field name="color">Red</field>
+          <field name="color">Rojo</field>
           <field name="location">Grand-Rosiere</field>
           <field name="doors">5</field>
           <field name="driver_id" ref="base.res_partner_address_25" />
@@ -470,7 +470,7 @@
           <field name="license_plate">1-BMW-001</field>
           <field name="vin_sn">54818</field>
           <field name="model_id" ref="model_serie1"/>
-          <field name="color">Titanium Grey</field>
+          <field name="color">Gris Titanio</field>
           <field name="location">Grand-Rosiere</field>
           <field name="doors">3</field>
           <field name="driver_id" ref="base.res_partner_address_17" />
@@ -485,7 +485,7 @@
           <field name="license_plate">1-AUD-001</field>
           <field name="vin_sn">455257985</field>
           <field name="model_id" ref="model_a1"/>
-          <field name="color">White</field>
+          <field name="color">Blanco</field>
           <field name="location">Grand-Rosiere</field>
           <field name="doors">3</field>
           <field name="driver_id" ref="base.res_partner_address_16" />
@@ -500,7 +500,7 @@
           <field name="license_plate">1-MER-001</field>
           <field name="vin_sn">789546128</field>
           <field name="model_id" ref="model_classa"/>
-          <field name="color">Brown</field>
+          <field name="color">Marrón</field>
           <field name="location">Grand-Rosiere</field>
           <field name="doors">5</field>
           <field name="driver_id" ref="base.res_partner_address_15" />
@@ -688,7 +688,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">4586</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">Usual vehicle repairing</field>
+        <field name="notes">Reparación habitual de vehículos</field>
         <field name="state">done</field>
       </record>
 
@@ -700,7 +700,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">4814</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">After crash repairing</field>
+        <field name="notes">Reparación tras accidente</field>
         <field name="state">done</field>
       </record>
 
@@ -712,7 +712,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">124</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">Maintenance</field>
+        <field name="notes">Mantenimiento</field>
         <field name="state">done</field>
       </record>
 
@@ -724,7 +724,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">20984</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">Maintenance</field>
+        <field name="notes">Mantenimiento</field>
         <field name="state">done</field>
       </record>
 
@@ -736,7 +736,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">241</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">Maintenance</field>
+        <field name="notes">Mantenimiento</field>
         <field name="state">done</field>
       </record>
 
@@ -748,7 +748,7 @@
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="inv_ref">22513</field>
         <field name="vendor_id" ref="base.res_partner_2" />
-        <field name="notes">Maintenance</field>
+        <field name="notes">Mantenimiento</field>
         <field name="state">done</field>
       </record>
 
@@ -756,14 +756,14 @@
         <field name="vehicle_id" ref="vehicle_2" />
         <field name="cost_subtype_id" ref="type_contract_leasing" />
         <field name="amount">0</field>
-        <field name="name">Daily leasing contract</field>
+        <field name="name">Contrato de arrendamiento diario</field>
         <field name="cost_generated">20</field>
         <field name="cost_frequency">daily</field>
         <field name="expiration_date" eval="(DateTime.now() - timedelta(days=233)).strftime('%Y-%m-%d')" />
         <field name="expiration_date" eval="(DateTime.now() + timedelta(5)).strftime('%Y-%m-%d')" />
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="insurer_id" ref="base.res_partner_2" />
-        <field name="notes">Daily leasing contract</field>
+        <field name="notes">Contrato de arrendamiento diario</field>
         <field name="state">open</field>
         <field name="user_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('fleet.type_contract_omnium'),ref('fleet.type_service_service_3'),ref('fleet.type_service_service_2')])]" name="service_ids"/>
@@ -773,7 +773,7 @@
         <field name="vehicle_id" ref="vehicle_1" />
         <field name="cost_subtype_id" ref="type_contract_leasing" />
         <field name="amount">0</field>
-        <field name="name">Weekly leasing contract</field>
+        <field name="name">Contrato de arrendamiento semanal</field>
         <field name="cost_generated">150</field>
         <field name="cost_frequency">weekly</field>
         <field name="date" eval="time.strftime('%Y-01-01')" />
@@ -781,7 +781,7 @@
         <field name="expiration_date" eval="(DateTime.now() + timedelta(-1)).strftime('%Y-%m-%d')" />
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="insurer_id" ref="base.res_partner_2" />
-        <field name="notes">Weekly leasing contract</field>
+        <field name="notes">Contrato de arrendamiento semanal</field>
         <field name="state">open</field>
         <field name="user_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('fleet.type_contract_omnium'),ref('fleet.type_service_service_3'),ref('fleet.type_service_service_2')])]" name="service_ids"/>
@@ -791,7 +791,7 @@
         <field name="vehicle_id" ref="vehicle_3" />
         <field name="cost_subtype_id" ref="type_contract_leasing" />
         <field name="amount">0</field>
-        <field name="name">Monthly leasing</field>
+        <field name="name">Arrendamiento mensual</field>
         <field name="cost_generated">400</field>
         <field name="cost_frequency">monthly</field>
         <field name="date" eval="time.strftime('%Y-01-01')"/>
@@ -799,7 +799,7 @@
         <field name="expiration_date" eval="time.strftime('%Y-12-31')" />
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="insurer_id" ref="base.res_partner_2" />
-        <field name="notes">Monthly leasing contract</field>
+        <field name="notes">Contrato de arrendamiento mensual</field>
         <field name="state">open</field>
         <field name="user_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('fleet.type_contract_omnium'),ref('fleet.type_service_service_3'),ref('fleet.type_service_service_2')])]" name="service_ids"/>
@@ -809,7 +809,7 @@
         <field name="vehicle_id" ref="vehicle_4" />
         <field name="cost_subtype_id" ref="type_contract_leasing" />
         <field name="amount">0</field>
-        <field name="name">Yearly leasing</field>
+        <field name="name">Arrendamiento anual</field>
         <field name="cost_generated">4000</field>
         <field name="cost_frequency">yearly</field>
         <field name="date" eval="time.strftime('%Y-01-01')" />
@@ -817,7 +817,7 @@
         <field name="expiration_date" eval="time.strftime('%Y-12-31')" />
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="insurer_id" ref="base.res_partner_2" />
-        <field name="notes">Yearly leasing contract</field>
+        <field name="notes">Contrato de arrendamiento anual</field>
         <field name="state">open</field>
         <field name="user_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('fleet.type_contract_omnium'),ref('fleet.type_service_service_3'),ref('fleet.type_service_service_2')])]" name="service_ids"/>
@@ -827,7 +827,7 @@
         <field name="vehicle_id" ref="vehicle_5" />
         <field name="cost_subtype_id" ref="type_contract_leasing" />
         <field name="amount">17000</field>
-        <field name="name">Unique leasing</field>
+        <field name="name">Arrendamiento único</field>
         <field name="cost_generated">0</field>
         <field name="cost_frequency">no</field>
         <field name="date" eval="(DateTime.now() - timedelta(days=300)).strftime('%Y-%m-%d')" />
@@ -835,7 +835,7 @@
         <field name="expiration_date" eval="(DateTime.now() + timedelta(-60)).strftime('%Y-%m-%d')" />
         <field name="purchaser_id" ref="base.res_partner_address_18" />
         <field name="insurer_id" ref="base.res_partner_2" />
-        <field name="notes">Unique leasing contract</field>
+        <field name="notes">Contrato de arrendamiento único</field>
         <field name="state">open</field>
         <field name="user_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('fleet.type_contract_omnium'),ref('fleet.type_service_service_3'),ref('fleet.type_service_service_2')])]" name="service_ids"/>
