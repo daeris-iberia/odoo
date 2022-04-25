@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="True">
         <record id="main_partner" model="res.partner" context="{'default_is_company': True}">
-            <field name="name">My Company</field>
+            <field name="name">Mi Empresa</field>
             <field name="company_id" eval="None"/>
             <field name="is_company" eval="True"/>
             <field name="street"></field>
