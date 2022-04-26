@@ -3,7 +3,7 @@
     <data noupdate="1">
         <record id="product_category_deliveries" model="product.category">
             <field name="parent_id" ref="product.product_category_all"/>
-            <field name="name">Deliveries</field>
+            <field name="name">Entregas</field>
         </record>
         <record id="product_product_delivery" model="product.product">
             <field name="name">Free delivery charges</field>
