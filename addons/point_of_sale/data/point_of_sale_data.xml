@@ -12,7 +12,7 @@
 
         <record id="product_category_pos" model="product.category">
             <field name="parent_id" ref="product.product_category_1"/>
-            <field name="name">PoS</field>
+            <field name="name">TPV</field>
         </record>
 
         <record id="product_product_tip" model="product.product">
@@ -25,7 +25,7 @@
         </record>
 
         <record model="pos.config" id="pos_config_main">
-            <field name="name">Shop</field>
+            <field name="name">Tienda</field>
             <field name="barcode_nomenclature_id" ref="barcodes.default_barcode_nomenclature"/>
         </record>
 
