@@ -8,15 +8,15 @@
 
         <record id="product_category_2" model="product.category">
             <field name="parent_id" ref="product.product_category_all"/>
-            <field name="name">Internal</field>
+            <field name="name">Interno</field>
         </record>
         <record id="product_category_3" model="product.category">
             <field name="parent_id" ref="product.product_category_1"/>
-            <field name="name">Services</field>
+            <field name="name">Servicios</field>
         </record>
         <record id="product_category_6" model="product.category">
             <field name="parent_id" ref="product.product_category_3"/>
-            <field name="name">Saleable</field>
+            <field name="name">Vendible</field>
         </record>
         <record id="product_category_4" model="product.category">
             <field name="parent_id" ref="product.product_category_1"/>
@@ -24,11 +24,11 @@
         </record>
         <record id="product_category_5" model="product.category">
             <field name="parent_id" ref="product_category_1"/>
-            <field name="name">Office Furniture</field>
+            <field name="name">Muebles de Oficina</field>
         </record>
         <record id="product_category_consumable" model="product.category">
             <field name="parent_id" ref="product_category_all"/>
-            <field name="name">Consumable</field>
+            <field name="name">Consumible</field>
         </record>
 
         <!-- Expensable products -->
