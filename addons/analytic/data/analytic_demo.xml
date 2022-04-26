@@ -3,7 +3,7 @@
     <data noupdate="1">
 
         <record id="tag_contract" model="account.analytic.tag">
-            <field name="name">Contracts</field>
+            <field name="name">Contratos</field>
         </record>
 
     </data>

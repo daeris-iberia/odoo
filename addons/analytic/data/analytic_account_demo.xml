@@ -3,25 +3,25 @@
     <data noupdate="1">
         <!-- Analytic Groups -->
         <record id="analytic_group_projects" model="account.analytic.group">
-            <field name="name">Projects</field>
+            <field name="name">Proyectos</field>
         </record>
         <record id="analytic_group_departments" model="account.analytic.group">
-            <field name="name">Departments</field>
+            <field name="name">Departamentos</field>
         </record>
         <record id="analytic_group_internal" model="account.analytic.group">
-            <field name="name">Internal</field>
+            <field name="name">Interno</field>
         </record>
         <!-- Analytic Accounts -->
         <record id="analytic_absences" model="account.analytic.account">
-            <field name="name">Time Off</field>
+            <field name="name">Ausencia</field>
             <field name="group_id" ref="analytic.analytic_group_internal"/>
         </record>
         <record id="analytic_internal" model="account.analytic.account">
-            <field name="name">Operating Costs</field>
+            <field name="name">Costes Operativos</field>
             <field name="group_id" ref="analytic.analytic_group_internal"/>
         </record>
         <record id="analytic_our_super_product" model="account.analytic.account">
-            <field name="name">Our Super Product</field>
+            <field name="name">Nuestro Super Producot</field>
             <field name="partner_id" ref="base.res_partner_2"/>
             <field name="group_id" ref="analytic.analytic_group_projects"/>
         </record>
@@ -31,7 +31,7 @@
             <field name="group_id" ref="analytic.analytic_group_projects"/>
         </record>
         <record id="analytic_millennium_industries" model="account.analytic.account">
-            <field name="name">Millennium Industries</field>
+            <field name="name">Industrias Millenium</field>
             <field name="partner_id" ref="base.res_partner_3"/>
             <field name="group_id" ref="analytic.analytic_group_projects"/>
         </record>
@@ -86,15 +86,15 @@
             <field name="group_id" ref="analytic.analytic_group_projects"/>
         </record>
         <record id="analytic_administratif" model="account.analytic.account">
-            <field name="name">Administrative</field>
+            <field name="name">Administrativo</field>
             <field name="group_id" ref="analytic.analytic_group_departments"/>
         </record>
         <record id="analytic_commercial_marketing" model="account.analytic.account">
-            <field name="name">Commercial &amp; Marketing</field>
+            <field name="name">Comercial y Marketing</field>
             <field name="group_id" ref="analytic.analytic_group_departments"/>
         </record>
         <record id="analytic_rd_department" model="account.analytic.account">
-            <field name="name">Research &amp; Development</field>
+            <field name="name">Investigación y Desarrollo</field>
             <field name="group_id" ref="analytic.analytic_group_departments"/>
         </record>
     </data>
