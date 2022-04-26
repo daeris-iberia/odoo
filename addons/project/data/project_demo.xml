@@ -15,22 +15,22 @@
 
         <!-- Categories -->
         <record id="project_tags_00" model="project.tags">
-            <field name="name">Bug</field>
+            <field name="name">Error</field>
         </record>
         <record id="project_tags_01" model="project.tags">
-            <field name="name">New Feature</field>
+            <field name="name">Nueva Caracteristica</field>
         </record>
         <record id="project_tags_02" model="project.tags">
-            <field name="name">Experiment</field>
+            <field name="name">Experimento</field>
         </record>
         <record id="project_tags_03" model="project.tags">
-            <field name="name">Usability</field>
+            <field name="name">Usabilidad</field>
         </record>
         <record id="project_tags_04" model="project.tags">
-            <field name="name">Internal</field>
+            <field name="name">Interno</field>
         </record>
         <record id="project_tags_05" model="project.tags">
-            <field name="name">External</field>
+            <field name="name">Externo</field>
         </record>
 
         <!-- Task Stages -->
@@ -178,7 +178,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Meeting Room Furnitures</field>
+            <field name="name">Muebles para salas de reuniones</field>
             <field name="stage_id" ref="project_stage_0"/>
             <field name="color">3</field>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -188,7 +188,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Lunch Room: kitchen</field>
+            <field name="name">Comedor: cocina</field>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
         </record>
@@ -221,7 +221,7 @@
         <record id="project_task_2_mail_message_2_track_1" model="mail.tracking.value">
             <field name="field" model="ir.model.fields" eval="obj().search([('model', '=', 'project.task'), ('name', '=', 'stage_id')])"/>
             <field name="field_desc">Stage</field>
-            <field name="old_value_char">In Prpgress</field>
+            <field name="old_value_char">In Progress</field>
             <field name="new_value_char">Done</field>
             <field name="field_type">many2one</field>
             <field name="old_value_integer">2</field>
@@ -234,7 +234,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Noise Reduction</field>
+            <field name="name">Reducción de ruido</field>
             <field name="date_deadline" eval="time.strftime('%Y-%m-24')"/>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="color">4</field>
@@ -282,8 +282,8 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Black Chairs for managers</field>
-            <field name="description">Use the account_budget module</field>
+            <field name="name">Sillas negras para directivos</field>
+            <field name="description">Usa el módulo account_budget</field>
             <field name="date_deadline" eval="time.strftime('%Y-%m-19')"/>
             <field name="color">5</field>
             <field name="stage_id" ref="project_stage_1"/>
@@ -315,7 +315,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Room 1: Decoration</field>
+            <field name="name">Sala 1: Decoración</field>
             <field name="kanban_state">done</field>
             <field name="priority">0</field>
             <field name="date_deadline" eval="time.strftime('%Y-%m-%d')"/>
@@ -348,7 +348,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Room 2: Decoration</field>
+            <field name="name">Sala 2: Decoración</field>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
         </record>
@@ -376,7 +376,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Energy Certificate</field>
+            <field name="name">Certificado Energético</field>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
         </record>
@@ -405,7 +405,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin')), (4, ref('base.user_demo'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Customer analysis + Architecture</field>
+            <field name="name">Análisis de clientes + Arquitectura</field>
             <field name="color">7</field>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
         </record>
@@ -433,7 +433,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Planning and budget</field>
+            <field name="name">Planificación y presupuesto</field>
             <field name="stage_id" ref="project_stage_0"/>
             <field name="color">6</field>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -445,7 +445,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">New portal system</field>
+            <field name="name">Nuevo sistema de portales</field>
             <field name="priority">0</field>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="tag_ids" eval="[(6, 0, [
@@ -495,7 +495,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Social network integration</field>
+            <field name="name">Integración de redes sociales</field>
             <field name="kanban_state">blocked</field>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -525,7 +525,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">User interface improvements</field>
+            <field name="name">Mejoras en la interfaz de usuario</field>
             <field name="tag_ids" eval="[(6, 0, [
                     ref('project.project_tags_01'),
                     ref('project.project_tags_03')])]"/>
@@ -557,7 +557,7 @@
             <field name="user_ids" eval="False"/>
             <field name="stage_id" ref="project_stage_0"/>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Create new components</field>
+            <field name="name">Crear nuevos componentes</field>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
             <field name="depend_on_ids" eval="[(4, ref('project.project_task_12'))]"/>
         </record>
@@ -567,7 +567,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin')), (4, ref('base.user_demo'))]"/>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Usability review</field>
+            <field name="name">Revisión de usabilidad</field>
             <field name="tag_ids" eval="[(6, 0, [
                     ref('project_tags_03')])]"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -598,7 +598,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin')), (4, ref('base.user_demo'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Document management</field>
+            <field name="name">Gestión de documentos</field>
             <field name="stage_id" ref="project_stage_0"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
             <field name="depend_on_ids" eval="[(4, ref('project.project_task_21'))]"/>
@@ -609,7 +609,7 @@
             <field name="stage_id" ref="project_stage_1"/>
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Basic outline</field>
+            <field name="name">Esquema básico</field>
             <field name="tag_ids" eval="[(6, 0, [
                     ref('project_tags_02')])]"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -641,7 +641,7 @@
             <field name="user_ids" eval="False"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Modifications asked by the customer</field>
+            <field name="name">Modificaciones solicitadas por el cliente.</field>
             <field name="tag_ids" eval="[(6, 0, [
                     ref('project_tags_00')])]"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -688,7 +688,7 @@
             <field name="planned_hours">20.0</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Office planning</field>
+            <field name="name">Oficina de planificación</field>
             <field name="stage_id" ref="project_stage_0"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
         </record>
@@ -698,7 +698,7 @@
             <field name="planned_hours">35.0</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_2"/>
-            <field name="name">Unit Testing</field>
+            <field name="name">Pruebas Unitarias</field>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
             <field name="depend_on_ids" eval="[(4, ref('project.project_task_21'))]"/>
@@ -745,7 +745,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_demo'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_3"/>
-            <field name="name">Entry Hall</field>
+            <field name="name">Hall de entrada</field>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="color">3</field>
         </record>
@@ -754,7 +754,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">0</field>
             <field name="project_id" ref="project.project_project_3"/>
-            <field name="name">Check Lift</field>
+            <field name="name">Comprobar ascensor</field>
             <field name="date_deadline" eval="time.strftime('%Y-%m-24')"/>
             <field name="stage_id" ref="project_stage_2"/>
             <field name="color">4</field>
@@ -764,7 +764,7 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_3"/>
-            <field name="name">Room 1: Paint</field>
+            <field name="name">Sala 1: Pintura</field>
             <field name="kanban_state">done</field>
             <field name="priority">0</field>
             <field name="date_deadline" eval="time.strftime('%Y-%m-%d')"/>
@@ -776,17 +776,17 @@
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="priority">1</field>
             <field name="project_id" ref="project.project_project_3"/>
-            <field name="name">Bathroom</field>
+            <field name="name">Baños</field>
             <field name="stage_id" ref="project_stage_2"/>
         </record>
 
         <record id="message_task_1" model="mail.message">
             <field name="model">project.task</field>
             <field name="res_id" ref="project_task_22"/>
-            <field name="body">Hello Demo,
-There is a change in customer requirement.
-Can you check the document from customer again.
-Thanks,</field>
+            <field name="body">Hola Demo,
+Hay un cambio en el requisito del cliente.
+¿Puede verificar el documento del cliente nuevamente?
+Gracias,</field>
             <field name="message_type">comment</field>
             <field name="author_id" ref="base.partner_root"/>
         </record>
@@ -794,8 +794,8 @@ Thanks,</field>
             <field name="model">project.task</field>
             <field name="res_id" ref="project_task_22"/>
             <field name="parent_id" ref="message_task_1"/>
-            <field name="body">Ok, I have checked the mail,
-I will update the document and let you know.</field>
+            <field name="body">Ok, he revisado el correo,
+Actualizaré el documento y te lo haré saber.</field>
             <field name="message_type">comment</field>
             <field name="author_id" ref="base.partner_demo"/>
         </record>
@@ -803,8 +803,8 @@ I will update the document and let you know.</field>
             <field name="model">project.task</field>
             <field name="res_id" ref="project_task_22"/>
             <field name="parent_id" ref="message_task_2"/>
-            <field name="body">Fine!
-Send it ASAP, its urgent.</field>
+            <field name="body">¡Bien!
+Envíalo lo antes posible, es urgente.</field>
             <field name="message_type">comment</field>
             <field name="author_id" ref="base.partner_root"/>
         </record>
@@ -845,31 +845,31 @@ Send it ASAP, its urgent.</field>
         <record id="project_milestone_1" model="project.milestone">
             <field name="is_reached" eval="True"/>
             <field name="deadline" eval="time.strftime('%Y-%m-10')"/>
-            <field name="name">First Phase</field>
+            <field name="name">Primera Fase</field>
             <field name="reached_date" eval="time.strftime('%Y-%m-10')"/>
             <field name="project_id" ref="project.project_project_1"/>
         </record>
         <record id="project_milestone_2" model="project.milestone">
             <field name="is_reached" eval="False"/>
             <field name="deadline" eval="(DateTime.now() + relativedelta(years=1)).strftime('%Y-%m-15')"/>
-            <field name="name">Second Phase</field>
+            <field name="name">Segunda Fase</field>
             <field name="project_id" ref="project.project_project_1"/>
         </record>
         <record id="project_milestone_3" model="project.milestone">
             <field name="is_reached" eval="False"/>
             <field name="deadline" eval="(DateTime.now() + relativedelta(years=2)).strftime('%Y-%m-%d')"/>
-            <field name="name">Final Phase</field>
+            <field name="name">Fase Final</field>
             <field name="project_id" ref="project.project_project_1"/>
         </record>
 
         <record id="project_update_1" model="project.update" context="{'default_project_id': ref('project.project_project_1')}">
-            <field name="name">Review of the situation</field>
+            <field name="name">Revisión de la situación</field>
             <field name="user_id" eval="ref('base.user_demo')"/>
             <field name="progress" eval="15"/>
             <field name="status">at_risk</field>
         </record>
         <record id="project_update_2" model="project.update" context="{'default_project_id': ref('project.project_project_2')}">
-            <field name="name">Weekly review</field>
+            <field name="name">Revision semanal</field>
             <field name="user_id" eval="ref('base.user_admin')"/>
             <field name="progress" eval="35"/>
             <field name="status">at_risk</field>
@@ -907,7 +907,7 @@ Send it ASAP, its urgent.</field>
             <field name="planned_hours">20.0</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
-            <field name="name">Customer review</field>
+            <field name="name">Opinión del cliente</field>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="recurring_task" eval="True"/>
             <field name="recurrence_id" ref="project_task_recurrence_1"/>
@@ -919,7 +919,7 @@ Send it ASAP, its urgent.</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="parent_id" ref="project.project_task_27"/>
-            <field name="name">Daily stand-up meeting - Send minutes</field>
+            <field name="name">Reunión diaria - Enviar actas</field>
             <field name="stage_id" ref="project_stage_1"/>
             <field name="recurring_task" eval="True"/>
             <field name="recurrence_id" ref="project_task_recurrence_2"/>
@@ -931,7 +931,7 @@ Send it ASAP, its urgent.</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="parent_id" ref="project.project_task_27"/>
-            <field name="name">Customer Meeting</field>
+            <field name="name">Reunión de cliente</field>
             <field name="stage_id" ref="project_stage_1"/>
         </record>
         <record id="project_task_34" model="project.task">
@@ -940,7 +940,7 @@ Send it ASAP, its urgent.</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="parent_id" ref="project.project_task_29"/>
-            <field name="name">Daily Meetings summary</field>
+            <field name="name">Resumen de reuniones diarias</field>
             <field name="stage_id" ref="project_stage_1"/>
         </record>
         <record id="project_task_35" model="project.task">
@@ -949,7 +949,7 @@ Send it ASAP, its urgent.</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="parent_id" ref="project.project_task_29"/>
-            <field name="name">Preparation</field>
+            <field name="name">Preparación</field>
             <field name="stage_id" ref="project_stage_1"/>
         </record>
         <record id="project_task_36" model="project.task">
@@ -958,7 +958,7 @@ Send it ASAP, its urgent.</field>
             <field name="user_ids" eval="False"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="parent_id" ref="project.project_task_29"/>
-            <field name="name">Minutes</field>
+            <field name="name">Minutos</field>
             <field name="stage_id" ref="project_stage_1"/>
         </record>
 
