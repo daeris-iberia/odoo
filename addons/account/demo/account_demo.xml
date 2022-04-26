@@ -5,19 +5,19 @@
         <!-- TAGS FOR RETRIEVING THE DEMO ACCOUNTS -->
 
         <record id="demo_capital_account" model="account.account.tag">
-            <field name="name">Demo Capital Account</field>
+            <field name="name">Cuenta Demo de Capital</field>
         </record>
         <record id="demo_stock_account" model="account.account.tag">
-            <field name="name">Demo Stock Account</field>
+            <field name="name">Cuenta Demo de Inventario</field>
         </record>
         <record id="demo_sale_of_land_account" model="account.account.tag">
-            <field name="name">Demo Sale of Land Account</field>
+            <field name="name">Cuenta Demo Venta de Terreno</field>
         </record>
         <record id="demo_ceo_wages_account" model="account.account.tag">
-            <field name="name">Demo CEO Wages Account</field>
+            <field name="name">Cuenta Demo Salarios CEO</field>
         </record>
         <record id="demo_office_furniture_account" model="account.account.tag">
-            <field name="name">Office Furniture</field>
+            <field name="name">Muebles de Oficina</field>
         </record>
         <!-- Payment Terms -->
 
