@@ -887,7 +887,7 @@ Thanks!</field>
             <field name="res_model_id" ref="sale.model_sale_order"/>
             <field name="activity_type_id" ref="mail.mail_activity_data_email"/>
             <field name="date_deadline" eval="DateTime.today().strftime('%Y-%m-%d %H:%M')"/>
-            <field name="summary">Answer questions</field>
+            <field name="summary">Responder preguntas</field>
             <field name="create_uid" ref="base.user_admin"/>
             <field name="user_id" ref="base.user_admin"/>
         </record>
@@ -912,7 +912,7 @@ Thanks!</field>
             <field name="res_model_id" ref="sale.model_sale_order"/>
             <field name="activity_type_id" ref="mail.mail_activity_data_todo"/>
             <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M')"/>
-            <field name="summary">Check delivery requirements</field>
+            <field name="summary">Consultar requisitos de entrega</field>
             <field name="create_uid" ref="base.user_admin"/>
             <field name="user_id" ref="base.user_admin"/>
         </record>
@@ -921,7 +921,7 @@ Thanks!</field>
             <field name="res_model_id" ref="sale.model_sale_order"/>
             <field name="activity_type_id" ref="mail.mail_activity_data_todo"/>
             <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M')"/>
-            <field name="summary">Confirm Delivery</field>
+            <field name="summary">Confirmar el envío</field>
             <field name="create_uid" ref="base.user_demo"/>
             <field name="user_id" ref="base.user_demo"/>
         </record>
@@ -946,7 +946,7 @@ Thanks!</field>
             <field name="res_model_id" ref="sale.model_sale_order"/>
             <field name="activity_type_id" ref="mail.mail_activity_data_todo"/>
             <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M')"/>
-            <field name="summary">Get quote confirmation</field>
+            <field name="summary">Obtener confirmación de presupuesto</field>
             <field name="create_uid" ref="base.user_admin"/>
             <field name="user_id" ref="base.user_admin"/>
         </record>
