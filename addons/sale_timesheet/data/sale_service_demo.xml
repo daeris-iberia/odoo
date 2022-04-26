@@ -13,7 +13,7 @@
 
         <!-- Projects and Analytic Account -->
         <record id="account_analytic_account_project_support" model="account.analytic.account">
-            <field name="name">After-Sales Services</field>
+            <field name="name">Servicios posventa</field>
             <field name="code">INT</field>
             <field name="active" eval="True"/>
         </record>
@@ -28,7 +28,7 @@
 
         <!-- Project Task -->
         <record id="project_task_internal" model="project.task">
-            <field name="name">Internal training</field>
+            <field name="name">Formación interna</field>
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="project_id" ref="project.project_project_1"/>
             <field name="create_date" eval="DateTime.now() - relativedelta(months=5)"/>
@@ -149,7 +149,7 @@
             <field name="res_model_id" ref="sale.model_sale_order"/>
             <field name="activity_type_id" ref="mail.mail_activity_data_call"/>
             <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M')"/>
-            <field name="summary">Call to follow-up</field>
+            <field name="summary">Llamada de seguimiento</field>
             <field name="create_uid" ref="base.user_admin"/>
             <field name="user_id" ref="base.user_admin"/>
         </record>
@@ -172,7 +172,7 @@
 
         <!-- Timesheets on sale_order_1 -->
         <record id="timesheet_1" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=3,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">5.00</field>
@@ -180,7 +180,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_13'))]"/>
         </record>
         <record id="timesheet_2" model="account.analytic.line">
-            <field name="name">Fine tuning</field>
+            <field name="name">Puesta a punto</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=2,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">5.00</field>
@@ -188,7 +188,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_13'))]"/>
         </record>
         <record id="timesheet_3" model="account.analytic.line">
-            <field name="name">Assembling</field>
+            <field name="name">Montaje</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=0)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">5.00</field>
@@ -196,7 +196,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_13'))]"/>
         </record>
         <record id="timesheet_4" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=1,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">5.00</field>
@@ -205,7 +205,7 @@
         </record>
 
         <record id="timesheet_5" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -213,7 +213,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_6" model="account.analytic.line">
-            <field name="name">Client meeting</field>
+            <field name="name">Reunión con el cliente</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=1,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -221,7 +221,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_7" model="account.analytic.line">
-            <field name="name">Requirements check</field>
+            <field name="name">Comprobación de requisitos</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=2,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -229,7 +229,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_8" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=3,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -237,7 +237,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_9" model="account.analytic.line">
-            <field name="name">Building</field>
+            <field name="name">Construcción</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=4,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -245,7 +245,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_10" model="account.analytic.line">
-            <field name="name">Research</field>
+            <field name="name">Investigar</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -253,7 +253,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_11" model="account.analytic.line">
-            <field name="name">Assembling</field>
+            <field name="name">Montaje</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=1,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -261,7 +261,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_12" model="account.analytic.line">
-            <field name="name">Quality  check</field>
+            <field name="name">Control de calidad</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=2,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -269,7 +269,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_13" model="account.analytic.line">
-            <field name="name">Assembling</field>
+            <field name="name">Montaje</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=3,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -277,7 +277,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_11'))]"/>
         </record>
         <record id="timesheet_14" model="account.analytic.line">
-            <field name="name">Wood chopping</field>
+            <field name="name">Cortando madera</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=4,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1.00</field>
@@ -287,7 +287,7 @@
 
         <!-- Timesheets on sale_order_2 -->
         <record id="timesheet_15" model="account.analytic.line">
-            <field name="name">Research and Development</field>
+            <field name="name">Investigación y desarrollo</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=1,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -295,7 +295,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_22'))]"/>
         </record>
         <record id="timesheet_16" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=2,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -303,7 +303,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_22'))]"/>
         </record>
         <record id="timesheet_17" model="account.analytic.line">
-            <field name="name">Repair</field>
+            <field name="name">Reparación</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=0)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -311,7 +311,7 @@
             <field name="project_id" search="[('sale_line_id', '=', ref('sale_line_22'))]"/>
         </record>
         <record id="timesheet_18" model="account.analytic.line">
-            <field name="name">Initial design improvement</field>
+            <field name="name">Mejora del diseño inicial</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=4,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -320,7 +320,7 @@
         </record>
 
         <record id="timesheet_19" model="account.analytic.line">
-            <field name="name">Knowledge transfer</field>
+            <field name="name">Transferencia de conocimiento</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">4.00</field>
@@ -328,7 +328,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_21'))]"/>
         </record>
         <record id="timesheet_20" model="account.analytic.line">
-            <field name="name">Document analysis</field>
+            <field name="name">Análisis de documentos</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">4.00</field>
@@ -336,7 +336,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_21'))]"/>
         </record>
         <record id="timesheet_21" model="account.analytic.line">
-            <field name="name">Design analysis</field>
+            <field name="name">Análisis de diseño</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">4.00</field>
@@ -344,7 +344,7 @@
             <field name="task_id" search="[('sale_line_id', '=', ref('sale_line_21'))]"/>
         </record>
         <record id="timesheet_22" model="account.analytic.line">
-            <field name="name">Requirements meeting</field>
+            <field name="name">Reunión de requisitos</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(weekday=0,weeks=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">4.00</field>
@@ -354,7 +354,7 @@
 
         <!-- Non billable Timesheets in project_support -->
         <record id="timesheet_23" model="account.analytic.line">
-            <field name="name">Technical training</field>
+            <field name="name">Formación técnica</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(months=-2, days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -362,7 +362,7 @@
             <field name="task_id" ref="project_task_internal"/>
         </record>
         <record id="timesheet_24" model="account.analytic.line">
-            <field name="name">Internal training</field>
+            <field name="name">Formación interna</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(months=-2, days=-12)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -370,7 +370,7 @@
             <field name="task_id" ref="project_task_internal"/>
         </record>
         <record id="timesheet_25" model="account.analytic.line">
-            <field name="name">Internal discussion</field>
+            <field name="name">Discusiones internas</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(months=-2, days=-13)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -378,7 +378,7 @@
             <field name="task_id" ref="project_task_internal"/>
         </record>
         <record id="timesheet_26" model="account.analytic.line">
-            <field name="name">Details improvement</field>
+            <field name="name">Mejora de detalles</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(months=-2, days=-11)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">8.00</field>
@@ -443,7 +443,7 @@
         </record>
 
         <record id="project_task_1" model="project.task">
-            <field name="name">Decoration</field>
+            <field name="name">Decoración</field>
             <field name="sale_line_id" ref="sale_timesheet.sale_line_13"/>
             <field name="sale_order_id" ref="sale_timesheet.sale_order_1"/>
             <field name="project_id" search="[('sale_order_id', '=', ref('sale_timesheet.sale_order_1'))]" />
@@ -454,7 +454,7 @@
         </record>
 
         <record id="project_task_2" model="project.task">
-            <field name="name">Planning</field>
+            <field name="name">Planificación</field>
             <field name="sale_line_id" ref="sale_timesheet.sale_line_13"/>
             <field name="sale_order_id" ref="sale_timesheet.sale_order_1"/>
             <field name="project_id" search="[('sale_order_id', '=', ref('sale_timesheet.sale_order_1'))]" />
@@ -465,7 +465,7 @@
         </record>
 
         <record id="project_task_3" model="project.task">
-            <field name="name">Furniture</field>
+            <field name="name">Muebles</field>
             <field name="sale_line_id" ref="sale_timesheet.sale_line_13"/>
             <field name="sale_order_id" ref="sale_timesheet.sale_order_1"/>
             <field name="project_id" search="[('sale_order_id', '=', ref('sale_timesheet.sale_order_1'))]" />
@@ -476,7 +476,7 @@
         </record>
 
         <record id="project_task_4" model="project.task">
-            <field name="name">Furniture Delivery</field>
+            <field name="name">Envío de Muebles</field>
             <field name="project_id" search="[('sale_order_id', '=', ref('sale_timesheet.sale_order_1'))]" />
             <field name="stage_id" ref="project.project_stage_1" />
             <field name="sale_line_id" ref="sale_timesheet.sale_line_13" />
@@ -487,7 +487,7 @@
 
         <!-- Timesheet for those tasks -->
         <record id="account_analytic_line_0" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -497,7 +497,7 @@
         </record>
 
         <record id="account_analytic_line_1" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -507,7 +507,7 @@
         </record>
 
         <record id="account_analytic_line_2" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_vad"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -517,7 +517,7 @@
         </record>
 
         <record id="account_analytic_line_3" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_chs"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -527,7 +527,7 @@
         </record>
 
         <record id="account_analytic_line_4" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -537,7 +537,7 @@
         </record>
 
         <record id="account_analytic_line_5" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -547,7 +547,7 @@
         </record>
 
         <record id="account_analytic_line_6" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_han"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -557,7 +557,7 @@
         </record>
 
         <record id="account_analytic_line_7" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">LLamada</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -577,7 +577,7 @@
         </record>
 
         <record id="account_analytic_line_9" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_hne"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -587,7 +587,7 @@
         </record>
 
         <record id="account_analytic_line_10" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -597,7 +597,7 @@
         </record>
 
         <record id="account_analytic_line_11" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jth"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -607,7 +607,7 @@
         </record>
 
         <record id="account_analytic_line_12" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -617,7 +617,7 @@
         </record>
 
         <record id="account_analytic_line_13" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -637,7 +637,7 @@
         </record>
 
         <record id="account_analytic_line_15" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_jth"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -657,7 +657,7 @@
         </record>
 
         <record id="account_analytic_line_17" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -667,7 +667,7 @@
         </record>
 
         <record id="account_analytic_line_18" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -677,7 +677,7 @@
         </record>
 
         <record id="account_analytic_line_19" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_vad"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -687,7 +687,7 @@
         </record>
 
         <record id="account_analytic_line_20" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_fpi"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -697,7 +697,7 @@
         </record>
 
         <record id="account_analytic_line_21" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -707,7 +707,7 @@
         </record>
 
         <record id="account_analytic_line_22" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -717,7 +717,7 @@
         </record>
 
         <record id="account_analytic_line_23" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-2)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -727,7 +727,7 @@
         </record>
 
         <record id="account_analytic_line_24" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -737,7 +737,7 @@
         </record>
 
         <record id="account_analytic_line_25" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_han"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -747,7 +747,7 @@
         </record>
 
         <record id="account_analytic_line_26" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_hne"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -767,7 +767,7 @@
         </record>
 
         <record id="account_analytic_line_28" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -777,7 +777,7 @@
         </record>
 
         <record id="account_analytic_line_29" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_hne"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -787,7 +787,7 @@
         </record>
 
         <record id="account_analytic_line_30" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -797,7 +797,7 @@
         </record>
 
         <record id="account_analytic_line_31" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -807,7 +807,7 @@
         </record>
 
         <record id="account_analytic_line_32" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -817,7 +817,7 @@
         </record>
 
         <record id="account_analytic_line_33" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -827,7 +827,7 @@
         </record>
 
         <record id="account_analytic_line_34" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -837,7 +837,7 @@
         </record>
 
         <record id="account_analytic_line_35" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_jth"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-3)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -847,7 +847,7 @@
         </record>
 
         <record id="account_analytic_line_36" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -857,7 +857,7 @@
         </record>
 
         <record id="account_analytic_line_37" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_lur"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -867,7 +867,7 @@
         </record>
 
         <record id="account_analytic_line_38" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -877,7 +877,7 @@
         </record>
 
         <record id="account_analytic_line_39" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -887,7 +887,7 @@
         </record>
 
         <record id="account_analytic_line_40" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -897,7 +897,7 @@
         </record>
 
         <record id="account_analytic_line_41" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_vad"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -907,7 +907,7 @@
         </record>
 
         <record id="account_analytic_line_42" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_jep"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -917,7 +917,7 @@
         </record>
 
         <record id="account_analytic_line_43" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -927,7 +927,7 @@
         </record>
 
         <record id="account_analytic_line_44" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -937,7 +937,7 @@
         </record>
 
         <record id="account_analytic_line_45" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -947,7 +947,7 @@
         </record>
 
         <record id="account_analytic_line_46" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -957,7 +957,7 @@
         </record>
 
         <record id="account_analytic_line_47" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_lur"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-4)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -967,7 +967,7 @@
         </record>
 
         <record id="account_analytic_line_48" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_chs"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -977,7 +977,7 @@
         </record>
 
         <record id="account_analytic_line_49" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_jth"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -987,7 +987,7 @@
         </record>
 
         <record id="account_analytic_line_50" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -997,7 +997,7 @@
         </record>
 
         <record id="account_analytic_line_51" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1007,7 +1007,7 @@
         </record>
 
         <record id="account_analytic_line_52" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1017,7 +1017,7 @@
         </record>
 
         <record id="account_analytic_line_53" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1027,7 +1027,7 @@
         </record>
 
         <record id="account_analytic_line_54" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1047,7 +1047,7 @@
         </record>
 
         <record id="account_analytic_line_56" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1057,7 +1057,7 @@
         </record>
 
         <record id="account_analytic_line_57" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1067,7 +1067,7 @@
         </record>
 
         <record id="account_analytic_line_58" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_fpi"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1077,7 +1077,7 @@
         </record>
 
         <record id="account_analytic_line_59" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-5)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1087,7 +1087,7 @@
         </record>
 
         <record id="account_analytic_line_60" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1107,7 +1107,7 @@
         </record>
 
         <record id="account_analytic_line_62" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1117,7 +1117,7 @@
         </record>
 
         <record id="account_analytic_line_63" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1127,7 +1127,7 @@
         </record>
 
         <record id="account_analytic_line_64" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1137,7 +1137,7 @@
         </record>
 
         <record id="account_analytic_line_65" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1147,7 +1147,7 @@
         </record>
 
         <record id="account_analytic_line_66" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1157,7 +1157,7 @@
         </record>
 
         <record id="account_analytic_line_67" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_vad"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1177,7 +1177,7 @@
         </record>
 
         <record id="account_analytic_line_69" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1187,7 +1187,7 @@
         </record>
 
         <record id="account_analytic_line_70" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1197,7 +1197,7 @@
         </record>
 
         <record id="account_analytic_line_71" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jth"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-6)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1217,7 +1217,7 @@
         </record>
 
         <record id="account_analytic_line_73" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1227,7 +1227,7 @@
         </record>
 
         <record id="account_analytic_line_74" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1237,7 +1237,7 @@
         </record>
 
         <record id="account_analytic_line_75" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1247,7 +1247,7 @@
         </record>
 
         <record id="account_analytic_line_76" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_al"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1257,7 +1257,7 @@
         </record>
 
         <record id="account_analytic_line_77" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1267,7 +1267,7 @@
         </record>
 
         <record id="account_analytic_line_78" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1287,7 +1287,7 @@
         </record>
 
         <record id="account_analytic_line_80" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1297,7 +1297,7 @@
         </record>
 
         <record id="account_analytic_line_81" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1307,7 +1307,7 @@
         </record>
 
         <record id="account_analytic_line_82" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_al"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1317,7 +1317,7 @@
         </record>
 
         <record id="account_analytic_line_83" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-7)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1327,7 +1327,7 @@
         </record>
 
         <record id="account_analytic_line_84" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_han"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1337,7 +1337,7 @@
         </record>
 
         <record id="account_analytic_line_85" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1347,7 +1347,7 @@
         </record>
 
         <record id="account_analytic_line_86" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1357,7 +1357,7 @@
         </record>
 
         <record id="account_analytic_line_87" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1367,7 +1367,7 @@
         </record>
 
         <record id="account_analytic_line_88" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1377,7 +1377,7 @@
         </record>
 
         <record id="account_analytic_line_89" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1387,7 +1387,7 @@
         </record>
 
         <record id="account_analytic_line_90" model="account.analytic.line">
-            <field name="name">Requirements analysis</field>
+            <field name="name">Análisis de requerimientos</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1397,7 +1397,7 @@
         </record>
 
         <record id="account_analytic_line_91" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1407,7 +1407,7 @@
         </record>
 
         <record id="account_analytic_line_92" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_chs"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1417,7 +1417,7 @@
         </record>
 
         <record id="account_analytic_line_93" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jve"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1437,7 +1437,7 @@
         </record>
 
         <record id="account_analytic_line_95" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-8)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1447,7 +1447,7 @@
         </record>
 
         <record id="account_analytic_line_96" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_han"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1457,7 +1457,7 @@
         </record>
 
         <record id="account_analytic_line_97" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1467,7 +1467,7 @@
         </record>
 
         <record id="account_analytic_line_98" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1477,7 +1477,7 @@
         </record>
 
         <record id="account_analytic_line_99" model="account.analytic.line">
-            <field name="name">Call</field>
+            <field name="name">Llamada</field>
             <field name="employee_id" ref="hr.employee_fpi"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1487,7 +1487,7 @@
         </record>
 
         <record id="account_analytic_line_100" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1507,7 +1507,7 @@
         </record>
 
         <record id="account_analytic_line_102" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_jep"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1547,7 +1547,7 @@
         </record>
 
         <record id="account_analytic_line_106" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jgo"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1557,7 +1557,7 @@
         </record>
 
         <record id="account_analytic_line_107" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_ngh"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-9)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1567,7 +1567,7 @@
         </record>
 
         <record id="account_analytic_line_108" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_niv"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1577,7 +1577,7 @@
         </record>
 
         <record id="account_analytic_line_109" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_vad"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1587,7 +1587,7 @@
         </record>
 
         <record id="account_analytic_line_110" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_hne"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">3</field>
@@ -1597,7 +1597,7 @@
         </record>
 
         <record id="account_analytic_line_111" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1607,7 +1607,7 @@
         </record>
 
         <record id="account_analytic_line_112" model="account.analytic.line">
-            <field name="name">Presentation</field>
+            <field name="name">Presentación</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1617,7 +1617,7 @@
         </record>
 
         <record id="account_analytic_line_113" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jog"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1627,7 +1627,7 @@
         </record>
 
         <record id="account_analytic_line_114" model="account.analytic.line">
-            <field name="name">On Site Visit</field>
+            <field name="name">Visita al sitio</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">2</field>
@@ -1637,7 +1637,7 @@
         </record>
 
         <record id="account_analytic_line_115" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_mit"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1647,7 +1647,7 @@
         </record>
 
         <record id="account_analytic_line_116" model="account.analytic.line">
-            <field name="name">Quality analysis</field>
+            <field name="name">Análisis de calidad</field>
             <field name="employee_id" ref="hr.employee_jod"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1657,7 +1657,7 @@
         </record>
 
         <record id="account_analytic_line_117" model="account.analytic.line">
-            <field name="name">Design</field>
+            <field name="name">Diseño</field>
             <field name="employee_id" ref="hr.employee_hne"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1667,7 +1667,7 @@
         </record>
 
         <record id="account_analytic_line_118" model="account.analytic.line">
-            <field name="name">Delivery</field>
+            <field name="name">Envío</field>
             <field name="employee_id" ref="hr.employee_fpi"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1677,7 +1677,7 @@
         </record>
 
         <record id="account_analytic_line_119" model="account.analytic.line">
-            <field name="name">Training</field>
+            <field name="name">Formación</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="date" eval="(DateTime.now() + relativedelta(days=-10)).strftime('%Y-%m-%d')"/>
             <field name="unit_amount">1</field>
@@ -1687,19 +1687,19 @@
         </record>
 
         <record id="project_update_1" model="project.update" context="{'default_project_id': ref('project.project_project_1')}">
-            <field name="name">Weekly review</field>
+            <field name="name">Revisión semanal</field>
             <field name="user_id" eval="ref('base.user_demo')"/>
             <field name="progress" eval="50"/>
             <field name="status">on_track</field>
         </record>
         <record id="project_update_2" model="project.update" context="{'default_project_id': ref('project.project_project_2')}">
-            <field name="name">Weekly review</field>
+            <field name="name">Revisión semanal</field>
             <field name="user_id" eval="ref('base.user_admin')"/>
             <field name="progress" eval="35"/>
             <field name="status">on_hold</field>
         </record>
         <record id="project_update_3" model="project.update" context="{'default_project_id': ref('sale_timesheet.project_support')}">
-            <field name="name">Review of the situation</field>
+            <field name="name">Revisión de la situación</field>
             <field name="user_id" eval="ref('base.user_admin')"/>
             <field name="progress" eval="30"/>
             <field name="status">at_risk</field>
