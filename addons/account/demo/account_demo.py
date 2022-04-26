@@ -163,7 +163,7 @@ class AccountChartTemplate(models.Model):
         cid = self.env.company.id
         return ('account.reconcile.model', {
             f'{cid}_reconcile_from_label': {
-                'name': 'Line with Bank Fees',
+                'name': 'Línea con comisiones bancarias',
                 'rule_type': 'writeoff_suggestion',
                 'match_label': 'contains',
                 'match_label_param': 'BRT',
