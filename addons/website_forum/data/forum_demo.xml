@@ -6,25 +6,25 @@
 
         <!-- Tag -->
         <record id="tags_0" model="forum.tag">
-            <field name="name">Contract</field>
+            <field name="name">Contrato</field>
             <field name="forum_id" ref="website_forum.forum_help"/>
         </record>
         <record id="tags_1" model="forum.tag">
-            <field name="name">Action</field>
+            <field name="name">Acción</field>
             <field name="forum_id" ref="website_forum.forum_help"/>
         </record>
         <record id="tags_2" model="forum.tag">
-            <field name="name">ecommerce</field>
+            <field name="name">eCommerce</field>
             <field name="forum_id" ref="website_forum.forum_help"/>
         </record>
         <record id="tags_3" model="forum.tag">
-            <field name="name">Development</field>
+            <field name="name">Desarrollo</field>
             <field name="forum_id" ref="website_forum.forum_help"/>
         </record>
 
         <!-- Questions -->
         <record id="question_0" model="forum.post">
-            <field name="name">How to configure alerts for employee contract expiration</field>
+            <field name="name">Cómo configurar alertas por vencimiento de contrato de empleado</field>
             <field name="forum_id" ref="website_forum.forum_help"/>
             <field name="views">3</field>
             <field name="create_uid" ref="base.user_admin"/>
@@ -32,38 +32,38 @@
             <field name="tag_ids" eval="[(4,ref('website_forum.tags_0')), (4,ref('website_forum.tags_1'))]"/>
         </record>
         <record id="question_1" model="forum.post">
-            <field name="name">CMS replacement for ERP and eCommerce</field>
+            <field name="name">Reemplazo de CMS para ERP y comercio electrónico</field>
             <field name="views">8</field>
             <field name="create_uid" ref="base.user_admin"/>
             <field name="write_uid" ref="base.user_admin"/>
             <field name="forum_id" ref="website_forum.forum_help"/>
-            <field name="content"><![CDATA[<p>I use Wordpress as a CMS and eCommerce platform. The developing in Wordpress is quite easy and solid but it missing ERP feature (there is single plugin to integrate with Frontaccounting) so I wonder:
+            <field name="content"><![CDATA[<p>Uso Wordpress como CMS y plataforma de comercio electrónico. El desarrollo en Wordpress es bastante fácil y sólido, pero le falta la función ERP (hay un complemento único para integrar con Frontaccounting), así que me pregunto:
 
-Can I use Odoo as a replacement CMS of Wordpress + eCommerce plugin?
+¿Puedo usar Daeris como un CMS de reemplazo de Wordpress + complemento de comercio electrónico?
 
-In simple words does Odoo became CMS+ERP platform?</p>]]></field>
+En palabras simples, ¿Daeris se convirtió en una plataforma CMS+ERP?</p>]]></field>
             <field name="tag_ids" eval="[(4,ref('website_forum.tags_2'))]"/>
         </record>
 
         <!-- Answer -->
         <record id="answer_0" model="forum.post">
             <field name="forum_id" ref="website_forum.forum_help"/>
-            <field name="name">Re: How to configure alerts for employee contract expiration</field>
-            <field name="content"><![CDATA[<p>Just for posterity so other can see. Here are the steps to set automatic alerts on any contract.. i.e. HR Employee, or Fleet for example. I will use fleet as an example.</p>
+            <field name="name">Re: Cómo configurar alertas por vencimiento de contrato de empleado</field>
+            <field name="content"><![CDATA[<p>Solo para la posteridad para que otros puedan ver. Estos son los pasos para configurar alertas automáticas en cualquier contrato, es decir, empleado de recursos humanos o flota, por ejemplo. Usaré flota como ejemplo.</p>
 <ul>
-    <li>Step 1. As a user who has access rights to Technical Features, go to Settings --> Automated Actions. Create A new Automated Action. For the Related Document Model choose.. Contract information on a vehicle (you can also type in the actual model name.. fleet.vehicle.log.contract ) . Set the trigger date to ... Contract Expiration Date. The Next Field (Delay After Trigger Date) is a bit ridiculous. Who wants to be reminded of a contract expiration AFTER the fact? The field should say Days Before Date to Fire Action and the number should be converted to a negative. IMHO. Any way... to get a workable solution you must enter in the number in the negative. So for instance like me if you want to be warned 35 days BEFORE the expiration... put in Delay After Trigger Date.. the number -35 But the sake of testing, right now just put in -1 for 1 day before. Save the Action.
-    <li>Step 2. Go to Server Actions and create new Action. Call it Fleet Contract Expiration Warning. The Object will be the same as above .. Contract information on a vehicle. The Action Type is Email. For email address I just put my email. Under subject put in... [[object.name]]. This will tell you the name of the car. Message you can put any text message you like. Now save the Server Action.</li>
-    <li>Step 3. Now go back to the Automated Action you created and go to the Action tab next to the conditions tab. Click Add and add the server action you created . In this case Fleet Contract Expiration Warning. Then Save.</li>
-    <li>Step 4. To test, set a contract to expire tomorrow under one of your fleets vehicles. Then Save it.</li>
-    <li>Step 5. Go to Scheduled Actions.. Set interval number to 1. Interval Unit to Minutes. Then Set the Next Execution date to 2 minutes from now. If your SMTP is configured correctly you will start to get a mail every minute with the reminder.</li></ul>]]></field>
+    <li>Paso 1. Como usuario que tiene derechos de acceso a las funciones técnicas, vaya a Configuración --> Acciones automatizadas. Crear una nueva acción automatizada. Para el modelo de documento relacionado, elija... Información del contrato sobre un vehículo (también puede escribir el nombre del modelo actual... flota.vehicle.log.contract). Establezca la fecha de activación en... Fecha de vencimiento del contrato. El siguiente campo (retraso después de la fecha de activación) es un poco ridículo. ¿Quién quiere que le recuerden el vencimiento de un contrato DESPUÉS del hecho? El campo debe decir Días antes de la fecha de la acción de incendio y el número debe convertirse en negativo. EN MI HUMILDE OPINIÓN. De cualquier manera... para obtener una solución viable, debe ingresar el número en negativo. Entonces, por ejemplo, como yo, si desea recibir una advertencia 35 días ANTES de la expiración ... ingrese Retraso después de la fecha de activación ... el número -35 Pero por el bien de la prueba, ahora solo ingrese -1 por 1 día antes. Guarde la Acción.</li>
+    <li>Paso 2. Vaya a Acciones del servidor y cree una nueva acción. Llámelo Advertencia de vencimiento del contrato de flota. El Objeto será el mismo que el anterior.. Información del contrato sobre un vehículo. El Tipo de acción es Correo electrónico. Para la dirección de correo electrónico acabo de poner mi correo electrónico. Bajo el asunto poner en... [[object.name]]. Esto le dirá el nombre del coche. Mensaje que puede poner cualquier mensaje de texto que desee. Ahora guarde la acción del servidor.</li>
+    <li>Paso 3. Ahora regrese a la Acción automatizada que creó y vaya a la pestaña Acción junto a la pestaña de condiciones. Haga clic en Agregar y agregue la acción del servidor que creó. En este caso Aviso de Caducidad de Contrato de Flota. Luego Guardar.</li>
+    <li>Paso 4. Para probar, establezca un contrato que venza mañana en uno de los vehículos de su flota. Luego guárdelo.</li>
+    <li>Paso 5. Vaya a Acciones programadas. Establezca el número de intervalo en 1. Unidad de intervalo en Minutos. Luego establezca la fecha de la próxima ejecución en 2 minutos a partir de ahora. Si su SMTP está configurado correctamente, comenzará a recibir un correo cada minuto con el recordatorio.</li></ul>]]></field>
             <field name="parent_id" ref="question_0" />
         </record>
         <record id="answer_1" model="forum.post">
             <field name="forum_id" ref="website_forum.forum_help"/>
-            <field name="name">Re: CMS replacement for ERP and eCommerce</field>
+            <field name="name">Re: Reemplazo de CMS para ERP y comercio electrónico</field>
             <field name="content"><![CDATA[
-<p>Odoo v8 provides a web module and an e-commerce module: www.odoo.com/app/website
-The CMS editor in Odoo web is nice but I prefer Drupal for customization and there is a Drupal module for Odoo. I think WP is better than Odoo web too.
+<p>Daeris proporciona un módulo web y un módulo de comercio electrónico: www.daeris.com
+El editor de CMS en la web de Daeris es agradable, pero prefiero Drupal para la personalización y hay un módulo de Drupal para Daeris. Creo que WP también es mejor que Daeris web.
 </p>]]></field>
             <field name="parent_id" ref="question_1"/>
         </record>
