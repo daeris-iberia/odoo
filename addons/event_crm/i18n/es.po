@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-02 12:45+0000\n"
-"PO-Revision-Date: 2021-11-02 13:50+0100\n"
+"POT-Creation-Date: 2022-04-27 11:14+0000\n"
+"PO-Revision-Date: 2022-04-27 13:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -74,21 +74,17 @@ msgstr "Asistentes atendidos"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_tag_ids
 msgid "Automatically add these tags to the created leads."
-msgstr ""
-"Agregue automáticamente estas etiquetas a los clientes potenciales creados."
+msgstr "Agregue automáticamente estas etiquetas a los clientes potenciales creados."
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_sales_team_id
 msgid "Automatically assign the created leads to this Sales Team."
-msgstr ""
-"Asigne automáticamente los clientes potenciales creados a este equipo de "
-"ventas."
+msgstr "Asigne automáticamente los clientes potenciales creados a este equipo de ventas."
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_user_id
 msgid "Automatically assign the created leads to this Salesperson."
-msgstr ""
-"Asigne automáticamente los clientes potenciales creados a este vendedor."
+msgstr "Asigne automáticamente los clientes potenciales creados a este vendedor."
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__company_id
@@ -148,8 +144,7 @@ msgid ""
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
 "Creación: en la creación del asistente;\n"
-"Confirmación: cuando se confirma al asistente, de forma manual o "
-"automática;\n"
+"Confirmación: cuando se confirma al asistente, de forma manual o automática;\n"
 "Asistencia: cuando se confirma la asistencia y se establece la inscripción;"
 
 #. module: event_crm
@@ -201,21 +196,20 @@ msgstr "Filtra los asistentes que generarán o no clientes potenciales."
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_type_ids
 msgid ""
-"Filter the attendees to include those of this specific event category. If "
-"not set, no event category restriction will be applied."
+"Filter the attendees to include those of this specific event category. If not set, no "
+"event category restriction will be applied."
 msgstr ""
-"Filtra los asistentes para incluir a los de esta categoría de evento "
-"específica. Si no se establece, no se aplicará ninguna restricción de "
-"categoría de evento."
+"Filtra los asistentes para incluir a los de esta categoría de evento específica. Si no "
+"se establece, no se aplicará ninguna restricción de categoría de evento."
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
 msgid ""
-"Filter the attendees to include those of this specific event. If not set, "
-"no event restriction will be applied."
+"Filter the attendees to include those of this specific event. If not set, no event "
+"restriction will be applied."
 msgstr ""
-"Filtra los asistentes para incluir los de este evento específico. Si no se "
-"establece, no se aplicará ninguna restricción de evento."
+"Filtra los asistentes para incluir los de este evento específico. Si no se establece, "
+"no se aplicará ninguna restricción de evento."
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
@@ -351,8 +345,7 @@ msgid ""
 "Per Order : A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 "Por asistente: se crea un Clientes potencial para cada Asistente (B2C).\n"
-"Por pedido: Se crea un solo cliente potencial por lote de tickets / orden "
-"de venta (B2B)"
+"Por pedido: Se crea un solo cliente potencial por lote de tickets / orden de venta (B2B)"
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
@@ -377,18 +370,22 @@ msgstr "Registros que activan la regla que creó este cliente potencial"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
 msgid ""
-"Restrict the trigger of this rule to events belonging to a specific "
-"company.\n"
+"Restrict the trigger of this rule to events belonging to a specific company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
-"Restrinja el desencadenador de esta regla a eventos pertenecientes a una "
-"empresa específica.\n"
+"Restrinja el desencadenador de esta regla a eventos pertenecientes a una empresa "
+"específica.\n"
 "Si no se establece, no se aplicará ninguna restricción de la empresa."
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__name
 msgid "Rule Name"
 msgstr "Nombre de regla"
+
+#. module: event_crm
+#: model:event.lead.rule,name:event_crm.event_lead_rule_0
+msgid "Rule on @example.com"
+msgstr "Regla en @example.com"
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__event_lead_rule_id
@@ -429,8 +426,7 @@ msgstr "Categorías"
 #: model_terms:ir.actions.act_window,help:event_crm.event_lead_rule_action
 msgid "Those automatically create leads when attendees register."
 msgstr ""
-"Estos crean clientes potenciales automáticamente cuando los asistentes se "
-"registran."
+"Estos crean clientes potenciales automáticamente cuando los asistentes se registran."
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
