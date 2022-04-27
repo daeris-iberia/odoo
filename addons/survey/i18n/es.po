@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-29 08:14+0000\n"
-"PO-Revision-Date: 2021-10-29 10:21+0200\n"
+"POT-Creation-Date: 2022-04-27 08:11+0000\n"
+"PO-Revision-Date: 2022-04-27 10:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,36 @@ msgstr ""
 "Plural-Forms: \n"
 "Language: es\n"
 "X-Generator: Poedit 3.0\n"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_4
+msgid "$100"
+msgstr "$100"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_1
+msgid "$20"
+msgstr "$20"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_5
+msgid "$200"
+msgstr "$200"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_6
+msgid "$300"
+msgstr "$300"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_2
+msgid "$50"
+msgstr "$50"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_1_choice_3
+msgid "$80"
+msgstr "$80"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_progression
@@ -46,14 +76,84 @@ msgid "'Certification - %s' % (object.survey_id.display_name)"
 msgstr "'Certificación: %s' % (object.survey_id.display_name)"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug2
+msgid "10 kg"
+msgstr "10 kg"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug2
+msgid "100 years"
+msgstr "100 años"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q1_sug3
+msgid "1055"
+msgstr "1055"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug3
+msgid "116 years"
+msgstr "116 años"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q1_sug1
+msgid "1227"
+msgstr "1227"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug4
+msgid "127 years"
+msgstr "127 años"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q1_sug2
+msgid "1324"
+msgstr "1324"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug1
+msgid "1450 km"
+msgstr "1450 km"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug3
+msgid "16.2 kg"
+msgstr "16.2 kg"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug2
+msgid "3700 km"
+msgstr "3700 km"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
 msgid "403: Forbidden"
 msgstr "403: Prohibido"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug4
+msgid "47 kg"
+msgstr "47 kg"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "4812"
 msgstr "4812"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug1
+msgid "5.7 kg"
+msgstr "5.7 kg"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug3
+msgid "6650 km"
+msgstr "6650 km"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug1
+msgid "99 years"
+msgstr "99 años"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_classic model_terms:ir.ui.view,arch_db:survey.certification_report_view_modern
@@ -77,6 +177,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_classic model_terms:ir.ui.view,arch_db:survey.certification_report_view_modern
 msgid "<br/>by"
 msgstr "<br/>por"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p4_q6
+msgid ""
+"<div class=\"text-center\">\n"
+"                <div class=\"media_iframe_video\" data-oe-expression=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style="
+"\"width: 50%;\">\n"
+"                    <div class=\"css_editable_mode_display\"/>\n"
+"                    <div class=\"media_iframe_video_size\" contenteditable=\"false\"/>\n"
+"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
+"                </div><br/>\n"
+"            </div>\n"
+"        "
+msgstr ""
+"<div class=\"text-center\">\n"
+"                <div class=\"media_iframe_video\" data-oe-expression=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style="
+"\"width: 50%;\">\n"
+"                    <div class=\"css_editable_mode_display\"/>\n"
+"                    <div class=\"media_iframe_video_size\" contenteditable=\"false\"/>\n"
+"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
+"                </div><br/>\n"
+"            </div>\n"
+"        "
 
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
@@ -284,6 +407,121 @@ msgid "<i class=\"fa fa-times\"/> Clear All Filters"
 msgstr "<i class=\"fa fa-times\"/> Quitar todos los filtros"
 
 #. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p4_q3
+msgid ""
+"<p>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"<p>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
+"            </p>\n"
+"        "
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p4_q4
+msgid ""
+"<p>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;"
+"\"/><br/>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"<p>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;"
+"\"/><br/>\n"
+"            </p>\n"
+"        "
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p4
+msgid ""
+"<p>\n"
+"                We like to say that the apple doesn't fall far from the tree, so here are trees.\n"
+"            </p>\n"
+"        "
+msgstr ""
+"<p>\n"
+"                Nos gusta decir que la manzana no cae lejos del árbol, así que aquí hay árboles.\n"
+"            </p>\n"
+"        "
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p3
+msgid "<p>An apple a day keeps the doctor away.</p>"
+msgstr "<p> Una manzana al día mantiene alejado al doctor. </p>"
+
+#. module: survey
+#: model:survey.survey,description:survey.survey_demo_burger_quiz
+msgid "<p>Choose your favourite subject and show how good you are. Ready ?</p>"
+msgstr "<p>Elige tu tema favorito y demuestra lo bueno que eres. ¿Listo?</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p1_q4
+msgid "<p>Just to categorize your answers, don't worry.</p>"
+msgstr "<p>Solo para categorizar tus respuestas, no te preocupes.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p1
+msgid "<p>Some general information about you. It will be used internally for statistics only.</p>"
+msgstr "<p>Alguna información general sobre usted. Se utilizará internamente solo para estadísticas.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p2
+msgid "<p>Some questions about our company. Do you really know us?</p>"
+msgstr "<p>Algunas preguntas sobre nuestra empresa. ¿Realmente nos conoces?</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.vendor_certification_page_3
+msgid "<p>Test your knowledge of our policies.</p>"
+msgstr "<p>Pon a prueba tus conocimientos sobre nuestras políticas.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.vendor_certification_page_2
+msgid "<p>Test your knowledge of our prices.</p>"
+msgstr "<p>Pon a prueba tus conocimientos sobre nuestros precios.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.vendor_certification_page_1
+msgid "<p>Test your knowledge of your products!</p>"
+msgstr "<p>¡Pon a prueba tus conocimientos sobre tus productos!</p>"
+
+#. module: survey
+#: model:survey.survey,description:survey.vendor_certification
+msgid "<p>Test your vendor skills!</p>"
+msgstr "<p>¡Pon a prueba tus habilidades como proveedor!</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_feedback_p1
+msgid "<p>This section is about general information about you. Answering them helps qualifying your answers.</p>"
+msgstr "<p>Esta sección trata sobre información general sobre usted. Responderlas ayuda a calificar sus respuestas.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_feedback_p2
+msgid "<p>This section is about our eCommerce experience itself.</p>"
+msgstr "<p>Esta sección trata sobre nuestra propia experiencia de comercio electrónico.</p>"
+
+#. module: survey
+#: model:survey.survey,description:survey.survey_demo_quiz
+msgid "<p>This small quiz will test your knowledge about our Company. Be prepared !</p>"
+msgstr "<p>Este pequeño cuestionario pondrá a prueba sus conocimientos sobre nuestra empresa. ¡Prepárate!</p>"
+
+#. module: survey
+#: model:survey.survey,description:survey.survey_feedback
+msgid ""
+"<p>This survey allows you to give a feedback about your experience with our products.\n"
+"    Filling it helps us improving your experience.</p>"
+msgstr ""
+"<p>Esta encuesta le permite dar su opinión sobre su experiencia con nuestros productos.\n"
+"    Rellenarlo nos ayuda a mejorar tu experiencia.</p>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p5
+msgid "<p>We may be interested by your input.</p>"
+msgstr "<p>Es posible que nos interese su opinión.</p>"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> seconds</span>"
 msgstr "<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\">segundos</span>"
@@ -386,14 +624,39 @@ msgid "<span class=\"text-muted\">Success</span>"
 msgstr "<span class=\"text-muted\">Éxito</span>"
 
 #. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p3_q1
+msgid "<span>\"Red\" is not a category, I know what you are trying to do ;)</span>"
+msgstr "<span>\"Rojo\" no es una categoría, sé lo que intentas hacer;)</span>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p3_q6
+msgid "<span>Best time to do it, is the right time to do it.</span>"
+msgstr "<span>El mejor momento para hacerlo es el momento adecuado para hacerlo.</span>"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_classic model_terms:ir.ui.view,arch_db:survey.certification_report_view_modern
 msgid "<span>Date</span>"
 msgstr "<span>Fecha</span>"
 
 #. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p5_q1
+msgid "<span>If you don't like us, please try to be as objective as possible.</span>"
+msgstr "<span>Si no le agradamos, intente ser lo más objetivo posible.</span>"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_retake
 msgid "<span>Number of attemps left</span>:"
 msgstr "<span>Número de intentos restantes</span>:"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p2_q1
+msgid "<span>Our famous Leader !</span>"
+msgstr "<span> ¡Nuestro famoso líder! </span>"
+
+#. module: survey
+#: model:survey.question,description:survey.survey_demo_quiz_p3_q3
+msgid "<span>Our sales people have an advantage, but you can do it !</span>"
+msgstr "<span>Nuestro personal de ventas tiene una ventaja, ¡pero usted puede hacerlo!</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
@@ -411,6 +674,11 @@ msgid "<span>Waiting for attendees...</span>"
 msgstr "<span>Esperando asistentes ...</span>"
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q4
+msgid "A \"Citrus\" could give you ..."
+msgstr "Un \"Citrus\" podría darte..."
+
+#. module: survey
 #: code:addons/survey/models/survey_question.py:0
 #, python-format
 msgid "A label must be attached to only one question."
@@ -423,13 +691,23 @@ msgid "A length must be positive!"
 msgstr "¡Una longitud debe ser positiva!"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_4
+msgid "A little bit overpriced"
+msgstr "Un poco caro"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_5
+msgid "A lot overpriced"
+msgstr "Muy caro"
+
+#. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question_answer__answer_score
 msgid "A positive score indicates a correct choice; a negative or null score indicates a wrong answer"
 msgstr "Una puntuación positiva indica una respuesta correcta, una negativa o nula indica una respuesta incorrecta"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
-msgid "A problem has occured"
+msgid "A problem has occurred"
 msgstr "Ha ocurrido un problema"
 
 #. module: survey
@@ -437,6 +715,16 @@ msgstr "Ha ocurrido un problema"
 #, python-format
 msgid "A question can either be skipped or answered, not both."
 msgstr "Una pregunta puede ser omitida o respondida, no ambas."
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p2
+msgid "About our ecommerce"
+msgstr "Sobre nuestro comercio electrónico"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p1
+msgid "About you"
+msgstr "Sobre ti"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_access_mode
@@ -522,6 +810,21 @@ msgid "Administrator"
 msgstr "Administrador"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug1
+msgid "Africa"
+msgstr "Africa"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q6
+msgid "After watching this video, will you swear that you are not going to procrastinate to trim your hedge this year ?"
+msgstr "Después de ver este vídeo, ¿me jurarías que no vas a posponer las cosas para recortar tu seto este año?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col3
+msgid "Agree"
+msgstr "De acuerdo"
+
+#. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_scored_date_have_answers
 msgid "All \"Is a scored question = True\" and \"Question Type: Date\" questions need an answer"
 msgstr "Todas las preguntas \"Es una pregunta puntuada = Verdadero\" y \"Tipo de pregunta: Fecha\" necesitan una respuesta"
@@ -545,6 +848,11 @@ msgstr "Todas las encuestas"
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Allow Comments"
 msgstr "Permitir comentarios"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug2
+msgid "Amenhotep"
+msgstr "Amenhotep"
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_user_input_unique_token
@@ -609,9 +917,34 @@ msgid "Appears in"
 msgstr "Aparece en"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q3_sug1
+msgid "Apple Trees"
+msgstr "Manzanos"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_row1
+msgid "Apples"
+msgstr "Manzanas"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Archived"
 msgstr "Archivado"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p5 model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug4
+msgid "Art & Culture"
+msgstr "Arte y Cultura"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug1
+msgid "Arthur B. McDonald"
+msgstr "Arthur B. McDonald"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug2
+msgid "Asia"
+msgstr "Asia"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_attachment_count
@@ -670,6 +1003,11 @@ msgid "Automated email sent to the user when he succeeds the certification, cont
 msgstr "Correo electrónico automatizado enviado al usuario cuando logra la certificación, que contiene su documento de certificación."
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug3
+msgid "Autumn"
+msgstr "Otoño"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_duration_avg
 msgid "Average Duration"
 msgstr "Duración media"
@@ -683,6 +1021,11 @@ msgstr "Duración media de la encuesta (en horas)"
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_score_avg
 msgid "Avg Score %"
 msgstr "Calificación promedia %"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug3
+msgid "Avicii"
+msgstr "Avicii"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form
@@ -700,9 +1043,44 @@ msgid "Badge"
 msgstr "Insignia"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q3_sug3
+msgid "Baobab Trees"
+msgstr "Árboles baobab"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q2_sug1
+msgid "Bees"
+msgstr "Abejas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug4
+msgid "Bricks"
+msgstr "Ladrillos"
+
+#. module: survey
+#: model:survey.survey,title:survey.survey_demo_burger_quiz
+msgid "Burger Quiz"
+msgstr "Prueba de hamburguesa"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_3
+msgid "Cabinet with Doors"
+msgstr "Armario con Puertas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_row1
+msgid "Cactus"
+msgstr "Cactus"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__can_edit_body
 msgid "Can Edit Body"
 msgstr "Puede editar el cuerpo"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q3
+msgid "Can Humans ever directly see a photon ?"
+msgstr "¿Pueden los humanos ver directamente un fotón?"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
@@ -788,6 +1166,11 @@ msgid "Certified"
 msgstr "Certificado"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_1
+msgid "Chair floor protection"
+msgstr "Protección del suelo de la silla"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_header
 msgid "Chart"
 msgstr "Plan"
@@ -797,6 +1180,11 @@ msgstr "Plan"
 #: model:ir.model.fields,help:survey.field_survey_user_input__is_attempts_limited
 msgid "Check this option if you want to limit the number of attempts per user"
 msgstr "Marque esta opción si desea limitar el número de intentos por usuario"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug2
+msgid "China"
+msgstr "China"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -819,6 +1207,16 @@ msgid "Classic Purple"
 msgstr "Morado Clásico"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_row3
+msgid "Clementine"
+msgstr "Clementina"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug4
+msgid "Cliff Burton"
+msgstr "Cliff Burton"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_form_view model_terms:ir.ui.view,arch_db:survey.survey_fill_form
 #: model_terms:ir.ui.view,arch_db:survey.survey_form
 msgid "Close"
@@ -830,7 +1228,7 @@ msgid "Close Live Session"
 msgstr "Cerrar sesión en vivo"
 
 #. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.survey_kanban
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_1 model_terms:ir.ui.view,arch_db:survey.survey_kanban
 msgid "Color"
 msgstr "Color"
 
@@ -884,6 +1282,16 @@ msgid "Conditional Display"
 msgstr "Visualización condicional"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_3
+msgid "Conference chair"
+msgstr "Silla de Conferencias"
+
+#. module: survey
+#: model_terms:gamification.badge,description:survey.vendor_certification_badge
+msgid "Congratulations, you are now official vendor of MyCompany"
+msgstr "Felicitaciones, ahora es proveedor oficial de MiEmpresa"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "Congratulations, you have passed the test!"
 msgstr "¡Felicitaciones, has pasado la prueba!"
@@ -919,11 +1327,26 @@ msgid "Continue here"
 msgstr "Continúa aquí"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q3_sug4
+msgid "Cookies"
+msgstr "Cookies"
+
+#. module: survey
 #. openerp-web
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 #, python-format
 msgid "Copied !"
 msgstr "¡Copiado!"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q1_sug3
+msgid "Cornaceae"
+msgstr "Cornáceas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_1
+msgid "Corner Desk Right Sit"
+msgstr "Escritorio de esquina Asiento derecho"
 
 #. module: survey
 #. openerp-web
@@ -968,6 +1391,16 @@ msgstr "Número correcto para esta pregunta."
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_numerical_box
 msgid "Correct numerical answer"
 msgstr "Respuesta numérica correcta"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_3
+msgid "Correctly priced"
+msgstr "Precio correcto"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug3
+msgid "Cosmic rays"
+msgstr "Rayos cósmicos"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form
@@ -1049,6 +1482,11 @@ msgid "Customers will receive the same token."
 msgstr "Los clientes recibirán el mismo token."
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_5
+msgid "Customizable Lamp"
+msgstr "Lámpara personalizable"
+
+#. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__date
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__date
 msgid "Date"
@@ -1108,9 +1546,19 @@ msgid "Design easily your survey, send invitations and analyze answers."
 msgstr "Diseña fácilmente tu encuesta, envía invitaciones y analiza respuestas."
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_2
+msgid "Desk Combination"
+msgstr "Combinación de escritorio"
+
+#. module: survey
 #: model:ir.actions.act_window,name:survey.survey_user_input_line_action model:ir.ui.menu,name:survey.menu_survey_response_line_form
 msgid "Detailed Answers"
 msgstr "Respuestas detalladas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col2
+msgid "Disagree"
+msgstr "Desacuerdo"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -1131,6 +1579,41 @@ msgstr "Nombre mostrado"
 #: model:ir.model.fields,help:survey.field_survey_question__allow_value_image
 msgid "Display images in addition to answer label. Valid only for simple / multiple choice questions."
 msgstr "Muestra imágenes además de la etiqueta de respuesta. Válido solo para preguntas de opción simple / múltiple."
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1_question_1
+msgid "Do we sell Acoustic Bloc Screens?"
+msgstr "¿Vendemos Pantallas Acusticas?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p2_q3
+msgid "Do you have any other comments, questions, or concerns ?"
+msgstr "¿Tiene algún otro comentario, pregunta o inquietud?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1_question_5
+msgid "Do you think we have missing products in our catalog? (not rated)"
+msgstr "¿Crees que nos faltan productos en nuestro catálogo? (no clasificado)"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q2_sug2
+msgid "Dogs"
+msgstr "Perros"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q1
+msgid "Dogwood is from which family of trees ?"
+msgstr "¿El cornejo es de qué familia de árboles?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug1
+msgid "Douglas Fir"
+msgstr "Abeto Douglas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_4
+msgid "Drawer"
+msgstr "Cajón"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_kanban
@@ -1184,6 +1667,16 @@ msgid "Error message"
 msgstr "Mensaje de error"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug3
+msgid "Europe"
+msgstr "Europa"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug3
+msgid "European Yew"
+msgstr "Tejo Europeo"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "Except Test Entries"
 msgstr "Excepto entradas de prueba"
@@ -1197,6 +1690,26 @@ msgstr "Socio existente"
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_emails
 msgid "Existing emails"
 msgstr "Correos electrónicos existentes"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug2
+msgid "Eyjafjallajökull (Iceland)"
+msgstr "Eyjafjallajökull (Islandia)"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_2
+msgid "Fanta"
+msgstr "Fanta"
+
+#. module: survey
+#: model:survey.survey,title:survey.survey_feedback
+msgid "Feedback Form"
+msgstr "Formulario de comentarios"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_row2
+msgid "Ficus"
+msgstr "Ficus"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__model_object_field
@@ -1256,6 +1769,21 @@ msgid "From"
 msgstr "Desde"
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q4
+msgid "From which continent is native the Scots pine (pinus sylvestris) ?"
+msgstr "¿De qué continente es originario el pino silvestre (pinus sylvestris)?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q1_sug1
+msgid "Fruits"
+msgstr "Frutas"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3
+msgid "Fruits and vegetables"
+msgstr "Frutas y vegetales"
+
+#. module: survey
 #: model:ir.model,name:survey.model_gamification_badge
 msgid "Gamification Badge"
 msgstr "Insignia de ludificación"
@@ -1266,14 +1794,39 @@ msgid "Gamification Challenge"
 msgstr "Desafío de ludificación"
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p2 model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
+msgid "Geography"
+msgstr "Geografía"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_give_badge
 msgid "Give Badge"
 msgstr "Dar insignia"
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p2_q3
+msgid "Give the list of all types of wood we sell."
+msgstr "Dar la lista de todos los tipos de madera que vendemos."
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content model_terms:ir.ui.view,arch_db:survey.user_input_session_open
 msgid "Go to"
 msgstr "Ir a"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p5_q1_sug1
+msgid "Good"
+msgstr "Bien"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug4
+msgid "Good value for money"
+msgstr "Buena relación calidad-precio"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug2
+msgid "Grapefruits"
+msgstr "Pomelos"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_choice
@@ -1293,9 +1846,109 @@ msgid "Handle existing"
 msgstr "Manejar existente"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q3_sug1
+msgid "Hard"
+msgstr "Difícil"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__has_message
 msgid "Has Message"
 msgstr "Tiene mensaje"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_2
+msgid "Height"
+msgstr "Altura"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug3
+msgid "Hemiunu"
+msgstr "Hemiunu"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug1
+msgid "High quality"
+msgstr "Alta calidad"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p3 model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug2
+msgid "History"
+msgstr "Historial"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p1_q3
+msgid "How frequently do you buy products online ?"
+msgstr "¿Con qué frecuencia compra productos en línea?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q1
+msgid "How long is the White Nile river?"
+msgstr "¿Cuánto mide el río Nilo Blanco?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_6
+msgid "How many chairs do you think we should aim to sell in a year (not rated)?"
+msgstr "¿Cuántas sillas cree que deberíamos tratar de vender en un año (sin calificar)?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_1
+msgid "How many days is our money-back guarantee?"
+msgstr "¿Cuántos días es nuestra garantía de devolución de dinero?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p1_q4
+msgid "How many times did you order products on our website ?"
+msgstr "¿Cuántas veces ordenó productos en nuestro sitio web?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1_question_4
+msgid "How many versions of the Corner Desk do we have?"
+msgstr "¿Cuántas versiones tenemos del escritorio esquinero?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q3
+msgid "How many years did the 100 years war last ?"
+msgstr "¿Cuántos años duró la guerra de los 100 años?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_2_question_1
+msgid "How much do we sell our Cable Management Box?"
+msgstr "¿A cuánto vendemos nuestra Caja de Gestión de Cables?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q5
+msgid "How often should you water those plants"
+msgstr "¿Con qué frecuencia debes regar esas plantas?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p1_q4
+msgid "How old are you ?"
+msgstr "¿Cuántos años tienes?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug4
+msgid "I actually don't like thinking. I think people think I like to think a lot. And I don't. I do not like to think at all."
+msgstr "En realidad no me gusta pensar. Creo que la gente piensa que me gusta pensar mucho. Y yo no. No me gusta pensar en absoluto."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug2
+msgid "I am fascinated by air. If you remove the air from the sky, all the birds would fall to the ground. And all the planes, too."
+msgstr "Me fascina el aire. Si quitaras el aire del cielo, todas las aves caerían al suelo. Y todos los aviones también."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row5
+msgid "I have added products to my wishlist"
+msgstr "He añadido productos a mi lista de deseos"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p5_q1_sug4
+msgid "I have no idea, I'm a dog!"
+msgstr "No tengo idea, soy un perro!"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug3
+msgid "I've been noticing gravity since I was very young !"
+msgstr "¡He estado notando la gravedad desde que era muy joven!"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__id
@@ -1326,6 +1979,16 @@ msgstr "Token de identificación"
 #: model:ir.model.fields,help:survey.field_survey_survey__progression_mode
 msgid "If Number is selected, it will display the number of questions answered on the total number of question to answer."
 msgstr "Si se selecciona Número, mostrará el número de preguntas respondidas sobre el número total de preguntas para responder."
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_3
+msgid "If a customer purchases a 1 year warranty on 6 January 2020, when do we expect the warranty to expire?"
+msgstr "Si un cliente compra una garantía de 1 año el 6 de enero de 2020, ¿cuándo caducará la garantía?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_2
+msgid "If a customer purchases a product on 6 January 2020, what is the latest day we expect to ship it?"
+msgstr "Si un cliente compra un producto el 6 de enero de 2020, ¿cuál es el último día que esperamos enviarlo?"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__message_needaction
@@ -1370,7 +2033,57 @@ msgid "If checked, users have to login before answering even with a valid token.
 msgstr "Si está marcado, los usuarios deben iniciar sesión antes de responder incluso con un token válido."
 
 #. module: survey
-#: code:addons/survey/models/survey_question.py:0
+#: code:addons/survey/models/survey_question.py:0 model:survey.question,comments_message:survey.survey_demo_burger_quiz_p1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p1_q1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p2
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p2_q1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p2_q2
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p2_q3
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p3
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p3_q1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p3_q2
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p3_q3
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p4
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p4_q1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p4_q2
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p4_q3
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p5
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p5_q1
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p5_q2
+#: model:survey.question,comments_message:survey.survey_demo_burger_quiz_p5_q3 model:survey.question,comments_message:survey.survey_demo_quiz_p1
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p1_q1 model:survey.question,comments_message:survey.survey_demo_quiz_p1_q2
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p1_q3 model:survey.question,comments_message:survey.survey_demo_quiz_p1_q4
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p2 model:survey.question,comments_message:survey.survey_demo_quiz_p2_q1
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p2_q2 model:survey.question,comments_message:survey.survey_demo_quiz_p2_q3
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p3 model:survey.question,comments_message:survey.survey_demo_quiz_p3_q1
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p3_q2 model:survey.question,comments_message:survey.survey_demo_quiz_p3_q3
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p3_q4 model:survey.question,comments_message:survey.survey_demo_quiz_p3_q5
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p3_q6 model:survey.question,comments_message:survey.survey_demo_quiz_p4
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p4_q1 model:survey.question,comments_message:survey.survey_demo_quiz_p4_q2
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p4_q3 model:survey.question,comments_message:survey.survey_demo_quiz_p4_q4
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p4_q5 model:survey.question,comments_message:survey.survey_demo_quiz_p4_q6
+#: model:survey.question,comments_message:survey.survey_demo_quiz_p5 model:survey.question,comments_message:survey.survey_demo_quiz_p5_q1
+#: model:survey.question,comments_message:survey.survey_feedback_p1 model:survey.question,comments_message:survey.survey_feedback_p1_q1
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q2 model:survey.question,comments_message:survey.survey_feedback_p1_q3
+#: model:survey.question,comments_message:survey.survey_feedback_p1_q4 model:survey.question,comments_message:survey.survey_feedback_p2
+#: model:survey.question,comments_message:survey.survey_feedback_p2_q1 model:survey.question,comments_message:survey.survey_feedback_p2_q2
+#: model:survey.question,comments_message:survey.survey_feedback_p2_q3 model:survey.question,comments_message:survey.vendor_certification_page_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_3
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_4
+#: model:survey.question,comments_message:survey.vendor_certification_page_1_question_5
+#: model:survey.question,comments_message:survey.vendor_certification_page_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_2_question_3
+#: model:survey.question,comments_message:survey.vendor_certification_page_3
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_1
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_2
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_3
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_4
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_5
+#: model:survey.question,comments_message:survey.vendor_certification_page_3_question_6
 #, python-format
 msgid "If other, please specify:"
 msgstr "Si otra, por favor, precisar:"
@@ -1401,11 +2114,31 @@ msgid "Images on answers"
 msgstr "Imágenes sobre respuestas"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug1
+msgid "Imhotep"
+msgstr "Imhotep"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug6
+msgid "Impractical"
+msgstr "Poco práctico"
+
+#. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__session_state__in_progress
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input__state__in_progress
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "In Progress"
 msgstr "En progreso"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q5
+msgid "In the list below, select all the coniferous."
+msgstr "En la lista a continuación, seleccione todas las coníferas."
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q2
+msgid "In which country did the bonsai technique develop ?"
+msgstr "¿En qué país se desarrolló la técnica del bonsái?"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
@@ -1420,6 +2153,11 @@ msgstr ""
 #, python-format
 msgid "Incorrect"
 msgstr "Incorrecto"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug7
+msgid "Ineffective"
+msgstr "Ineficaz"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_email
@@ -1472,9 +2210,49 @@ msgid "Is that user input part of a survey session or not."
 msgstr "Es esa entrada del usuario parte de una sesión de encuesta o no."
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4_q3
+msgid "Is the wood of a coniferous hard or soft ?"
+msgstr "¿La madera de una conífera es dura o blanda?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug4
+msgid "Istanbul"
+msgstr "Estambul"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row2
+msgid "It is easy to find the product that I want"
+msgstr "Es fácil encontrar el producto que quiero."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p5_q1_sug3
+msgid "Iznogoud"
+msgstr "Iznogoud"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug1
+msgid "I’ve never really wanted to go to Japan. Simply because I don’t like eating fish. And I know that’s very popular out there in Africa."
+msgstr "Realmente nunca he querido ir a Japón. Simplemente porque no me gusta comer pescado. Y sé que eso es muy popular en África."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug1
+msgid "Japan"
+msgstr "Japón"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "Join Session"
 msgstr "Únase a la sesión"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug2
+msgid "Kim Jong-hyun"
+msgstr "Kim Jong-hyun"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug1
+msgid "Kurt Cobain"
+msgstr "Kurt Cobain"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__sequence
@@ -1495,6 +2273,11 @@ msgstr "Etiquetas utilizadas para las opciones propuestas: opción simple, opci�
 #: model:ir.model.fields,field_description:survey.field_survey_invite__lang
 msgid "Language"
 msgstr "Idioma"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_4
+msgid "Large Desk"
+msgstr "Escritorio grande"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite____last_update
@@ -1545,6 +2328,16 @@ msgstr "Diseño"
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "Leaderboard"
 msgstr "Tablero de líderes"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_4
+msgid "Legs"
+msgstr "Patas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q3_sug2
+msgid "Lemon Trees"
+msgstr "Limoneros"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__is_attempts_limited
@@ -1701,6 +2494,31 @@ msgid "Modern Purple"
 msgstr "Morado moderno"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q2_sug3
+msgid "Mooses"
+msgstr "Alces"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug4
+msgid "Mount Elbrus (Russia)"
+msgstr "Monte Elbrus (Russia)"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug3
+msgid "Mount Etna (Italy - Sicily)"
+msgstr "Monte Etna (Italia - Sicilia)"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug1
+msgid "Mount Teide (Spain - Tenerife)"
+msgstr "Monte Teide (España - Tenerife)"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug4
+msgid "Mountain Pine"
+msgstr "Pino de montaña"
+
+#. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__text_box
 msgid "Multiple Lines Text Box"
 msgstr "Cuadro de texto de múltiples líneas"
@@ -1736,9 +2554,24 @@ msgid "My Activity Deadline"
 msgstr "Mi fecha límite de actividad"
 
 #. module: survey
+#: model:gamification.badge,name:survey.vendor_certification_badge
+msgid "MyCompany Vendor"
+msgstr "Proveedor de MiEmpresa"
+
+#. module: survey
+#: model:survey.survey,title:survey.vendor_certification
+msgid "MyCompany Vendor Certification"
+msgstr "Certificación de proveedor de MiEmpresa"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "New"
 msgstr "Nuevo"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug3
+msgid "New York"
+msgstr "Nueva York"
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_invite__existing_mode__new
@@ -1769,6 +2602,12 @@ msgstr "Siguiente tipo de actividad"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__nickname
 msgid "Nickname"
 msgstr "Apodo"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q6_sug2
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_1_choice_1
+msgid "No"
+msgstr "No"
 
 #. module: survey
 #: code:addons/survey/models/survey_survey.py:0
@@ -1802,9 +2641,24 @@ msgid "No user input lines found"
 msgstr "No se encontraron líneas de entrada de usuario"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q3_sug2
+msgid "No, it's to small for the human eye."
+msgstr "No, es demasiado pequeño para el ojo humano."
+
+#. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
 msgid "Nobody has replied to your surveys yet"
 msgstr "Nadie ha respondido a tus encuestas todavía"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug2
+msgid "Norway Spruce"
+msgstr "Picea de Noruega"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p5_q1_sug2
+msgid "Not Good, Not Bad"
+msgstr "Ni bueno ni malo"
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input__state__new
@@ -1832,6 +2686,11 @@ msgstr "Número de intentos"
 #: model:ir.model.fields,field_description:survey.field_survey_question__column_nb model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Number of columns"
 msgstr "Número de columnas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_5
+msgid "Number of drawers"
+msgstr "Número de cajones"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_has_error_counter
@@ -1867,6 +2726,31 @@ msgstr "Respuesta numérica"
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date
 msgid "Occurrence"
 msgstr "Siguiente repetición"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
+msgid "Office Chair Black"
+msgstr "Silla de Oficina Negra"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug1
+msgid "Once a day"
+msgstr "Una vez al día"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_sug1 model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug3
+msgid "Once a month"
+msgstr "Una vez al mes"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_sug2 model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug2
+msgid "Once a week"
+msgstr "Una vez a la semana"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug4
+msgid "Once a year"
+msgstr "Una vez al año"
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__matrix_subtype__simple
@@ -1926,6 +2810,11 @@ msgid "Other (see comments)"
 msgstr "Otro (ver comentarios)"
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p2
+msgid "Our Company in a few questions ..."
+msgstr "Nuestra Empresa en unas preguntas..."
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__mail_server_id
 msgid "Outgoing mail server"
 msgstr "Servidor de correos salientes"
@@ -1938,6 +2827,11 @@ msgid "Overall Performance"
 msgstr "Rendimiento general"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug5
+msgid "Overpriced"
+msgstr "Caro"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__page_id
 msgid "Page"
 msgstr "Página"
@@ -1946,6 +2840,11 @@ msgstr "Página"
 #: model:ir.model.fields,field_description:survey.field_survey_survey__page_ids
 msgid "Pages"
 msgstr "Páginas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug4
+msgid "Papyrus"
+msgstr "Papiro"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
@@ -2000,9 +2899,29 @@ msgid "Performance by Section"
 msgstr "Rendimiento por sección"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q6_sug3
+msgid "Perhaps"
+msgstr "Quizás"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug2
+msgid "Peter W. Higgs"
+msgstr "Peter W. Higgs"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p1_q1
+msgid "Pick a subject"
+msgstr "Elige un tema"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_choice
 msgid "Pie Graph"
 msgstr "Gráfica circular"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q1_sug1
+msgid "Pinaceae"
+msgstr "Pináceas"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__copyvalue
@@ -2024,6 +2943,21 @@ msgstr ""
 "Asegúrese de tener al menos una pregunta en su encuesta. También necesita al menos una sección si elige el diseño \"Página por sección\".<br/>"
 
 #. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3
+msgid "Policies"
+msgstr "Políticas"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug1
+msgid "Pomelos"
+msgstr "Pomelos"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug8
+msgid "Poor quality"
+msgstr "Mala calidad"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__predefined_question_ids
 msgid "Predefined Questions"
 msgstr "Preguntas predefinidas"
@@ -2034,9 +2968,19 @@ msgid "Preview"
 msgstr "Previsualizar"
 
 #. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_2
+msgid "Prices"
+msgstr "Precios"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 msgid "Print"
 msgstr "Imprimir"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1
+msgid "Products"
+msgstr "Productos"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__progression_mode
@@ -2087,6 +3031,11 @@ msgstr "Pregunta que contiene la respuesta desencadenante para mostrar la pregun
 #: model:ir.ui.menu,name:survey.survey_menu_questions model_terms:ir.ui.view,arch_db:survey.survey_form
 msgid "Questions"
 msgstr "Cuestionario"
+
+#. module: survey
+#: model:survey.survey,title:survey.survey_demo_quiz
+msgid "Quiz about our Company"
+msgstr "Prueba sobre nuestra empresa"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_success
@@ -2219,6 +3168,11 @@ msgid "SMS Delivery error"
 msgstr "Error de entrega del SMS"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q1_sug4
+msgid "Salicaceae"
+msgstr "Salicáceas"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__save_as_email
 msgid "Save as user email"
 msgstr "Guardar como correo electrónico de usuario"
@@ -2227,6 +3181,11 @@ msgstr "Guardar como correo electrónico de usuario"
 #: model:ir.model.fields,field_description:survey.field_survey_question__save_as_nickname
 msgid "Save as user nickname"
 msgstr "Guardar como apodo de usuario"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p4 model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug3
+msgid "Sciences"
+msgstr "Ciencias"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_score
@@ -2313,6 +3272,21 @@ msgid "See results"
 msgstr "Ver resultados"
 
 #. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1_question_3
+msgid "Select all the available customizations for our Customizable Desk"
+msgstr "Selecciona todas las personalizaciones disponibles para nuestro Escritorio Personalizable"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_1_question_2
+msgid "Select all the existing products"
+msgstr "Seleccionar todos los productos existentes"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_2_question_2
+msgid "Select all the products that sell for $100 or more"
+msgstr "Seleccione todos los productos que se venden por $100 o más"
+
+#. module: survey
 #: model:ir.model.fields,help:survey.field_survey_invite__model_object_field
 msgid ""
 "Select target field from the related document model.\n"
@@ -2320,6 +3294,11 @@ msgid ""
 msgstr ""
 "Seleccione el campo objetivo del modelo de documentado relacionado.\n"
 "Si es un campo de asociación, podrá seleccionar un campo objetivo en el destino de la asociación."
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q3
+msgid "Select trees that made more than 20K sales this year"
+msgstr "Seleccionar árboles que generaron más de 20.000 en ventas este año"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__questions_selection
@@ -2359,6 +3338,11 @@ msgid "Session code should be unique"
 msgstr "El código de sesión debe ser único"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug1
+msgid "Shanghai"
+msgstr "Shanghai"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form model_terms:ir.ui.view,arch_db:survey.survey_kanban
 msgid "Share"
 msgstr "Compartir"
@@ -2390,6 +3374,11 @@ msgid "Skipped"
 msgstr "Omitida"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q3_sug2
+msgid "Soft"
+msgstr "Suave"
+
+#. module: survey
 #: code:addons/survey/wizard/survey_invite.py:0
 #, python-format
 msgid "Some emails you just entered are incorrect: %s"
@@ -2404,6 +3393,31 @@ msgstr "Lo sentimos, nadie ha respondido a esta encuesta todavía."
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid "Sorry, you have not been fast enough."
 msgstr "Lo siento, no has sido lo suficientemente rápido."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug4
+msgid "South America"
+msgstr "Sudamérica"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug4
+msgid "South Korea"
+msgstr "Corea del Sur"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q1_sug3
+msgid "Space stations"
+msgstr "Estaciones espaciales"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug1
+msgid "Spring"
+msgstr "Primavera"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p1
+msgid "Start"
+msgstr "Inicio"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -2437,6 +3451,11 @@ msgstr ""
 "Vencida: la fecha tope ya ha pasado\n"
 "Hoy: La fecha tope es hoy\n"
 "Planificada: futuras actividades."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_row2
+msgid "Strawberries"
+msgstr "Fresas"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__sub_model_object_field
@@ -2502,6 +3521,11 @@ msgstr "Valor sugerido"
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__suggestion
 msgid "Suggestion"
 msgstr "Sugerencia"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug2
+msgid "Summer"
+msgstr "Verano"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_survey model:ir.model.fields,field_description:survey.field_gamification_badge__survey_id
@@ -2603,6 +3627,11 @@ msgid "Surveys"
 msgstr "Encuestas"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug3
+msgid "Takaaki Kajita"
+msgstr "Takaaki Kajita"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form
 msgid "Test"
 msgstr "Prueba"
@@ -2639,7 +3668,68 @@ msgid "The answer must be in the right type"
 msgstr "La respuesta debe estar en el tipo adecuado"
 
 #. module: survey
-#: code:addons/survey/models/survey_question.py:0
+#: code:addons/survey/models/survey_question.py:0 model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p1_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p2
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p2_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p2_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p2_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p3
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p3_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p3_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p3_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p4
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p4_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p4_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p4_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p5
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p5_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p5_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_burger_quiz_p5_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p1 model:survey.question,validation_error_msg:survey.survey_demo_quiz_p1_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p1_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p1_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p1_q4 model:survey.question,validation_error_msg:survey.survey_demo_quiz_p2
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p2_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p2_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p2_q3 model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q4
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q5
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p3_q6 model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q1
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q2
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q3
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q4
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q5
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p4_q6 model:survey.question,validation_error_msg:survey.survey_demo_quiz_p5
+#: model:survey.question,validation_error_msg:survey.survey_demo_quiz_p5_q1 model:survey.question,validation_error_msg:survey.survey_feedback_p1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q3
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p1_q4 model:survey.question,validation_error_msg:survey.survey_feedback_p2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q1
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q2
+#: model:survey.question,validation_error_msg:survey.survey_feedback_p2_q3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_4
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_1_question_5
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_2_question_3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_1
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_2
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_3
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_4
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_5
+#: model:survey.question,validation_error_msg:survey.vendor_certification_page_3_question_6
 #, python-format
 msgid "The answer you entered is not valid."
 msgstr "La respuesta introducida no es válida."
@@ -2653,6 +3743,11 @@ msgstr "El límite de intentos debe ser un número positivo si la encuesta tiene
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_badge_uniq
 msgid "The badge for each survey should be unique!"
 msgstr "¡La insignia de cada encuesta debe ser única!"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row4
+msgid "The checkout process is clear and secure"
+msgstr "El proceso de pago es claro y seguro."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_id
@@ -2703,6 +3798,11 @@ msgstr ""
 "configuración."
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row1
+msgid "The new layout and design is fresh and up-to-date"
+msgstr "El nuevo diseño y diseño es fresco y actualizado."
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
 msgid "The page you were looking for could not be authorized."
 msgstr "No está autorizado a ver la página que está buscando."
@@ -2742,6 +3842,11 @@ msgstr "La hora a la que ha comenzado la pregunta actual, utilizada para control
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_time_limit_check
 msgid "The time limit needs to be a positive number if the survey is time limited."
 msgstr "El límite de tiempo debe ser un número positivo si la encuesta tiene un límite de tiempo."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row3
+msgid "The tool to compare the products is useful to make a choice"
+msgstr "La herramienta para comparar los productos es útil para hacer una elección."
 
 #. module: survey
 #: code:addons/survey/controllers/main.py:0
@@ -2829,7 +3934,57 @@ msgid "This question depends on another question's answer."
 msgstr "Esta pregunta depende de la respuesta de otra pregunta."
 
 #. module: survey
-#: code:addons/survey/models/survey_question.py:0
+#: code:addons/survey/models/survey_question.py:0 model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p1_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p2
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p2_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p2_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p2_q3
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p3
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p3_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p3_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p3_q3
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p4
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p4_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p4_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p4_q3
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p5
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p5_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p5_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_burger_quiz_p5_q3 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p1
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p1_q1 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p1_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p1_q3 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p1_q4
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p2 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p2_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p2_q2 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p2_q3
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q1
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q2 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q3
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q4 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q5
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p3_q6 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q1 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q2
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q3 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q4
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q5 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p4_q6
+#: model:survey.question,constr_error_msg:survey.survey_demo_quiz_p5 model:survey.question,constr_error_msg:survey.survey_demo_quiz_p5_q1
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1 model:survey.question,constr_error_msg:survey.survey_feedback_p1_q1
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q2 model:survey.question,constr_error_msg:survey.survey_feedback_p1_q3
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p1_q4 model:survey.question,constr_error_msg:survey.survey_feedback_p2
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2_q1 model:survey.question,constr_error_msg:survey.survey_feedback_p2_q2
+#: model:survey.question,constr_error_msg:survey.survey_feedback_p2_q3 model:survey.question,constr_error_msg:survey.vendor_certification_page_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_4
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_1_question_5
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_2_question_3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_1
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_2
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_3
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_4
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_5
+#: model:survey.question,constr_error_msg:survey.vendor_certification_page_3_question_6
 #, python-format
 msgid "This question requires an answer."
 msgstr "Esta pregunta requiere una respuesta."
@@ -2878,9 +4033,29 @@ msgid "Today Activities"
 msgstr "Actividades de Hoy"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug2
+msgid "Tokyo"
+msgstr "Tokio"
+
+#. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_total
 msgid "Total Score"
 msgstr "Puntuación Total"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col4
+msgid "Totally agree"
+msgstr "Totalmente de acuerdo"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col1
+msgid "Totally disagree"
+msgstr "Totalmente en desacuerdo"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p4
+msgid "Trees"
+msgstr "Árboles"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__triggering_answer_id
@@ -2908,6 +4083,11 @@ msgid "Types of answers"
 msgstr "Tipos de respuestas"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q1_sug2
+msgid "Ulmaceae"
+msgstr "Ulmáceas"
+
+#. module: survey
 #: code:addons/survey/wizard/survey_invite.py:0
 #, python-format
 msgid "Unable to post message, please configure the sender's email address."
@@ -2927,9 +4107,19 @@ msgid "Uncategorized"
 msgstr "Sin categoría"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_2
+msgid "Underpriced"
+msgstr "Infravalorado"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "Unfortunately, you have failed the test."
 msgstr "Desafortunadamente, no pasó la prueba."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug3
+msgid "Unique"
+msgstr "Único"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_unread
@@ -2955,6 +4145,11 @@ msgstr "Utilice este campo para agregar explicaciones adicionales sobre su pregu
 #: model:ir.model.fields,help:survey.field_survey_question__random_questions_count
 msgid "Used on randomized sections to take X random questions from all the questions of that section."
 msgstr "Se usa en secciones aleatorias para tomar X preguntas aleatorias de todas las preguntas de esa sección."
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug2
+msgid "Useful"
+msgstr "Útil"
 
 #. module: survey
 #: model:res.groups,name:survey.group_survey_user
@@ -3009,6 +4204,21 @@ msgid "Validation Error message"
 msgstr "Mensaje de error de validación"
 
 #. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q1_sug2
+msgid "Vegetables"
+msgstr "Verduras"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_1
+msgid "Very underpriced"
+msgstr "Muy bajo precio"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug3
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid "We have registered your answer! Please wait for the host to go to the next question."
 msgstr "¡Hemos registrado tu respuesta! Espere a que el anfitrión pase a la siguiente pregunta."
@@ -3022,6 +4232,51 @@ msgstr "Mensajes del sitio web"
 #: model:ir.model.fields,help:survey.field_survey_survey__website_message_ids
 msgid "Website communication history"
 msgstr "Historial de comunicaciones del sitio web"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_5
+msgid "What day and time do you think most customers are most likely to call customer service (not rated)?"
+msgstr "¿Qué día y hora cree que es más probable que la mayoría de los clientes llamen al servicio de atención al cliente (no calificado)?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_3_question_4
+msgid "What day to you think is best for us to start having an annual sale (not rated)?"
+msgstr "¿Qué día crees que es mejor para que empecemos a tener una venta anual (no calificada)?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p2_q2
+msgid "What do you think about our new eCommerce ?"
+msgstr "¿Qué te parece nuestro nuevo eCommerce?"
+
+#. module: survey
+#: model:survey.question,title:survey.vendor_certification_page_2_question_3
+msgid "What do you think about our prices (not rated)?"
+msgstr "¿Qué opinas de nuestros precios (no clasificados)?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p5_q1
+msgid "What do you think about this survey ?"
+msgstr "¿Qué opinas de esta encuesta?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q2
+msgid "What is the biggest city in the world ?"
+msgstr "¿Cuál es la ciudad más grande del mundo?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p1_q1
+msgid "What is your email ?"
+msgstr "Cuál es tu e-mail ?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p1_q2
+msgid "What is your nickname ?"
+msgstr "¿Cuál es su apodo?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q2
+msgid "What is, approximately, the critical mass of plutonium-239 ?"
+msgstr "¿Cuál es, aproximadamente, la masa crítica del plutonio-239?"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_invite__sub_model_object_field
@@ -3038,11 +4293,112 @@ msgid "When a relationship field is selected as first field, this field shows th
 msgstr "Cuando un campo de asociación se selecciona como primer campo, este campo muestra el modelo de documento al que apunta la relación."
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q1
+msgid "When did Genghis Khan die ?"
+msgstr "¿Cuándo murió Genghis Khan?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p2_q2
+msgid "When did precisely Marc Demo crop its first apple tree ?"
+msgstr "¿Cuándo precisamente Marc Demo cosechó su primer manzano?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q6
+msgid "When do you harvest those fruits"
+msgstr "¿Cuándo cosechas esos frutos?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p2_q1
+msgid "When is Mitchell Admin born ?"
+msgstr "¿Cuándo nace Mitchell Admin?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p1_q2
+msgid "When is your date of birth ?"
+msgstr "¿Cuándo es tu fecha de nacimiento?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p1_q3
+msgid "Where are you from ?"
+msgstr "¿De dónde eres?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p1_q1
+msgid "Where do you live ?"
+msgstr "¿Dónde vives?"
+
+#. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_show_leaderboard
 msgid "Whether or not we want to show the attendees leaderboard for this survey."
 msgstr "Si queremos o no mostrar la tabla de clasificación de asistentes para esta encuesta."
 
 #. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q1
+msgid "Which Musician is not in the 27th Club ?"
+msgstr "¿Qué músico no está en el club 27?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q1
+msgid "Which category does a tomato belong to"
+msgstr "A qué categoría pertenece un tomate"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q3
+msgid "Which is the highest volcano in Europe ?"
+msgstr "¿Cuál es el volcán más alto de Europa?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_feedback_p2_q1
+msgid "Which of the following words would you use to describe our products ?"
+msgstr "¿Cuál de las siguientes palabras usaría para describir nuestros productos?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p3_q2
+msgid "Which of the following would you use to pollinate"
+msgstr "¿Cuál de los siguientes usarías para polinizar?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q2
+msgid "Which painting/drawing was not made by Pablo Picasso ?"
+msgstr "¿Qué pintura/dibujo no fue hecho por Pablo Picasso?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q3
+msgid "Which quote is from Jean-Claude Van Damme"
+msgstr "¿Qué cita es de Jean-Claude Van Damme?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p1
+msgid "Who are you ?"
+msgstr "¿Quién eres tú?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q2
+msgid "Who is the architect of the Great Pyramid of Giza ?"
+msgstr "¿Quién es el arquitecto de la Gran Pirámide de Giza?"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q1
+msgid "Who received a Nobel prize in Physics for the discovery of neutrino oscillations, which shows that neutrinos have mass ?"
+msgstr ""
+"¿Quién recibió un premio Nobel de Física por el descubrimiento de las oscilaciones de neutrinos, que demuestra que los neutrinos tienen masa?"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_3
+msgid "Width"
+msgstr "Ancho"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug4
+msgid "Willard S. Boyle"
+msgstr "Willard S. Boyle"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug4
+msgid "Winter"
+msgstr "Invierno"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "YYYY-MM-DD\n"
@@ -3059,6 +4415,17 @@ msgid ""
 msgstr ""
 "YYYY-MM-DD hh:mm:ss\n"
 "                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendario\" title=\"Calendario\"/>"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q6_sug1
+#: model:survey.question.answer,value:survey.vendor_certification_page_1_question_1_choice_2
+msgid "Yes"
+msgstr "Sí"
+
+#. module: survey
+#: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q3_sug1
+msgid "Yes, that's the only thing a human eye can see."
+msgstr "Sí, eso es lo único que puede ver un ojo humano."
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
@@ -3107,6 +4474,11 @@ msgstr "Recibiste la insignia"
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "You scored"
 msgstr "Ha obtenido"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p5
+msgid "Your feeling"
+msgstr "Tu emoción"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form

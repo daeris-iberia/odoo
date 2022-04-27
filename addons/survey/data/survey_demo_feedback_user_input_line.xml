@@ -77,7 +77,7 @@
         <field name="user_input_id" ref="survey_answer_1"/>
         <field name="question_id" ref="survey_feedback_p2_q3"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">Thanks for the good quality of your products</field>
+        <field name="value_text_box">Gracias por la buena calidad de sus productos.</field>
     </record>
 
     <!-- User input 2 -->
@@ -161,7 +161,7 @@
         <field name="user_input_id" ref="survey_answer_2"/>
         <field name="question_id" ref="survey_feedback_p2_q3"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">I really appreciate your products. They are awesome !!</field>
+        <field name="value_text_box">Realmente aprecio sus productos. ¡Son geniales!</field>
     </record>
 
     <!-- User input 3 -->
@@ -240,7 +240,7 @@
         <field name="user_input_id" ref="survey_answer_3"/>
         <field name="question_id" ref="survey_feedback_p2_q3"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">The customizable desk received is not the one I ordered on your website and the quality is very poor ! Really disappointed.</field>
+        <field name="value_text_box">¡El escritorio personalizable recibido no es el que pedí en su sitio web y la calidad es muy mala! Realmente decepcionado.</field>
     </record>
 
 </data></odoo>
