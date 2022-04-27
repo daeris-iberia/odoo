@@ -63,9 +63,9 @@
     <record id="message_event_1_0" model="mail.message">
         <field name="model">event.event</field>
         <field name="res_id" ref="event.event_1"/>
-        <field name="body" type="html"><p>Hello Marc Demo,<br/>
-            Our flight authorizations have been revoked due to insurance issues.<br/>
-            Could you take care of it as soon as possible ?</p>
+        <field name="body" type="html"><p>Hola Marc Demo,<br/>
+            Nuestras autorizaciones de vuelo han sido revocadas debido a problemas con el seguro.<br/>
+            ¿Podrías encargarte de ello lo antes posible?</p>
         </field>
         <field name="message_type">comment</field>
         <field name="subtype_id" ref="mail.mt_comment"/>
@@ -75,7 +75,7 @@
         <field name="model">event.event</field>
         <field name="res_id" ref="event.event_1"/>
         <field name="parent_id" ref="message_event_1_0"/>
-        <field name="body" type="html"><p>Hi Mitchell Admin,<br/>I will take care of it today !</p></field>
+        <field name="body" type="html"><p>Hola Mitchell Admin,<br/>¡Me ocuparé de eso hoy!</p></field>
         <field name="message_type">comment</field>
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="author_id" ref="base.partner_demo"/>
@@ -84,8 +84,8 @@
         <field name="model">event.event</field>
         <field name="res_id" ref="event.event_1"/>
         <field name="parent_id" ref="message_event_1_1"/>
-        <field name="body" type="html"><p>Great ! This event will stay "blocked" until it is fixed.<br/>
-        Feel free to green it once everything is in order.</p>
+        <field name="body" type="html"><p>Estupendo ! Este evento permanecerá "bloqueado" hasta que se solucione.<br/>
+        Siéntase libre de ponerlo verde una vez que todo esté en orden.</p>
         </field>
         <field name="message_type">comment</field>
         <field name="subtype_id" ref="mail.mt_comment"/>
@@ -95,7 +95,7 @@
         <field name="res_id" ref="event.event_1" />
         <field name="res_model_id" ref="event.model_event_event"/>
         <field name="activity_type_id" ref="mail.mail_activity_data_call"/>
-        <field name="summary">Call the local state house.</field>
+        <field name="summary">Llame a la casa estatal local.</field>
         <field name="date_deadline" eval="DateTime.today()"/>
         <field name="create_uid" ref="base.user_demo"/>
         <field name="user_id" ref="base.user_demo"/>
@@ -129,7 +129,7 @@
         <field name="res_id" ref="event.event_2" />
         <field name="res_model_id" ref="event.model_event_event"/>
         <field name="activity_type_id" ref="mail.mail_activity_data_call"/>
-        <field name="summary">Call the caterer.</field>
+        <field name="summary">Llame al proveedor.</field>
         <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=3)).strftime('%Y-%m-%d %H:%M')"/>
         <field name="create_uid" ref="base.user_admin"/>
         <field name="user_id" ref="base.user_admin"/>
@@ -165,7 +165,7 @@
         <field name="res_id" ref="event.event_3" />
         <field name="res_model_id" ref="event.model_event_event"/>
         <field name="activity_type_id" ref="mail.mail_activity_data_call"/>
-        <field name="summary">Prepare interview with local media.</field>
+        <field name="summary">Preparar entrevista con medios locales.</field>
         <field name="date_deadline" eval="DateTime.today().strftime('%Y-%m-%d %H:%M')"/>
         <field name="create_uid" ref="base.user_admin"/>
         <field name="user_id" ref="base.user_admin"/>
@@ -200,7 +200,7 @@
         <field name="res_id" ref="event.event_4" />
         <field name="res_model_id" ref="event.model_event_event"/>
         <field name="activity_type_id" ref="mail.mail_activity_data_call"/>
-        <field name="summary">Prepare after movie.</field>
+        <field name="summary">Prepárate después de la película.</field>
         <field name="date_deadline" eval="(DateTime.today() + relativedelta(days=3)).strftime('%Y-%m-%d %H:%M')"/>
         <field name="create_uid" ref="base.user_admin"/>
         <field name="user_id" ref="base.user_admin"/>
