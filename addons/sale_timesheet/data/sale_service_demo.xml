@@ -46,7 +46,7 @@
         </record>
 
         <record id="product_service_order_timesheet" model="product.product">
-            <field name="name">Customer Care (Prepaid Hours)</field>
+            <field name="name">Atención al cliente (horas prepagas)</field>
             <field name="categ_id" ref="product.product_category_3"/>
             <field name="type">service</field>
             <field name="list_price">250.00</field>
@@ -59,7 +59,7 @@
         </record>
 
         <record id="product_service_deliver_timesheet_1" model="product.product">
-            <field name="name">Senior Architect (Invoice on Timesheets)</field>
+            <field name="name">Arquitecto Sénior (Factura en hojas de tiempo)</field>
             <field name="categ_id" ref="product.product_category_3"/>
             <field name="list_price">200.00</field>
             <field name="standard_price">150.00</field>
@@ -71,7 +71,7 @@
         </record>
 
         <record id="product_service_deliver_timesheet_2" model="product.product">
-            <field name="name">Junior Architect (Invoice on Timesheets)</field>
+            <field name="name">Arquitecto Junior (Factura en Hojas de Tiempo)</field>
             <field name="categ_id" ref="product.product_category_3"/>
             <field name="list_price">100.00</field>
             <field name="standard_price">85.00</field>
