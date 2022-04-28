@@ -309,7 +309,7 @@ msgstr "Cuentas bancarias"
 #: model:product.product,name:l10n_ar.product_product_exento
 #: model:product.template,name:l10n_ar.product_product_exento_product_template
 msgid "Book \"Development in Odoo\" (VAT Exempt)"
-msgstr "Libro \"Desarrollo en Odoo\" (IVA Exento)"
+msgstr "Libro \"Desarrollo en Daeris\" (IVA Exento)"
 
 #. module: l10n_ar
 #: model:l10n_latam.identification.type,name:l10n_ar.it_CBA
@@ -465,7 +465,7 @@ msgid ""
 "document type that you are creating in odoo"
 msgstr ""
 "No puede cambiar el número de POS, solo puede cambiar el el primer número "
-"para el tipo de document que esta creando en odoo"
+"para el tipo de documento que esta creando en Daeris"
 
 #. module: l10n_ar
 #: code:addons/l10n_ar/models/account_journal.py:0
