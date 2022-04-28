@@ -1023,9 +1023,9 @@ class HolidaysRequest(models.Model):
             calendar = holiday.employee_id.resource_calendar_id or company_calendar
             user = holiday.user_id
             if holiday.leave_type_request_unit == 'hour':
-                meeting_name = _("%s on Time Off : %.2f hour(s)") % (holiday.employee_id.name or holiday.category_id.name, holiday.number_of_hours_display)
+                meeting_name = _("Ausencia de %s : %.2f hora(s)") % (holiday.employee_id.name or holiday.category_id.name, holiday.number_of_hours_display)
             else:
-                meeting_name = _("%s on Time Off : %.2f day(s)") % (holiday.employee_id.name or holiday.category_id.name, holiday.number_of_days)
+                meeting_name = _("Ausencia de %s : %.2f día(s)") % (holiday.employee_id.name or holiday.category_id.name, holiday.number_of_days)
             meeting_values = {
                 'name': meeting_name,
                 'duration': holiday.number_of_days * (calendar.hours_per_day or HOURS_PER_DAY),
