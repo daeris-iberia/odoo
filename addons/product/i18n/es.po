@@ -1060,7 +1060,7 @@ msgstr "Precio fijo"
 #: model:product.product,name:product.product_product_20
 #: model:product.template,name:product.product_product_20_product_template
 msgid "Flipover"
-msgstr "Dale la vuelta"
+msgstr "Pizarra"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_follower_ids
@@ -1397,7 +1397,7 @@ msgstr "Laptop Personalizada (IVA 10,5)"
 #: model:product.product,name:product.product_product_25
 #: model:product.template,name:product.product_product_25_product_template
 msgid "Laptop E5023 (IVA 10,5)"
-msgstr "Laptop E5023 (IVA 10,5)"
+msgstr "Paneles E5023 (IVA 10,5)"
 
 #. module: product
 #: model:product.product,name:product.product_product_6
