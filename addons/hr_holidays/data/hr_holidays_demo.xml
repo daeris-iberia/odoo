@@ -19,7 +19,7 @@
 
     <!-- Accrual Plan -->
     <record id="hr_accrual_plan_1" model="hr.leave.accrual.plan">
-        <field name="name">Seniority Plan</field>
+        <field name="name">Plan de Antigüedad</field>
     </record>
 
     <record id="hr_accrual_level_1" model="hr.leave.accrual.level">
@@ -47,7 +47,7 @@
     <!-- ++++++++++++++++++++++  Mitchell Admin  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Mitchell Admin</field>
+        <field name="name">Tiempo libre pagado para Miguel Admin</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_admin"/>
@@ -58,7 +58,7 @@
     </record>
 
     <record id="hr_holidays_int_tour" model="hr.leave.allocation">
-        <field name="name">International Tour</field>
+        <field name="name">Tour Internacional</field>
         <field name="holiday_status_id" ref="holiday_status_comp"/>
         <field name="number_of_days">7</field>
         <field name="employee_id" ref="hr.employee_admin"/>
@@ -72,7 +72,7 @@
     </function>
 
     <record id="hr_holidays_vc" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de Verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">7</field>
         <field name="state">confirm</field>
@@ -83,7 +83,7 @@
     </record>
 
     <record id='hr_holidays_cl_allocation' model="hr.leave.allocation">
-        <field name="name">Compensation</field>
+        <field name="name">Compensación</field>
         <field name="holiday_status_id" ref="holiday_status_comp"/>
         <field name="number_of_days">12</field>
         <field name="employee_id" ref="hr.employee_admin"/>
@@ -95,7 +95,7 @@
 
     <!-- leave request -->
     <record id="hr_holidays_cl" model="hr.leave">
-        <field name="name">Trip with Family</field>
+        <field name="name">Viaje con la familia</field>
         <field name="holiday_status_id" ref="holiday_status_comp"/>
         <field eval="(datetime.now() + relativedelta(day=1, weekday=0)).strftime('%Y-%m-%d 04:00:00')" name="date_from"/>
         <field eval="(datetime.now() + relativedelta(day=1, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 20:00:00')" name="date_to"/>
@@ -106,7 +106,7 @@
     </record>
 
     <record id="hr_holidays_sl" model="hr.leave">
-        <field name="name">Doctor Appointment</field>
+        <field name="name">Cita con el doctor</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now() + relativedelta(day=20, weekday=0)).strftime('%Y-%m-%d 04:00:00')" name="date_from"/>
         <field eval="(datetime.now() + relativedelta(day=20, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 20:00:00')" name="date_to"/>
@@ -140,7 +140,7 @@
 
 
     <record id="hr_holidays_allocation_cl_al" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Ronnie Hart</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_al"/>
@@ -151,7 +151,7 @@
     </record>
 
     <record id="hr_holidays_allocation_pl_al" model="hr.leave.allocation">
-        <field name="name">Parental Leaves</field>
+        <field name="name">Licencias parentales</field>
         <field name="holiday_status_id" ref="hr_holiday_status_dv"/>
         <field name="number_of_days">10</field>
         <field name="employee_id" ref="hr.employee_al"/>
@@ -162,7 +162,7 @@
     </record>
 
     <record id="hr_holidays_vc_al" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">12</field>
         <field name="employee_id" ref="hr.employee_al"/>
@@ -174,7 +174,7 @@
 
     <!-- leave request -->
     <record id="hr_holidays_cl_al" model="hr.leave">
-        <field name="name">Trip with Friends</field>
+        <field name="name">Viaje con amigos</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field eval="time.strftime('%Y-%m-04')" name="date_from"/>
         <field eval="time.strftime('%Y-%m-10')" name="date_to"/>
@@ -188,7 +188,7 @@
     </function>
 
     <record id="hr_holidays_sl_al" model="hr.leave">
-        <field name="name">Dentist appointment</field>
+        <field name="name">Cita con el dentista</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=17, weekday=0)).strftime('%Y-%m-%d 04:00:00')" name="date_from"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=17, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 20:00:00')" name="date_to"/>
@@ -205,7 +205,7 @@
     <!-- ++++++++++++++++++++++  Anita Oliver  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl_mit" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Anita Oliver</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_mit"/>
@@ -216,7 +216,7 @@
     </record>
 
     <record id="hr_holidays_vc_mit" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">7</field>
         <field name="state">confirm</field>
@@ -228,7 +228,7 @@
 
     <!-- leave request -->
     <record id="hr_holidays_cl_mit" model="hr.leave">
-        <field name="name">Trip to Paris</field>
+        <field name="name">Viaje a Paris</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field eval="time.strftime('%Y-%m-18')" name="date_from"/>
         <field eval="time.strftime('%Y-%m-24')" name="date_to"/>
@@ -242,7 +242,7 @@
     </function>
 
     <record id="hr_holidays_cl_mit_2" model="hr.leave">
-        <field name="name">Trip</field>
+        <field name="name">Viaje</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field eval="(datetime.now() + relativedelta(day=5, weekday=0)).strftime('%Y-%m-%d 04:00:00')" name="date_from"/>
         <field eval="(datetime.now() + relativedelta(day=5, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 20:00:00')" name="date_to"/>
@@ -255,7 +255,7 @@
     <!-- ++++++++++++++++++++++  Marc Demo  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl_qdp" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Marc Demo</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_qdp"/>
@@ -266,7 +266,7 @@
     </record>
 
     <record id="hr_holidays_vc_qdp" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">7</field>
         <field name="employee_id" ref="hr.employee_qdp"/>
@@ -281,7 +281,7 @@
 
     <!-- leave request -->
     <record id="hr_holidays_cl_qdp" model="hr.leave">
-        <field name="name">Sick day</field>
+        <field name="name">Día de enfermedad</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=3, weekday=0)).strftime('%Y-%m-%d 01:00:00')" name="date_from"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=3, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 23:00:00')" name="date_to"/>
@@ -296,7 +296,7 @@
     </function>
 
     <record id="hr_holidays_sl_qdp" model="hr.leave">
-        <field name="name">Sick day</field>
+        <field name="name">Día de enfermedad</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now() + relativedelta(day=1, weekday=0)).strftime('%Y-%m-%d 01:00:00')" name="date_from"/>
         <field eval="(datetime.now() + relativedelta(day=1, weekday=0) + relativedelta(days=2)).strftime('%Y-%m-%d 23:00:00')" name="date_to"/>
@@ -313,7 +313,7 @@
     <!-- ++++++++++++++++++++++  Audrey Peterson  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl_fpi" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Audrey Peterson</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_fpi"/>
@@ -324,7 +324,7 @@
     </record>
 
     <record id="hr_holidays_vc_fpi" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">7</field>
         <field name="employee_id" ref="hr.employee_fpi"/>
@@ -337,7 +337,7 @@
     <!-- ++++++++++++++++++++++   Olivia  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl_vad" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Olivia</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_niv"/>
@@ -348,7 +348,7 @@
     </record>
 
     <record id="hr_holidays_vc_vad" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">5</field>
         <field name="employee_id" ref="hr.employee_niv"/>
@@ -363,7 +363,7 @@
 
 
     <record id="hr_holidays_cl_vad" model="hr.leave">
-        <field name="name">Trip to London</field>
+        <field name="name">Viaje a Londres</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field eval="time.strftime('%Y-%m-09')" name="date_from"/>
         <field eval="time.strftime('%Y-%m-16')" name="date_to"/>
@@ -375,7 +375,7 @@
     </record>
 
     <record id="hr_holidays_sl_vad" model="hr.leave">
-        <field name="name">Doctor Appointment</field>
+        <field name="name">Cita con el doctor</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now() + relativedelta(day=25, weekday=0)).strftime('%Y-%m-%d 01:00:00')" name="date_from"/>
         <field eval="(datetime.now() + relativedelta(day=25, weekday=0) + relativedelta(weekday=2)).strftime('%Y-%m-%d 23:00:00')" name="date_to"/>
@@ -392,7 +392,7 @@
     <!-- ++++++++++++++++++++++   Kim  ++++++++++++++++++++++ -->
 
     <record id="hr_holidays_allocation_cl_kim" model="hr.leave.allocation">
-        <field name="name">Paid Time Off for Kim</field>
+        <field name="name">Tiempo libre pagado</field>
         <field name="holiday_status_id" ref="holiday_status_cl"/>
         <field name="number_of_days">20</field>
         <field name="employee_id" ref="hr.employee_jve"/>
@@ -403,7 +403,7 @@
     </record>
 
     <record id="hr_holidays_vc_kim" model="hr.leave.allocation">
-        <field name="name">Summer Vacation</field>
+        <field name="name">Vacaciones de verano</field>
         <field name="holiday_status_id" ref="holiday_status_unpaid"/>
         <field name="number_of_days">5</field>
         <field name="state">confirm</field>
@@ -415,7 +415,7 @@
 
     <!-- leave request -->
     <record id="hr_holidays_sl_kim" model="hr.leave">
-        <field name="name">Dentist appointment</field>
+        <field name="name">Cita con el dentista</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=1, weekday=0)).strftime('%Y-%m-%d 01:00:00')" name="date_from"/>
         <field eval="(datetime.now()+relativedelta(months=1, day=1, weekday=0)).strftime('%Y-%m-%d 23:00:00')" name="date_to"/>
@@ -427,7 +427,7 @@
     </record>
 
     <record id="hr_holidays_sl_kim_2" model="hr.leave">
-        <field name="name">Second dentist appointment</field>
+        <field name="name">Segunda cita con el dentista</field>
         <field name="holiday_status_id" ref="holiday_status_sl"/>
         <field eval="(datetime.now()+relativedelta(months=4, day=1, weekday=2)).strftime('%Y-%m-%d 01:00:00')" name="date_from"/>
         <field eval="(datetime.now()+relativedelta(months=4, day=1, weekday=2)).strftime('%Y-%m-%d 23:00:00')" name="date_to"/>

@@ -105,7 +105,7 @@
     <!--Maintenance Request-->
 
     <record id="m_request_3" model="maintenance.request">
-        <field name="name">Resolution is bad</field>
+        <field name="name">La resolución es mala</field>
         <field name="user_id" ref="base.user_demo"/>
         <field name="owner_user_id" ref="base.user_admin"/>
         <field name="equipment_id" ref="equipment_monitor6"/>
@@ -114,7 +114,7 @@
         <field name="maintenance_team_id" ref="equipment_team_maintenance"/>
     </record>
     <record id="m_request_4" model="maintenance.request">
-        <field name="name">Some keys are not working</field>
+        <field name="name">Algunas teclas no funcionan</field>
         <field name="user_id" ref="base.user_admin"/>
         <field name="owner_user_id" ref="base.user_admin"/>
         <field name="equipment_id" ref="equipment_computer3"/>
@@ -122,7 +122,7 @@
         <field name="maintenance_team_id" ref="equipment_team_maintenance"/>
     </record>
     <record id="m_request_6" model="maintenance.request">
-        <field name="name">Motherboard failed</field>
+        <field name="name">La placa base falló</field>
         <field name="user_id" ref="base.user_demo"/>
         <field name="owner_user_id" ref="base.user_admin"/>
         <field name="equipment_id" ref="equipment_computer5"/>
@@ -130,7 +130,7 @@
          <field name="maintenance_team_id" ref="equipment_team_maintenance"/>
     </record>
     <record id="m_request_7" model="maintenance.request">
-        <field name="name">Battery drains fast</field>
+        <field name="name">La batería se agota rápido</field>
         <field name="user_id" ref="base.user_demo"/>
         <field name="owner_user_id" ref="base.user_demo"/>
         <field name="equipment_id" ref="equipment_computer9"/>
@@ -138,7 +138,7 @@
         <field name="maintenance_team_id" ref="equipment_team_maintenance"/>
     </record>
     <record id="m_request_8" model="maintenance.request">
-        <field name="name">Touchpad not working</field>
+        <field name="name">El panel táctil no funciona</field>
         <field name="user_id" ref="base.user_demo"/>
         <field name="owner_user_id" ref="base.user_demo"/>
         <field name="equipment_id" ref="equipment_computer11"/>

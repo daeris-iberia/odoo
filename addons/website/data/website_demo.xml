@@ -383,7 +383,7 @@
 
     <data noupdate="1">
         <record id="website2" model="website">
-            <field name="name">My Website 2</field>
+            <field name="name">Mi Sitio Web 2</field>
             <field name="domain"></field>
             <field name="sequence">20</field>
         </record>

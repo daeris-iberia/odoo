@@ -3,7 +3,7 @@
     <data noupdate="1">
 
         <record forcecreate="True" id="decimal_payment" model="decimal.precision">
-            <field name="name">Payment Terms</field>
+            <field name="name">Términos de Pago</field>
             <field name="digits">6</field>
         </record>
 
@@ -19,15 +19,15 @@
         <!-- TAGS FOR CASH FLOW STATEMENT DIRECT METHOD -->
 
         <record id="account_tag_operating" model="account.account.tag">
-            <field name="name">Operating Activities</field>
+            <field name="name">Actividades de explotación</field>
             <field name="applicability">accounts</field>
         </record>
         <record id="account_tag_financing" model="account.account.tag">
-            <field name="name">Financing Activities</field>
+            <field name="name">Actividades de financiación</field>
             <field name="applicability">accounts</field>
         </record>
         <record id="account_tag_investing" model="account.account.tag">
-            <field name="name">Investing &amp; Extraordinary Activities</field>
+            <field name="name">Inversión y Actividades Extraordinarias</field>
             <field name="applicability">accounts</field>
         </record>
 

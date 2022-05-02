@@ -55,7 +55,7 @@
         <field name="user_input_id" ref="survey_vendor_certification_answer_1"/>
         <field name="question_id" ref="vendor_certification_page_1_question_5"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">I think it misses a product but I don't know what</field>
+        <field name="value_text_box">Creo que le falta un producto pero no se cual</field>
     </record>
     <!-- page 2 -->
     <record id="survey_vendor_certification_answer_1_p2_q1" model="survey.user_input.line">

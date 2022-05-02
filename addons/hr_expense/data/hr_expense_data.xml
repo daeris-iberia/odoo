@@ -13,7 +13,7 @@
     <data>
         <function model="ir.config_parameter" name="set_param" eval="('hr_expense.use_mailgateway', True)"/>
         <record id="product_product_zero_cost" model="product.product">
-            <field name="name">Expenses</field>
+            <field name="name">Gastos</field>
             <field name="list_price">0.0</field>
             <field name="standard_price">0.0</field>
             <field name="type">service</field>

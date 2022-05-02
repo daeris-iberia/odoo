@@ -44,14 +44,14 @@
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="message_type">comment</field>
         <field name="author_id" ref="base.partner_admin"/>
-        <field name="body" type="html"><div>I fear beginners could be lost... Isn't it a bit harsh for a "basics" course ?</div></field>
+        <field name="body" type="html"><div>Temo que los principiantes se pierdan... ¿No es un poco duro para un curso "básico"?</div></field>
     </record>
     <record id="rating_channel_0_admin" model="rating.rating">
         <field name="res_model_id" ref="website_slides.model_slide_channel"/>
         <field name="res_id" ref="website_slides.slide_channel_demo_0_gard_0"/>
         <field name="partner_id" ref="base.partner_admin"/>
         <field name="consumed" eval="True"/>
-        <field name="feedback">I fear beginners could be lost... Isn't it a bit harsh for a "basics" course ?</field>
+        <field name="feedback">Temo que los principiantes se pierdan... ¿No es un poco duro para un curso "básico"?</field>
         <field name="rating">3</field>
         <field name="message_id" ref="website_slides.message_channel_0_admin"/>
     </record>
@@ -61,7 +61,7 @@
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="message_type">comment</field>
         <field name="author_id" ref="base.partner_demo"/>
-        <field name="body" type="html"><div>Back to basics and interesting. Just WOW !</div></field>
+        <field name="body" type="html"><div>Volver a lo básico e interesante. Simplemente guau !</div></field>
     </record>
     <record id="rating_channel_0_demo" model="rating.rating">
         <field name="res_model_id" ref="website_slides.model_slide_channel"/>
@@ -69,7 +69,7 @@
         <field name="partner_id" ref="base.partner_demo"/>
         <field name="consumed" eval="True"/>
         <field name="rating">5</field>
-        <field name="feedback">Back to basics and interesting. Just WOW !</field>
+        <field name="feedback">Volver a lo básico e interesante. Simplemente guau !</field>
         <field name="message_id" ref="website_slides.message_channel_0_demo"/>
     </record>
 
@@ -132,14 +132,14 @@
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="message_type">comment</field>
         <field name="author_id" ref="base.partner_admin"/>
-        <field name="body" type="html"><div>Very good course.</div></field>
+        <field name="body" type="html"><div>Muy buen curso.</div></field>
     </record>
     <record id="rating_channel_1_admin" model="rating.rating">
         <field name="res_model_id" ref="website_slides.model_slide_channel"/>
         <field name="res_id" ref="website_slides.slide_channel_demo_1_gard1"/>
         <field name="partner_id" ref="base.partner_admin"/>
         <field name="consumed" eval="True"/>
-        <field name="feedback">Very good course.</field>
+        <field name="feedback">Muy buen curso.</field>
         <field name="rating">5</field>
         <field name="message_id" ref="website_slides.message_channel_1_admin"/>
     </record>
@@ -149,7 +149,7 @@
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="message_type">comment</field>
         <field name="author_id" ref="base.partner_demo"/>
-        <field name="body" type="html"><div>Interesting !</div></field>
+        <field name="body" type="html"><div>Interesante !</div></field>
     </record>
     <record id="rating_channel_1_demo" model="rating.rating">
         <field name="res_model_id" ref="website_slides.model_slide_channel"/>
@@ -157,7 +157,7 @@
         <field name="partner_id" ref="base.partner_demo"/>
         <field name="consumed" eval="True"/>
         <field name="rating">4</field>
-        <field name="feedback">Interesting !</field>
+        <field name="feedback">Interesante !</field>
         <field name="message_id" ref="website_slides.message_channel_1_demo"/>
     </record>
     <record id="message_channel_1_portal" model="mail.message">
@@ -166,7 +166,7 @@
         <field name="subtype_id" ref="mail.mt_comment"/>
         <field name="message_type">comment</field>
         <field name="author_id" ref="base.partner_demo_portal"/>
-        <field name="body" type="html"><div>Interesting. Could be great to include more examples.</div></field>
+        <field name="body" type="html"><div>Interesante. Podría ser genial incluir más ejemplos.</div></field>
     </record>
     <record id="rating_channel_1_portal" model="rating.rating">
         <field name="res_model_id" ref="website_slides.model_slide_channel"/>
@@ -174,9 +174,9 @@
         <field name="partner_id" ref="base.partner_demo_portal"/>
         <field name="consumed" eval="True"/>
         <field name="rating">3</field>
-        <field name="feedback">Interesting. Could be great to include more examples.</field>
+        <field name="feedback">Interesante. Podría ser genial incluir más ejemplos.</field>
         <field name="message_id" ref="website_slides.message_channel_1_portal"/>
-        <field name="publisher_comment">Thanks for the feedback! We just updated first lessons to better include newcomers.</field>
+        <field name="publisher_comment">¡Gracias por la respuesta! Acabamos de actualizar las primeras lecciones para incluir mejor a los recién llegados.</field>
         <field name="publisher_id" ref="base.partner_admin"/>
         <field name="publisher_datetime" eval="(DateTime.today() - relativedelta(days=1)).strftime('%Y-%m-%d %H:%M')"/>
     </record>

@@ -7,7 +7,7 @@
         </record>
 
         <record id="hr_expense_account_journal" model="account.journal">
-            <field name="name">Expense</field>
+            <field name="name">Gastos</field>
             <field name="code">EXP</field>
             <field name="type">purchase</field>
             <!-- avoid being selected as default journal -->
@@ -107,7 +107,7 @@
         <!-- ++++++++++++++ Expense sheet for Admin ++++++++++++++-->
 
         <record id="screen_expense" model="hr.expense">
-            <field name="name">Screen</field>
+            <field name="name">Pantalla</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_our_super_product"/>
             <field name="product_id" ref="other_expense_product"/>
@@ -118,7 +118,7 @@
         </record>
 
         <record id="laptop_expense" model="hr.expense">
-            <field name="name">Laptop</field>
+            <field name="name">Portátil</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_our_super_product"/>
             <field name="product_id" ref="other_expense_product"/>
@@ -129,7 +129,7 @@
         </record>
 
         <record id="travel_admin_by_car_expense" model="hr.expense">
-            <field name="name">Travel by car</field>
+            <field name="name">Viaje en coche</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="product_id" ref="mileage_expense_product"/>
             <field eval="0.52" name="unit_amount"/>
@@ -138,7 +138,7 @@
         </record>
 
         <record id="breakfast_admin_expense" model="hr.expense">
-            <field name="name">BreakFast</field>
+            <field name="name">Desayuno</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="product_id" ref="food_expense_product"/>
             <field eval="20" name="unit_amount"/>
@@ -146,13 +146,13 @@
         </record>
 
         <record id="travel_ny_sheet" model="hr.expense.sheet">
-            <field name="name">Commercial Travel at New York</field>
+            <field name="name">Viaje Comercial a Nueva York</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="state">approve</field>
         </record>
 
         <record id="travel_by_air_expense" model="hr.expense">
-            <field name="name">Travel by Air</field>
+            <field name="name">Viaje en Avión</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_our_super_product"/>
             <field name="product_id" ref="trans_expense_product"/>
@@ -164,7 +164,7 @@
         </record>
 
         <record id="hotel_bill_expense" model="hr.expense">
-            <field name="name">Hotel Expenses</field>
+            <field name="name">Gastos de Hotel</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="accomodation_expense_product"/>
@@ -176,7 +176,7 @@
         </record>
 
         <record id="lunch_customer_bill_expense" model="hr.expense">
-            <field name="name">Lunch with Customer</field>
+            <field name="name">Comida con Cliente</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="food_expense_product"/>
@@ -187,7 +187,7 @@
         </record>
 
         <record id="lunch_bill_expense" model="hr.expense">
-            <field name="name">Lunch</field>
+            <field name="name">Comida</field>
             <field name="employee_id" ref="hr.employee_admin"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="food_expense_product"/>
@@ -199,13 +199,13 @@
 
         <!-- ++++++++++++++ Expense sheet for Demo ++++++++++++++-->
         <record id="customer_meeting_sheet" model="hr.expense.sheet">
-            <field name="name">Customer meeting</field>
+            <field name="name">Reunión con cliente</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="state">submit</field>
         </record>
 
         <record id="travel_demo_by_car_expense" model="hr.expense">
-            <field name="name">Travel by Car</field>
+            <field name="name">Viaje en Coche</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="analytic_account_id" ref="analytic.analytic_our_super_product"/>
             <field name="product_id" ref="mileage_expense_product"/>
@@ -217,7 +217,7 @@
         </record>
 
         <record id="lunch_demo_customer_bill_expense" model="hr.expense">
-            <field name="name">Lunch with Customer</field>
+            <field name="name">Comida con Cliente</field>
             <field name="employee_id" ref="hr.employee_qdp"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="other_expense_product"/>
@@ -229,7 +229,7 @@
 
         <!-- ++++++++++++++ Expense sheet for Keith Byrd ++++++++++++++-->
         <record id="team_building_sheet" model="hr.expense.sheet">
-            <field name="name">Team Building</field>
+            <field name="name">Trabajo en equipo</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="state">submit</field>
         </record>
@@ -246,7 +246,7 @@
         </record>
 
         <record id="drinks_bill_expense" model="hr.expense">
-            <field name="name">Drinks</field>
+            <field name="name">Bebidas</field>
             <field name="employee_id" ref="hr.employee_fme"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="food_expense_product"/>
@@ -269,13 +269,13 @@
 
         <!-- ++++++++++++++ Expense sheet for Ronnie Hart ++++++++++++++-->
         <record id="office_furniture_sheet" model="hr.expense.sheet">
-            <field name="name">Office furniture</field>
+            <field name="name">Muebles de oficina</field>
             <field name="employee_id" ref="hr.employee_al"/>
             <field name="state">submit</field>
         </record>
 
         <record id="chair_bill_expense" model="hr.expense">
-            <field name="name">Chairs</field>
+            <field name="name">Sillas</field>
             <field name="employee_id" ref="hr.employee_al"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="other_expense_product"/>
@@ -286,7 +286,7 @@
         </record>
 
         <record id="lamp_bill_expense" model="hr.expense">
-            <field name="name">Lamp</field>
+            <field name="name">Lámpara</field>
             <field name="employee_id" ref="hr.employee_al"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="other_expense_product"/>
@@ -298,7 +298,7 @@
 
         <!-- ++++++++++++++ Expense for Randall Lewis ++++++++++++++-->
         <record id="afterwork_bill_expense" model="hr.expense">
-            <field name="name">Car tyres</field>
+            <field name="name">Neumáticos de coche</field>
             <field name="employee_id" ref="hr.employee_stw"/>
             <field name="analytic_account_id" ref="analytic.analytic_nebula"/>
             <field name="product_id" ref="other_expense_product"/>

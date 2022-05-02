@@ -42,7 +42,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_1"/>
         <field name="question_id" ref="survey_demo_quiz_p2_q3"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">Oak, ash, pine</field>
+        <field name="value_text_box">Roble, fresno, pino</field>
     </record>
     <!-- Page 3: quiz about fruits and vegetables -->
     <record id="survey_demo_quiz_answer_1_p3_q1_l1" model="survey.user_input.line">
@@ -65,7 +65,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_1"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q2"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Mooses ?? Really ?</field>
+        <field name="value_char_box">Alces ?? En serio ?</field>
     </record>
     <record id="survey_demo_quiz_answer_1_p3_q3_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_1"/>
@@ -243,7 +243,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q2"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Mooses are best pollinators of the world !</field>
+        <field name="value_char_box">¡Los alces son los mejores polinizadores del mundo!</field>
     </record>
     <record id="survey_demo_quiz_answer_2_p3_q3_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
@@ -257,7 +257,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q3"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">I sold a 30K raspberry tree once.</field>
+        <field name="value_char_box">Una vez vendí un frambueso de 30K.</field>
     </record>
     <record id="survey_demo_quiz_answer_2_p3_q4_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
@@ -368,7 +368,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p1_q3"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Brussels</field>
+        <field name="value_char_box">Bruselas</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p1_q4_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
@@ -393,14 +393,14 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p2_q3"/>
         <field name="answer_type">text_box</field>
-        <field name="value_text_box">Oak, fur, pine, red pine</field>
+        <field name="value_text_box">Roble, piel, pino, pino rojo</field>
     </record>
     <!-- Page 3: quiz about fruits and vegetables -->
     <record id="survey_demo_quiz_answer_3_p3_q1_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q1"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Both fruit (seeds, par of the plant) and vegetable (culinary use), obviously.</field>
+        <field name="value_char_box">Tanto frutales (semillas, parte de la planta) como vegetales (uso culinario), obviamente.</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p3_q2_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
@@ -430,7 +430,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q3"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">You forgot the strawberry tree.</field>
+        <field name="value_char_box">Te olvidaste del madroño.</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p3_q4_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
@@ -459,7 +459,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q4"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Gives the beeest cosmics rays man. So juicy.</field>
+        <field name="value_char_box">Da al hombre los mejores rayos cósmicos.</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p3_q5_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
@@ -479,7 +479,7 @@
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
         <field name="question_id" ref="survey_demo_quiz_p3_q5"/>
         <field name="answer_type">char_box</field>
-        <field name="value_char_box">Well sometimes I forget them, they survived. Almost.</field>
+        <field name="value_char_box">Bueno, a veces los olvido, sobrevivieron. Casi.</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p3_q6_l1" model="survey.user_input.line">
         <field name="user_input_id" ref="survey_demo_quiz_answer_3"/>

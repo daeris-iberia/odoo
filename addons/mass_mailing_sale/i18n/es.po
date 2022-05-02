@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-02 14:58+0000\n"
-"PO-Revision-Date: 2021-11-02 15:59+0100\n"
+"POT-Creation-Date: 2022-04-27 10:32+0000\n"
+"PO-Revision-Date: 2022-04-27 12:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,11 @@ msgstr ""
 #, python-format
 msgid "INVOICED"
 msgstr "FACTURADO"
+
+#. module: mass_mailing_sale
+#: model:ir.model.fields.selection,name:mass_mailing_sale.selection__utm_campaign__ab_testing_winner_selection__sale_invoiced_amount
+msgid "Ingresos"
+msgstr ""
 
 #. module: mass_mailing_sale
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sale.mailing_mailing_view_form
@@ -39,6 +44,16 @@ msgid "Mass Mailing"
 msgstr "Correo masivo"
 
 #. module: mass_mailing_sale
+#: model:mailing.mailing,sms_subject:mass_mailing_sale.mass_mail_sale_order_0
+msgid "Our last promotions, just for you !"
+msgstr "¡Nuestras últimas promociones, solo para ti!"
+
+#. module: mass_mailing_sale
+#: model:ir.model.fields.selection,name:mass_mailing_sale.selection__utm_campaign__ab_testing_winner_selection__sale_quotation_count
+msgid "Presupuestos"
+msgstr ""
+
+#. module: mass_mailing_sale
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 #, python-format
 msgid "QUOTATIONS"
@@ -50,15 +65,14 @@ msgid "Quotation Count"
 msgstr "Recuento de presupuestos"
 
 #. module: mass_mailing_sale
-#: model:ir.model.fields.selection,name:mass_mailing_sale.selection__utm_campaign__ab_testing_winner_selection__sale_quotation_count
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sale.mailing_mailing_view_form
 msgid "Quotations"
 msgstr "Presupuestos"
 
 #. module: mass_mailing_sale
-#: model:ir.model.fields.selection,name:mass_mailing_sale.selection__utm_campaign__ab_testing_winner_selection__sale_invoiced_amount
-msgid "Revenues"
-msgstr "Ingresos"
+#: model:mailing.mailing,name:mass_mailing_sale.mass_mail_sale_order_0
+msgid "Sale Promotion 1"
+msgstr "Promoción de venta 1"
 
 #. module: mass_mailing_sale
 #: model:ir.model,name:mass_mailing_sale.model_sale_order
@@ -78,4 +92,4 @@ msgstr "Campaña de UTM"
 #. module: mass_mailing_sale
 #: model:ir.model.fields,field_description:mass_mailing_sale.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
-msgstr "Selección del ganador"
+msgstr "Obtener ganador"

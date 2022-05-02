@@ -7,7 +7,7 @@
         </record>
 
         <record id="partner_hungry_dog" model="res.partner">
-            <field name="name">Hungry Dog</field>
+            <field name="name">Perro Hambriento</field>
             <field name="city">Russeltown</field>
             <field name="country_id" ref="base.us"/>
             <field name="street">975 Bullock Orchard</field>
@@ -17,21 +17,21 @@
         </record>
 
         <record id="product_bacon_0" model="lunch.product">
-            <field name="name">Bacon</field>
+            <field name="name">Beicon</field>
             <field name="category_id" ref="categ_burger"/>
             <field name="price">7.2</field>
             <field name="supplier_id" ref="supplier_hungry_dog"/>
-            <field name="description">Beef, Bacon, Salad, Cheddar, Fried Onion, BBQ Sauce</field>
+            <field name="description">Ternera, Bacon, Ensalada, Cheddar, Cebolla Frita, Salsa BBQ</field>
             <field name="image_1920" type="base64" file="lunch/static/img/bacon_burger.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record id="product_cheese_burger_0" model="lunch.product">
-            <field name="name">Cheese Burger</field>
+            <field name="name">Hamburguesa con queso</field>
             <field name="category_id" ref="categ_burger"/>
             <field name="price">6.8</field>
             <field name="supplier_id" ref="supplier_hungry_dog"/>
-            <field name="description">Beef, Cheddar, Salad, Fried Onions, BBQ Sauce</field>
+            <field name="description">Carne De Res, Queso Cheddar, Ensalada, Cebolla Frita, Salsa BBQ</field>
             <field name="image_1920" type="base64" file="lunch/static/img/cheeseburger.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -41,7 +41,7 @@
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.4</field>
             <field name="supplier_id" ref="supplier_hungry_dog"/>
-            <field name="description">Ham, Cheese, Vegetables</field>
+            <field name="description">Jamón, Queso, Verduras</field>
             <field name="image_1920" type="base64" file="lunch/static/img/club.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -55,30 +55,30 @@
         </record>
 
         <record id="product_pizza_0" model="lunch.product">
-            <field name="name">Pizza Margherita</field>
+            <field name="name">Pizza Margarita</field>
             <field name="category_id" ref="categ_pizza"/>
             <field name="price">6.90</field>
             <field name="supplier_id" ref="supplier_hungry_dog"/>
-            <field name="description">Tomatoes, Mozzarella</field>
+            <field name="description">Tomates, Mozzarella</field>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
 
         <record id="location_office_1" model="lunch.location">
-            <field name="name">Office 1</field>
+            <field name="name">Oficina 1</field>
         </record>
 
         <record id="location_office_2" model="lunch.location">
-            <field name="name">Office 2</field>
+            <field name="name">Oficina 2</field>
         </record>
 
         <record id="location_office_3" model="lunch.location">
-            <field name="name">Office 3</field>
+            <field name="name">Oficina 3</field>
         </record>
 
         <record id="alert_office_3" model="lunch.alert">
-            <field name="name">Alert for Office 3</field>
-            <field name="message">Please order</field>
+            <field name="name">Alerta para Oficina 3</field>
+            <field name="message">Por favor, ordene</field>
             <field name="location_ids" eval="[(4, ref('location_office_3'))]" />
             <field name="mode">chat</field>
         </record>
@@ -180,28 +180,28 @@
         </record>
 
         <record model="lunch.product" id="product_bacon">
-            <field name="name">Bacon</field>
+            <field name="name">Beicon</field>
             <field name="category_id" ref="categ_burger"/>
             <field name="price">7.5</field>
             <field name="supplier_id" ref="supplier_corner"/>
-            <field name="description">Beef, Bacon, Salad, Cheddar, Fried Onion, BBQ Sauce</field>
+            <field name="description">Ternera, Bacon, Ensalada, Cheddar, Cebolla Frita, Salsa BBQ</field>
             <field name="image_1920" type="base64" file="lunch/static/img/bacon_burger.png"/>
             <field name="new_until" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_cheeseburger">
-            <field name="name">Cheese Burger</field>
+            <field name="name">Hamburguesa con queso</field>
             <field name="category_id" ref="categ_burger"/>
             <field name="price">7.0</field>
             <field name="supplier_id" ref="supplier_corner"/>
-            <field name="description">Beef, Cheddar, Salad, Fried Onions, BBQ Sauce</field>
+            <field name="description">Carne De Res, Queso Cheddar, Ensalada, Cebolla Frita, Salsa BBQ</field>
             <field name="image_1920" type="base64" file="lunch/static/img/cheeseburger.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_chicken_curry">
-            <field name="name">Chicken Curry</field>
+            <field name="name">Pollo al curry</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.0</field>
             <field name="supplier_id" ref="supplier_corner"/>
@@ -210,7 +210,7 @@
         </record>
 
         <record model="lunch.product" id="product_spicy_tuna">
-            <field name="name">Spicy Tuna</field>
+            <field name="name">Atún Picante</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.0</field>
             <field name="supplier_id" ref="supplier_corner"/>
@@ -223,7 +223,7 @@
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.9</field>
             <field name="supplier_id" ref="supplier_corner"/>
-            <field name="description">Mozzarella, Pesto, Tomatoes</field>
+            <field name="description">Mozzarella, Pesto, Tomates</field>
             <field name="image_1920" type="base64" file="lunch/static/img/mozza.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -233,87 +233,87 @@
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.4</field>
             <field name="supplier_id" ref="supplier_corner"/>
-            <field name="description">Ham, Cheese, Vegetables</field>
+            <field name="description">Jamón, Queso, Verduras</field>
             <field name="image_1920" type="base64" file="lunch/static/img/club.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_maki">
-            <field name="name">Lunch Maki 18pc</field>
+            <field name="name">Comida Maki 18 piezas</field>
             <field name="category_id" ref="categ_sushi"/>
             <field name="price">12.0</field>
             <field name="supplier_id" ref="supplier_sushi_shop"/>
-            <field name="description">6 Maki Salmon - 6 Maki Tuna - 6 Maki Shrimp/Avocado</field>
+            <field name="description">6 Maki Salmón - 6 Maki Atún - 6 Maki Gambas/Aguacate</field>
             <field name="image_1920" type="base64" file="lunch/static/img/maki.png"/>
             <field name="new_until" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_salmon">
-            <field name="name">Lunch Salmon 20pc</field>
+            <field name="name">Comida Salmon 20 piezas</field>
             <field name="category_id" ref="categ_sushi"/>
             <field name="price">13.80</field>
             <field name="supplier_id" ref="supplier_sushi_shop"/>
-            <field name="description">4 Sushi Salmon - 6 Maki Salmon - 4 Sashimi Salmon </field>
+            <field name="description">4 Sushi Salmón - 6 Maki Salmón - 4 Sashimi Salmón </field>
             <field name="image_1920" type="base64" file="lunch/static/img/salmon_sushi.png"/>
             <field name="new_until" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_temaki">
-            <field name="name">Lunch Temaki mix 3pc</field>
+            <field name="name">Comida Temaki mix 3 piezas</field>
             <field name="category_id" ref="categ_temaki"/>
             <field name="price">14.0</field>
             <field name="supplier_id" ref="supplier_sushi_shop"/>
-            <field name="description">1 Avocado - 1 Salmon - 1 Eggs - 1 Tuna</field>
+            <field name="description">1 Aguacate - 1 Salmón - 1 Huevas - 1 Atún</field>
             <field name="image_1920" type="base64" file="lunch/static/img/temaki.png"/>
             <field name="new_until" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_chirashi">
-            <field name="name">Salmon and Avocado</field>
+            <field name="name">Salmón y Aguacate</field>
             <field name="category_id" ref="categ_chirashi"/>
             <field name="price">9.25</field>
             <field name="supplier_id" ref="supplier_sushi_shop"/>
-            <field name="description">2 Tempuras, Cabbages, Onions, Sesame Sauce</field>
+            <field name="description">2 tempuras, coles, cebollas, salsa de sésamo</field>
             <field name="image_1920" type="base64" file="lunch/static/img/chirashi.png"/>
             <field name="new_until" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_cheese_ham">
-            <field name="name">Cheese And Ham</field>
+            <field name="name">Queso y jamón</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.30</field>
             <field name="supplier_id" ref="supplier_coin_gourmand"/>
-            <field name="description">Cheese, Ham, Salad, Tomatoes, cucumbers, eggs</field>
+            <field name="description">Queso, Jamón, Ensalada, Tomates, Pepinos, Huevos</field>
             <field name="image_1920" type="base64" file="lunch/static/img/club.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_country">
-            <field name="name">The Country</field>
+            <field name="name">El País</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">3.30</field>
             <field name="supplier_id" ref="supplier_coin_gourmand"/>
-            <field name="description">Brie, Honey, Walnut Kernels</field>
+            <field name="description">Brie, miel, granos de nuez</field>
             <field name="image_1920" type="base64" file="lunch/static/img/brie.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_tuna">
-            <field name="name">Tuna</field>
+            <field name="name">Atún</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">2.50</field>
             <field name="supplier_id" ref="supplier_coin_gourmand"/>
-            <field name="description">Tuna, Mayonnaise</field>
+            <field name="description">Atún, Mayonesa</field>
             <field name="image_1920" type="base64" file="lunch/static/img/tuna_sandwich.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_gouda">
-            <field name="name">Gouda Cheese</field>
+            <field name="name">Queso Gouda</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">2.50</field>
             <field name="supplier_id" ref="supplier_coin_gourmand"/>
@@ -323,7 +323,7 @@
         </record>
 
         <record model="lunch.product" id="product_chicken_curry">
-            <field name="name">Chicken Curry</field>
+            <field name="name">Pollo al Curry</field>
             <field name="category_id" ref="categ_sandwich"/>
             <field name="price">2.60</field>
             <field name="supplier_id" ref="supplier_coin_gourmand"/>
@@ -333,11 +333,11 @@
         </record>
 
         <record model="lunch.product" id="product_margherita">
-            <field name="name">Pizza Margherita</field>
+            <field name="name">Pizza Margarita</field>
             <field name="category_id" ref="categ_pizza"/>
             <field name="price">6.90</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Tomatoes, Mozzarella</field>
+            <field name="description">Tomates, Mozzarella</field>
             <field name="image_1920" type="base64" file="lunch/static/img/pizza_margherita.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -347,17 +347,17 @@
             <field name="category_id" ref="categ_pizza"/>
             <field name="price">7.00</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Tomatoes, Mushrooms, Mozzarella</field>
+            <field name="description">Tomates, Champiñones, Mozzarella</field>
             <field name="image_1920" type="base64" file="lunch/static/img/pizza_funghi.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_vege">
-            <field name="name">Pizza Vegetarian</field>
+            <field name="name">Pizza Vegetariana</field>
             <field name="category_id" ref="categ_pizza"/>
             <field name="price">7.00</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Tomatoes, Mozzarella, Mushrooms, Peppers, Olives</field>
+            <field name="description">Tomates, Mozzarella, Champiñones, Pimientos, Aceitunas</field>
             <field name="image_1920" type="base64" file="lunch/static/img/pizza_veggie.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -367,13 +367,13 @@
             <field name="category_id" ref="categ_pizza"/>
             <field name="price">7.40</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Fresh Tomatoes, Basil, Mozzarella</field>
+            <field name="description">Tomates Frescos, Albahaca, Mozzarella</field>
             <field name="image_1920" type="base64" file="lunch/static/img/italiana.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.product" id="product_Bolognese">
-            <field name="name">Bolognese Pasta</field>
+            <field name="name">Pasta Boloñesa</field>
             <field name="category_id" ref="categ_pasta"/>
             <field name="price">7.70</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
@@ -383,27 +383,27 @@
         </record>
 
          <record model="lunch.product" id="product_Napoli">
-            <field name="name">Napoli Pasta</field>
+            <field name="name">Pasta Nápoles</field>
             <field name="category_id" ref="categ_pasta"/>
             <field name="price">7.70</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Tomatoes, Basil</field>
+            <field name="description">Tomates, Albahaca</field>
             <field name="image_1920" type="base64" file="lunch/static/img/napoli.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
 
         <record model="lunch.topping" id="product_olives">
-            <field name="name">Olives</field>
+            <field name="name">Olivas</field>
             <field name="price">0.30</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
         </record>
 
          <record model="lunch.product" id="product_4formaggi">
-            <field name="name">4 Formaggi</field>
+            <field name="name">4 Quesos</field>
             <field name="category_id" ref="categ_pasta"/>
             <field name="price">5.50</field>
             <field name="supplier_id" ref="supplier_pizza_inn"/>
-            <field name="description">Tomato sauce, Olive oil, Fresh Tomatoes, Onions, Vegetables, Parmesan</field>
+            <field name="description">Salsa de tomate, Aceite de oliva, Tomates frescos, Cebolla, Verduras, Parmesano</field>
             <field name="image_1920" type="base64" file="lunch/static/img/4formaggio.png"/>
             <field name="company_id" ref="base.main_company"/>
         </record>
@@ -411,14 +411,14 @@
         <record model="lunch.cashmove" id="cashmove_1">
             <field name="user_id" ref="base.user_demo"/>
             <field name="date" eval="(DateTime.now() + timedelta(days=3)).strftime('%Y-%m-%d')"/>
-            <field name="description">Payment: 5 lunch tickets (6€)</field>
+            <field name="description">Pago: 5 tickets comida (6€)</field>
             <field name="amount">30</field>
         </record>
 
         <record model="lunch.cashmove" id="cashmove_2">
             <field name="user_id" ref="base.user_admin"/>
             <field name="date" eval="(DateTime.now() - timedelta(days=3)).strftime('%Y-%m-%d')"/>
-            <field name="description">Payment: 7 lunch tickets (6€)</field>
+            <field name="description">Pago: 7 tickets comida (6€)</field>
             <field name="amount">42</field>
         </record>
 

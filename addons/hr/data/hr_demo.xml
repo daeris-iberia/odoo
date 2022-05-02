@@ -5,15 +5,15 @@
     <!--Department-->
 
       <record id="dep_management" model="hr.department">
-          <field name="name">Management</field>
+          <field name="name">Dirección</field>
       </record>
 
       <record id="dep_rd" model="hr.department">
-          <field name="name">Research &amp; Development</field>
+          <field name="name">Investigación y Desarrollo</field>
       </record>
 
       <record id="dep_ps" model="hr.department">
-          <field name="name">Professional Services</field>
+          <field name="name">Servicios Profesionales</field>
       </record>
 
     <!--Jobs-->
@@ -21,47 +21,46 @@
       <record id="job_ceo" model="hr.job">
           <field name="name">Chief Executive Officer</field>
           <field name="department_id" ref="dep_management"/>
-          <field name="description">Demonstration of different Odoo services for each client and convincing the client about functionality of the application.
-The candidate should have excellent communication skills.
-Relationship building and influencing skills
-Expertise in New Client Acquisition (NCAs) and Relationship Management.
-Gathering market and customer information.
-Coordinating with the sales and support team for adopting different strategies
-Reviewing progress and identifying opportunities and new areas for development.
-Building strong relationships with clients / customers for business growth profitability.
-Keep regular interaction with key clients for better extraction and expansion.</field>
-          <field name="requirements">MBA in Marketing is must.
-Good Communication skills.
-Only Fresher's can apply.
-Candidate should be ready to work in young and dynamic environment..
-Candidate should be able to work in “start- up” fast paced environment,hands on attitude.
-Honest,approachable and fun team player.
-Result driven.
-Excellent analytical skills, ability to think logically and "out of the box"</field>
+          <field name="description">Demostración de diferentes servicios de Daeris para cada cliente y convencer al cliente sobre la funcionalidad de la aplicación.
+El candidato debe tener excelentes habilidades de comunicación.
+Construcción de relaciones y habilidades de influencia.
+Experiencia en adquisición de nuevos clientes (NCA) y gestión de relaciones.
+Recopilación de información del mercado y de los clientes.
+Coordinación con el equipo de ventas y soporte para la adopción de diferentes estrategias.
+Revisar el progreso e identificar oportunidades y nuevas áreas de desarrollo.
+Construir relaciones sólidas con los clientes / clientes para la rentabilidad del crecimiento empresarial.
+Mantenga una interacción regular con los clientes clave para una mejor extracción y expansión.</field>
+          <field name="requirements">Imprescindible MBA en Marketing.
+Buena capacidad de comunicación.
+El candidato debe estar listo para trabajar en un entorno joven y dinámico.
+El candidato debe poder trabajar en un entorno de ritmo rápido de "puesta en marcha", actitud práctica.
+Honesto, cercano y divertido jugador de equipo.
+Orientado a resultados.
+Excelentes habilidades analíticas, capacidad de pensar lógicamente y "fuera de la caja"</field>
       </record>
 
       <record id="job_cto" model="hr.job">
           <field name="name">Chief Technical Officer</field>
           <field name="department_id" ref="dep_rd"/>
-          <field name="description">You will take part in the consulting services we provide to our partners and customers : design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.
+          <field name="description">Participará en los servicios de consultoría que ofrecemos a nuestros socios y clientes: diseño, análisis, desarrollo, pruebas, gestión de proyectos, soporte/coaching. Trabajará de forma autónoma y coordinará y supervisará pequeños equipos de desarrollo distribuidos para algunos proyectos. Opcionalmente, impartirá sesiones de capacitación de Daeris a socios y clientes (8-10 personas/sesión). Reportarás al Jefe de Servicios Profesionales y trabajarás en estrecha colaboración con todos los desarrolladores y consultores.
 
-The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur).</field>
-          <field name="requirements">Bachelor, master or engineering degree in Computer Science or equivalent by experience
-Preferably at least 1 years of experience
-Interest for enterprise application development
-Customer-minded
-Willing to travel abroad occasionally for short term missions.
-Passion for the Internet and its culture
-Quick and autonomous learner, problem-solving personality, enthusiastic when faced with technical challenges
-Team spirit and good communication
-Required skills:
-Good knowledge of object oriented programming, object modeling, relational databases, Unix/Linux platform
-Fluent in English, especially read and written
-Nice-to-have skills:
-Good knowledge of Python
-Good knowledge of HTML and Javascript
-Knowledge of UML-like modeling
-Good language skills, other than English (Dutch and French preferred, others welcome)
+El trabajo se encuentra en Grand-Rosière (1367), Bélgica (entre Louvain-La-Neuve y Namur).</field>
+          <field name="requirements">Licenciatura, maestría o título de ingeniería en Ciencias de la Computación o equivalente por experiencia
+Preferiblemente al menos 1 año de experiencia
+Interés por el desarrollo de aplicaciones empresariales
+Orientado al cliente
+Dispuesto a viajar al extranjero ocasionalmente para misiones a corto plazo.
+Pasión por Internet y su cultura
+Aprende rápido y autónomo, personalidad resolutiva, entusiasta cuando se enfrenta a desafíos técnicos.
+Espíritu de equipo y buena comunicación.
+Habilidades requeridas:
+Buen conocimiento de programación orientada a objetos, modelado de objetos, bases de datos relacionales, plataforma Unix/Linux
+Inglés fluido, especialmente leído y escrito.
+Habilidades agradables de tener:
+Buen conocimiento de Python
+Buen conocimiento de HTML y Javascript
+Conocimiento de modelado similar a UML.
+Buenas habilidades lingüísticas, además del inglés (preferiblemente holandés y francés, otros bienvenidos)
           </field>
       </record>
 
@@ -91,59 +90,59 @@ Good language skills, other than English (Dutch and French preferred, others wel
 
       <record id="job_trainee" model="hr.job">
           <field name="name">Trainee</field>
-          <field name="description">You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Odoo. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.
-You will have to become familiar with the existing tools (books, class supports, Odoo presentation’s slides, commercial tools),
-to participate to the update of those tools in order to make them appropriate for the new version of the software and, for sure,
-to suggest improvements in order to cover the new domains of the software.
-You join the Implementation Assistance department. This team of 3 people go with Odoo’s clients in the set up of the software. Your role will be
-to animate webinars in order to show the different functionalities of the software.
-to be involved in the support of the customers and
-to answer to their questions.
-You help the support manager to set up new support services by
-being involved in the treatment of new cases,
-contributing to the set up of a new politic,
-being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers.</field>
-          <field name="requirements">You speak fluently English and French (one other European language is a +)
-At the time of your traineeship at Odoo, you will be in the last year of a Master or Bachelor Degree (ideally in the following sector: Business Management, IT Management, Computer Sciences)
-You have a software and new technology awareness
-You are ready to join a young and dynamic company, you are able to work in a “start up” fast paced environment, hands on attitude
-You are approachable, honest and a fun team player
-If you have development competencies, we can propose you specific traineeships</field>
+          <field name="description">Participa en la actualización de nuestras herramientas de tutoriales y herramientas de preventa después del lanzamiento de una nueva versión de Daeris. De hecho, cualquier nueva versión del software trae mejoras significativas en términos de funcionalidades, ergonomía y configuración.
+Tendrá que familiarizarse con las herramientas existentes (libros, soportes de clase, diapositivas de presentación de Daeris, herramientas comerciales),
+participar en la actualización de esas herramientas para que sean apropiadas para la nueva versión del software y, por supuesto,
+sugerir mejoras para cubrir los nuevos dominios del software.
+Te unes al departamento de Asistencia para la Implementación. Este equipo de 3 personas acompaña a los clientes de Daeris en la configuración del software. tu papel será
+animar seminarios web para mostrar las diferentes funcionalidades del software.
+estar involucrado en el apoyo a los clientes y
+para responder a sus preguntas.
+Usted ayuda al gerente de soporte a configurar nuevos servicios de soporte al
+participar en el tratamiento de nuevos casos,
+contribuyendo a la puesta en marcha de una nueva política,
+participar en encuestas de satisfacción para tener un mejor conocimiento de cómo es visto por los clientes el soporte brindado.</field>
+          <field name="requirements">Hablas inglés y francés con fluidez (otro idioma europeo es un +)
+En el momento de su pasantía en Daeris, estará en el último año de una maestría o licenciatura (idealmente en el siguiente sector: administración de empresas, administración de TI, ciencias de la computación)
+Tienes un software y conciencia de nuevas tecnologías.
+Está listo para unirse a una empresa joven y dinámica, puede trabajar en un entorno de ritmo rápido de "puesta en marcha", actitud práctica
+Eres accesible, honesto y un jugador de equipo divertido.
+Si tienes competencias de desarrollo, podemos proponerte prácticas específicas</field>
       </record>
 
       <!-- Work Locations -->
 
       <record id="work_location_1" model="hr.work.location">
-          <field name="name">Building 1, Second Floor</field>
+          <field name="name">Edificio 1, Segundo Piso</field>
           <field name="address_id" ref="base.main_partner" />
       </record>
 
     <!-- Employee categories -->
 
       <record id="employee_category_2" model="hr.employee.category">
-          <field name="name">Sales</field>
+          <field name="name">Ventas</field>
           <field name="color" eval="1"/>
       </record>
 
       <record id="employee_category_3" model="hr.employee.category">
-          <field name="name">Trainer</field>
+          <field name="name">Formador</field>
           <field name="color" eval="2"/>
       </record>
 
       <record id="employee_category_4" model="hr.employee.category">
-          <field name="name">Employee</field>
+          <field name="name">Empleado</field>
           <field name="color" eval="6"/>
       </record>
 
       <record id="employee_category_5" model="hr.employee.category">
-          <field name="name">Consultant</field>
+          <field name="name">Consultor</field>
           <field name="color" eval="4"/>
       </record>
 
       <!-- Address -->
 
       <record id="hr.res_partner_admin_private_address" model="res.partner">
-          <field name="name">Mitchell Admin</field>
+          <field name="name">Miguel Admin</field>
           <field name="street">215 Vine St</field>
           <field name="city">Scranton</field>
           <field name="zip">18503</field>
@@ -153,7 +152,7 @@ If you have development competencies, we can propose you specific traineeships</
           <field name="email">admin@yourcompany.example.com</field>
       </record>
       <record id="res_partner_demo_private_address" model="res.partner">
-          <field name="name">Mark Demo</field>
+          <field name="name">Marc Demo</field>
           <field name="street">361-7936 Feugiat St.</field>
           <field name="zip">58521</field>
           <field name="city">Williston</field>
@@ -176,67 +175,67 @@ If you have development competencies, we can propose you specific traineeships</
       </record>
 
       <record id="employee_al" model="hr.employee">
-          <field name="name">Ronnie Hart</field>
+          <field name="name">Rubén H.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="job_id" ref="hr.job_cto"/>
           <field name="job_title">Chief Technical Officer</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_3')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(376)-310-7863</field>
-          <field name="work_email">ronnie.hart87@example.com</field>
+          <field name="work_email">ruben.h87@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_al-image.jpg"/>
       </record>
 
       <record id="employee_mit" model="hr.employee">
-          <field name="name">Anita Oliver</field>
+          <field name="name">Ana O.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="parent_id" ref="employee_al"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrolladora experimentada</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(538)-497-4804</field>
           <field name="mobile_phone">(538)-672-3185</field>
-          <field name="work_email">anita.oliver32@example.com</field>
+          <field name="work_email">ana.o32@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_mit-image.jpg"/>
       </record>
 
       <record id="employee_niv" model="hr.employee">
-          <field name="name">Sharlene Rhodes</field>
+          <field name="name">Sara R.</field>
           <field name="department_id" ref="dep_management"/>
           <field name="parent_id" ref="employee_al"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrolladora experimentada</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(450)-719-4182</field>
-          <field name="work_email">sharlene.rhodes49@example.com</field>
+          <field name="work_email">sara.r49@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_niv-image.jpg"/>
       </record>
 
       <record id="employee_stw" model="hr.employee">
-          <field name="name">Randall Lewis</field>
+          <field name="name">Rodrigo L.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="parent_id" ref="employee_al"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(332)-775-6660</field>
-          <field name="work_email">randall.lewis74@example.com</field>
+          <field name="work_email">rodrigo.l74@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_stw-image.jpg"/>
       </record>
 
       <record id="employee_chs" model="hr.employee">
-          <field name="name">Jennie Fletcher</field>
+          <field name="name">Jennifer F.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="parent_id" ref="employee_al"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrolladora experimentada</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(157)-363-8229</field>
-          <field name="work_email">jennie.fletcher76@example.com</field>
+          <field name="work_email">jenni.f76@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_chs-image.jpg"/>
       </record>
 
@@ -247,163 +246,163 @@ If you have development competencies, we can propose you specific traineeships</
           <field name="parent_id" ref="employee_admin"/>
           <field name="address_home_id" ref="res_partner_demo_private_address"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">+3281813700</field>
-          <field name="work_email">gilles@odoo.com</field>
+          <field name="work_email">marc.demo@daeris.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_qdp-image.png"/>
       </record>
 
       <record id="employee_fme" model="hr.employee">
-          <field name="name">Keith Byrd</field>
+          <field name="name">Alberto B.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="parent_id" ref="employee_al"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(449)-505-5146</field>
-          <field name="work_email">keith.byrd52@example.com</field>
+          <field name="work_email">alberto.b52@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_fme-image.jpg"/>
       </record>
 
       <record id="employee_fpi" model="hr.employee">
-          <field name="name">Audrey Peterson</field>
+          <field name="name">Elena P.</field>
           <field name="department_id" ref="dep_ps"/>
           <field name="parent_id" ref="employee_admin"/>
           <field name="job_id" ref="hr.job_consultant"/>
-          <field name="job_title">Consultant</field>
+          <field name="job_title">Consultora</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_5')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(203)-276-7903</field>
-          <field name="work_email">audrey.peterson25@example.com</field>
+          <field name="work_email">elena.p25@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_fpi-image.jpg"/>
       </record>
 
       <record id="employee_jth" model="hr.employee">
-          <field name="name">Toni Jimenez</field>
+          <field name="name">Victoria J.</field>
           <field name="department_id" ref="dep_ps"/>
           <field name="parent_id" ref="employee_admin"/>
           <field name="job_id" ref="hr.job_consultant"/>
-          <field name="job_title">Consultant</field>
+          <field name="job_title">Consultora</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_5')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(663)-707-8451</field>
-          <field name="work_email">toni.jimenez23@example.com</field>
+          <field name="work_email">victoria.j23@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jth-image.jpg"/>
       </record>
 
       <record id="employee_ngh" model="hr.employee">
-          <field name="name">Jeffrey Kelly</field>
+          <field name="name">Oscar J.</field>
           <field name="department_id" ref="dep_sales"/>
           <field name="parent_id" ref="employee_admin"/>
           <field name="job_id" ref="hr.job_marketing"/>
-          <field name="job_title">Marketing and Community Manager</field>
+          <field name="job_title">Marketing y Community Manager</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_2')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(916)-264-7362</field>
-          <field name="work_email">jeffrey.kelly72@example.com</field>
+          <field name="work_email">oscar.j72@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_ngh-image.jpg"/>
       </record>
 
       <record id="employee_vad" model="hr.employee">
-          <field name="name">Tina Williamson</field>
+          <field name="name">Olivia N.</field>
           <field name="department_id" ref="dep_administration"/>
           <field name="parent_id" ref="employee_admin"/>
           <field name="job_id" ref="hr.job_hrm"/>
-          <field name="job_title">Human Resources Manager</field>
+          <field name="job_title">Gerente de RRHH</field>
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(360)-694-7266</field>
-          <field name="work_email">tina.williamson98@example.com</field>
+          <field name="work_email">olivia.n98@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_vad-image.jpg"/>
       </record>
 
       <record id="employee_han" model="hr.employee">
-          <field name="name">Walter Horton</field>
+          <field name="name">Walter H.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(350)-912-1201</field>
-          <field name="work_email">walter.horton80@example.com</field>
+          <field name="work_email">walter.h80@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_han-image.jpg"/>
       </record>
 
       <record id="employee_jve" model="hr.employee">
-          <field name="name">Paul Williams</field>
+          <field name="name">Pol W.</field>
           <field name="department_id" ref="dep_management"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(114)-262-1607</field>
-          <field name="work_email">paul.williams59@example.com</field>
+          <field name="work_email">pol.w59@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jve-image.jpg"/>
       </record>
 
       <record id="employee_jep" model="hr.employee">
-          <field name="name">Doris Cole</field>
+          <field name="name">Rosa C.</field>
           <field name="department_id" ref="dep_ps"/>
           <field name="job_id" ref="hr.job_consultant"/>
-          <field name="job_title">Consultant</field>
+          <field name="job_title">Consultora</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(883)-331-5378</field>
-          <field name="work_email">doris.cole31@example.com</field>
+          <field name="work_email">rosa.c31@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jep-image.jpg"/>
       </record>
 
       <record id="employee_jod" model="hr.employee">
-          <field name="name">Rachel Perry</field>
+          <field name="name">Raquel P.</field>
           <field name="department_id" ref="dep_sales"/>
           <field name="job_id" ref="hr.job_marketing"/>
-          <field name="job_title">Marketing and Community Manager</field>
+          <field name="job_title">Marketing y Community Manager</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(206)-267-3735</field>
-          <field name="work_email">jod@odoo.com</field>
+          <field name="work_email">raquel.p@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jod-image.jpg"/>
       </record>
 
       <record id="employee_jog" model="hr.employee">
-          <field name="name">Beth Evans</field>
+          <field name="name">Elisa E.</field>
           <field name="department_id" ref="dep_rd"/>
           <field name="job_id" ref="hr.job_developer"/>
-          <field name="job_title">Experienced Developer</field>
+          <field name="job_title">Desarrollador experimentado</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(754)-532-3841</field>
-          <field name="work_email">beth.evans77@example.com</field>
+          <field name="work_email">elisa.e77@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jog-image.jpg"/>
       </record>
 
       <record id="employee_jgo" model="hr.employee">
-          <field name="name">Ernest Reed</field>
+          <field name="name">Ernesto R.</field>
           <field name="department_id" ref="dep_ps"/>
           <field name="job_id" ref="hr.job_consultant"/>
-          <field name="job_title">Consultant</field>
+          <field name="job_title">Consultor</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(944)-518-8232</field>
-          <field name="work_email">ernest.reed47@example.com</field>
+          <field name="work_email">ernesto.r47@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_jgo-image.jpg"/>
       </record>
 
       <record id="employee_lur" model="hr.employee">
-          <field name="name">Eli Lambert</field>
+          <field name="name">Elías L.</field>
           <field name="department_id" ref="dep_sales"/>
           <field name="job_id" ref="hr.job_marketing"/>
-          <field name="job_title">Marketing and Community Manager</field>
+          <field name="job_title">Marketing y Community Manager</field>
           <field name="work_location_id" ref="work_location_1"/>
           <field name="work_phone">(644)-169-1352</field>
-          <field name="work_email">eli.lambert22@example.com</field>
+          <field name="work_email">elias.l22@example.com</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_lur-image.jpg"/>
       </record>
 
       <record id="employee_hne" model="hr.employee">
-          <field name="name">Abigail Peterson</field>
+          <field name="name">Ruth P.</field>
           <field name="department_id" ref="dep_ps"/>
           <field name="job_id" ref="hr.job_consultant"/>
-          <field name="job_title">Consultant</field>
+          <field name="job_title">Consultora</field>
           <field name="work_location_id" ref="work_location_1"/>
-          <field name="work_email">abigail.peterson39@example.com</field>
+          <field name="work_email">ruth.p39@example.com</field>
           <field name="work_phone">(482)-233-3393</field>
           <field name="image_1920" type="base64" file="hr/static/img/employee_hne-image.jpg"/>
       </record>

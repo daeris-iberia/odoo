@@ -341,7 +341,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_1" model="mail.message">
-            <field name="body">Beautiful! I plan to go there next holidays.</field>
+            <field name="body">¡Hermoso! Planeo ir allí las próximas vacaciones.</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_1"/>
             <field name="message_type">comment</field>
@@ -350,7 +350,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_2" model="mail.message">
-            <field name="body">Hi! How long did you stay there?</field>
+            <field name="body">¡Hola! ¿Cuanto tiempo estuviste ahi?</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_1"/>
             <field name="message_type">comment</field>
@@ -359,7 +359,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_3" model="mail.message">
-            <field name="body">I'll follow your instructions next time! It will save myself from a weird place like last time :D</field>
+            <field name="body">¡Seguiré tus instrucciones la próxima vez! Me salvará de un lugar extraño como la última vez :D</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_3"/>
             <field name="message_type">comment</field>
@@ -368,7 +368,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_4" model="mail.message">
-            <field name="body">Can't wait to buy a telescope!</field>
+            <field name="body">No puedo esperar para comprar un telescopio!</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_5"/>
             <field name="message_type">comment</field>
@@ -377,7 +377,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_5" model="mail.message">
-            <field name="body">Light pollution can be really annoying when you want to observe the sky. The best places are far from cities. That's why I like to go camping.</field>
+            <field name="body">La contaminación lumínica puede ser realmente molesta cuando quieres observar el cielo. Los mejores lugares están lejos de las ciudades. Por eso me gusta ir de camping.</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_5"/>
             <field name="message_type">comment</field>
@@ -386,7 +386,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_6" model="mail.message">
-            <field name="body">Great article! Do you have any good addresses to buy a telescope? Thanks!</field>
+            <field name="body">¡Excelente artículo! ¿Tiene alguna buena dirección para comprar un telescopio? ¡Gracias!</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_6"/>
             <field name="message_type">comment</field>
@@ -395,7 +395,7 @@ Naturally, as you grow in your love of astronomy, you will find many celestial b
         </record>
 
         <record id="blog_comment_7" model="mail.message">
-            <field name="body">Great article. I learned so much about astronomy and the moon. How can I contact you to discuss about my experience?</field>
+            <field name="body">Excelente artículo. Aprendí mucho sobre astronomía y la luna. ¿Cómo puedo contactarlos para hablar sobre mi experiencia?</field>
             <field name="model">blog.post</field>
             <field name="res_id" ref="blog_post_7"/>
             <field name="message_type">comment</field>

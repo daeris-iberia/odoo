@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 14:04+0000\n"
-"PO-Revision-Date: 2021-10-27 16:20+0200\n"
+"POT-Creation-Date: 2022-04-26 08:51+0000\n"
+"PO-Revision-Date: 2022-04-26 10:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,6 +51,16 @@ msgstr "&amp; Envío"
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "'. Showing results for '"
 msgstr "'. Mostrando resultados para '"
+
+#. module: website_sale
+#: model:product.template.attribute.value,name:website_sale.product_1_attribute_3_value_1
+msgid "1 year"
+msgstr "1 año"
+
+#. module: website_sale
+#: model:product.template.attribute.value,name:website_sale.product_1_attribute_3_value_2
+msgid "2 year"
+msgstr "2 años"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -265,13 +275,13 @@ msgstr "<span class=\"o_form_label\">Política de facturación</span>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
-msgid "<span class=\"s_website_form_label_content\">A document to provide</span>"
-msgstr "<span class=\"s_website_form_label_content\">Un documento para proporcionar</span>"
+msgid "<span class=\"s_website_form_label_content\">Give us your feedback</span>"
+msgstr "<span class=\"s_website_form_label_content\">Déjanos tus comentarios</span>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
-msgid "<span class=\"s_website_form_label_content\">Give us your feedback</span>"
-msgstr "<span class=\"s_website_form_label_content\">Déjanos tus comentarios</span>"
+msgid "<span class=\"s_website_form_label_content\">Upload a document</span>"
+msgstr "<span class=\"s_website_form_label_content\">Subir un documento</span>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
@@ -784,6 +794,16 @@ msgid "Be aware!"
 msgstr "¡Esté atento!"
 
 #. module: website_sale
+#: model:res.country.group,name:website_sale.benelux
+msgid "BeNeLux"
+msgstr "BeNeLux"
+
+#. module: website_sale
+#: model:product.pricelist,name:website_sale.list_benelux
+msgid "Benelux"
+msgstr "Benelux"
+
+#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
@@ -807,6 +827,11 @@ msgid "Bin"
 msgstr "Papelera"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_bins
+msgid "Bins"
+msgstr "Papeleras"
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid ""
 "Boost your sales with two kinds of discount programs: promotions and coupon codes. Specific conditions can be set (products, customers, minimum purchase amount, period). Rewards can be "
@@ -827,9 +852,19 @@ msgid "Box"
 msgstr "Caja"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes
+msgid "Boxes"
+msgstr "Cajas"
+
+#. module: website_sale
 #: model:product.attribute,name:website_sale.product_attribute_brand
 msgid "Brand"
 msgstr "Marca"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets
+msgid "Cabinets"
+msgstr "Armarios"
 
 #. module: website_sale
 #. openerp-web
@@ -908,6 +943,12 @@ msgstr ""
 "través de la interfaz táctil."
 
 #. module: website_sale
+#: code:addons/website_sale/models/product_template.py:0
+#, python-format
+msgid "Categories:"
+msgstr "Categorías:"
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_searchbar_input_snippet_options model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_template_options
 msgid "Category"
 msgstr "Categoría"
@@ -920,14 +961,19 @@ msgstr "Descripción de categoría"
 #. module: website_sale
 #: code:addons/website_sale/models/product_template.py:0
 #, python-format
-msgid "Category: %s"
-msgstr "Categoría: %s"
+msgid "Category:"
+msgstr "Categoría:"
 
 #. module: website_sale
 #: code:addons/website_sale/models/website_snippet_filter.py:0
 #, python-format
 msgid "Chair"
 msgstr "Silla"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_chairs
+msgid "Chairs"
+msgstr "Sillas"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_b2b
@@ -948,6 +994,11 @@ msgstr "Categorías hijas"
 #: model:ir.actions.act_window,name:website_sale.action_open_website_sale_onboarding_payment_acquirer_wizard
 msgid "Choose a payment method"
 msgstr "Elija un método de pago"
+
+#. module: website_sale
+#: model:product.pricelist,name:website_sale.list_christmas
+msgid "Christmas"
+msgstr "Navidad"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -994,6 +1045,11 @@ msgid "Company Name"
 msgstr "Nombre de la compañía"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_components
+msgid "Components"
+msgstr "Componentes"
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping cost and ship with Easypost"
 msgstr "Calcular los costes de envío y enviar con Easypost"
@@ -1034,7 +1090,7 @@ msgid "Config Settings"
 msgstr "Opciones de Configuración"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.wizard_checkout
+#: model_terms:ir.ui.view,arch_db:website_sale.payment model_terms:ir.ui.view,arch_db:website_sale.wizard_checkout
 msgid "Confirm Order"
 msgstr "Confirmar pedido"
 
@@ -1066,6 +1122,11 @@ msgstr "Contacto"
 #, python-format
 msgid "Conversion"
 msgstr "Conversión"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_couches
+msgid "Couches"
+msgstr "Sofás"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_country model_terms:ir.ui.view,arch_db:website_sale.address
@@ -1135,8 +1196,8 @@ msgstr "Clientes"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "DHL"
-msgstr "Dhl"
+msgid "DHL Express Connector"
+msgstr "Conextor DHL Express"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__currency_id
@@ -1186,6 +1247,11 @@ msgid "Description for the website"
 msgstr "Descripción para el sitio web"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks
+msgid "Desks"
+msgstr "Escritorios"
+
+#. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product__website_sequence model:ir.model.fields,help:website_sale.field_product_template__website_sequence
 msgid "Determine the display order in the Website E-commerce"
 msgstr "Determine el orden de visualización en el sitio web de comercio electrónico"
@@ -1232,7 +1298,7 @@ msgstr "Muestra la unidad personalizada para los productos si se define o la uni
 #: code:addons/website_sale/models/digest.py:0
 #, python-format
 msgid "Do not have access, skip this data for user's digest email"
-msgstr "No tiene acceso, saltar esta información para el correo electrónico de resumen del usuario"
+msgstr "No tiene acceso, omita estos datos para el correo electrónico de resumen del usuario"
 
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__res_company__website_sale_onboarding_payment_acquirer_state__done
@@ -1265,6 +1331,11 @@ msgid "Drawer"
 msgstr "Cajón"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_drawers
+msgid "Drawers"
+msgstr "Cajones"
+
+#. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__shop_extra_field_ids
 msgid "E-Commerce Extra Fields"
 msgstr "Campos adicionales de comercio electrónico"
@@ -1278,6 +1349,11 @@ msgstr "Información adicional de comercio electrónico que se muestra en la pá
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist__code
 msgid "E-commerce Promotional Code"
 msgstr "Código Promocional"
+
+#. module: website_sale
+#: model:product.pricelist,name:website_sale.list_europe
+msgid "EUR"
+msgstr "EUR"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1342,7 +1418,7 @@ msgstr "Escriba un nombre para su nuevo producto"
 #: code:addons/website_sale/models/product_misc.py:0
 #, python-format
 msgid "Error ! You cannot create recursive categories."
-msgstr "¡Error! No puede crear categorías recursivas."
+msgstr "Error ! No puede crear categorías recursivas."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info_option
@@ -1394,6 +1470,11 @@ msgstr "Nombre de campo"
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "From Website"
 msgstr "Del sitio web"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures
+msgid "Furnitures"
+msgstr "Muebles"
 
 #. module: website_sale
 #. openerp-web
@@ -1507,7 +1588,7 @@ msgstr "Nombre de la imagen"
 #: code:addons/website_sale/controllers/main.py:0
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
-msgstr "¡Correo electrónico no válido! Introduzca una dirección de correo electrónico válida."
+msgstr "¡Email inválido! Por favor, introduce una dirección de correo electrónico válida."
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.action_invoices_ecommerce
@@ -1556,6 +1637,11 @@ msgstr "KPI Valor total de ventas del sitio"
 #, python-format
 msgid "Lamp"
 msgstr "Lámpara"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_lamps
+msgid "Lamps"
+msgstr "Lámparas"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image____last_update model:ir.model.fields,field_description:website_sale.field_product_public_category____last_update
@@ -1664,7 +1750,7 @@ msgstr "Administrar promociones &amp; programas de cupones"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
 msgid "Medium"
-msgstr "Media"
+msgstr "Medio"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1675,6 +1761,11 @@ msgstr "ID de la cuenta del comerciante"
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__manual_name
 msgid "Method"
 msgstr "Método"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_multimedia
+msgid "Multimedia"
+msgstr "Multimedia"
 
 #. module: website_sale
 #. openerp-web
@@ -1977,6 +2068,11 @@ msgstr "Ruta padre"
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__parents_and_self
 msgid "Parents And Self"
 msgstr "Padres y mismo"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.payment
+msgid "Pay Now"
+msgstr "Pagar ahora"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment
@@ -2598,6 +2694,11 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.services
+msgid "Services"
+msgstr "Servicios"
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid ""
 "Ship to the same address\n"
@@ -2714,7 +2815,7 @@ msgstr "Agotado"
 #: code:addons/website_sale/controllers/main.py:0
 #, python-format
 msgid "Some required fields are empty."
-msgstr "Algunos campos requeridos están vacíos"
+msgstr "Algunos campos requeridos están vacíos."
 
 #. module: website_sale
 #. openerp-web
@@ -2976,6 +3077,12 @@ msgid "Unit of Measure for price per unit on eCommerce products."
 msgstr "Unidad de medida para el precio por unidad en productos de comercio electrónico."
 
 #. module: website_sale
+#: model:product.product,uom_name:website_sale.product_product_1 model:product.product,uom_name:website_sale.product_product_1b
+#: model:product.template,uom_name:website_sale.product_product_1_product_template
+msgid "Units"
+msgstr "Unidades"
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Unpaid"
 msgstr "Impagada"
@@ -3061,6 +3168,18 @@ msgstr "Vistas de productos de visitante"
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_tree
 msgid "Visitor Product Views History"
 msgstr "Historial de vistas de productos de visitante"
+
+#. module: website_sale
+#: model:product.product,name:website_sale.product_product_1 model:product.product,name:website_sale.product_product_1b
+#: model:product.template,name:website_sale.product_product_1_product_template
+msgid "Warranty"
+msgstr "Garantía"
+
+#. module: website_sale
+#: model:product.product,description_sale:website_sale.product_product_1 model:product.product,description_sale:website_sale.product_product_1b
+#: model:product.template,description_sale:website_sale.product_product_1_product_template
+msgid "Warranty, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time."
+msgstr "Garantía, emitida al comprador de un artículo por su fabricante, comprometiéndose a repararlo o reemplazarlo si es necesario dentro de un período de tiempo determinado."
 
 #. module: website_sale
 #. openerp-web

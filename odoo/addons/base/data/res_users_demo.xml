@@ -5,20 +5,20 @@
         <record id="partner_demo" model="res.partner">
             <field name="name">Marc Demo</field>
             <field name="company_id" ref="main_company"/>
-            <field name="company_name">YourCompany</field>
+            <field name="company_name">TuEmpresa</field>
             <field name="street">3575  Buena Vista Avenue</field>
             <field name="city">Eugene</field>
             <field name="state_id"  model="res.country.state" search="[('code','ilike','OR')]"/>
             <field name="zip">97401</field>
             <field name="country_id" ref="us"/>
             <field name="tz">Europe/Brussels</field>
-            <field name="email">mark.brown23@example.com</field>
+            <field name="email">marc.demo23@example.com</field>
             <field name="phone">(441)-695-2334</field>
         </record>
 
         <record id="main_partner" model="res.partner">
-            <field name="name">YourCompany</field>
-            <field name="company_name">YourCompany</field>
+            <field name="name">TuEmpresa</field>
+            <field name="company_name">TuEmpresa</field>
             <field name="street">250 Executive Park Blvd, Suite 3400</field>
             <field name="city">San Francisco</field>
             <field name="zip">94134</field>
@@ -33,7 +33,7 @@
             <field name="partner_id" ref="base.partner_demo"/>
             <field name="login">demo</field>
             <field name="password">demo</field>
-            <field name="signature" type="xml"><span>-- <br/>+Mr Demo</span></field>
+            <field name="signature" type="xml"><span>-- <br/>+Sr Demo</span></field>
             <field name="company_id" ref="main_company"/>
             <field name="groups_id" eval="[Command.set([ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"/>
             <field name="image_1920" type="base64" file="base/static/img/user_demo-image.jpg"/>
@@ -45,8 +45,8 @@
         </record>
 
         <record model="res.partner" id="base.partner_admin">
-            <field name="name">Mitchell Admin</field>
-            <field name="company_name">YourCompany</field>
+            <field name="name">Miguel Admin</field>
+            <field name="company_name">TuEmpresa</field>
             <field name="street">215 Vine St</field>
             <field name="city">Scranton</field>
             <field name="zip">18503</field>
@@ -59,19 +59,19 @@
         </record>
 
         <record id="base.user_admin" model="res.users">
-            <field name="signature" type="xml"><span>-- <br/>Mitchell Admin</span></field>
+            <field name="signature" type="xml"><span>-- <br/>Miguel Admin</span></field>
         </record>
 
         <!-- Portal : partner and user -->
         <record id="partner_demo_portal" model="res.partner">
-            <field name="name">Joel Willis</field>
-            <field name="email">joel.willis63@example.com</field>
+            <field name="name">Joel W.</field>
+            <field name="email">joel.w63@example.com</field>
             <field name="street">858 Lynn Street</field>
             <field name="city">Bayonne</field>
             <field model="res.country.state" name="state_id" search="[('code','ilike','NJ')]"/>
             <field name="zip">07002</field>
             <field name="country_id" ref="base.us"/>
-            <field name="company_name">YourCompany</field>
+            <field name="company_name">TuEmpresa</field>
             <field name="image_1920" type="base64" file="base/static/img/partner_demo_portal.jpg"/>
             <field name="phone">(683)-556-5104</field>
         </record>
@@ -79,7 +79,7 @@
             <field name="partner_id" ref="partner_demo_portal"/>
             <field name="login">portal</field>
             <field name="password">portal</field>
-            <field name="signature"><![CDATA[<span>-- <br/>Mr Demo Portal</span>]]></field>
+            <field name="signature"><![CDATA[<span>-- <br/>Sr Demo Portal</span>]]></field>
             <field name="groups_id" eval="[Command.clear()]"/><!-- Avoid auto-including this user in any default group -->
         </record>
 

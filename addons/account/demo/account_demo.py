@@ -163,7 +163,7 @@ class AccountChartTemplate(models.Model):
         cid = self.env.company.id
         return ('account.reconcile.model', {
             f'{cid}_reconcile_from_label': {
-                'name': 'Line with Bank Fees',
+                'name': 'Línea con comisiones bancarias',
                 'rule_type': 'writeoff_suggestion',
                 'match_label': 'contains',
                 'match_label_param': 'BRT',
@@ -274,7 +274,7 @@ class AccountChartTemplate(models.Model):
                 'res_model_id': ref('account.model_account_move').id,
                 'activity_type_id': ref('mail.mail_activity_data_todo').id,
                 'date_deadline': (fields.Datetime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M'),
-                'summary': 'Follow-up on payment',
+                'summary': 'Seguimiento del pago',
                 'create_uid': ref('base.user_admin').id,
                 'user_id': ref('base.user_admin').id,
             },
@@ -291,7 +291,7 @@ class AccountChartTemplate(models.Model):
                 'res_model_id': ref('account.model_account_move').id,
                 'activity_type_id': ref('mail.mail_activity_data_todo').id,
                 'date_deadline': (fields.Datetime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M'),
-                'summary': 'Include upsell',
+                'summary': 'Incluir upsell',
                 'create_uid': ref('base.user_admin').id,
                 'user_id': ref('base.user_admin').id,
             },
@@ -300,7 +300,7 @@ class AccountChartTemplate(models.Model):
                 'res_model_id': ref('account.model_account_move').id,
                 'activity_type_id': ref('mail.mail_activity_data_todo').id,
                 'date_deadline': (fields.Datetime.today() + relativedelta(days=5)).strftime('%Y-%m-%d %H:%M'),
-                'summary': 'Update address',
+                'summary': 'Actualizar dirección',
                 'create_uid': ref('base.user_admin').id,
                 'user_id': ref('base.user_admin').id,
             },
