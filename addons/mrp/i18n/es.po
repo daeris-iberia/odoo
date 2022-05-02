@@ -4183,6 +4183,12 @@ msgid "The Product Unit of Measure you chose has a different category than in th
 msgstr "La unidad de medida del producto que ha elegido tiene una categoría diferente que la del formulario de producto."
 
 #. module: mrp
+#: code:addons/mrp/models/mrp_workcenter.py:0
+#, python-format
+msgid "The Workoder (%s) cannot be started twice!"
+msgstr ""
+
+#. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
 msgid "The attribute value %(attribute)s set on product %(product)s does not match the BoM product %(bom_product)s."
