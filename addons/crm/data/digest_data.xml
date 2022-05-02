@@ -26,6 +26,7 @@
 </div>
             </field>
         </record>
+        <!--
         <record id="digest_tip_crm_1" model="digest.tip">
             <field name="name">Tip: Did you know Odoo has built-in lead mining?</field>
             <field name="sequence">1500</field>
@@ -37,7 +38,7 @@
     <img src="/crm/static/src/img/generate-leads.gif" class="illustration_border" />
 </div>
             </field>
-        </record>
+        </record>-->
         <record id="digest_tip_crm_2" model="digest.tip">
             <field name="name">Tip: Opportunity win rate is predicted with AI</field>
             <field name="sequence">1700</field>
@@ -74,6 +75,7 @@
 </div>
             </field>
         </record>
+        <!--
         <record id="digest_tip_crm_5" model="digest.tip">
             <field name="name">Tip: Turn a selection of opportunities into a map</field>
             <field name="sequence">3000</field>
@@ -85,6 +87,6 @@
     <img src="/crm/static/src/img/mapview-toggle.gif" class="illustration_border" />
 </div>
             </field>
-        </record>
+        </record>-->
     </data>
 </odoo>
