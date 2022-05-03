@@ -67,7 +67,7 @@
     <p class="tip_title">Tip: Knowledge is power</p>
     <p class="tip_content">When following documents, use the pencil icon to fine-tune the information you want to receive.
 Follow a project / sales team to keep track of this project's tasks / this team's opportunities.</p>
-    <img src="/digest/static/src/img/following.png" class="illustration_border" />
+    <img src="/digest/static/src/img/following.gif" class="illustration_border" />
 </div>
             </field>
         </record>
