@@ -695,7 +695,7 @@ Thanks!</field>
         <!-- Demo Data for Product -->
 
         <record id="advance_product_0" model="product.product">
-            <field name="name">Depósito</field>
+            <field name="name">Deposit</field>
             <field name="categ_id" ref="product.product_category_3"/>
             <field name="type">service</field>
             <field name="list_price">150.0</field>
