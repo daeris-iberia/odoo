@@ -3,7 +3,6 @@
     <data noupdate="1">
 
         <!-- Enable EUR currency since it's the currency on the company, pricelist and Sale Orders
-
             If the currency is not enabled, you cannot pay the demo SO's with a payment link bc the currency
             is disabled.
         -->
@@ -695,7 +694,7 @@ Thanks!</field>
         <!-- Demo Data for Product -->
 
         <record id="advance_product_0" model="product.product">
-            <field name="name">Deposit</field>
+            <field name="name">Depósito</field>
             <field name="categ_id" ref="product.product_category_3"/>
             <field name="type">service</field>
             <field name="list_price">150.0</field>
