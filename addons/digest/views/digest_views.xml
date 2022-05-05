@@ -70,6 +70,7 @@
                                 </field>
                             </group>
                         </page>
+                        <!--
                         <page name="how_to" string="How to customize your digest?" groups="base.group_no_one">
                             <div class="alert alert-info" role="alert">
                                 In order to build your customized digest, follow these steps:
@@ -104,6 +105,7 @@
                                 </ol>
                             </div>
                         </page>
+                        -->
                     </notebook>
                 </sheet>
             </form>
