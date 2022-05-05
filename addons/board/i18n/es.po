@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-29 08:22+0000\n"
-"PO-Revision-Date: 2021-10-29 10:23+0200\n"
+"POT-Creation-Date: 2022-05-04 08:17+0000\n"
+"PO-Revision-Date: 2022-05-04 10:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: code:addons/board/static/src/add_to_board/add_to_board.js:0
 #, python-format
 msgid "\"%s\" added to dashboard"
-msgstr "\"%s\" añadido al tablero"
+msgstr "\"%s\" añadido al cuadro de mando"
 
 #. module: board
 #. openerp-web
@@ -33,7 +33,7 @@ msgid ""
 "                Dashboard\""
 msgstr ""
 "\"Añadir a\n"
-"                Tablero\""
+"                Cuadro de Mando\""
 
 #. module: board
 #. openerp-web
@@ -47,7 +47,7 @@ msgstr "&nbsp;"
 #: code:addons/board/static/src/legacy/js/add_to_board_menu.js:0
 #, python-format
 msgid "'%s' added to dashboard"
-msgstr "'%s' añadido al tablero"
+msgstr "'%s' añadido al cuadro de mando"
 
 #. module: board
 #. openerp-web
@@ -62,14 +62,14 @@ msgstr "Añadir"
 #: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Add to my Dashboard"
-msgstr "Añadir a mi tablero"
+msgstr "Añadir a mi Cuadro de Mando"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/add_to_board/add_to_board.xml:0
 #, python-format
 msgid "Add to my dashboard"
-msgstr "Añadir a mi tablero"
+msgstr "Añadir a mi cuadro de mando"
 
 #. module: board
 #. openerp-web
@@ -84,28 +84,28 @@ msgstr "¿Estás seguro de querer eliminar esta sección?"
 #: model:ir.model,name:board.model_board_board
 #, python-format
 msgid "Board"
-msgstr "Tablero"
+msgstr "Cuadro de Mando"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Change Layout"
-msgstr "Cambiar diseño"
+msgstr "Cambiar Diseño"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Change Layout.."
-msgstr "Cambiar diseño..."
+msgstr "Cambiar Diseño..."
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Choose dashboard layout"
-msgstr "Elige el diseño de tu tablero"
+msgstr "Elige el diseño de tu cuadro de mando"
 
 #. module: board
 #. openerp-web
@@ -113,14 +113,14 @@ msgstr "Elige el diseño de tu tablero"
 #: code:addons/board/static/src/legacy/js/add_to_board_menu.js:0
 #, python-format
 msgid "Could not add filter to dashboard"
-msgstr "No se puede añadir un filtro al tablero"
+msgstr "No se puede añadir un filtro al cuadro de mando"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/legacy/js/board_view.js:0
 #, python-format
 msgid "Edit Layout"
-msgstr "Editar diseño"
+msgstr "Editar Diseño"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_board__id
@@ -142,7 +142,7 @@ msgstr "Diseño"
 #: model_terms:ir.ui.view,arch_db:board.board_my_dash_view
 #, python-format
 msgid "My Dashboard"
-msgstr "Mi tablero"
+msgstr "Mi Cuadro de Mando"
 
 #. module: board
 #. openerp-web
@@ -162,7 +162,7 @@ msgid ""
 "To add your first report into this dashboard, go to any\n"
 "                menu, switch to list or graph view, and click"
 msgstr ""
-"Para añadir tu primer informe en este tablero, ve a cualquier\n"
+"Para añadir tu primer informe en este cuadro de mando, ve a cualquier\n"
 "                menú, cambia la vista a listado o a gráfico, y da clic en"
 
 #. module: board
@@ -174,14 +174,14 @@ msgid ""
 "                dashboard using the search options."
 msgstr ""
 "Puedes filtrar y agrupar datos antes de insertarlos en el\n"
-"                tablero usando las opciones de búsqueda."
+"                cuadro de mando usando las opciones de búsqueda."
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Your personal dashboard is empty"
-msgstr "Tu tablero está vacío"
+msgstr "Tu cuadro de mando personal está vacío"
 
 #. module: board
 #. openerp-web

@@ -3,7 +3,6 @@
     <data noupdate="1">
 
         <!-- Enable EUR currency since it's the currency on the company, pricelist and Sale Orders
-
             If the currency is not enabled, you cannot pay the demo SO's with a payment link bc the currency
             is disabled.
         -->
