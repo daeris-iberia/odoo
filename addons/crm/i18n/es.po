@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-25 14:03+0000\n"
-"PO-Revision-Date: 2022-04-25 16:07+0200\n"
+"PO-Revision-Date: 2022-05-05 10:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_count
@@ -428,9 +428,9 @@ msgid ""
 "the progress bar to filter opportunities based on their next activities' status. Click on the grey area of the progress bar to see all "
 "opportunities that have no next activity."
 msgstr ""
-"Un gran consejo para impulsar tus ventas eficazmente es siempre definir un siguiente paso en cada oportunidad. Para gestionar actividades en "
-"marcha, haz clic en cualquier estado de la barra de progreso para filtrar oportunidades según el estado de su siguiente actividad. Haz clic en el "
-"área gris de la barra de progreso para ver todas las oportunidades que no tienen siguiente actividad."
+"Un gran consejo para impulsar tus ventas eficazmente es definir el siguiente paso en cada oportunidad. Para gestionar actividades en curso, haz "
+"clic en cualquier estado de la barra de progreso para filtrar oportunidades según el estado de su siguiente actividad. Haz clic en el área gris "
+"de la barra de progreso para ver todas las oportunidades que no tienen siguiente actividad."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -1154,8 +1154,8 @@ msgid ""
 "Did you know you can search a company by name or VAT number to instantly fill in all its data? Odoo autocompletes everything for you: logo, "
 "address, company size, business information, social media accounts, etc."
 msgstr ""
-"¿Sabías que puedes buscar una compañía por su nombre o Número de Identificación Fiscal para completar instantáneamente todos sus datos? Daeris "
-"autocompleta todo por ti: logo, dirección, tamaño de compañía, información empresarial, cuentas en redes sociales, etc."
+"¿Sabías que puedes buscar una compañía por su nombre para completar instantáneamente algunos de sus datos? Daeris autocompleta todo por ti el "
+"logo y su pagina web corporativa."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
@@ -2351,8 +2351,9 @@ msgid ""
 "Odoo's artificial intelligence engine predicts the success rate of each opportunity based on your history. You can always update the success rate "
 "manually, but if you let Odoo do the job the score is updated while the opportunity moves forward in your sales cycle."
 msgstr ""
-"El motor de inteligencia artificial de Daeris predice la tasa de éxito de cada oportunidad con base en tu historial. Siempre puedes actualizar la "
-"tasa de éxito manualmente, pero si dejas que Daeris se encargue, la tasa se actualiza cuando tu oportunidad avanza en tu ciclo de ventas."
+"El motor de inteligencia artificial de Daeris predice el porcentaje de éxito de cada oportunidad basándose en tu historial. Siempre puedes "
+"actualizar la tasa de éxito manualmente, pero si dejas que Daeris se encargue, la tasa se actualiza cuando tu oportunidad avanza en tu ciclo de "
+"ventas."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
@@ -3206,12 +3207,12 @@ msgstr "Consejo: No pierdas tiempo registrando los datos de los clientes"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_3 model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
 msgid "Tip: Manage your pipeline"
-msgstr "Consejo: Gestiona tu pipeline"
+msgstr "Consejo: Gestiona tu embudo de ventas"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_2 model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid "Tip: Opportunity win rate is predicted with AI"
-msgstr "Consejo: La tasa de ganancia de oportunidades se predice con IA"
+msgstr "Consejo: El porcentaje de probabilidad de éxito de oportunidades se predice con inteligencia artificial."
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_5 model_terms:digest.tip,tip_description:crm.digest_tip_crm_5

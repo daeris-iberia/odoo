@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-26 13:57+0000\n"
-"PO-Revision-Date: 2022-04-26 16:02+0200\n"
+"PO-Revision-Date: 2022-05-05 06:53+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: project
 #. openerp-web
@@ -1369,8 +1369,7 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "Customize how tasks are named according to the project and create tailor made status messages for each step of the workflow. It helps to document your workflow: what should be done at which step."
 msgstr ""
-"Personalice cómo se nombran las tareas según el proyecto y cree mensajes de estado personalizados para cada paso del flujo de trabajo. Ayuda a documentar su flujo de trabajo: qué se debe hacer y en qué "
-"paso."
+"Personaliza el nombre de las tareas según el proyecto y crea mensajes de estado personalizados para cada paso del flujo de trabajo. Ayuda a documentar tu flujo de trabajo: qué se debe hacer y en qué paso."
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__daily
@@ -4201,7 +4200,7 @@ msgstr "Tiempo previsto para realizar esta tarea (incluidas sus subtareas)."
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_0 model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "Tip: Customize tasks and stages according to the project"
-msgstr "Sugerencia: personalice las tareas y etapas según el proyecto"
+msgstr "Consejo: personaliza las tareas y etapas según el proyecto"
 
 #. module: project
 #: code:addons/project/controllers/portal.py:0 model:ir.model.fields,field_description:project.field_project_task__name model:ir.model.fields,field_description:project.field_project_update__name

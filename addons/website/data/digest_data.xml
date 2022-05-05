@@ -37,6 +37,7 @@
 </div>
             </field>
         </record>
+<!--
         <record id="digest_tip_website_3" model="digest.tip">
             <field name="name">Tip: Use illustrations to spice up your website</field>
             <field name="sequence">300</field>
@@ -49,6 +50,7 @@
 </div>
             </field>
         </record>
+-->
         <record id="digest_tip_website_4" model="digest.tip">
             <field name="name">Tip: Add shapes to energize your Website</field>
             <field name="sequence">400</field>

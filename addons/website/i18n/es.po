@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 09:47+0000\n"
-"PO-Revision-Date: 2021-10-27 13:04+0200\n"
+"PO-Revision-Date: 2022-05-05 06:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: website
 #. openerp-web
@@ -5857,8 +5857,8 @@ msgid ""
 "Monitor your visitors while they are browsing your website with the Odoo Social app. Engage with them in just a click using a live chat request or a push notification. If they have "
 "completed one of your forms, you can send them an SMS, or call them right away while they are browsing your website."
 msgstr ""
-"Supervise a sus visitantes mientras navegan por su sitio web con la aplicación Daeris Social. Interactúe con ellos con solo un clic utilizando una solicitud de chat en vivo o una "
-"notificación push. Si han completado uno de sus formularios, puede enviarles un SMS o llamarlos de inmediato mientras navegan por su sitio web."
+"Supervisa a tus visitantes mientras navegan por tu sitio web. Interactúa con ellos con solo un clic utilizando el chat en vivo o notificaciones. Si el visitante ha completado uno de "
+"tus formularios, registrando teléfono o email, puedes enviarles un SMS o llamarlos mientras navegan por tu sitio web."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -5873,7 +5873,7 @@ msgstr "Más detalles"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_4
 msgid "More than 90 shapes exist and their colors are picked to match your Theme."
-msgstr "Existen más de 90 formas y sus colores se eligen para que coincidan con su tema."
+msgstr "Existen más de 90 formas y sus colores se adaptan a tu tema."
 
 #. module: website
 #. openerp-web
@@ -7349,8 +7349,8 @@ msgid ""
 "Search in the media dialogue when you need photos to illustrate your website. Odoo's integration with Unsplash, featuring millions of royalty free and high quality photos, makes it "
 "possible for you to get the perfect picture, in just a few clicks."
 msgstr ""
-"Busque en el diálogo de medios cuando necesite fotos para ilustrar su sitio web. La integración de Daeris con Unsplash, con millones de fotos libres de regalías y de alta calidad, "
-"le permite obtener la imagen perfecta, con solo unos pocos clics."
+"Usa el buscador de imágenes cuando necesites fotos para tu sitio web. La integración de Daeris con Unsplash, con millones de fotos libres de derechos de autor y de alta calidad, te "
+"permite obtener la imagen perfecta, con solo unos pocos clics."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_searchbar
@@ -8496,17 +8496,17 @@ msgstr "Zona horaria"
 #. module: website
 #: model:digest.tip,name:website.digest_tip_website_4 model_terms:digest.tip,tip_description:website.digest_tip_website_4
 msgid "Tip: Add shapes to energize your Website"
-msgstr "Consejo: Agrega formas para energizar tu sitio web"
+msgstr "Consejo: Agrega formas para mejorar tu sitio web"
 
 #. module: website
 #: model:digest.tip,name:website.digest_tip_website_0 model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid "Tip: Engage with visitors to convert them into leads"
-msgstr "Consejo: Interactúe con los visitantes para convertirlos en clientes potenciales"
+msgstr "Consejo: Interactúa con los visitantes para convertirlos en clientes potenciales"
 
 #. module: website
 #: model:digest.tip,name:website.digest_tip_website_2 model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid "Tip: Search Engine Optimization (SEO)"
-msgstr "Consejo: Optimización de motores de búsqueda (SEO)"
+msgstr "Consejo: Utiliza la optimización de motores de búsqueda (SEO)"
 
 #. module: website
 #: model:digest.tip,name:website.digest_tip_website_3 model_terms:digest.tip,tip_description:website.digest_tip_website_3
@@ -8516,7 +8516,7 @@ msgstr "Consejo: Usa ilustraciones para darle vida a tu sitio web"
 #. module: website
 #: model:digest.tip,name:website.digest_tip_website_1 model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid "Tip: Use royalty-free photos"
-msgstr "Consejo: Usa fotos libres de regalías"
+msgstr "Consejo: Usa fotos libres de derechos de autor"
 
 #. module: website
 #. openerp-web
@@ -8548,8 +8548,8 @@ msgid ""
 "To get more visitors, you should target keywords that are often searched in Google. With the built-in SEO tool, once you define a few keywords, Odoo will recommend you the best "
 "keywords to target. Then adapt your title and description accordingly to boost your traffic."
 msgstr ""
-"Para obtener más visitantes, debe orientar las palabras clave que a menudo se buscan en Google. Con la herramienta de SEO incorporada, una vez que defina algunas palabras clave, "
-"Daeris le recomendará las mejores palabras clave para orientar. Luego, adapte su título y descripción en consecuencia para aumentar su tráfico."
+"Recuerda que para obtener más visitantes debes definir las palabras clave que se buscan en Google para llegar a tu página. Con la herramienta de SEO incorporada, una vez hayas "
+"definido algunas palabras clave, Daeris te recomendará otras palabras complementarias. Posteriormente, adapta tu título y descripción en consecuencia para aumentar tu tráfico web."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
