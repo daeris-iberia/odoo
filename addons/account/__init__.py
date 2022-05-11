@@ -67,5 +67,5 @@ def _auto_install_l10n(env):
 
 def _account_post_init(cr, registry):
     env = api.Environment(cr, SUPERUSER_ID, {})
-    #_auto_install_l10n(env)
+    _auto_install_l10n(env)
     _set_fiscal_country(env)
