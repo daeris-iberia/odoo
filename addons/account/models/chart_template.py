@@ -252,7 +252,10 @@ class AccountChartTemplate(models.Model):
             # delete account, journal, tax, fiscal position and reconciliation model
             models_to_delete = ['account.reconcile.model', 'account.fiscal.position', 'account.move.line', 'account.move', 'account.journal', 'account.tax', 'account.group']
             for model in models_to_delete:
-                res = self.env[model].sudo().search([('company_id', '=', company.id)])
+                if model == 'account.journal':
+                    res = self.env[model].sudo().search([('company_id', '=', company.id), ('code', '!=', 'POSS')])
+                else:
+                    res = self.env[model].sudo().search([('company_id', '=', company.id)])
                 if len(res):
                     res.with_context(force_delete=True).unlink()
             existing_accounts.unlink()
