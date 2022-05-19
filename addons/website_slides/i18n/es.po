@@ -1304,7 +1304,7 @@ msgstr "Puede publicar"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__can_review
 msgid "Can Review"
-msgstr "Puede dejar reseñas"
+msgstr "Puede dejar valoraciones"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__can_upload
@@ -1314,7 +1314,7 @@ msgstr "Puede subir"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__can_vote
 msgid "Can Vote"
-msgstr "Puede votar"
+msgstr "Puede indicar Me gusta"
 
 #. module: website_slides
 #. openerp-web
