@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-02 15:26+0000\n"
-"PO-Revision-Date: 2021-11-02 16:26+0100\n"
+"PO-Revision-Date: 2022-05-19 06:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: portal_rating
 #. openerp-web
@@ -29,7 +29,7 @@ msgstr "#{widget.options['force_submit_url'] || '/mail/chatter_post'}"
 #: code:addons/portal_rating/static/src/js/portal_rating_composer.js:0
 #, python-format
 msgid "Add a review"
-msgstr "Agregar una reseña"
+msgstr "Añadir una valoración"
 
 #. module: portal_rating
 #. openerp-web
@@ -115,7 +115,7 @@ msgstr "No me gusta"
 #: code:addons/portal_rating/static/src/js/portal_composer.js:0
 #, python-format
 msgid "I hate it"
-msgstr "Lo detesto"
+msgstr "Lo odio"
 
 #. module: portal_rating
 #. openerp-web
@@ -156,7 +156,7 @@ msgstr "Mensaje"
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 #, python-format
 msgid "Modify your review"
-msgstr "Modifica tu reseña"
+msgstr "Modifica tu valoración"
 
 #. module: portal_rating
 #. openerp-web
@@ -171,7 +171,7 @@ msgstr "Una estrella"
 msgid "Only the publisher of the website can change the rating comment"
 msgstr ""
 "Solo el editor del sitio puede cambiar el comentario hecho en la "
-"calificación"
+"valoración"
 
 #. module: portal_rating
 #. openerp-web
@@ -195,7 +195,7 @@ msgstr "Comentario del editor"
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_rating_rating
 msgid "Rating"
-msgstr "Calificación"
+msgstr "Valoración"
 
 #. module: portal_rating
 #. openerp-web
@@ -217,7 +217,7 @@ msgstr "Actualizar comentario"
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_stars_static_popup_composer
 #, python-format
 msgid "Write a review"
-msgstr "Escribe una reseña"
+msgstr "Escribe una valoración"
 
 #. module: portal_rating
 #. openerp-web

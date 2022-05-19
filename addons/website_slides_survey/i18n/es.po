@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-27 08:04+0000\n"
-"PO-Revision-Date: 2022-05-13 09:50+0200\n"
+"PO-Revision-Date: 2022-05-18 20:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -332,7 +332,7 @@ msgstr "Volver al curso"
 #: code:addons/website_slides_survey/static/src/xml/website_slide_upload.xml:0
 #, python-format
 msgid "How to upload a certification on your course?"
-msgstr "¿Cómo cargar una certificación en su curso?"
+msgstr "¿Cómo cargar una certificación en tu curso?"
 
 #. module: website_slides_survey
 #: model_terms:slide.slide,description:website_slides_survey.slide_slide_demo_6_0
@@ -416,7 +416,7 @@ msgstr "Presentación con información de membresía para el usuario actual"
 #. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_slide_slide
 msgid "Slides"
-msgstr "Presentaciones"
+msgstr "Contenidos"
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_user_input__slide_partner_id
