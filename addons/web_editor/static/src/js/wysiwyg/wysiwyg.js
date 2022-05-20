@@ -1796,36 +1796,36 @@ const Wysiwyg = Widget.extend({
         const options = this._editorOptions();
         const commands = [
             {
-                groupName: 'Basic blocks',
-                title: 'Quote',
-                description: 'Add a blockquote section.',
+                groupName: 'Bloques básicos',
+                title: 'Cita',
+                description: 'Agrega una sección de citas.',
                 fontawesome: 'fa-quote-right',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'blockquote');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: 'Code',
-                description: 'Add a code section.',
+                groupName: 'Bloques básicos',
+                title: 'Código',
+                description: 'Agrega una sección de código.',
                 fontawesome: 'fa-code',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'pre');
                 },
             },
             {
-                groupName: 'Navigation',
-                title: 'Link',
-                description: 'Add a link.',
+                groupName: 'Navegación',
+                title: 'Enlace',
+                description: 'Agrega un enlace.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});
                 },
             },
             {
-                groupName: 'Navigation',
-                title: 'Button',
-                description: 'Add a button.',
+                groupName: 'Navegación',
+                title: 'Botón',
+                description: 'Agrega un botón.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});
@@ -1838,9 +1838,9 @@ const Wysiwyg = Widget.extend({
         ];
         if (options.isInternalUser) {
             commands.push({
-                groupName: 'Medias',
-                title: 'Image',
-                description: 'Insert an image.',
+                groupName: 'Medios',
+                title: 'Imagen',
+                description: 'Inserta una imagen.',
                 fontawesome: 'fa-file-image-o',
                 callback: () => {
                     this.openMediaDialog();
@@ -1849,9 +1849,9 @@ const Wysiwyg = Widget.extend({
         }
         if (options.allowCommandVideo) {
             commands.push({
-                groupName: 'Medias',
-                title: 'Video',
-                description: 'Insert a video.',
+                groupName: 'Medios',
+                title: 'Vídeo',
+                description: 'Inserta un vídeo.',
                 fontawesome: 'fa-file-video-o',
                 callback: () => {
                     this.openMediaDialog({noVideos: false, noImages: true, noIcons: true, noDocuments: true});
