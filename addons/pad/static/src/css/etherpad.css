@@ -127,7 +127,3 @@
 .etherpad_readonly ul ul ul ul ul ul ul li { list-style-type: disc !important; }
 .etherpad_readonly ul ul ul ul ul ul ul ul li { list-style-type: circle !important; }
 .etherpad_readonly ul ul ul ul ul ul ul ul ul li { list-style-type: square !important; }
-
-.o_form_view.oe_form_nomargin.o_note_form_view.o_form_editable{
-	height: 100%;
-}
