@@ -80,9 +80,9 @@ class MailActivity(models.Model):
         index=True, required=True)
     request_partner_id = fields.Many2one('res.partner', string='Requesting Partner')
     state = fields.Selection([
-        ('overdue', 'Overdue'),
-        ('today', 'Today'),
-        ('planned', 'Planned')], 'State',
+        ('overdue', 'Vencida'),
+        ('today', 'Hoy'),
+        ('planned', 'Planificada')], 'State',
         compute='_compute_state')
     recommended_activity_type_id = fields.Many2one('mail.activity.type', string="Recommended Activity Type")
     previous_activity_type_id = fields.Many2one('mail.activity.type', string='Previous Activity Type', readonly=True)

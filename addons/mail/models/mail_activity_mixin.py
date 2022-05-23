@@ -54,9 +54,9 @@ class MailActivityMixin(models.AbstractModel):
         auto_join=True,
         groups="base.group_user",)
     activity_state = fields.Selection([
-        ('overdue', 'Overdue'),
-        ('today', 'Today'),
-        ('planned', 'Planned')], string='Activity State',
+        ('overdue', 'Vencida'),
+        ('today', 'Hoy'),
+        ('planned', 'Planificada')], string='Activity State',
         compute='_compute_activity_state',
         search='_search_activity_state',
         groups="base.group_user",
