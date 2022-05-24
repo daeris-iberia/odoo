@@ -40068,7 +40068,7 @@ msgstr "Minutos"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Misc"
-msgstr "Misc."
+msgstr "Varios"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form model_terms:ir.ui.view,arch_db:base.view_model_form
