@@ -47,7 +47,7 @@ var SmsWidget = FieldTextEmojis.extend({
         $('.o_sms_container').remove();
         var $sms_container = $('<div class="o_sms_container"/>');
         $sms_container.append(this._renderSMSInfo());
-        $sms_container.append(this._renderIAPButton());
+        //$sms_container.append(this._renderIAPButton());
         this.$el = this.$el.add($sms_container);
 
         return def;
