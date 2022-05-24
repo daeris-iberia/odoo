@@ -2648,14 +2648,14 @@ msgstr "Cómo plantar un árbol en maceta"
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to upload your PowerPoint Presentations or Word Documents?"
-msgstr "¿Cómo subir tus presentaciones de PowerPoint o documentos de Word?"
+msgstr "¿Cómo cargar tus presentaciones de PowerPoint o documentos de Word?"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to upload your videos ?"
-msgstr "¿Cómo subir tus vídeos?"
+msgstr "¿Cómo cargar tus vídeos?"
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_2
@@ -4798,14 +4798,14 @@ msgstr "Grupos gestores"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards model_terms:ir.ui.view,arch_db:website_slides.course_slides_list
 msgid "Upload Presentation"
-msgstr "Subir presentación"
+msgstr "Cargar presentación"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Upload a document"
-msgstr "Subir un documento"
+msgstr "Crear un contenido"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__user_id
@@ -5102,7 +5102,7 @@ msgstr "Puedes añadir <b>comentarios</b> sobre las respuestas. Estos serán vis
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "You can not upload password protected file."
-msgstr "No puedes subir un archivo protegido con contraseña."
+msgstr "No puedes cargar un archivo protegido con contraseña."
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:0
