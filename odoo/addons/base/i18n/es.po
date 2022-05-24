@@ -47540,7 +47540,7 @@ msgstr "Estado del paso de integración de la compalía"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
 msgid "States"
-msgstr "Estados"
+msgstr "Provincias"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install__state model:ir.model.fields,field_description:base.field_base_module_update__state model:ir.model.fields,field_description:base.field_ir_actions_todo__state model:ir.model.fields,field_description:base.field_ir_module_module__state model:ir.model.fields,field_description:base.field_ir_module_module_dependency__state model:ir.model.fields,field_description:base.field_ir_module_module_exclusion__state
