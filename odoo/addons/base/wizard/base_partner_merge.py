@@ -485,6 +485,7 @@ class MergePartnerAutomatic(models.TransientModel):
             'res_id': self.id,
             'view_mode': 'form',
             'target': 'new',
+            'name': _('Merge Contacts'),
         }
 
     def _process_query(self, query):
@@ -557,6 +558,7 @@ class MergePartnerAutomatic(models.TransientModel):
             'res_id': self.id,
             'view_mode': 'form',
             'target': 'new',
+            'name': _('Merge Contacts'),
         }
 
     def parent_migration_process_cb(self):
@@ -613,6 +615,7 @@ class MergePartnerAutomatic(models.TransientModel):
             'res_id': self.id,
             'view_mode': 'form',
             'target': 'new',
+            'name': _('Merge Contacts'),
         }
 
     def action_update_all_process(self):
@@ -649,6 +652,7 @@ class MergePartnerAutomatic(models.TransientModel):
                 'res_id': self.id,
                 'view_mode': 'form',
                 'target': 'new',
+                'name': _('Merge Contacts'),
             }
 
         self._merge(self.partner_ids.ids, self.dst_partner_id)

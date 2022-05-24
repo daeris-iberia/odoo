@@ -140,9 +140,9 @@ class ActivityRenderer extends AbstractRendererOwl {
                 activity_state: {
                     type: 'selection',
                     selection: [
-                        ['planned', _t('Planned')],
-                        ['today', _t('Today')],
-                        ['overdue', _t('Overdue')],
+                        ['planned', _t('Planificada')],
+                        ['today', _t('Hoy')],
+                        ['overdue', _t('Vencida')],
                     ],
                 },
             },

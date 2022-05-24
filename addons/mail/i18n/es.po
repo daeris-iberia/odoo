@@ -3989,7 +3989,7 @@ msgstr "Registrar una nota interna…"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__reply_to_mode__update
 msgid "Log in the original discussion thread"
-msgstr "Inicie sesión en el hilo de discusión original"
+msgstr "Registrar en el hilo de discusión original"
 
 #. module: mail
 #. openerp-web

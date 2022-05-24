@@ -16,7 +16,7 @@
         </record>
 
         <record id="res_partner_address_fp" model="res.partner">
-            <field name="name">Pieter Parter's Farm</field>
+            <field name="name">Pablo Pérez</field>
             <field name="parent_id" ref="base.partner_root"/>
             <field name="street">Chaussée de Namur, 40</field>
             <field name="zip">1367</field>

@@ -39818,6 +39818,8 @@ msgstr "Combinar automáticamente todos los procesos"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+#: code:addons/base/wizard/base_partner_merge.py:0
+#, python-format
 msgid "Merge Contacts"
 msgstr "Combinar contactos"
 
@@ -40068,7 +40070,7 @@ msgstr "Minutos"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Misc"
-msgstr "Misc."
+msgstr "Varios"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form model_terms:ir.ui.view,arch_db:base.view_model_form
@@ -47540,7 +47542,7 @@ msgstr "Estado del paso de integración de la compalía"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
 msgid "States"
-msgstr "Estados"
+msgstr "Provincias"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install__state model:ir.model.fields,field_description:base.field_base_module_update__state model:ir.model.fields,field_description:base.field_ir_actions_todo__state model:ir.model.fields,field_description:base.field_ir_module_module__state model:ir.model.fields,field_description:base.field_ir_module_module_dependency__state model:ir.model.fields,field_description:base.field_ir_module_module_exclusion__state

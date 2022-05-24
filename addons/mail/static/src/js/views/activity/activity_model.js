@@ -43,9 +43,9 @@ const ActivityModel = BasicModel.extend({
                 activity_ids: {},
                 activity_state: {
                     selection: [
-                        ['overdue', "Overdue"],
-                        ['today', "Today"],
-                        ['planned', "Planned"],
+                        ['overdue', "Vencida"],
+                        ['today', "Hoy"],
+                        ['planned', "Planificada"],
                     ],
                 },
             },

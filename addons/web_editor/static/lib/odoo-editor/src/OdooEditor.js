@@ -1763,90 +1763,90 @@ export class OdooEditor extends EventTarget {
 
         const mainCommands = [
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Heading 1'),
-                description: this.options._t('Big section heading.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Cabecera 1'),
+                description: this.options._t('Cabecera de sección grande.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H1');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Heading 2'),
-                description: this.options._t('Medium section heading.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Cabecera 2'),
+                description: this.options._t('Cabecera de sección mediana.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H2');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Heading 3'),
-                description: this.options._t('Small section heading.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Cabecera 3'),
+                description: this.options._t('Cabecera de sección pequeña.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H3');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Text'),
-                description: this.options._t('Paragraph block.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Texto'),
+                description: this.options._t('Bloque de párrafo.'),
                 fontawesome: 'fa-paragraph',
                 callback: () => {
                     this.execCommand('setTag', 'P');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Bulleted list'),
-                description: this.options._t('Create a simple bulleted list.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Lista con viñetas'),
+                description: this.options._t('Crea una lista con viñetas simple.'),
                 fontawesome: 'fa-list-ul',
                 callback: () => {
                     this.execCommand('toggleList', 'UL');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Numbered list'),
-                description: this.options._t('Create a list with numbering.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Lista numerada'),
+                description: this.options._t('Crea una lista con numeración.'),
                 fontawesome: 'fa-list-ol',
                 callback: () => {
                     this.execCommand('toggleList', 'OL');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Checklist'),
-                description: this.options._t('Track tasks with a checklist.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Lista de verificación'),
+                description: this.options._t('Rastrea las tareas con una lista de verificación.'),
                 fontawesome: 'fa-check-square-o',
                 callback: () => {
                     this.execCommand('toggleList', 'CL');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Separator'),
-                description: this.options._t('Insert an horizontal rule separator.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Separador'),
+                description: this.options._t('Inserta un separador de regla horizontal.'),
                 fontawesome: 'fa-minus',
                 callback: () => {
                     this.execCommand('insertHorizontalRule');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Table'),
-                description: this.options._t('Insert a table.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Tabla'),
+                description: this.options._t('Inserta una tabla.'),
                 fontawesome: 'fa-table',
                 callback: () => {
                     this.commandbarTablePicker.show();
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: this.options._t('Switch direction'),
-                description: this.options._t('Switch the text\'s direction.'),
+                groupName: 'Bloques básicos',
+                title: this.options._t('Cambiar de dirección'),
+                description: this.options._t('Cambiar la dirección del texto.'),
                 fontawesome: 'fa-exchange',
                 callback: () => {
                     this.execCommand('switchDirection');
@@ -2625,16 +2625,16 @@ export class OdooEditor extends EventTarget {
      */
     _handleCommandHint() {
         const selectors = {
-            BLOCKQUOTE: 'Empty quote',
-            H1: 'Heading 1',
-            H2: 'Heading 2',
-            H3: 'Heading 3',
-            H4: 'Heading 4',
-            H5: 'Heading 5',
-            H6: 'Heading 6',
-            'UL LI': 'List',
-            'OL LI': 'List',
-            'CL LI': 'To-do',
+            BLOCKQUOTE: 'Cita vacía',
+            H1: 'Cabecera 1',
+            H2: 'Cabecera 2',
+            H3: 'Cabecera 3',
+            H4: 'Cabecera 4',
+            H5: 'Cabecera 5',
+            H6: 'Cabecera 6',
+            'UL LI': 'Lista',
+            'OL LI': 'Lista',
+            'CL LI': 'Para hacer',
         };
 
         for (const hint of this.editable.querySelectorAll('.oe-hint')) {
@@ -2661,7 +2661,7 @@ export class OdooEditor extends EventTarget {
 
         const block = this.options.getPowerboxElement();
         if (block) {
-            this._makeHint(block, this.options._t('Type "/" for commands'), true);
+            this._makeHint(block, this.options._t('Teclea "/" para comandos'), true);
         }
 
         // placeholder hint
