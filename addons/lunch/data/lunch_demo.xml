@@ -7,7 +7,7 @@
         </record>
 
         <record id="partner_hungry_dog" model="res.partner">
-            <field name="name">Perro Hambriento</field>
+            <field name="name">Perritos Calientes</field>
             <field name="city">Russeltown</field>
             <field name="country_id" ref="base.us"/>
             <field name="street">975 Bullock Orchard</field>
@@ -109,12 +109,12 @@
         </record>
 
         <record id="partner_coin_gourmand" model="res.partner">
-            <field name="name">Coin gourmand</field>
+            <field name="name">Carlos G.</field>
             <field name="city">Tirana</field>
             <field name="country_id" ref="base.al"/>
             <field name="street">Rr. e Durrësit, Pall. M.C. Inerte</field>
             <field name="street2">Kati.1, Laprakë, Tirana, Shqipëri</field>
-            <field name="email">coin.gourmand@yourcompany.example.com</field>
+            <field name="email">carlos.g@yourcompany.example.com</field>
             <field name="phone">+32485562388</field>
         </record>
 
