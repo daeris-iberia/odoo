@@ -268,7 +268,7 @@ publicWidget.registry.SurveyResultChart = publicWidget.Widget.extend({
             options: {
                 title: {
                     display: true,
-                    text: _t("Overall Performance"),
+                    text: _t("Puntuación General"),
                 },
             }
         };
@@ -303,10 +303,10 @@ publicWidget.registry.SurveyResultChart = publicWidget.Widget.extend({
         var sectionGraphData = this.graphData.by_section;
 
         var resultKeys = {
-            'correct': _t('Correct'),
-            'partial': _t('Partially'),
-            'incorrect': _t('Incorrect'),
-            'skipped': _t('Unanswered'),
+            'correct': _t('Correcto'),
+            'partial': _t('Parcialmente'),
+            'incorrect': _t('Incorrecto'),
+            'skipped': _t('Sin respuesta'),
         };
         var resultColorIndex = 0;
         var datasets = [];
@@ -332,7 +332,7 @@ publicWidget.registry.SurveyResultChart = publicWidget.Widget.extend({
             options: {
                 title: {
                     display: true,
-                    text: _t("Performance by Section"),
+                    text: _t("Puntuación por Sección"),
                 },
                 legend: {
                     display: true,

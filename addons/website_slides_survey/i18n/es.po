@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-27 08:04+0000\n"
-"PO-Revision-Date: 2022-05-18 20:34+0200\n"
+"PO-Revision-Date: 2022-05-20 12:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -426,12 +426,12 @@ msgstr "Información del suscriptor"
 #. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_survey_survey
 msgid "Survey"
-msgstr "Encuesta"
+msgstr "Certificación"
 
 #. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_survey_user_input
 msgid "Survey User Input"
-msgstr "Entrada de usuario de la encuesta"
+msgstr "Datos de Entrada del usuario"
 
 #. module: website_slides_survey
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_2
@@ -449,7 +449,7 @@ msgstr "Probar certificación"
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_channel_ids
 msgid "The courses this survey is linked to through the e-learning application"
-msgstr "Los cursos a los que está vinculada esta encuesta a través de la aplicación e-learning"
+msgstr "Los cursos a los que está vinculada esta certificación a través de la aplicación e-learning"
 
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_slide_slide__slide_type
@@ -468,7 +468,7 @@ msgstr "La diapositiva del curso relacionada cuando no hay información de membr
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_ids
 msgid "The slides this survey is linked to through the e-learning application"
-msgstr "Las diapositivas a las que está vinculada esta encuesta a través de la aplicación e-learning"
+msgstr "Los contenidos a los que está vinculado esta certificación a través de la aplicación e-learning"
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
@@ -489,7 +489,7 @@ msgstr "¿Qué tipo de madera es mejor para los muebles?"
 #: code:addons/website_slides_survey/controllers/slides.py:0
 #, python-format
 msgid "You are not allowed to create a survey."
-msgstr "No tienes permisos para crear una encuesta."
+msgstr "No tienes permisos para crear una certificación."
 
 #. module: website_slides_survey
 #: code:addons/website_slides_survey/controllers/slides.py:0
