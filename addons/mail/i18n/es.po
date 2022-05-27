@@ -3888,7 +3888,7 @@ msgstr "Diseño"
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_kanban
 #, python-format
 msgid "Leave"
-msgstr "Ausencia"
+msgstr "Salir"
 
 #. module: mail
 #. openerp-web
