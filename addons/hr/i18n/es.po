@@ -502,7 +502,7 @@ msgstr "Empleados autenticados"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.mail_channel_view_form_
 msgid "Auto Subscribe Departments"
-msgstr "Suscripción automática a departamentos"
+msgstr "Departamentos de suscripción automática"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_mail_channel__subscription_department_ids
