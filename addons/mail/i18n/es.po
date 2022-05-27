@@ -7913,14 +7913,14 @@ msgstr ""
 #: code:addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:0
 #, python-format
 msgid "You unpinned your conversation with %s."
-msgstr "Desvinculaste tu conversación con <b>%s</b>."
+msgstr "Desvinculaste tu conversación con %s."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:0
 #, python-format
 msgid "You unsubscribed from %s."
-msgstr "Se ha dado de baja de <b>%s</b>."
+msgstr "Se ha dado de baja de %s."
 
 #. module: mail
 #. openerp-web
