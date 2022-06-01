@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:53+0000\n"
-"PO-Revision-Date: 2021-10-05 10:53+0000\n"
+"POT-Creation-Date: 2022-06-01 10:40+0000\n"
+"PO-Revision-Date: 2022-06-01 10:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_slides_list.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_slide_archive.js:0
 #: code:addons/website_slides/static/src/js/slides_course_slides_list.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
@@ -60,6 +62,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid ". This way, they will be secured."
@@ -71,6 +74,7 @@ msgid "3 Main Methodologies"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "<b>%s</b> is requesting access to this course."
@@ -88,6 +92,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -96,6 +101,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "<b>Save</b> your question."
@@ -750,6 +756,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_fullscreen_player.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_share.js:0
 #: code:addons/website_slides/static/src/js/slides_course_fullscreen_player.js:0
 #: code:addons/website_slides/static/src/js/slides_share.js:0
 #, python-format
@@ -768,6 +776,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -844,6 +853,7 @@ msgid "API Key"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Access Granted"
@@ -855,6 +865,7 @@ msgid "Access Groups"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Access Refused"
@@ -914,6 +925,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #, python-format
 msgid "Add"
@@ -953,6 +965,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_add.js:0
 #: code:addons/website_slides/static/src/js/slides_category_add.js:0
 #, python-format
 msgid "Add a section"
@@ -960,6 +973,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_tag_group_view_form
 #, python-format
@@ -968,6 +982,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Add an answer below this one"
@@ -975,6 +990,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Add comment on this answer"
@@ -1020,6 +1036,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
 msgid "All completed classes and earned karma will be lost."
@@ -1032,6 +1049,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "All questions must be answered !"
@@ -1065,6 +1083,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Allow students to review your course"
@@ -1081,6 +1100,7 @@ msgid "Allows comment"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Already Requested"
@@ -1088,12 +1108,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Already installing \"%s\"."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Already member"
@@ -1101,6 +1123,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Amazing!"
@@ -1132,6 +1155,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_archive.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "Archive"
@@ -1139,6 +1163,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_archive.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "Archive Slide"
@@ -1154,6 +1179,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_management.xml:0
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
 msgid "Are you sure you want to archive this slide ?"
@@ -1161,6 +1187,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_management.xml:0
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
 msgid "Are you sure you want to delete this category ?"
@@ -1168,6 +1195,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Are you sure you want to delete this question :"
@@ -1219,6 +1247,7 @@ msgid "Attendees count"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Attendees of %s"
@@ -1251,6 +1280,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
 msgid "Be notified when a new content is added."
@@ -1290,6 +1320,12 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_delete.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_enroll_email.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_slide_archive.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/js/slides_category_delete.js:0
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
@@ -1342,6 +1378,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Change video privacy settings"
@@ -1407,6 +1444,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Check Profile"
@@ -1414,6 +1452,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
@@ -1422,6 +1462,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Check your answers"
@@ -1429,6 +1470,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Choose a <b>File</b> on your computer."
@@ -1436,6 +1478,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Choose a PDF or an Image"
@@ -1443,6 +1486,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Choose a layout"
@@ -1479,6 +1523,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Click on the <b>Create</b> button to create your first course."
@@ -1486,6 +1531,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Click on your <b>Course</b> to go back to the table of content."
@@ -1493,6 +1539,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_modal_header
 #, python-format
@@ -1528,6 +1575,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid ""
@@ -1587,6 +1635,7 @@ msgid "Completed"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #: model:mail.template,name:website_slides.mail_template_channel_completed
 #, python-format
@@ -1622,6 +1671,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Computer Science for kids"
@@ -1650,6 +1700,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -1665,6 +1716,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -1674,6 +1726,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -1687,6 +1740,7 @@ msgid "Contact"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_0_gard_0
 #: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_1_gard1
@@ -1706,6 +1760,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Contact the responsible to enroll."
@@ -1728,6 +1783,10 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
@@ -1765,6 +1824,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Continue"
@@ -1772,6 +1832,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #, python-format
 msgid "Copy Link"
@@ -1805,6 +1866,7 @@ msgid "Correct ! You did it !"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid ""
@@ -1878,6 +1940,7 @@ msgid "Course finished"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Course not published yet"
@@ -1895,12 +1958,14 @@ msgid "Course type"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "Course: %s"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/website.py:0
 #: code:addons/website_slides/models/website.py:0
 #: model:ir.actions.act_window,name:website_slides.slide_channel_action_report
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_courses
@@ -1919,6 +1984,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/website_slides.editor.js:0
 #: code:addons/website_slides/static/src/js/website_slides.editor.js:0
 #, python-format
 msgid "Create"
@@ -1937,6 +2003,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
@@ -1945,6 +2013,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/website_slides.editor.js:0
 #: code:addons/website_slides/static/src/js/website_slides.editor.js:0
 #, python-format
 msgid "Create new Tag '%s'"
@@ -2026,6 +2095,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_delete.js:0
 #: code:addons/website_slides/static/src/js/slides_category_delete.js:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 #, python-format
@@ -2034,6 +2104,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_delete.js:0
 #: code:addons/website_slides/static/src/js/slides_category_delete.js:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list
 #, python-format
@@ -2042,6 +2113,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "Delete Question"
@@ -2060,6 +2132,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__description
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__description
@@ -2082,6 +2155,13 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_add.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/js/website_slides.editor.js:0
 #: code:addons/website_slides/static/src/js/slides_category_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
@@ -2145,6 +2225,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
 msgid "Do you really want to leave the course?"
@@ -2157,6 +2238,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Do you want to install the \"%s\" app?"
@@ -2169,6 +2251,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_course_join.xml:0
 #: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
 #, python-format
 msgid "Do you want to request access to this course ?"
@@ -2197,6 +2280,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Documentation Layout"
@@ -2215,6 +2299,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Don't have an account ?"
@@ -2228,6 +2313,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Done !"
@@ -2265,6 +2351,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__total_time
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__completion_time
@@ -2327,6 +2414,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "End course"
@@ -2360,6 +2448,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Enter at least two possible <b>Answers</b>."
@@ -2367,6 +2456,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Enter your <b>Question</b>. Be clear and concise."
@@ -2374,6 +2464,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Enter your answer"
@@ -2381,6 +2472,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Enter your question"
@@ -2388,12 +2480,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Estimated slide completion time"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "Evaluate and certify your students."
@@ -2431,6 +2525,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
@@ -2444,6 +2540,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/controllers/main.py:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
@@ -2474,6 +2572,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid ""
@@ -2483,6 +2582,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "First, let's add a <b>Presentation</b>. It can be a .pdf or an image."
@@ -2490,12 +2590,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "First, upload your videos on YouTube and mark them as"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/res_partner.py:0
 #: code:addons/website_slides/models/res_partner.py:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_slides.user_profile_content
@@ -2596,6 +2698,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Give your course a helpful <b>Description</b>."
@@ -2603,6 +2706,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Give your course an engaging <b>Title</b>."
@@ -2621,6 +2725,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/components/activity/activity.xml:0
 #: code:addons/website_slides/static/src/components/activity/activity.xml:0
 #, python-format
 msgid "Grant Access"
@@ -2712,6 +2817,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to create a Lesson as a Web Page?"
@@ -2729,6 +2835,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to upload your PowerPoint Presentations or Word Documents?"
@@ -2736,6 +2843,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to upload your videos ?"
@@ -2813,6 +2921,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -2904,6 +3013,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Install"
@@ -2911,6 +3021,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Installing \"%s\"."
@@ -2937,6 +3048,7 @@ msgid "Intermediate"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid ""
@@ -2946,6 +3058,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Invalid file type. Please select pdf or image file"
@@ -3009,6 +3122,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "Join & Submit"
@@ -3016,6 +3130,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_join.js:0
 #: code:addons/website_slides/static/src/js/slides_course_join.js:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 #: model_terms:ir.ui.view,arch_db:website_slides.join_course_link
@@ -3025,6 +3140,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_course_join.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_course_join.xml:0
 #: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
 #: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
 #, python-format
@@ -3033,6 +3150,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Join the course to take the quiz and verify your answers!"
@@ -3198,6 +3316,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
@@ -3227,6 +3347,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz_finish.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz_finish.js:0
 #, python-format
 msgid "Level up!"
@@ -3271,6 +3392,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Mark the correct answer by checking the <b>correct</b> mark."
@@ -3355,12 +3477,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Minutes"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "Missing \"Tag Group\" for creating a new \"Tag\"."
@@ -3430,6 +3554,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "New Certification"
@@ -3442,6 +3567,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/website_slides.editor.js:0
 #: code:addons/website_slides/static/src/js/website_slides.editor.js:0
 #, python-format
 msgid "New Course"
@@ -3464,6 +3590,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Next"
@@ -3496,6 +3623,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_0_1
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_1_1
@@ -3563,12 +3691,14 @@ msgid "None"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "Not enough karma to comment"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Not enough karma to review"
@@ -3576,6 +3706,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
 msgid "Notifications"
@@ -3676,6 +3807,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Once you're done, don't forget to <b>Publish</b> your course."
@@ -3683,6 +3815,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Only JPG, PNG, PDF, files types are supported"
@@ -3719,6 +3852,7 @@ msgid "Partner Has New Content"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid ""
@@ -3733,6 +3867,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
@@ -3743,6 +3879,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_join.js:0
 #: code:addons/website_slides/static/src/js/slides_course_join.js:0
 #, python-format
 msgid "Please <a href=\"/web/login?redirect=%s\">login</a> to join this course"
@@ -3750,6 +3887,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "Please <a href=\"/web/login?redirect=%s\">login</a> to vote this lesson"
@@ -3757,6 +3895,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_join.js:0
 #: code:addons/website_slides/static/src/js/slides_course_join.js:0
 #, python-format
 msgid ""
@@ -3766,6 +3905,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid ""
@@ -3774,6 +3914,8 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
@@ -3781,6 +3923,7 @@ msgid "Please enter valid Youtube or Google Doc URL"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "Please enter valid youtube or google doc url"
@@ -3788,6 +3931,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz_question_form.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz_question_form.js:0
 #, python-format
 msgid "Please fill in the question"
@@ -3795,12 +3939,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Please fill in this field"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/wizard/slide_channel_invite.py:0
 #: code:addons/website_slides/wizard/slide_channel_invite.py:0
 #, python-format
 msgid "Please select at least one recipient."
@@ -3820,6 +3966,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__presentation
@@ -3898,6 +4045,8 @@ msgid "Published Date"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
@@ -3912,12 +4061,14 @@ msgid "Question"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_question.py:0
 #: code:addons/website_slides/models/slide_question.py:0
 #, python-format
 msgid "Question \"%s\" must have 1 correct answer"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_question.py:0
 #: code:addons/website_slides/models/slide_question.py:0
 #, python-format
 msgid "Question \"%s\" must have 1 correct answer and at least 1 incorrect answer"
@@ -3937,6 +4088,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__quiz
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_0
@@ -3948,6 +4100,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Quiz Demo Data"
@@ -4006,6 +4159,7 @@ msgid "Rating count"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "Rating of %s"
@@ -4034,6 +4188,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/components/activity/activity.xml:0
 #: code:addons/website_slides/static/src/components/activity/activity.xml:0
 #, python-format
 msgid "Refuse Access"
@@ -4057,6 +4212,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Remove the answer comment"
@@ -4064,6 +4220,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Remove this answer"
@@ -4081,6 +4238,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #, python-format
 msgid "Request Access."
@@ -4088,6 +4246,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #, python-format
 msgid "Request sent !"
@@ -4095,6 +4254,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Reset"
@@ -4124,6 +4284,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Responsible already contacted."
@@ -4138,6 +4299,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Retry"
@@ -4150,6 +4312,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Review"
@@ -4171,6 +4334,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/portal_chatter.js:0
 #: code:addons/website_slides/static/src/js/portal_chatter.js:0
 #, python-format
 msgid "Reviews (%d)"
@@ -4216,6 +4380,11 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_category_add.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/js/slides_category_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
@@ -4227,6 +4396,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Save & Publish"
@@ -4234,6 +4404,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Save your presentations or documents as PDF files and upload them."
@@ -4268,6 +4439,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__category_id
@@ -4284,6 +4457,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_management.xml:0
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
 msgid "Section name"
@@ -4295,6 +4469,7 @@ msgid "Security Token"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/res_users.py:0
 #: code:addons/website_slides/models/res_users.py:0
 #, python-format
 msgid "See our eLearning"
@@ -4302,6 +4477,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid "Select <b>Course</b> to create it and manage it."
@@ -4321,6 +4497,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Select the correct answer below :"
@@ -4338,6 +4515,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #, python-format
 msgid "Send Email"
@@ -4384,6 +4562,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_link
 #, python-format
@@ -4397,6 +4576,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 #, python-format
@@ -4405,6 +4585,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_social
@@ -4414,6 +4596,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_social
@@ -4423,6 +4607,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_modal_body
@@ -4432,6 +4617,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_social
@@ -4451,6 +4638,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Sign Up !"
@@ -4458,6 +4646,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_course_join.xml:0
 #: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
 #, python-format
 msgid "Sign in"
@@ -4465,6 +4654,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Sign in and join the course to verify your answers!"
@@ -4526,6 +4716,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_fullscreen.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_fullscreen.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 #, python-format
@@ -4533,6 +4724,7 @@ msgid "Slide image"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid ""
@@ -4626,6 +4818,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
 msgid "Subscribe"
@@ -4653,6 +4846,12 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
@@ -4665,6 +4864,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel_tag.xml:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel_tag.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -4674,6 +4875,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel_tag.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel_tag.xml:0
 #, python-format
 msgid "Tag Group"
@@ -4681,6 +4883,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
 #, python-format
 msgid "Tag Group (required for new tags)"
@@ -4701,6 +4904,10 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
@@ -4754,6 +4961,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Test your students with small Quizzes"
@@ -4761,6 +4969,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -4771,6 +4980,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -4811,6 +5021,7 @@ msgid "The estimated completion time for this slide"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/wizard/slide_channel_invite.py:0
 #: code:addons/website_slides/wizard/slide_channel_invite.py:0
 #, python-format
 msgid ""
@@ -4843,6 +5054,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "There was an error validating this quiz."
@@ -4865,6 +5077,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "This course is private."
@@ -4872,6 +5085,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "This is the correct answer"
@@ -4879,6 +5093,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "This is the correct answer, congratulations"
@@ -4886,12 +5101,14 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "This quiz is already done. Retaking it is not possible."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "This video already exists in this channel on the following slide: %s"
@@ -4899,6 +5116,9 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
@@ -4952,6 +5172,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
 msgid "Training Layout"
@@ -4989,12 +5210,15 @@ msgid "Type of the exception activity on record."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/wizard/slide_channel_invite.py:0
 #: code:addons/website_slides/wizard/slide_channel_invite.py:0
 #, python-format
 msgid "Unable to post message, please configure the sender's email address."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
@@ -5008,6 +5232,7 @@ msgid "Unforgettable Tools"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "Unknown document"
@@ -5015,6 +5240,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_join.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_course_join.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
@@ -5023,6 +5250,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #, python-format
 msgid "Unknown error, try again."
@@ -5048,6 +5276,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Update"
@@ -5066,6 +5295,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
@@ -5079,6 +5310,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Uploading document ..."
@@ -5106,6 +5338,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__video
 #, python-format
@@ -5180,6 +5413,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "Votes and comments are disabled for this course"
@@ -5204,6 +5438,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__webpage
 #, python-format
@@ -5273,6 +5508,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -5282,6 +5518,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "What does"
@@ -5325,6 +5562,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid ""
@@ -5378,6 +5616,10 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
@@ -5388,6 +5630,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_enroll_email.js:0
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_0_0
@@ -5401,6 +5645,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -5410,30 +5655,35 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_upload.js:0
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "You can not upload password protected file."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "You cannot add tags to this course."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "You cannot mark a slide as completed if you are not among its members."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "You cannot mark a slide as viewed if you are not among its members."
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid ""
@@ -5441,6 +5691,7 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/controllers/main.py:0
 #: code:addons/website_slides/controllers/main.py:0
 #, python-format
 msgid "You cannot upload on this channel."
@@ -5448,6 +5699,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "You don't have access to this lesson"
@@ -5455,6 +5707,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "You don't have enough karma to vote"
@@ -5462,6 +5715,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "You gained"
@@ -5469,6 +5723,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_join.js:0
 #: code:addons/website_slides/static/src/js/slides_course_join.js:0
 #, python-format
 msgid "You have already joined this channel"
@@ -5476,6 +5731,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "You have already voted for this lesson"
@@ -5487,6 +5743,7 @@ msgid "You have been invited to join {{ object.channel_id.name }}"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_channel.py:0
 #: code:addons/website_slides/models/slide_channel.py:0
 #, python-format
 msgid "You have to sign in before"
@@ -5500,6 +5757,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_quiz.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
 msgid "You must be logged to submit the quiz."
@@ -5507,6 +5765,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_slide_like.js:0
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 #, python-format
 msgid "You must be member of this course to vote"
@@ -5528,6 +5787,7 @@ msgid "Your"
 msgstr ""
 
 #. module: website_slides
+#: code:addons/addons/website_slides/models/slide_slide.py:0
 #: code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid ""
@@ -5547,6 +5807,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/tours/slides_tour.js:0
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
 msgid ""
@@ -5557,6 +5818,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Youtube Link"
@@ -5564,6 +5826,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Youtube Video URL"
@@ -5591,6 +5854,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 #, python-format
@@ -5616,6 +5880,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_management.xml:0
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
 msgid "e.g. Introduction"
@@ -5651,6 +5916,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 #, python-format
@@ -5659,6 +5925,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid ""
@@ -5669,6 +5936,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
 msgid "or Leave the course"
@@ -5681,6 +5949,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 #, python-format
@@ -5704,6 +5973,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "to enroll."
@@ -5711,6 +5981,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 #, python-format
@@ -5719,6 +5990,8 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
+#: code:addons/addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -5734,6 +6007,7 @@ msgstr ""
 
 #. module: website_slides
 #. openerp-web
+#: code:addons/addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 #, python-format
