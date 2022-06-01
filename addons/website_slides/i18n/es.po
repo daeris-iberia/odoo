@@ -3131,7 +3131,7 @@ msgstr "Principales categorías de árboles"
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_manager
 msgid "Manager"
-msgstr "Responsable"
+msgstr "Administrador"
 
 #. module: website_slides
 #. openerp-web
@@ -3510,7 +3510,7 @@ msgstr "Daeris • Imagen y texto"
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
 msgid "Officer"
-msgstr "Empleado RRHH"
+msgstr "Usuario"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__enroll__invite

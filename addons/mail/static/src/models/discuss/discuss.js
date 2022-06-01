@@ -96,14 +96,14 @@ function factory(dependencies) {
             // renderToString https://github.com/odoo/owl/issues/708
             items.push({
                 label: _.str.sprintf(
-                    `<strong>${this.env._t('Create %s')}</strong>`,
+                    `<strong>${this.env._t('Crear %s')}</strong>`,
                     `<em><span class="fa fa-hashtag"/>${escapedValue}</em>`,
                 ),
                 escapedValue,
                 special: 'public'
             }, {
                 label: _.str.sprintf(
-                    `<strong>${this.env._t('Create %s')}</strong>`,
+                    `<strong>${this.env._t('Crear %s')}</strong>`,
                     `<em><span class="fa fa-lock"/>${escapedValue}</em>`,
                 ),
                 escapedValue,
