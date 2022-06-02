@@ -225,7 +225,7 @@ class CompanyLDAP(models.Model):
                 values['active'] = True
                 return SudoUser.browse(conf['user'][0]).copy(default=values).id
             else:
-                return SudoUser.create(values).id
+                return SudoUser.with_context({'ldap_user': True}).create(values).id
 
         raise AccessDenied(_("No local user found for LDAP login and not configured to create one"))
 
