@@ -93,7 +93,7 @@ class ResUsers(models.Model):
 
             This method can be overridden to add alternative signin methods.
         """
-        oauth_uid = validation['user_id']
+        oauth_uid = validation['email']
         try:
             oauth_user = self.search([("oauth_uid", "=", oauth_uid), ('oauth_provider_id', '=', provider)])
             if not oauth_user:
