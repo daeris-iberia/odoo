@@ -21,7 +21,7 @@ from odoo import api, http, models, tools, SUPERUSER_ID
 from odoo.exceptions import AccessDenied, AccessError, MissingError
 from odoo.http import request, content_disposition, Response
 from odoo.tools import consteq, pycompat
-from odoo.tools.mimetypes import guess_mimetype
+from odoo.tools.mimetypes import get_extension, guess_mimetype
 from odoo.modules.module import get_resource_path, get_module_path
 
 from odoo.http import ALLOWED_DEBUG_MODES
