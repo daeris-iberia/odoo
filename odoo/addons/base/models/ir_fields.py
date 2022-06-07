@@ -359,7 +359,7 @@ class IrFieldsConverter(models.AbstractModel):
         warnings = []
         error_msg = ''
         action = {
-            'name': 'Possible Values',
+            'name': 'Valores Posibles',
             'type': 'ir.actions.act_window', 'target': 'new',
             'view_mode': 'tree,form',
             'views': [(False, 'list'), (False, 'form')],
