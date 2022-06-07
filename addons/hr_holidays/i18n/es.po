@@ -3115,7 +3115,7 @@ msgstr "Subtipo de notificación de ausencias"
 #. module: hr_holidays
 #: model:res.groups,name:hr_holidays.group_hr_holidays_user
 msgid "Time Off Officer"
-msgstr "Oficial de ausencias"
+msgstr "Usuario"
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_all model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department

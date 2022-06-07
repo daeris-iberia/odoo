@@ -18,6 +18,9 @@ class ResConfigSettings(models.TransientModel):
     auth_oauth_google_enabled = fields.Boolean(string='Allow users to sign in with Google')
     auth_oauth_google_client_id = fields.Char(string='Client ID')
     server_uri_google = fields.Char(string='Server uri')
+    auth_oauth_facebook_enabled = fields.Boolean(string='Allow users to sign in with Facebook')
+    auth_oauth_facebook_client_id = fields.Char(string='Client ID')
+    server_uri_facebook = fields.Char(string='Server uri')
 
     @api.model
     def get_values(self):
@@ -28,6 +31,12 @@ class ResConfigSettings(models.TransientModel):
             auth_oauth_google_client_id=google_provider.client_id,
             server_uri_google=self.get_uri(),
         )
+        facebook_provider = self.env.ref('auth_oauth.provider_facebook', False)
+        facebook_provider and res.update(
+            auth_oauth_facebook_enabled=facebook_provider.enabled,
+            auth_oauth_facebook_client_id=facebook_provider.client_id,
+            server_uri_facebook=self.get_uri(),
+        )
         return res
 
     def set_values(self):
@@ -36,4 +45,9 @@ class ResConfigSettings(models.TransientModel):
         google_provider and google_provider.write({
             'enabled': self.auth_oauth_google_enabled,
             'client_id': self.auth_oauth_google_client_id,
+        })
+        facebook_provider = self.env.ref('auth_oauth.provider_facebook', False)
+        facebook_provider and facebook_provider.write({
+            'enabled': self.auth_oauth_facebook_enabled,
+            'client_id': self.auth_oauth_facebook_client_id,
         })
