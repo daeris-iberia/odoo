@@ -40,7 +40,7 @@
                 </div>
             </field>
             <field name="password" position="attributes">
-                <attribute name="attrs">{}</attribute>
+                <attribute name="attrs">{'required' : [('server_type', '!=', 'local'), ('use_microsoft_outlook_service', '=', False), ('password', '!=', False)], 'invisible' : [('use_microsoft_outlook_service', '=', True)]}</attribute>
             </field>
         </field>
     </record>
