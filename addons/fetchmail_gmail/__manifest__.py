@@ -9,6 +9,7 @@
     "depends": [
         "google_gmail",
         "fetchmail",
+        "fetchmail_outlook",
     ],
     "data": ["views/fetchmail_server_views.xml"],
     "auto_install": True,

@@ -9,6 +9,7 @@
     "depends": [
         "mail",
         "google_account",
+        "microsoft_outlook",
     ],
     "data": [
         "views/ir_mail_server_views.xml",

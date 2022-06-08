@@ -24,7 +24,7 @@
                 </div>
             </field>
             <field name="smtp_pass" position="attributes">
-                <attribute name="attrs">{'invisible' : [('use_google_gmail_service', '=', True)]}</attribute>
+                <attribute name="attrs">{'invisible' : ['|', ('use_google_gmail_service', '=', True), ('use_microsoft_outlook_service', '=', True)]}</attribute>
             </field>
         </field>
     </record>
