@@ -6,16 +6,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 08:17+0000\n"
-"PO-Revision-Date: 2021-11-05 09:18+0100\n"
+"POT-Creation-Date: 2022-06-08 12:07+0000\n"
+"PO-Revision-Date: 2022-06-08 14:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid "Google %s is not yet configured."
+msgstr "Google %s aún no está configurado."
 
 #. module: google_account
 #: model:ir.model,name:google_account.model_google_service
@@ -28,6 +34,16 @@ msgstr "Servicio de Google"
 msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
 msgstr ""
 "¡Método no compatible [%s] no está en  [GET, POST, PUT, PATCH o DELETE]!"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during the token generation. Please request again an "
+"authorization code."
+msgstr ""
+"Algo salió mal durante la generación de tokens. Por favor, solicite de "
+"nuevo un código de autorización."
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:0
@@ -48,3 +64,9 @@ msgid ""
 msgstr ""
 "Algo salió mal durante la generación del token. Es probable que el código "
 "de autorización sea inválido o haya expirado"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid "The refresh token for authentication is not set."
+msgstr "El token de actualización para la autenticación no está establecido."
