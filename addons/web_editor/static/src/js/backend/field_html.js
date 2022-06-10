@@ -546,11 +546,11 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
         $button.css({
             'font-size': '15px',
             position: 'absolute',
-            right: odoo.debug && this.nodeOptions.codeview ? '40px' : '5px',
+            right: this.nodeOptions.codeview ? '40px' : '5px',
             top: '5px',
         });
         this.$el.append($button);
-        if (odoo.debug && this.nodeOptions.codeview) {
+        if (this.nodeOptions.codeview) {
             const $codeviewButtonToolbar = $(`
                 <div id="codeview-btn-group" class="btn-group">
                     <button class="o_codeview_btn btn btn-primary">
