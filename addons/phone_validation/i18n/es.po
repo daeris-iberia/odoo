@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-03 12:01+0000\n"
-"PO-Revision-Date: 2021-11-03 13:02+0100\n"
+"POT-Creation-Date: 2022-06-14 12:51+0000\n"
+"PO-Revision-Date: 2022-06-14 14:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: phone_validation
 #: code:addons/phone_validation/models/phone_blacklist.py:0
@@ -44,6 +44,15 @@ msgstr "Agregar un número de teléfono en la lista negra"
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_search
 msgid "Archived"
 msgstr "Archivado"
+
+#. module: phone_validation
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+#: code:addons/phone_validation/models/phone_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Phone Number?"
+msgstr ""
+"¿Estás seguro de que quieres quitar este número de teléfono de la lista "
+"negra?"
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_attachment_count
@@ -367,7 +376,7 @@ msgstr "Quitar de la lista negra"
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 #, python-format
 msgid "Unblacklisting Reason: %s"
-msgstr "Motivo de la eliminación de la lista negra: %s"
+msgstr "Motivo de eliminación de la lista negra: %s"
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_unread
@@ -382,6 +391,16 @@ msgid "Unread Messages Counter"
 msgstr "Nº de mensajes sin leer"
 
 #. module: phone_validation
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist phone numbers. Please "
+"contact your administrator."
+msgstr ""
+"No tiene derecho de acceso para eliminar números de teléfono de la lista "
+"negra. Póngase en contacto con su administrador."
+
+#. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "phone_blacklist_removal"
-msgstr "phone_blacklist_removal"
+msgstr ""
