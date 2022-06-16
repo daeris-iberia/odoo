@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-01 10:41+0000\n"
-"PO-Revision-Date: 2022-06-01 12:56+0200\n"
+"PO-Revision-Date: 2022-06-09 10:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -391,12 +391,12 @@ msgstr "<i class=\"fa fa-flag mr-2\" aria-label=\"Cuestionario\" role=\"img\" ti
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_aside_training_category
 msgid "<i class=\"fa fa-flag text-warning\"/> Quiz"
-msgstr "<i class=\"fa fa-flag text-warning\"/>Prueba"
+msgstr "<i class=\"fa fa-flag text-warning\"/>Cuestionario"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_fullscreen_sidebar_category
 msgid "<i class=\"fa fa-flag-checkered text-warning mr-2\"/>Quiz"
-msgstr "<i class=\"fa fa-flag-checkered text-warning mr-2\"/>Prueba"
+msgstr "<i class=\"fa fa-flag-checkered text-warning mr-2\"/>Cuestionario"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.rating_rating_view_kanban_slide_channel
@@ -468,7 +468,7 @@ msgid ""
 "            <span>Add Quiz</span>"
 msgstr ""
 "<i class=\"fa fa-plus mr-2\"/>\n"
-"            <span>Añadir prueba</span>"
+"            <span>Añadir cuestionario</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
@@ -3581,7 +3581,7 @@ msgstr "El asociado tiene nuevo contenido"
 #: code:addons/addons/website_slides/models/slide_slide.py:0 code:addons/website_slides/models/slide_slide.py:0
 #, python-format
 msgid "People already took this quiz. To keep course progression it should not be deleted."
-msgstr "La gente ya realizó esta prueba. Para mantener la progresión del curso, no debe eliminarse."
+msgstr "La gente ya realizó este cuestionario. Para mantener la progresión del curso, no debe eliminarse."
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__copyvalue
