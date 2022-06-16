@@ -25,7 +25,7 @@
                 </div>
             </field>
             <field name="password" position="attributes">
-                <attribute name="attrs">{'required' : [('server_type', '!=', 'local'), ('use_google_gmail_service', '=', False), ('password', '!=', False)], 'invisible' : [('use_google_gmail_service', '=', True)]}</attribute>
+                <attribute name="attrs">{'required' : [('server_type', '!=', 'local'), ('password', '!=', False), ('use_google_gmail_service', '=', False), ('use_microsoft_outlook_service', '=', False)], 'invisible' : ['|', ('use_google_gmail_service', '=', True), ('use_microsoft_outlook_service', '=', True)]}</attribute>
             </field>
         </field>
     </record>

@@ -39,9 +39,6 @@
                     </div>
                 </div>
             </field>
-            <field name="password" position="attributes">
-                <attribute name="attrs">{}</attribute>
-            </field>
         </field>
     </record>
 </odoo>
