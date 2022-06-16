@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 o_setting_box"
-                            id="restrict_template_rendering_setting">
+                            id="restrict_template_rendering_setting" groups="base.group_no_one">
                             <div class="o_setting_left_pane">
                                 <field name="restrict_template_rendering"/>
                             </div>
