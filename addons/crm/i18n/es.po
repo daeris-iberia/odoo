@@ -57,7 +57,7 @@ msgstr "%(assigned)s clientes potenciales distribuidos entre %(team_count)s equi
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid "%(assigned)s leads allocated to %(team_name)s team."
-msgstr "%(assigned)s clientes potenciales asignados a %(team_name)s equipo."
+msgstr "%(assigned)s clientes potenciales asignados al equipo %(team_name)s ."
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
