@@ -587,8 +587,8 @@ msgid ""
 "<span class=\"o_stat_text\">Customer</span>\n"
 "                                <span class=\"o_stat_text\">Preview</span>"
 msgstr ""
-"<span class=\"o_stat_text\">Cliente</span>\n"
-"<span class=\"o_stat_text\">Previsualizar </span>"
+"<span class=\"o_stat_text\">Vista previa</span>\n"
+"<span class=\"o_stat_text\">del cliente</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
