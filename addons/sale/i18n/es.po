@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-03 09:21+0000\n"
-"PO-Revision-Date: 2021-11-03 10:33+0100\n"
+"PO-Revision-Date: 2022-06-22 13:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: sale
 #. openerp-web
@@ -4139,4 +4139,4 @@ msgstr "{{ object.company_id.name }} {{ (object.get_portal_last_transaction().st
 #. module: sale
 #: model:mail.template,subject:sale.email_template_edi_sale
 msgid "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and (ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ object.name or 'n/a' }})"
-msgstr "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and (ctx.get('proforma') and 'Proforma' or 'Presupuesto') or 'Order' }} (Ref {{ object.name or 'n/a' }})"
+msgstr "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and (ctx.get('proforma') and 'Proforma' or 'Presupuesto') or 'Pedido' }} (Ref {{ object.name or 'n/a' }})"
