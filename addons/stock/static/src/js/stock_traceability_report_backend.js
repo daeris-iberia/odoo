@@ -39,7 +39,7 @@ var stock_report_generic = AbstractAction.extend({
         }
         return def.then(function () {
             self.report_widget.$el.html(self.html);
-            self.report_widget.$el.find('.o_report_heading').html('<h1>Traceability Report</h1>');
+            self.report_widget.$el.find('.o_report_heading').html('<h1>Informe de Trazabilidad</h1>');
             if (self.given_context.auto_unfold) {
                 _.each(self.$el.find('.fa-caret-right'), function (line) {
                     self.report_widget.autounfold(line, self.given_context.lot_name);
