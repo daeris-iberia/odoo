@@ -3945,7 +3945,7 @@ msgstr "Nota de crédito: Enviar por correo electrónico"
 #. module: account
 #: model:mail.template,report_name:account.email_template_edi_credit_note
 msgid "Credit_note_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_draft' or '' }}"
-msgstr "Credit_note_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_draft' or '' }}"
+msgstr "Factura_rectificativa_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_borrador' or '' }}"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__cumulated_balance
@@ -6241,7 +6241,7 @@ msgstr "Factura: Enviar por correo electrónico"
 #. module: account
 #: model:mail.template,report_name:account.email_template_edi_invoice
 msgid "Invoice_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_draft' or '' }}"
-msgstr "Factura ${(object.number or '').replace('/','_')}${object.state == 'draft' and '_draft' or ''}"
+msgstr "Factura_{{ (object.name or '').replace('/','_') }}{{ object.state == 'draft' and '_borrador' or '' }}"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
