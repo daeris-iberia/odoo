@@ -3248,7 +3248,7 @@ msgstr "Vender y comprar productos en diferentes unidades de medida"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sell products by multiple of unit # per package"
-msgstr "Vender productos por múltiplo de unidad # por paquete"
+msgstr "Vender productos por múltiplo de número de unidades por paquete"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
