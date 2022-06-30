@@ -5211,3 +5211,10 @@ msgstr "{\"o_act_window\": actionType === \"ir.actions.act_window\"}"
 #, python-format
 msgid "Additionnal actions"
 msgstr "Acciones adicionales"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
+#, python-format
+msgid "Printing options"
+msgstr "Opciones de impresión"
