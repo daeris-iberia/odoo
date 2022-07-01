@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record id="resume_type_certification" model="hr.resume.line.type">
-            <field name="name">Internal Certification</field>
+            <field name="name">Certificación Interna</field>
             <field name="sequence">25</field>
         </record>
     </data>

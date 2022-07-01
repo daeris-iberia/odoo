@@ -4,13 +4,13 @@
 
     <!--Skill Types-->
     <record id="hr_skill_type_lang" model="hr.skill.type">
-        <field name="name">Languages</field>
+        <field name="name">Idiomas</field>
     </record>
     <record id="hr_skill_type_dev" model="hr.skill.type">
-        <field name="name">Dev</field>
+        <field name="name">Desarrollo</field>
     </record>
     <record id="hr_skill_type_music" model="hr.skill.type">
-        <field name="name">Music</field>
+        <field name="name">Música</field>
     </record>
     <record id="hr_skill_type_marketing" model="hr.skill.type">
         <field name="name">Marketing</field>
@@ -49,27 +49,27 @@
     </record>
 
     <record id="hr_skill_level_beginner" model="hr.skill.level">
-        <field name="name">Beginner</field>
+        <field name="name">Principiante</field>
         <field name="level_progress">15</field>
         <field name="skill_type_id" ref="hr_skill_type_dev"/>
     </record>
     <record id="hr_skill_level_elementary" model="hr.skill.level">
-        <field name="name">Elementary</field>
+        <field name="name">Básico</field>
         <field name="level_progress">25</field>
         <field name="skill_type_id" ref="hr_skill_type_dev"/>
     </record>
     <record id="hr_skill_level_intermediate" model="hr.skill.level">
-        <field name="name">Intermediate</field>
+        <field name="name">Intermedio</field>
         <field name="level_progress">50</field>
         <field name="skill_type_id" ref="hr_skill_type_dev"/>
     </record>
     <record id="hr_skill_level_advanced" model="hr.skill.level">
-        <field name="name">Advanced</field>
+        <field name="name">Avanzado</field>
         <field name="level_progress">80</field>
         <field name="skill_type_id" ref="hr_skill_type_dev"/>
     </record>
     <record id="hr_skill_level_expert" model="hr.skill.level">
-        <field name="name">Expert</field>
+        <field name="name">Experto</field>
         <field name="level_progress">100</field>
         <field name="skill_type_id" ref="hr_skill_type_dev"/>
     </record>
@@ -119,19 +119,19 @@
     <!-- **** Skills **** -->
     <!-- Languages -->
     <record id="hr_skill_french" model="hr.skill">
-        <field name="name">French</field>
+        <field name="name">Francés</field>
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_spanish" model="hr.skill">
-        <field name="name">Spanish</field>
+        <field name="name">Español</field>
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_english" model="hr.skill">
-        <field name="name">English</field>
+        <field name="name">Inglés</field>
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_german" model="hr.skill">
-        <field name="name">German</field>
+        <field name="name">Alemán</field>
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_filipino" model="hr.skill">
@@ -139,7 +139,7 @@
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_arabic" model="hr.skill">
-        <field name="name">Arabic</field>
+        <field name="name">Árabe</field>
         <field name="skill_type_id" ref="hr_skill_type_lang"/>
     </record>
     <record id="hr_skill_bengali" model="hr.skill">
@@ -199,29 +199,29 @@
         <field name="skill_type_id" ref="hr_skill_type_music"/>
     </record>
     <record id="hr_skill_singing" model="hr.skill">
-        <field name="name">Singing</field>
+        <field name="name">Canto</field>
         <field name="skill_type_id" ref="hr_skill_type_music"/>
     </record>
     <record id="hr_skill_flute" model="hr.skill">
-        <field name="name">Flute</field>
+        <field name="name">Flauta</field>
         <field name="skill_type_id" ref="hr_skill_type_music"/>
     </record>
 
     <!-- Marketing -->
     <record id="hr_skill_com" model="hr.skill">
-        <field name="name">Communication</field>
+        <field name="name">Comunicación</field>
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
     <record id="hr_skill_analytics" model="hr.skill">
-        <field name="name">Analytics</field>
+        <field name="name">Análisis</field>
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
     <record id="hr_skill_digital_ad" model="hr.skill">
-        <field name="name">Digital advertising</field>
+        <field name="name">Marketing Digital</field>
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
     <record id="hr_skill_public" model="hr.skill">
-        <field name="name">Public Speaking</field>
+        <field name="name">Hablar en Público</field>
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
     <record id="hr_skill_cms" model="hr.skill">
@@ -229,7 +229,7 @@
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
     <record id="hr_skill_email" model="hr.skill">
-        <field name="name">Email Marketing</field>
+        <field name="name">Marketing por email</field>
         <field name="skill_type_id" ref="hr_skill_type_marketing"/>
     </record>
 
@@ -259,7 +259,7 @@
 
     <record id="employee_resume_line_admin_4" model="hr.resume.line">
         <field name="employee_id" ref="hr.employee_admin"/>
-        <field name="name">Odoo SA</field>
+        <field name="name">Daeris</field>
         <field name="date_start" eval="(datetime.now()+relativedelta(years=-3)).strftime('%Y-11-01')"/>
         <field name="line_type_id" ref="resume_type_experience"/>
         <field name="description">
