@@ -130,17 +130,17 @@ msgstr "Objetivos de RRHH del empleado"
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge
 msgid "Gamification Badge"
-msgstr "Medalla de ludificación"
+msgstr "Medalla de gamificación"
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge_user
 msgid "Gamification User Badge"
-msgstr "Medalla de usuario de ludificación"
+msgstr "Medalla de usuario de gamificación"
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge_user_wizard
 msgid "Gamification User Badge Wizard"
-msgstr "Asistente de medalla de usuario de ludificación"
+msgstr "Asistente de medalla de usuario de gamificación"
 
 #. module: hr_gamification
 #: model:ir.model.fields,field_description:hr_gamification.field_res_users__goal_ids
