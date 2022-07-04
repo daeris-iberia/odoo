@@ -799,7 +799,7 @@ msgstr "Todas las asignaciones"
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_dashboard model:ir.actions.act_window,name:hr_holidays.hr_leave_action_action_approve_department
 msgid "All Time Off"
-msgstr "Todo las ausencias"
+msgstr "Todas las ausencias"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__duration_display
@@ -2154,7 +2154,7 @@ msgstr "Mi fecha límite de actividad"
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_allocation_action_my model:ir.ui.menu,name:hr_holidays.menu_open_allocation
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "My Allocations"
-msgstr "Mis Asignaciones"
+msgstr "Mis asignaciones"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
