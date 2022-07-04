@@ -65,7 +65,7 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Employee PIN</span>"
-msgstr "<span class=\"o_form_label\">NIP del empleado</span>"
+msgstr "<span class=\"o_form_label\">PIN del empleado</span>"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
@@ -466,7 +466,7 @@ msgstr "Empleado"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__group_attendance_use_pin
 msgid "Employee PIN"
-msgstr "NIP del empleado"
+msgstr "PIN del empleado"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
@@ -482,7 +482,7 @@ msgstr "Empleados"
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_use_pin
 msgid "Enable PIN use"
-msgstr "Habilitar uso de NIP"
+msgstr "Habilitar uso de PIN"
 
 #. module: hr_attendance
 #. openerp-web
@@ -777,7 +777,7 @@ msgstr "Horas extras"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Please enter your PIN to"
-msgstr "Ingresa tu NIP para"
+msgstr "Ingresa tu PIN para"
 
 #. module: hr_attendance
 #. openerp-web
@@ -854,7 +854,7 @@ msgstr "Al que madruga Dios le ayuda"
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_kiosk
 msgid "The user will be able to open the kiosk mode and validate the employee PIN."
-msgstr "El usuario podrá abrir el modo kiosco y validar el NIP del empleado."
+msgstr "El usuario podrá abrir el modo quiosco y validar el PIN del empleado."
 
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance
@@ -911,7 +911,7 @@ msgstr "Total de horas extra:"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Use PIN codes to check in in Kiosk Mode"
-msgstr "Usa códigos NIP para registrar entrada en el Modo Quiosco"
+msgstr "Usa códigos PIN para registrar entrada en el Modo Quiosco"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_res_users
@@ -977,7 +977,7 @@ msgstr "Horas trabajadas el mes pasado"
 #: code:addons/hr_attendance/models/hr_employee.py:0
 #, python-format
 msgid "Wrong PIN"
-msgstr "NIP incorrecto"
+msgstr "PIN incorrecto"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:0
