@@ -74,6 +74,7 @@
                             <h2>Display Option</h2>
                         </group>
                         <group colspan="4">
+                            <field name="color_name" />
                             <field name="color" widget="color_picker" />
                             <field class="d-flex flex-wrap" name="icon_id" widget="radio_image" options="{'horizontal': true}"/>
                         </group>
