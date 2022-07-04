@@ -3,7 +3,7 @@
 
         <!-- goal definitions -->
         <record model="gamification.goal.definition" id="definition_crm_tot_invoices">
-            <field name="name">Total Invoiced</field>
+            <field name="name">Total Facturado</field>
             <field name="description"></field>
             <field name="computation_mode">sum</field>
             <field name="monetary">True</field>
@@ -17,7 +17,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_crm_nbr_new_leads">
-            <field name="name">New Leads</field>
+            <field name="name">Nuevos clientes potenciales</field>
             <field name="description">Based on the creation date</field>
             <field name="computation_mode">count</field>
             <field name="suffix">leads</field>
@@ -31,7 +31,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_crm_lead_delay_open">
-            <field name="name">Time to Qualify a Lead</field>
+            <field name="name">Tiempo para calificar a un cliente potencial</field>
             <field name="description">The average number of days to open the case (lower than)</field>
             <field name="computation_mode">sum</field>
             <field name="condition">lower</field>
@@ -46,7 +46,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_crm_lead_delay_close">
-            <field name="name">Days to Close a Deal</field>
+            <field name="name">Días para cerrar un trato</field>
             <field name="description">The average number of days to close the case (lower than)</field>
             <field name="computation_mode">sum</field>
             <field name="condition">lower</field>
@@ -62,7 +62,7 @@
 
 
         <record model="gamification.goal.definition" id="definition_crm_nbr_new_opportunities">
-            <field name="name">New Opportunities</field>
+            <field name="name">Nuevas Oportunidades</field>
             <field name="description">Based on the opening date</field>
             <field name="computation_mode">count</field>
             <field name="suffix">opportunities</field>
@@ -75,7 +75,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_crm_nbr_sale_order_created">
-            <field name="name">New Sales Orders</field>
+            <field name="name">Nuevos Pedidos de Venta</field>
             <field name="description">Based on the creation date</field>
             <field name="computation_mode">count</field>
             <field name="suffix">orders</field>
@@ -88,7 +88,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_crm_nbr_paid_sale_order">
-            <field name="name">Paid Sales Orders</field>
+            <field name="name">Pedidos de Venta Pagados</field>
             <field name="description">Based on the invoice date</field>
             <field name="computation_mode">count</field>
             <field name="suffix">orders</field>
@@ -100,7 +100,7 @@
             <field name="batch_user_expression">user.id</field>
         </record>
         <record model="gamification.goal.definition" id="definition_crm_tot_paid_sale_order">
-            <field name="name">Total Paid Sales Orders</field>
+            <field name="name">Total Pedidos de Venta Pagados</field>
             <field name="description">Based on the invoice date</field>
             <field name="computation_mode">count</field>
             <field name="monetary">True</field>
@@ -115,7 +115,7 @@
 
 
         <record model="gamification.goal.definition" id="definition_crm_nbr_customer_refunds">
-            <field name="name">Customer Credit Notes</field>
+            <field name="name">Facturas Rectificativas de Cliente</field>
             <field name="description">Add credit note to the least customers (lower than)</field>
             <field name="computation_mode">count</field>
             <field name="condition">lower</field>
@@ -128,7 +128,7 @@
             <field name="batch_user_expression">user.id</field>
         </record>
         <record model="gamification.goal.definition" id="definition_crm_tot_customer_refunds">
-            <field name="name">Total Customer Credit Notes</field>
+            <field name="name">Total Facturas Rectificativas de Cliente</field>
             <field name="description">The total credit note value is negative. Validated when higher (min credit note value).</field>
             <field name="computation_mode">sum</field>
             <field name="condition">higher</field>
