@@ -3,7 +3,7 @@
     <data noupdate="1">
         <!-- goal definitions -->
         <record model="gamification.goal.definition" id="definition_base_timezone">
-            <field name="name">Set your Timezone</field>
+            <field name="name">Establece tu Zona Horaria</field>
             <field name="description">Configure your profile and specify your timezone</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -17,7 +17,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_base_company_data">
-            <field name="name">Set your Company Data</field>
+            <field name="name">Establece los Datos de tu Compañía</field>
             <field name="description">Write some information about your company (specify at least a name)</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -29,7 +29,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_base_company_logo">
-            <field name="name">Set your Company Logo</field>
+            <field name="name">Establece el Logo de tu Compañía</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
             <field name="model_id" ref="base.model_res_company"/>
@@ -49,7 +49,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_base_invite">
-            <field name="name">Invite new Users</field>
+            <field name="name">Invita nuevos usuarios</field>
             <field name="description">Create at least another user</field>
             <field name="display_mode">boolean</field>
             <field name="computation_mode">count</field>

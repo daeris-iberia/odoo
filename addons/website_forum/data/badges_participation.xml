@@ -10,7 +10,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_configure_profile">
-            <field name="name">Completed own biography</field>
+            <field name="name">Biografía propia completada</field>
             <field name="description">Write some information about yourself</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -50,7 +50,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_commentator">
-            <field name="name">Commentator</field>
+            <field name="name">Comentarista</field>
             <field name="description">Comment an answer or a question</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -86,7 +86,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_pundit">
-            <field name="name">Pundit</field>
+            <field name="name">Lumbrera</field>
             <field name="description">Post 10 answers with score of 10 or more</field>
             <field name="display_mode">boolean</field>
             <field name="condition">higher</field>
@@ -144,7 +144,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_taxonomist">
-            <field name="name">Taxonomist</field>
+            <field name="name">Taxónomo</field>
             <field name="description">Create a tag which can used in minimum 15 questions</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>

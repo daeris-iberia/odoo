@@ -11,7 +11,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_teacher">
-            <field name="name">Teacher</field>
+            <field name="name">Profesor</field>
             <field name="description">Received at least 3 upvote for an answer for the first time</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -46,7 +46,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_nice_answer">
-            <field name="name">Nice Answer (4)</field>
+            <field name="name">Buena Respuesta (4)</field>
             <field name="description">Answer voted up 4 times</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -81,7 +81,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_good_answer">
-            <field name="name">Good Answer (6)</field>
+            <field name="name">Buena Respuesta (6)</field>
             <field name="description">Answer voted up 6 times</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -116,7 +116,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_great_answer">
-            <field name="name">Great Answer (15)</field>
+            <field name="name">Buena Respuesta (15)</field>
             <field name="description">Answer voted up 15 times</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -153,7 +153,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_enlightened">
-            <field name="name">Enlightened</field>
+            <field name="name">Iluminado</field>
             <field name="description">Answer was accepted with 3 or more votes</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -224,7 +224,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_self_learner">
-            <field name="name">Self-Learner</field>
+            <field name="name">Auto-Aprendiz</field>
             <field name="description">Answer own question with at least 4 up votes</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
