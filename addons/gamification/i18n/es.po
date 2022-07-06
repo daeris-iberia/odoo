@@ -908,7 +908,7 @@ msgstr ""
 "''\"/></td>\n"
 "                                                        <td width=\"30%\" align=\"right\" t-attf-style="
 "\"background-color:{{ tdBgColor }};padding:5px 0;line-height:1;\"><t t-out=\"&quot;%.2f&quot; % "
-"goal['current'] or ''\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};\">el <t t-out="
+"goal['current'] or ''\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};\">de <t t-out="
 "\"&quot;%.2f&quot; % line['target'] or ''\"/></span>\n"
 "                                                        </td>\n"
 "                                                        <td width=\"30%\" t-attf-style=\"color:"
@@ -1565,61 +1565,61 @@ msgstr "Sufijo completo"
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge
 msgid "Gamification Badge"
-msgstr "Medalla de ludificación"
+msgstr "Medalla de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge
 msgid "Gamification Challenge"
-msgstr "Desafío de ludificación"
+msgstr "Desafío de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal
 msgid "Gamification Goal"
-msgstr "Meta de ludificación"
+msgstr "Meta de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_definition
 msgid "Gamification Goal Definition"
-msgstr "Definición de meta de ludificación"
+msgstr "Definición de meta de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_wizard
 msgid "Gamification Goal Wizard"
-msgstr "Asistente de metas de ludificación"
+msgstr "Asistente de metas de gamificación"
 
 #. module: gamification
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
-msgstr "Herramientas de ludificación"
+msgstr "Herramientas de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user
 msgid "Gamification User Badge"
-msgstr "Medalla de usuario de ludificación"
+msgstr "Medalla de usuario de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user_wizard
 msgid "Gamification User Badge Wizard"
-msgstr "Asistente de medalla de usuario de ludificación"
+msgstr "Asistente de medalla de usuario de gamificación"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
-msgstr "Meta genérica de ludificación para el desafío"
+msgstr "Meta genérica de gamificación para el desafío"
 
 #. module: gamification
 #: model:ir.actions.server,name:gamification.ir_cron_check_challenge_ir_actions_server
 #: model:ir.cron,cron_name:gamification.ir_cron_check_challenge
 #: model:ir.cron,name:gamification.ir_cron_check_challenge
 msgid "Gamification: Goal Challenge Check"
-msgstr "Ludificación: Comprobación de metas del reto"
+msgstr "Gamificación: Comprobación de metas del reto"
 
 #. module: gamification
 #: model:ir.actions.server,name:gamification.ir_cron_consolidate_last_month_ir_actions_server
 #: model:ir.cron,cron_name:gamification.ir_cron_consolidate_last_month
 #: model:ir.cron,name:gamification.ir_cron_consolidate_last_month
 msgid "Gamification: Karma tracking consolidation"
-msgstr "Ludificación: consolidación del seguimiento de karma"
+msgstr "Gamificación: consolidación del seguimiento de karma"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__goal_id
@@ -2565,7 +2565,7 @@ msgstr "Establece tu zona horaria"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__other
 msgid "Settings / Gamification Tools"
-msgstr "Ajustes / Herramientas de ludificación"
+msgstr "Ajustes / Herramientas de gamificación"
 
 #. module: gamification
 #: model:gamification.challenge,name:gamification.challenge_base_configure

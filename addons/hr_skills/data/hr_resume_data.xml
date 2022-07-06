@@ -2,12 +2,12 @@
 <odoo>
     <data>
         <record id="resume_type_experience" model="hr.resume.line.type">
-            <field name="name">Experience</field>
+            <field name="name">Experiencia</field>
             <field name="sequence">1</field>
         </record>
 
         <record id="resume_type_education" model="hr.resume.line.type">
-            <field name="name">Education</field>
+            <field name="name">Formación</field>
             <field name="sequence">2</field>
         </record>
     </data>

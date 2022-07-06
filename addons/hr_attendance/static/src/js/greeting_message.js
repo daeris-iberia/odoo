@@ -59,7 +59,7 @@ var GreetingMessage = AbstractAction.extend({
 
         if (action.hours_today) {
             var duration = moment.duration(action.hours_today, "hours");
-            this.hours_today = duration.hours() + ' hours, ' + duration.minutes() + ' minutes';
+            this.hours_today = duration.hours() + ' horas, ' + duration.minutes() + ' minutos';
         }
 
         this.employee_name = action.employee_name;

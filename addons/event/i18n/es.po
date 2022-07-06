@@ -1678,7 +1678,7 @@ msgstr "Fecha del final del evento"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Event Gamification"
-msgstr "Ludificación del evento"
+msgstr "Gamificación del evento"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form

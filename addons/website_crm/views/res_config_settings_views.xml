@@ -6,8 +6,8 @@
         <field name="inherit_id" ref="website.res_config_settings_view_form"/>
         <field name="arch" type="xml">
             <div id="webmaster_settings" position="after">
-                <h2>Communication</h2>
-                <div class="row mt16 o_settings_container" id="communication_settings">
+                <h2 groups="base.group_no_one">Communication</h2>
+                <div class="row mt16 o_settings_container" id="communication_settings" groups="base.group_no_one">
                     <div class="col-12 col-lg-6 o_setting_box" id="contact_form_install_setting" title="New messages are managed as leads or opportunities in your CRM app.">
                         <div class="o_setting_right_pane">
                             <span class="o_form_label">Contact Form</span>

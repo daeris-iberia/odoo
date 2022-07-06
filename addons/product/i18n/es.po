@@ -1778,7 +1778,7 @@ msgstr "Porcentaje de precio"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__pills
 msgid "Pills"
-msgstr "Pastillas"
+msgstr "Recuadro"
 
 #. module: product
 #. openerp-web
@@ -1855,7 +1855,7 @@ msgstr "Redondeo precio"
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 #, python-format
 msgid "Price Rules"
-msgstr "Normas de precio"
+msgstr "Reglas de precio"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_surcharge
@@ -2252,7 +2252,7 @@ msgstr "Cantidad de productos contenidos en el envase."
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__radio
 msgid "Radio"
-msgstr "Radio"
+msgstr "Opción"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__code
@@ -2344,7 +2344,7 @@ msgstr "Precio de venta"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__select
 msgid "Select"
-msgstr "Seleccionar"
+msgstr "Selección"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__categ_id

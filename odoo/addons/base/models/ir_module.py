@@ -591,9 +591,9 @@ class Module(models.Model):
             # during execution, the lock won't be released until timeout.
             self._cr.execute("SELECT * FROM ir_cron FOR UPDATE NOWAIT")
         except psycopg2.OperationalError:
-            raise UserError(_("Odoo is currently processing a scheduled action.\n"
-                              "Module operations are not possible at this time, "
-                              "please try again later or contact your system administrator."))
+            raise UserError(_("Daeris está procesando una acción programada.\n"
+                              "En este momento no se pueden realizar operaciones del módulo, "
+                              "por favor, inténtalo más tarde o contacta al administrador del sistema."))
         function(self)
 
         self._cr.commit()

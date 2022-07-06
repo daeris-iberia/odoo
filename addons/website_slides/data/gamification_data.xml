@@ -11,7 +11,7 @@
         <field name="rule_auth">nobody</field>
     </record>
     <record id="badge_data_register_goal" model="gamification.goal.definition">
-        <field name="name">Get started</field>
+        <field name="name">Empezar</field>
         <field name="description">Register to the platform</field>
         <field name="computation_mode">count</field>
         <field name="display_mode">boolean</field>
@@ -52,7 +52,7 @@
         <field name="rule_auth">nobody</field>
     </record>
     <record id="badge_data_profile_goal" model="gamification.goal.definition">
-        <field name="name">Know yourself</field>
+        <field name="name">Conocete a ti mismo</field>
         <field name="description">Complete your profile</field>
         <field name="computation_mode">count</field>
         <field name="display_mode">boolean</field>
@@ -94,7 +94,7 @@
         <field name="rule_auth">nobody</field>
     </record>
     <record id="badge_data_course_goal" model="gamification.goal.definition">
-        <field name="name">Power User</field>
+        <field name="name">Usuario poderoso</field>
         <field name="description">Complete a course</field>
         <field name="computation_mode">count</field>
         <field name="display_mode">boolean</field>
@@ -134,7 +134,7 @@
         <field name="rule_auth">nobody</field>
     </record>
     <record id="badge_data_certification_goal" model="gamification.goal.definition">
-        <field name="name">Certified Knowledge</field>
+        <field name="name">Conocimiento Certificado</field>
         <field name="description">Get a certification</field>
         <field name="computation_mode">count</field>
         <field name="display_mode">boolean</field>
@@ -175,7 +175,7 @@
         <field name="rule_auth">nobody</field>
     </record>
     <record id="badge_data_karma_goal" model="gamification.goal.definition">
-        <field name="name">Community hero</field>
+        <field name="name">Héroe de la comunidad</field>
         <field name="description">Reach 2000 XP</field>
         <field name="computation_mode">count</field>
         <field name="display_mode">boolean</field>

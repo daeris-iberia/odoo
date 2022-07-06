@@ -11,7 +11,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_popular_question">
-            <field name="name">Popular Question (150)</field>
+            <field name="name">Pregunta Popular (150)</field>
             <field name="description">Asked a question with at least 150 views</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -47,7 +47,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_notable_question">
-            <field name="name">Popular Question (250)</field>
+            <field name="name">Pregunta Popular (250)</field>
             <field name="description">Asked a question with at least 250 views</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -82,7 +82,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_famous_question">
-            <field name="name">Popular Question (500)</field>
+            <field name="name">Pregunta Popular (500)</field>
             <field name="description">Asked a question with at least 500 views</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -119,7 +119,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_favorite_question_1">
-            <field name="name">Favourite Question (1)</field>
+            <field name="name">Pregunta favorita (1)</field>
             <field name="description">Question set as favorite by 1 user</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -154,7 +154,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_favorite_question_5">
-            <field name="name">Favourite Question (5)</field>
+            <field name="name">Pregunta favorita (5)</field>
             <field name="description">Question set as favorite by 5 user</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -189,7 +189,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_stellar_question_25">
-            <field name="name">Favourite Question (25)</field>
+            <field name="name">Pregunta favorita (25)</field>
             <field name="description">Question set as favorite by 25 user</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -226,7 +226,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_student">
-            <field name="name">Upvoted question (1)</field>
+            <field name="name">Pregunta votada (1)</field>
             <field name="description">Asked first question with at least one up vote</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -261,7 +261,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_nice_question">
-            <field name="name">Upvoted question (4)</field>
+            <field name="name">Pregunta votada (4)</field>
             <field name="description">Asked first question with at least 4 up votes</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -296,7 +296,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_good_question">
-            <field name="name">Upvoted question (6)</field>
+            <field name="name">Pregunta votada (6)</field>
             <field name="description">Asked first question with at least 6 up votes</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -331,7 +331,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_great_question">
-            <field name="name">Upvoted question (15)</field>
+            <field name="name">Pregunta votada (15)</field>
             <field name="description">Asked first question with at least 15 up votes</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>
@@ -367,7 +367,7 @@
             <field name="rule_auth">nobody</field>
         </record>
         <record model="gamification.goal.definition" id="definition_scholar">
-            <field name="name">Scholar</field>
+            <field name="name">Erudito</field>
             <field name="description">Ask a question and accept an answer</field>
             <field name="computation_mode">count</field>
             <field name="display_mode">boolean</field>

@@ -8,6 +8,8 @@ from dateutil.relativedelta import relativedelta
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 
+import locale
+
 
 class HrHolidaySummaryReport(models.AbstractModel):
     _name = 'report.hr_holidays.report_holidayssummary'
@@ -18,13 +20,14 @@ class HrHolidaySummaryReport(models.AbstractModel):
         return {
             'start_date': fields.Date.to_string(st_date),
             'end_date': fields.Date.to_string(st_date + relativedelta(days=59)),
-            'holiday_type': 'Confirmed and Approved' if holiday_type == 'both' else holiday_type
+            'holiday_type': 'Confirmadas y Aprobadas' if holiday_type == 'both' else 'Confirmadas' if holiday_type == 'Confirmed' else 'Aprobadas'
         }
 
     def _date_is_day_off(self, date):
         return date.weekday() in (calendar.SATURDAY, calendar.SUNDAY,)
 
     def _get_day(self, start_date):
+        locale.setlocale(locale.LC_TIME, self.env.context['lang'] + '.utf8')
         res = []
         start_date = fields.Date.from_string(start_date)
         for x in range(0, 60):
@@ -35,6 +38,7 @@ class HrHolidaySummaryReport(models.AbstractModel):
 
     def _get_months(self, start_date):
         # it works for geting month name between two dates.
+        locale.setlocale(locale.LC_TIME, self.env.context['lang'] + '.utf8')
         res = []
         start_date = fields.Date.from_string(start_date)
         end_date = start_date + relativedelta(days=59)

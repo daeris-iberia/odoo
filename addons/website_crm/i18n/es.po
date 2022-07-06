@@ -35,7 +35,7 @@ msgstr "<span class=\"o_form_label\">Formulario de contacto</span>"
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
 msgid "Add a contact form in the"
-msgstr "Agrega un formulario de contacto en"
+msgstr "Agrega un formulario de contacto en la página"
 
 #. module: website_crm
 #. openerp-web
@@ -181,4 +181,4 @@ msgstr "Visitante del sitio web"
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
 msgid "page"
-msgstr "página"
+msgstr "."

@@ -553,7 +553,7 @@ class Challenge(models.Model):
         if challenge.visibility_mode == 'ranking':
             lines_boards = challenge._get_serialized_challenge_lines(restrict_goals=subset_goals)
 
-            body_html = challenge.report_template_id.with_context(challenge_lines=lines_boards)._render_field('body_html', challenge.ids)[challenge.id]
+            body_html = challenge.report_template_id.with_context(challenge_lines=lines_boards)._render_field('body_html', challenge.ids, compute_lang=True)[challenge.id]
 
             # send to every follower and participant of the challenge
             challenge.message_post(
@@ -574,7 +574,7 @@ class Challenge(models.Model):
                 if not lines:
                     continue
 
-                body_html = challenge.report_template_id.with_user(user).with_context(challenge_lines=lines)._render_field('body_html', challenge.ids)[challenge.id]
+                body_html = challenge.report_template_id.with_user(user).with_context(challenge_lines=lines)._render_field('body_html', challenge.ids, compute_lang=True)[challenge.id]
 
                 # notify message only to users, do not post on the challenge
                 challenge.message_notify(

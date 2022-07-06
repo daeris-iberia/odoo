@@ -1786,12 +1786,12 @@ msgstr "Frutas y vegetales"
 #. module: survey
 #: model:ir.model,name:survey.model_gamification_badge
 msgid "Gamification Badge"
-msgstr "Medalla de ludificación"
+msgstr "Medalla de gamificación"
 
 #. module: survey
 #: model:ir.model,name:survey.model_gamification_challenge
 msgid "Gamification Challenge"
-msgstr "Desafío de ludificación"
+msgstr "Desafío de gamificación"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2 model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1

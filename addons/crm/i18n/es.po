@@ -57,7 +57,7 @@ msgstr "%(assigned)s clientes potenciales distribuidos entre %(team_count)s equi
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid "%(assigned)s leads allocated to %(team_name)s team."
-msgstr "%(assigned)s clientes potenciales asignados a %(team_name)s equipo."
+msgstr "%(assigned)s clientes potenciales asignados al equipo %(team_name)s ."
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -1251,7 +1251,7 @@ msgstr "Alias de correo electrónico"
 #: model:crm.lead.scoring.frequency.field,name:crm.frequency_field_email_state
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
 msgid "Email Quality"
-msgstr "Calidad de Correo Electrónico"
+msgstr "Calidad del Correo Electrónico"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_cc
@@ -2564,7 +2564,7 @@ msgstr "Teléfono en la lista negra"
 #: model:crm.lead.scoring.frequency.field,name:crm.frequency_field_phone_state
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_state
 msgid "Phone Quality"
-msgstr "Calidad de llamada"
+msgstr "Calidad del Teléfono"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_mobile_search

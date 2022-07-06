@@ -88,8 +88,8 @@ class LunchSupplier(models.Model):
     ], default='no_delivery')
 
     topping_label_1 = fields.Char('Extra 1 Label', required=True, default='Extras')
-    topping_label_2 = fields.Char('Extra 2 Label', required=True, default='Beverages')
-    topping_label_3 = fields.Char('Extra 3 Label', required=True, default='Extra Label 3')
+    topping_label_2 = fields.Char('Extra 2 Label', required=True, default='Bebidas')
+    topping_label_3 = fields.Char('Extra 3 Label', required=True, default='Otros')
     topping_ids_1 = fields.One2many('lunch.topping', 'supplier_id', domain=[('topping_category', '=', 1)])
     topping_ids_2 = fields.One2many('lunch.topping', 'supplier_id', domain=[('topping_category', '=', 2)])
     topping_ids_3 = fields.One2many('lunch.topping', 'supplier_id', domain=[('topping_category', '=', 3)])
