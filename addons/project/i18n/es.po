@@ -3680,7 +3680,7 @@ msgstr "Compartir"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Share Readonly"
-msgstr "Compartir Readonly"
+msgstr "Compartir solo lectura"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__is_favorite
