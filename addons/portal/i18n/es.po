@@ -84,7 +84,7 @@ msgstr "<span class=\"small mr-1 navbar-text\">Ordenar por:</span>"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "<strong>Open </strong>"
-msgstr "<strong>Abrir</strong>"
+msgstr "<strong>Abrir </strong>"
 
 #. module: portal
 #: model:mail.template,body_html:portal.mail_template_data_portal_welcome
