@@ -569,7 +569,7 @@ msgstr "<strong class=\"d-block mb-2\">Archivos adjuntos</strong>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<strong>Assignees</strong>"
-msgstr "<strong>Cesionarios</strong>"
+msgstr "<strong>Responsables</strong>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -919,7 +919,7 @@ msgstr "Asignada a"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 #, python-format
 msgid "Assignees"
-msgstr "Cesionarios"
+msgstr "Responsables"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__date_assign
@@ -3583,7 +3583,7 @@ msgstr "Buscar en todos"
 #: code:addons/project/controllers/portal.py:0
 #, python-format
 msgid "Search in Assignees"
-msgstr "Buscar en Cesionarios"
+msgstr "Buscar en Responsables"
 
 #. module: project
 #: code:addons/project/controllers/portal.py:0
@@ -4665,12 +4665,12 @@ msgstr "Deberías tener al menos una etapa personal. Cree una nueva etapa a la q
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 msgid "assignee"
-msgstr "cesionario"
+msgstr "responsable"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 msgid "assignees"
-msgstr "cesionarios"
+msgstr "responsables"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form model_terms:ir.ui.view,arch_db:project.quick_create_task_form
