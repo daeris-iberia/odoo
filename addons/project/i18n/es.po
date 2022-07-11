@@ -1400,7 +1400,7 @@ msgstr "Diariamente"
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_graph model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_kanban
 msgid "Date"
-msgstr "Fechad"
+msgstr "Fecha"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__date_group_by
