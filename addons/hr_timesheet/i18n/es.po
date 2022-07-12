@@ -438,7 +438,7 @@ msgstr "Codificación de UdM"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 msgid "Generate timesheets upon time off validation"
-msgstr "Generar partes de horas tras la validación del tiempo de descuento"
+msgstr "Generar partes de horas tras la validación de las ausencias"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
