@@ -1543,7 +1543,7 @@ msgstr "Correo electrónico del cliente"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Date"
-msgstr "Fechad"
+msgstr "Fecha"
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__days model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__days
