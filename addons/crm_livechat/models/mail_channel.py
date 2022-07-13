@@ -12,7 +12,7 @@ class MailChannel(models.Model):
         partner = self.env.user.partner_id
         key = kwargs['body']
         if key.strip() == '/lead':
-            msg = _('Create a new lead (/lead lead title)')
+            msg = _('Crear un cliente potencial (/lead Título)')
         else:
             lead = self._convert_visitor_to_lead(partner, key)
             msg = _('Created a new lead: <a href="#" data-oe-id="%s" data-oe-model="crm.lead">%s</a>') % (lead.id, html_escape(lead.name))
