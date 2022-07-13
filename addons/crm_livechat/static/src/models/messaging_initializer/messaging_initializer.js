@@ -11,7 +11,7 @@ registerInstancePatchModel('mail.messaging_initializer', 'crm_livechat', {
         this._super();
         this.messaging.update({
             commands: insert({
-                help: this.env._t("Create a new lead (/lead lead title)"),
+                help: this.env._t("Crear un cliente potencial (/lead Título)"),
                 methodName: 'execute_command_lead',
                 name: "lead",
             }),
