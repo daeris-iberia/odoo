@@ -101,7 +101,7 @@ var feedbackStep = [{
     trigger: "div.o_thread_window_header.feedback_sent",
 }, {
     content: "Thanks for your feedback",
-    trigger: "div.o_livechat_rating_box:has(div:contains('Thank you for your feedback'))",
+    trigger: "div.o_livechat_rating_box:has(div:contains('Gracias por tus comentarios'))",
 }];
 
 var transcriptStep = [{
@@ -140,7 +140,7 @@ var goodRatingStep = [{
     trigger: "div.o_thread_window_header.feedback_sent",
 }, {
     content: "Thanks for your feedback",
-    trigger: "div.o_livechat_rating_box:has(div:contains('Thank you for your feedback'))"
+    trigger: "div.o_livechat_rating_box:has(div:contains('Gracias por tus comentarios'))"
 }];
 
 var okRatingStep = [{
