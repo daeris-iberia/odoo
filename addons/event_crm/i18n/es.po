@@ -244,7 +244,7 @@ msgstr "Última actualización el"
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_type__lead
 msgid "Lead"
-msgstr "Iniciativa"
+msgstr "Cliente potencial"
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
@@ -259,13 +259,13 @@ msgstr "Valores predeterminados de cliente potencial"
 #. module: event_crm
 #: model:ir.ui.menu,name:event_crm.event_lead_rule_menu
 msgid "Lead Generation"
-msgstr "Generación de Iniciativas"
+msgstr "Generación de Clientes Potenciales"
 
 #. module: event_crm
 #: model:ir.actions.act_window,name:event_crm.event_lead_rule_action
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Generation Rule"
-msgstr "Regla de generación de iniciativas"
+msgstr "Regla de generación de clientes potenciales"
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
@@ -288,7 +288,7 @@ msgstr "Cliente potencial/Oportunidad"
 #: model:ir.model.fields,field_description:event_crm.field_event_event__lead_ids
 #: model:ir.model.fields,field_description:event_crm.field_event_registration__lead_ids
 msgid "Leads"
-msgstr "Iniciativas"
+msgstr "Clientes potenciales"
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_registration__lead_ids
