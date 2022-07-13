@@ -113,7 +113,7 @@ var transcriptStep = [{
     trigger: "button.o_email_chat_button",
 }, {
     content: "Type your email",
-    trigger: "div.o_livechat_email:has(strong:contains('Conversation Sent'))",
+    trigger: "div.o_livechat_email:has(strong:contains('Conversación Enviada'))",
 }];
 
 var closeStep = [{

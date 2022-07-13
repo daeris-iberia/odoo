@@ -616,13 +616,13 @@ var Feedback = Widget.extend({
                     email: $email.val(),
                 }
             }).then(function () {
-                self.$('.o_livechat_email').html($('<strong />', { text: _t('Conversation Sent') }));
+                self.$('.o_livechat_email').html($('<strong />', { text: _t('Conversación Enviada') }));
             }).guardedCatch(function () {
                 self.$('.o_livechat_email').hide();
                 self.$('.o_livechat_email_error').show();
             });
         } else {
-            $email.addClass('is-invalid').prop('title', _t('Invalid email address'));
+            $email.addClass('is-invalid').prop('title', _t('Dirección de correo electrónico no válida'));
         }
     },
     /**
