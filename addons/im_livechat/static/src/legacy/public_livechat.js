@@ -542,10 +542,10 @@ var Feedback = Widget.extend({
         this.dp.add(session.rpc('/im_livechat/feedback', args)).then(function (response) {
             var emoji = RATING_TO_EMOJI[self.rating] || "??";
             if (!reason) {
-                var content = _.str.sprintf(_t("Rating: %s"), emoji);
+                var content = _.str.sprintf(_t("Calificación: %s"), emoji);
             }
             else {
-                var content = "Rating reason: \n" + reason;
+                var content = "Razón de calificación: \n" + reason;
             }
             self.trigger('send_message', { content: content, isFeedback: true });
         });
@@ -555,7 +555,7 @@ var Feedback = Widget.extend({
     */
     _showThanksMessage: function () {
         this.$('.o_livechat_rating_box').empty().append($('<div />', {
-            text: _t('Thank you for your feedback'),
+            text: _t('Gracias por tus comentarios'),
             class: 'text-muted'
         }));
     },
