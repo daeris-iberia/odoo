@@ -2925,7 +2925,7 @@ msgstr "Vende entradas en tu sitio web"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets with sales orders"
-msgstr "Vende entradas con órdenes de venta"
+msgstr "Vende entradas con pedidos de venta"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__notification_type model:ir.model.fields,field_description:event.field_event_type_mail__notification_type
