@@ -40,7 +40,7 @@ msgstr "<span class=\"text-muted\">Puntos</span>"
 #. module: website_event_track_quiz
 #: model_terms:ir.ui.view,arch_db:website_event_track_quiz.event_track_view_form
 msgid "Add Quiz"
-msgstr "Añadir Examen"
+msgstr "Añadir Cuestionario"
 
 #. module: website_event_track_quiz
 #. openerp-web
