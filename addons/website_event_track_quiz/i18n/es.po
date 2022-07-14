@@ -377,7 +377,7 @@ msgstr "Secuencia"
 #. module: website_event_track_quiz
 #: model_terms:ir.ui.view,arch_db:website_event_track_quiz.event_track_content
 msgid "Take the Quiz"
-msgstr "Toma el cuestionario"
+msgstr "Hacer el cuestionario"
 
 #. module: website_event_track_quiz
 #. openerp-web
