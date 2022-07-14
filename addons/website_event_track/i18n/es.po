@@ -236,7 +236,7 @@ msgstr "<span>&amp;nbsp;at&amp;nbsp;</span>"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<span>New track proposal</span>"
-msgstr "<span>Nueva propuesta de seguimiento</span>"
+msgstr "<span>Nueva propuesta de sesión</span>"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
@@ -331,7 +331,7 @@ msgstr "Crear una nueva etapa en el flujo de trabajo de tareas"
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_tag
 msgid "Add tags to your tracks to help your attendees browse your event web pages."
 msgstr ""
-"Añade etiquetas a tus seguimientos para ayudar a los asistentes a navegar por las páginas web de "
+"Añade etiquetas a tus sesiones para ayudar a los asistentes a navegar por las páginas web de "
 "tus eventos."
 
 #. module: website_event_track
@@ -348,7 +348,7 @@ msgstr "Todas las charlas"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_event_view_form
 msgid "Allow Track Proposals"
-msgstr "Permitir seguimiento de propuestas"
+msgstr "Permitir propuestas de sesiones"
 
 #. module: website_event_track
 #. openerp-web
@@ -394,8 +394,8 @@ msgid ""
 "As key track cannot be un-favorited, this field store the partner choice to remove the reminder "
 "for key tracks."
 msgstr ""
-"Como el seguimiento de claves no puede dejar de ser favorita, este campo almacena la opción del "
-"socio para eliminar el recordatorio de seguimientos clave."
+"Como sesión clave, no puede desmarcarse de favoritos, este campo almacena la opción del "
+"contacto para eliminar el recordatorio de sesiones clave."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_attachment_count
@@ -405,7 +405,7 @@ msgstr "Nº de archivos adjuntos"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__allowed_track_tag_ids
 msgid "Available Track Tags"
-msgstr "Etiquetas de seguimiento disponibles"
+msgstr "Etiquetas de sesión disponibles"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_biography
@@ -570,7 +570,7 @@ msgstr "Póngase en contacto conmigo a través de un correo electrónico / telé
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__partner_id
 msgid "Contact of the track, may be different from speaker."
-msgstr "El contacto del seguimiento, puede ser diferente del orador."
+msgstr "El contacto de la sesión, puede ser diferente del orador."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__contact_phone
@@ -581,17 +581,17 @@ msgstr "El teléfono de contacto es privado y se usa internamente"
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_from_event
 msgid "Create a Track"
-msgstr "Crear un seguimiento"
+msgstr "Crear una sesión"
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_location
 msgid "Create a Track Location"
-msgstr "Crear una ubicación de seguimiento"
+msgstr "Crear una ubicación de sesión"
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_tag
 msgid "Create a Track Tag"
-msgstr "Crear una etiqueta de seguimiento"
+msgstr "Crear una etiqueta de sesión"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__create_uid
@@ -636,10 +636,10 @@ msgid ""
 "            You will use these stages in order to track the progress in\n"
 "            solving an event track."
 msgstr ""
-"Defina los pasos que se utilizarán en el evento desde el\n"
-"            creación del seguimiento, hasta el cierre del seguimiento.\n"
-"            Utilizará estas etapas para realizar un seguimiento del progreso en\n"
-"            resolver un seguimiento de eventos."
+"Defina los pasos que se utilizarán en el evento desde la\n"
+"            creación de la sesión, hasta el cierre de la sesión.\n"
+"            Utilizará estas etapas para realizar un seguimiento del progreso al\n"
+"            resolver una sesión de eventos."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
@@ -671,7 +671,7 @@ msgstr "Nombre mostrado"
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_cta
 msgid "Display a Call to Action button to your Attendees while they watch your Track."
-msgstr "Muestra un botón de llamada a la acción a tus asistentes mientras ven tu seguimiento."
+msgstr "Muestra un botón de llamada a la acción a tus asistentes mientras ven tu sesión."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside_other_track
@@ -691,7 +691,7 @@ msgstr "Duración"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "Edit Track"
-msgstr "Editar seguimiento"
+msgstr "Editar sesión"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_email
@@ -752,12 +752,12 @@ msgstr "Sesión del evento"
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_location
 msgid "Event Track Location"
-msgstr "Localización del Seguimiento de Evento"
+msgstr "Ubicación de la sesión del evento"
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_stage
 msgid "Event Track Stage"
-msgstr "Etapa del Seguimiento de Evento"
+msgstr "Etapa de la sesión del evento"
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_tag
@@ -769,7 +769,7 @@ msgstr "Etiqueta de sesión del evento"
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_tag_category
 msgid "Event Track Tag Category"
-msgstr "Categoría de etiqueta de seguimiento de eventos"
+msgstr "Categoría de etiqueta de sesión del evento"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track
@@ -812,7 +812,7 @@ msgstr "Favoritos"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_topbar
 msgid "Filter Tracks..."
-msgstr "Filtrar seguimientos..."
+msgstr "Filtrar sesiones..."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
@@ -929,7 +929,7 @@ msgstr "Icono para indicar una actividad de excepción."
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_fully_accessible
 msgid "If checked, automatically publish tracks so that access links to customers are provided."
 msgstr ""
-"Si está marcado, publique automáticamente los seguimientos para que se proporcionen enlaces de "
+"Si está marcado, publique automáticamente las sesiones para que se proporcionen enlaces de "
 "acceso a los clientes."
 
 #. module: website_event_track
@@ -947,13 +947,13 @@ msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_visible_in_agenda
 msgid "If checked, the related tracks will be visible in the frontend."
-msgstr "Si se marca, los seguimiento relacionados serán visibles en el frontend."
+msgstr "Si se marca, las sesiones relacionadas serán visibles en el frontend."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__mail_template_id
 msgid "If set an email will be sent to the customer when the track reaches this step."
 msgstr ""
-"Si está configurado, se enviará un correo electrónico al cliente cuando el seguimiento alcance "
+"Si está configurado, se enviará un correo electrónico al cliente cuando la sesión alcance "
 "este paso."
 
 #. module: website_event_track
@@ -1032,27 +1032,27 @@ msgstr "Es recordatorio en"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_done
 msgid "Is Track Done"
-msgstr "¿Se realiza el seguimiento?"
+msgstr "¿Se ha finalizado la sesión?"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_live
 msgid "Is Track Live"
-msgstr "Es seguimiento en vivo"
+msgstr "¿Se ha iniciado la sesión?"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_soon
 msgid "Is Track Soon"
-msgstr "Es seguimiento pronto"
+msgstr "¿Empieza pronto la sesión?"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_today
 msgid "Is Track Today"
-msgstr "Es seguimiento hoy"
+msgstr "¿Se inicia hoy la sesión?"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_upcoming
 msgid "Is Track Upcoming"
-msgstr "¿Está próximo el seguimiento?"
+msgstr "¿Está próxima la sesión?"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__is_wishlisted
@@ -1172,7 +1172,7 @@ msgstr "Adjuntos principales"
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_location
 msgid "Manage from here the places where you organize your tracks (e.g. Rooms, Channels, ...)."
 msgstr ""
-"Gestiona desde aquí los lugares donde organizas tus seguimientos (por ejemplo, Salas, "
+"Gestiona desde aquí los lugares donde organizas tus sesiones (por ejemplo, Salas, "
 "Canales, ...)."
 
 #. module: website_event_track
@@ -1203,12 +1203,12 @@ msgstr "Minutos antes de que comience la CTA"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__track_start_remaining
 msgid "Minutes before track starts"
-msgstr "Minutos antes del inicio del seguimiento"
+msgstr "Minutos antes del inicio de la sesión"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__track_start_relative
 msgid "Minutes compare to track start"
-msgstr "Los minutos se comparan con el inicio del seguimiento"
+msgstr "Los minutos se comparan con el inicio de la sesión"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__my_activity_date_deadline
@@ -1218,7 +1218,7 @@ msgstr "Mi fecha límite de actividad"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "My Tracks"
-msgstr "Mis Seguimientos"
+msgstr "Mis Sesiones"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_name
@@ -1236,7 +1236,7 @@ msgstr "Nombre de la aplicación web events progressive de su sitio web"
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_event_track
 msgid "New Track"
-msgstr "Nuevo seguimiento"
+msgstr "Nueva sesión"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_calendar_event_id
@@ -1273,13 +1273,13 @@ msgstr "No se han encontrado resultados"
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_action_from_visitor
 msgid "No track favorited by this visitor"
-msgstr "No hay seguimiento favorito de este visitante"
+msgstr "No hay sesión favorita de este visitante"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "No track found."
-msgstr "No se ha encontrado ningún seguimiento."
+msgstr "No se ha encontrado ninguna sesión."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_tag__color
@@ -1408,7 +1408,7 @@ msgstr "Rechazado"
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__track_start_relative
 msgid "Relative time compared to track start (seconds)"
-msgstr "Tiempo relativo en comparación con el inicio del seguimiento (segundos)"
+msgstr "Tiempo relativo en comparación con el inicio de la sesión (segundos)"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_cta_start_remaining
@@ -1418,7 +1418,7 @@ msgstr "Tiempo restante antes de que comience la CTA (segundos)"
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__track_start_remaining
 msgid "Remaining time before track starts (seconds)"
-msgstr "Tiempo restante antes de que comience el seguimiento (segundos)"
+msgstr "Tiempo restante antes de que comience la sesión (segundos)"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__user_id
@@ -1482,7 +1482,7 @@ msgstr "Mostrar todos los registros que tienen la próxima fecha de acción ante
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_event_view_form
 msgid "Showcase Tracks"
-msgstr "Exhibir Seguimientos"
+msgstr "Exhibir Sesiones"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
@@ -1720,17 +1720,17 @@ msgstr "Sesión"
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_visitor
 msgid "Track / Visitor Link"
-msgstr "Seguimiento / Enlace de visitante"
+msgstr "Sesión / Enlace de visitante"
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_track_blocked
 msgid "Track Blocked"
-msgstr "Seguimiento bloqueado"
+msgstr "Sesión bloqueada"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_count
 msgid "Track Count"
-msgstr "Nº de seguimientos"
+msgstr "Nº de sesiones"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__date
@@ -1740,27 +1740,27 @@ msgstr "Fecha de la sesión"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__date_end
 msgid "Track End Date"
-msgstr "Fecha Final del Seguimiento"
+msgstr "Fecha Final de la sesión"
 
 #. module: website_event_track
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_location
 msgid "Track Locations"
-msgstr "Ubicaciones de seguimiento"
+msgstr "Ubicaciones de sesiones"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_type_view_form_inherit_track
 msgid "Track Proposals Menu Item"
-msgstr "Elemento de menú Seguimiento de propuestas"
+msgstr "Elemento de menú de propuestas de sesiones"
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_track_ready
 msgid "Track Ready"
-msgstr "Seguimiento listo"
+msgstr "Sesión lista"
 
 #. module: website_event_track
 #: model:mail.message.subtype,description:website_event_track.mt_track_ready
 msgid "Track Ready for Next Stage"
-msgstr "Seguimiento listo para la siguiente etapa"
+msgstr "Sesión lista para la siguiente etapa"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -1774,18 +1774,18 @@ msgstr "Estapa de la sesión"
 #: model:ir.ui.menu,name:website_event_track.event_track_stage_menu
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_search
 msgid "Track Stages"
-msgstr "Etapas de seguimiento"
+msgstr "Etapas de sesión"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_tag_category_action
 #: model:ir.ui.menu,name:website_event_track.event_track_tag_category_menu
 msgid "Track Tag Categories"
-msgstr "Categorías de etiquetas de seguimiento"
+msgstr "Categorías de etiqueta de sesión"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_tag_category_view_form
 msgid "Track Tag Category"
-msgstr "Categoría de etiqueta de seguimiento"
+msgstr "Categoría de etiqueta de sesión"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_tag
@@ -1797,12 +1797,12 @@ msgstr "Etiquetas de la sesión"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_tag_category_view_list
 msgid "Track Tags Category"
-msgstr "Categoría de etiquetas de seguimiento"
+msgstr "Categoría de etiquetas de sesión"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_form
 msgid "Track Visitor"
-msgstr "Seguimiento de visitantes"
+msgstr "Visitante de la sesión"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_visitor_action
@@ -1812,7 +1812,7 @@ msgstr "Seguimiento de visitantes"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_list
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 msgid "Track Visitors"
-msgstr "Seguimiento de visitantes"
+msgstr "Visitantes de la sesión"
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
@@ -1826,42 +1826,42 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_soon
 msgid "Track begins soon"
-msgstr "El seguimiento comienza pronto"
+msgstr "La sesión comienza pronto"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_today
 msgid "Track begins today"
-msgstr "El seguimiento comienza hoy"
+msgstr "La sesión comienza hoy"
 
 #. module: website_event_track
 #: model:mail.message.subtype,description:website_event_track.mt_track_blocked
 msgid "Track blocked"
-msgstr "Seguimiento bloqueado"
+msgstr "Sesión bloqueada"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__duration
 msgid "Track duration in hours."
-msgstr "Duración del seguimiento en horas."
+msgstr "Duración de la sesión en horas."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_live
 msgid "Track has started and is ongoing"
-msgstr "El seguimiento ha comenzado y está en curso"
+msgstr "La sesión ha comenzado y está en curso"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_done
 msgid "Track is finished"
-msgstr "El seguimiento está terminado"
+msgstr "La sesión está finalizada"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_upcoming
 msgid "Track is not yet started"
-msgstr "El seguimiento aún no se ha iniciado"
+msgstr "La sesión aún no se ha iniciado"
 
 #. module: website_event_track
 #: model:mail.template,name:website_event_track.mail_template_data_track_confirmation
 msgid "Track: Confirmation"
-msgstr "Seguimiento: Confirmación"
+msgstr "Sesión: Confirmación"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_ids
@@ -1876,26 +1876,26 @@ msgstr "Sesiones"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_type_view_form_inherit_track
 msgid "Tracks Menu Item"
-msgstr "Elemento de menú de seguimiento"
+msgstr "Elemento de menú de sesiones"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_type__website_track_proposal
 msgid "Tracks Proposals on Website"
-msgstr "Propuestas de seguimientos en el sitio web"
+msgstr "Propuestas de sesiones en el sitio web"
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_from_event
 msgid "Tracks define your event schedule. They can be talks, workshops or any similar activity."
 msgstr ""
-"Los seguimientos definen el calendario de eventos. Pueden ser charlas, talleres o cualquier "
+"Las sesiones definen el calendario de eventos. Pueden ser charlas, talleres o cualquier "
 "actividad similar."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__website_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_type__website_track
 msgid "Tracks on Website"
-msgstr "Seguimientos en el sitio web"
+msgstr "Sesiones en el sitio web"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__activity_exception_decoration
@@ -1954,13 +1954,13 @@ msgstr "Lista de deseos de los visitantes"
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.website_visitor_action_from_track
 msgid "Wait for visitors to add this track to their list of favorites"
-msgstr "Espere a que los visitantes agreguen este seguimiento a su lista de favoritos"
+msgstr "Espere a que los visitantes agreguen esta sesión a su lista de favoritos"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "We did not find any track matching your"
-msgstr "No encontramos ningún seguimiento que coincida con su"
+msgstr "No encontramos ninguna sesión que coincida con tu"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1982,7 +1982,7 @@ msgstr ""
 "                            presentaciones, a partir de informes académicos y\n"
 "                            proyectos comerciales a tutoriales y caso\n"
 "                            Estudios. Siempre y cuando la presentación sea\n"
-"                            interesante y potencialmente útil para el\n"
+"                            interesante y potencialmente útil para la\n"
 "                            audiencia, se considerará para\n"
 "                            inclusión en el programa."
 
@@ -1991,7 +1991,7 @@ msgstr ""
 #: code:addons/website_event_track/static/src/xml/event_track_proposal_templates.xml:0
 #, python-format
 msgid "We will evaluate your proposition and get back to you shortly."
-msgstr "Evaluaremos su propuesta y le responderemos en breve."
+msgstr "Evaluaremos tu propuesta y te responderemos en breve."
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_website
@@ -2077,14 +2077,14 @@ msgstr "Lista de deseos por"
 #: model:ir.actions.act_window,name:website_event_track.event_track_action_from_visitor
 #: model:ir.model.fields,field_description:website_event_track.field_website_visitor__event_track_wishlisted_ids
 msgid "Wishlisted Tracks"
-msgstr "Seguimientos en Lista de Deseos"
+msgstr "Sesiones en Lista de Deseos"
 
 #. module: website_event_track
 #. openerp-web
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form.js:0
 #, python-format
 msgid "You cannot access this page."
-msgstr "No puede acceder a esta página."
+msgstr "No puedes acceder a esta página."
 
 #. module: website_event_track
 #. openerp-web
@@ -2092,7 +2092,7 @@ msgstr "No puede acceder a esta página."
 #, python-format
 msgid "You have to enable push notifications to get reminders for your favorite tracks."
 msgstr ""
-"Debe habilitar las notificaciones push para obtener recordatorios de sus seguimientos favoritos."
+"Debes habilitar las notificaciones push para obtener recordatorios de tus sesiones favoritas."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline
@@ -2127,7 +2127,7 @@ msgstr "horas"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "minutes after track starts"
-msgstr "minutos después del inicio del seguimiento"
+msgstr "minutos después del inicio de la sesión"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.registration_complete
@@ -2153,4 +2153,4 @@ msgstr "comienza el"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 msgid "tracks"
-msgstr "tracks"
+msgstr "sesiones"
