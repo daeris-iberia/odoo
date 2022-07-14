@@ -79,7 +79,7 @@ msgstr "<span>Descripción de 100 palabras en el sitio web</span>"
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 Branded Booth</span>"
-msgstr "<span>2 Stand de Marca</span>"
+msgstr "<span>2 Stands de Marca</span>"
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
@@ -205,7 +205,7 @@ msgid ""
 "rent (Premium Booth, Table and Chairs, ...)"
 msgstr ""
 "Las categorías de stands se utilizan para representar los diferentes tipos "
-"de stands que alquila (Stand Premium, Mesa y Sillas, ...)"
+"de stands que alquilas (Stand Premium, Mesa y Sillas, ...)"
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_booth_action
@@ -523,24 +523,24 @@ msgstr "Stand Premium"
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__partner_id
 msgid "Renter"
-msgstr "Inquilino"
+msgstr "Arrendatario"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_email
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Email"
-msgstr "Correo electrónico del inquilino"
+msgstr "Correo electrónico del arrendatario"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_mobile
 msgid "Renter Mobile"
-msgstr "Móvil del inquilino"
+msgstr "Móvil del arrendatario"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_name
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Name"
-msgstr "Nombre del inquilino"
+msgstr "Nombre del arrendatario"
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_phone
