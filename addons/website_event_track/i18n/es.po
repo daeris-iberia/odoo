@@ -439,7 +439,7 @@ msgstr "Reserva tus charlas"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_url
 msgid "Button Target URL"
-msgstr "Botón Target URL"
+msgstr "URL de destino del botón"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_title
