@@ -197,7 +197,7 @@ msgid ""
 "<span class=\"o_wetrack_proposal_label_content\">Talk Introduction</span>\n"
 "                                            <span>*</span>"
 msgstr ""
-"<span class=\"o_wetrack_proposal_label_content\">Charla Introducción</span>\n"
+"<span class=\"o_wetrack_proposal_label_content\">Introducción</span>\n"
 "                                            <span>*</span>"
 
 #. module: website_event_track
@@ -1444,7 +1444,7 @@ msgstr "Error de entrega del SMS"
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "Schedule some tracks to get started"
-msgstr "Programe algunas pistas para comenzar"
+msgstr "Programe algunas sesiones para comenzar"
 
 #. module: website_event_track
 #. openerp-web
@@ -1820,7 +1820,7 @@ msgid ""
 "wishlisted."
 msgstr ""
 "Rastrea las estadísticas de la tienda de visitantes sobre tus eventos, incluida la cantidad de "
-"veces que las pistas han sido listadas de deseos."
+"veces que las sesiones han sido añadidas a la lista de deseos."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_soon
@@ -1978,11 +1978,11 @@ msgid ""
 "                            inclusion in the programme."
 msgstr ""
 "Aceptaremos una amplia gama de\n"
-"                            presentaciones, a partir de informes académicos y\n"
-"                            proyectos comerciales a tutoriales y caso\n"
-"                            Estudios. Siempre y cuando la presentación sea\n"
+"                            presentaciones, de informes académicos y\n"
+"                            proyectos comerciales a tutoriales y casos\n"
+"                            de estudio. Siempre y cuando la presentación sea\n"
 "                            interesante y potencialmente útil para la\n"
-"                            audiencia, se considerará para\n"
+"                            audiencia, se considerará para su\n"
 "                            inclusión en el programa."
 
 #. module: website_event_track
