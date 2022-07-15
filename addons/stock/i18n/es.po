@@ -7889,4 +7889,4 @@ msgstr "{{ (object.name or '').replace('/','_') }}"
 #. module: stock
 #: model:mail.template,subject:stock.mail_template_data_delivery_confirmation
 msgid "{{ object.company_id.name }} Delivery Order (Ref {{ object.name or 'n/a' }})"
-msgstr "{{ object.company_id.name }} Orden de entrega (Ref {{ object.name o 'n/a' }})"
+msgstr "{{ object.company_id.name }} Orden de entrega (Ref {{ object.name or 'n/a' }})"
