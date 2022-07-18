@@ -1071,7 +1071,7 @@ msgstr "Los componentes se reservarán primero para el MO con las prioridades m�
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__time_mode__auto
 msgid "Compute based on tracked time"
-msgstr "Cómputo basado en el tiempo rastreado"
+msgstr "Cómputo basado en el tiempo registrado"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__time_computed_on
@@ -5037,7 +5037,7 @@ msgstr "Planificación de órdenes de trabajo"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__worksheet_type
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "Work Sheet"
-msgstr "Hoja de cálculo"
+msgstr "Hoja de trabajo"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
