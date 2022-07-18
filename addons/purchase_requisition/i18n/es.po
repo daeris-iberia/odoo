@@ -297,7 +297,7 @@ msgstr "Nombre mostrado"
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition_type__line_copy__none
 msgid "Do not create RfQ lines automatically"
-msgstr "No crear líneas RFQ automáticamente"
+msgstr "No crear líneas de SdP automáticamente"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -395,9 +395,9 @@ msgid ""
 "            validate some and cancel others."
 msgstr ""
 "En una licitación, puede incluir los productos que necesita comprar\n"
-"            and generate the creation of RfQs to vendors. Once the tenders have\n"
-"            been registered, you can review and compare them and you can\n"
-"            validate some and cancel others."
+"            y generar la creación de SdPs a los proveedores. Una vez que las ofertas hayan\n"
+"            sido registradas, puedes revisarlas y compararlas y puedes\n"
+"            validar algunas y cancelar otras."
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -666,7 +666,7 @@ msgstr "Cantidad"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "RFQs/Orders"
-msgstr "RFQ/Órdenes"
+msgstr "SdP/Pedidos"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__name
@@ -727,7 +727,7 @@ msgstr "Buscar acuerdos de compra"
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition_type__exclusive__multiple
 msgid "Select multiple RFQ (non-exclusive)"
-msgstr "Seleccione varias RFQ (no exclusivas)"
+msgstr "Seleccionar varias SdP (no exclusivas)"
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition_type__exclusive__exclusive
@@ -741,9 +741,9 @@ msgid ""
 "\n"
 "                    Select multiple RFQ (non-exclusive): allows multiple purchase orders. On confirmation of a purchase order it does not cancel the remaining orders"
 msgstr ""
-"Seleccione solo una RFQ (exclusivo):  cuando se confirma una orden de compra, cancele la orden de compra restante.\n"
+"Seleccione solo una SdP (exclusivo):  cuando se confirma una orden de compra, cancele la orden de compra restante.\n"
 "\n"
-"                    Seleccionar múltiples RFQ (no exclusivo): permite múltiples órdenes de compra. Tras la confirmación de una orden de compra, no cancela los "
+"                    Seleccionar varias SdP (no exclusivas): permite múltiples órdenes de compra. Tras la confirmación de una orden de compra, no cancela los "
 "pedidos restantes"
 
 #. module: purchase_requisition
@@ -920,7 +920,7 @@ msgstr "No se puede confirmar el Acuerdo Abierto sin cantidad."
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 #, python-format
 msgid "You have to cancel or validate every RfQ before closing the purchase requisition."
-msgstr "Debe cancelar o validar cada RFQ antes de cerrar el presupuesto."
+msgstr "Debe cancelar o validar cada SdP antes de cerrar el presupuesto."
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
