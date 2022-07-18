@@ -4710,7 +4710,7 @@ msgstr "Desbloqueado de forma predeterminada"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unplan"
-msgstr "No planificado"
+msgstr "Desplanificar"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_unread
