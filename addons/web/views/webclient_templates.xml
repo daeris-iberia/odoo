@@ -86,9 +86,9 @@
     <template id="brand_promotion_message" name="Brand Promotion Message">
         <t t-set="odoo_logo">
             <a target="_blank"
-                t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
+                t-attf-href="http://www.daeris.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge badge-light">
-                <img alt="Odoo"
+                <img alt="Daeris"
                         src="/web/static/img/odoo_logo_tiny.png"
                         style="height: 1em; vertical-align: baseline;"/>
             </a>
