@@ -69,7 +69,7 @@
                 <body>
                      <div class="main" style="opacity: 1;">
                         <h1 class="channel_name"><t t-esc="channel.name"/></h1>
-                        <div>Website Live Chat Powered by <strong>Odoo</strong>.</div>
+                        <div>Chat en vivo del sitio web con tecnología de <strong>Daeris</strong>.</div>
                     </div>
                 </body>
             </html>

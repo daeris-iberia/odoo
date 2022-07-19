@@ -17,7 +17,7 @@
             <div class="o_livechat_rating_reason">
                 <textarea id="reason" placeholder="Explain your note"></textarea>
                 <div class="o_livechat_rating_reason_button">
-                    <input type="button" class="btn btn-primary btn-sm o_rating_submit_button" value="Send" />
+                    <input type="button" class="btn btn-primary btn-sm o_rating_submit_button" value="Enviar" />
                 </div>
             </div>
             <div class="o_livechat_email text-left">
@@ -34,7 +34,7 @@
                 <a href="#" class="alert-link">Try again</a>
             </div>
             <div class="o_livechat_no_feedback text-muted">
-                <span>Close conversation</span>
+                <span>Cerrar conversación</span>
             </div>
         </div>
     </t>

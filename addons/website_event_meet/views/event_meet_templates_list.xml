@@ -31,7 +31,7 @@
             <div class="dropdown">
                 <a class="dropdown-toggle o-no-caret btn p-0" title="Languages Menu"
                     aria-label="Dropdown menu" data-display="static" data-toggle="dropdown" href="#" role="button">
-                    <span t-esc="current_lang.name if current_lang else 'All Languages'"/> ▼</a>
+                    <span t-esc="current_lang.name if current_lang else 'Todos los idiomas'"/> ▼</a>
                 <div class="dropdown-menu" role="menu">
                     <a class="dropdown-item" role="menuitem" t-attf-href="/event/#{slug(event)}/community">All Languages
                        </a>

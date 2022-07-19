@@ -82,7 +82,7 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid ", on the"
-msgstr ", en el"
+msgstr ", el"
 
 #. module: im_livechat
 #. openerp-web

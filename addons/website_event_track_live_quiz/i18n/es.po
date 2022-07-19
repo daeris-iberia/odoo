@@ -29,4 +29,4 @@ msgstr "Siguiente pista"
 #: code:addons/website_event_track_live_quiz/static/src/xml/website_event_track_live_templates.xml:0
 #, python-format
 msgid "Take the Quiz"
-msgstr "Toma el cuestionario"
+msgstr "Hacer el cuestionario"

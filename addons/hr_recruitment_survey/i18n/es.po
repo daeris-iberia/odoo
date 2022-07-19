@@ -89,7 +89,7 @@ msgstr "Respuesta"
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
 msgid "SEND INTERVIEW"
-msgstr "ENVIAR ENTREVISTA"
+msgstr "Enviar entrevista"
 
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit

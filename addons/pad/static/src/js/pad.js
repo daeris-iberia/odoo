@@ -106,7 +106,7 @@ var FieldPad = AbstractField.extend({
             // with the correct src attribute
             var userName = encodeURIComponent(this.getSession().name);
             var url = this.url + '?showChat=false&userName=' + userName;
-            var content = '<iframe width="100%" height="100%" style="height: 50vh;" frameborder="0" src="' + url + '"></iframe>';
+            var content = '<iframe width="100%" height="100%" style="height: 69vh;" frameborder="0" src="' + url + '"></iframe>';
             this.$('.oe_pad_content').html(content);
         } else if (this.value) {
             // it looks like the field does not contain a valid url, so we just

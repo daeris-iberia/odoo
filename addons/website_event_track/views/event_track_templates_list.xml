@@ -62,7 +62,7 @@
                     <t t-call="website_event.events_search_box">
                         <t t-set="_searches" t-value="searches"/>
                         <t t-set="action" t-value="'/event/%s/track' % (slug(event))"/>
-                        <t t-set="_placeholder" t-value="'Search a talk ...'"/>
+                        <t t-set="_placeholder" t-value="'Buscar una charla ...'"/>
                     </t>
                 </div>
             </div>

@@ -41,7 +41,7 @@
                 <div class="o_wevent_event_search_box d-flex align-items-center flex-wrap pl-sm-3 pr-0">
                     <t t-call="website_event_exhibitor.exhibitor_search_box">
                         <t t-set="search" t-value="search_key" />
-                        <t t-set="placeholder" t-value="'Search an exhibitor ...'"/>
+                        <t t-set="placeholder" t-value="'Buscar un expositor ...'"/>
                     </t>
                 </div>
             </div>

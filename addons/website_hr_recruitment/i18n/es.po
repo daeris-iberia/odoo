@@ -75,7 +75,7 @@ msgstr "<span class=\"s_website_form_label_content\">Trabajo</span>"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid "<span class=\"s_website_form_label_content\">Resume</span>"
-msgstr "<span class=\"s_website_form_label_content\">Resumen</span>"
+msgstr "<span class=\"s_website_form_label_content\">Currículum Vitae</span>"
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply

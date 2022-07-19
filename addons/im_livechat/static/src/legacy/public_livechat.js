@@ -542,10 +542,10 @@ var Feedback = Widget.extend({
         this.dp.add(session.rpc('/im_livechat/feedback', args)).then(function (response) {
             var emoji = RATING_TO_EMOJI[self.rating] || "??";
             if (!reason) {
-                var content = _.str.sprintf(_t("Rating: %s"), emoji);
+                var content = _.str.sprintf(_t("Calificación: %s"), emoji);
             }
             else {
-                var content = "Rating reason: \n" + reason;
+                var content = "Razón de calificación: \n" + reason;
             }
             self.trigger('send_message', { content: content, isFeedback: true });
         });
@@ -555,7 +555,7 @@ var Feedback = Widget.extend({
     */
     _showThanksMessage: function () {
         this.$('.o_livechat_rating_box').empty().append($('<div />', {
-            text: _t('Thank you for your feedback'),
+            text: _t('Gracias por tus comentarios'),
             class: 'text-muted'
         }));
     },
@@ -616,13 +616,13 @@ var Feedback = Widget.extend({
                     email: $email.val(),
                 }
             }).then(function () {
-                self.$('.o_livechat_email').html($('<strong />', { text: _t('Conversation Sent') }));
+                self.$('.o_livechat_email').html($('<strong />', { text: _t('Conversación Enviada') }));
             }).guardedCatch(function () {
                 self.$('.o_livechat_email').hide();
                 self.$('.o_livechat_email_error').show();
             });
         } else {
-            $email.addClass('is-invalid').prop('title', _t('Invalid email address'));
+            $email.addClass('is-invalid').prop('title', _t('Dirección de correo electrónico no válida'));
         }
     },
     /**

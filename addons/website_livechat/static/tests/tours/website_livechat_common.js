@@ -101,7 +101,7 @@ var feedbackStep = [{
     trigger: "div.o_thread_window_header.feedback_sent",
 }, {
     content: "Thanks for your feedback",
-    trigger: "div.o_livechat_rating_box:has(div:contains('Thank you for your feedback'))",
+    trigger: "div.o_livechat_rating_box:has(div:contains('Gracias por tus comentarios'))",
 }];
 
 var transcriptStep = [{
@@ -113,7 +113,7 @@ var transcriptStep = [{
     trigger: "button.o_email_chat_button",
 }, {
     content: "Type your email",
-    trigger: "div.o_livechat_email:has(strong:contains('Conversation Sent'))",
+    trigger: "div.o_livechat_email:has(strong:contains('Conversación Enviada'))",
 }];
 
 var closeStep = [{
@@ -140,7 +140,7 @@ var goodRatingStep = [{
     trigger: "div.o_thread_window_header.feedback_sent",
 }, {
     content: "Thanks for your feedback",
-    trigger: "div.o_livechat_rating_box:has(div:contains('Thank you for your feedback'))"
+    trigger: "div.o_livechat_rating_box:has(div:contains('Gracias por tus comentarios'))"
 }];
 
 var okRatingStep = [{

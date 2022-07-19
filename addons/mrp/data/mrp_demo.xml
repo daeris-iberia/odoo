@@ -14,17 +14,17 @@
         <!-- Resource: mrp.workcenter -->
 
         <record id="mrp_workcenter_3" model="mrp.workcenter">
-            <field name="name">Assembly Line 1</field>
+            <field name="name">Línea de montaje 1</field>
             <field name="resource_calendar_id" ref="resource.resource_calendar_std"/>
         </record>
 
         <record id="mrp_workcenter_1" model="mrp.workcenter">
-            <field name="name">Drill Station 1</field>
+            <field name="name">Estación de perforación 1</field>
             <field name="resource_calendar_id" ref="resource.resource_calendar_std"/>
         </record>
 
         <record id="mrp_workcenter_2" model="mrp.workcenter">
-            <field name="name">Assembly Line 2</field>
+            <field name="name">Línea de montaje 2</field>
             <field name="resource_calendar_id" ref="resource.resource_calendar_std"/>
         </record>
 
@@ -41,7 +41,7 @@
         <record id="mrp_routing_workcenter_0" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_manufacture"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Manual Assembly</field>
+            <field name="name">Montaje Manual</field>
             <field name="time_cycle">60</field>
             <field name="sequence">5</field>
             <field name="worksheet_type">pdf</field>
@@ -245,7 +245,7 @@
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
             <field name="time_cycle">120</field>
             <field name="sequence">10</field>
-            <field name="name">Assembly</field>
+            <field name="name">Montaje</field>
             <field name="worksheet_type">pdf</field>
             <field name="worksheet" type="base64" file="mrp/static/img/cutting-worksheet.pdf"/>
         </record>
@@ -309,7 +309,7 @@
         <record id="mrp_routing_workcenter_0" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_table_top"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Manual Assembly</field>
+            <field name="name">Montaje Manual</field>
             <field name="time_cycle">60</field>
             <field name="sequence">5</field>
             <field name="worksheet_type">pdf</field>
@@ -339,7 +339,7 @@
         <record id="mrp_routing_workcenter_1" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_plastic_laminate"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Long time assembly</field>
+            <field name="name">Montaje de larga duración</field>
             <field name="time_cycle">180</field>
             <field name="sequence">15</field>
             <field name="worksheet_type">pdf</field>
@@ -349,7 +349,7 @@
         <record id="mrp_routing_workcenter_3" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_plastic_laminate"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Testing</field>
+            <field name="name">Pruebas</field>
             <field name="time_cycle">60</field>
             <field name="sequence">10</field>
             <field name="worksheet_type">pdf</field>
@@ -359,7 +359,7 @@
         <record id="mrp_routing_workcenter_4" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_plastic_laminate"/>
             <field name="workcenter_id" ref="mrp_workcenter_1"/>
-            <field name="name">Packing</field>
+            <field name="name">Embalaje</field>
             <field name="time_cycle">30</field>
             <field name="sequence">5</field>
             <field name="worksheet_type">pdf</field>
@@ -598,7 +598,7 @@
         <record id="mrp_routing_workcenter_1" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_drawer_rout"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Long time assembly</field>
+            <field name="name">Montaje de larga duración</field>
             <field name="time_cycle">180</field>
             <field name="sequence">15</field>
             <field name="worksheet_type">pdf</field>
@@ -608,7 +608,7 @@
         <record id="mrp_routing_workcenter_3" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_drawer_rout"/>
             <field name="workcenter_id" ref="mrp_workcenter_3"/>
-            <field name="name">Testing</field>
+            <field name="name">Pruebas</field>
             <field name="time_cycle">60</field>
             <field name="sequence">10</field>
             <field name="worksheet_type">pdf</field>
@@ -618,7 +618,7 @@
         <record id="mrp_routing_workcenter_4" model="mrp.routing.workcenter">
             <field name="bom_id" ref="mrp_bom_drawer_rout"/>
             <field name="workcenter_id" ref="mrp_workcenter_1"/>
-            <field name="name">Packing</field>
+            <field name="name">Embalaje</field>
             <field name="time_cycle">30</field>
             <field name="sequence">5</field>
             <field name="worksheet_type">pdf</field>

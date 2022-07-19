@@ -18,7 +18,7 @@ import { _t } from 'web.core';
  */
 var MrpWorkorderPopover = PopoverWidget.extend({
     popoverTemplate: 'mrp.workorderPopover',
-    title: _t('Scheduling Information'),
+    title: _t('Información de Programación'),
 
     _render: function () {
         this._super.apply(this, arguments);
