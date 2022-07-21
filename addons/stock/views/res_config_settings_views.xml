@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--h2>Barcode</h2-->
+                        <h2>Barcode</h2>
                         <div class="row mt16 o_settings_container" name="barcode_setting_container">
                             <div class="col-12 col-lg-6 o_setting_box" id="process_operations_barcodes">
                                 <div class="o_setting_left_pane">
