@@ -812,7 +812,7 @@ msgstr "Código estandarizado para envíos internacionales y declaración de bie
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__state_ids
 msgid "States"
-msgstr "Estados"
+msgstr "Provincias"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_move
