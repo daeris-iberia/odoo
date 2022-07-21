@@ -338,7 +338,7 @@ msgstr "Reglas de precios de entrega"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
-msgstr "Envío de producto"
+msgstr "Producto asociado a los gastos de envío"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_rating_success
