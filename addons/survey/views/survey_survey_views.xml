@@ -131,7 +131,7 @@
                                            attrs="{'invisible': ['|', ('certification_give_badge', '=', False), ('certification_badge_id', '!=', False)], 'required': [('certification_give_badge', '=', True)]}"
                                            domain="[('survey_id', '=', active_id), ('survey_id', '!=', False)]"
                                            context="{'default_name': title,
-                                                   'default_description': 'Congratulations, you have succeeded this certification',
+                                                   'default_description': 'Felicidades, has superado con éxito esta certificación',
                                                    'default_rule_auth': 'nobody',
                                                    'default_level': None,
                                                    'form_view_ref': 'survey.gamification_badge_form_view_simplified',
