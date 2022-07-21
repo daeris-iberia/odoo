@@ -986,7 +986,7 @@ class Warehouse(models.Model):
                 'sequence_code': 'INT',
                 'company_id': self.company_id.id,
             }, 'return_type_id': {
-                'name': _('Returns'),
+                'name': _('Devoluciones'),
                 'code': 'incoming',
                 'use_create_lots': False,
                 'use_existing_lots': True,
