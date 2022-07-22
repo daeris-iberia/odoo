@@ -7147,9 +7147,14 @@ msgid "Vendor Locations"
 msgstr "Ubicaciones de proveedor"
 
 #. module: stock
-#: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__view model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
+#: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__view
 msgid "View"
 msgstr "Vista"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
+msgid "View"
+msgstr "Ver"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
