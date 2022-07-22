@@ -601,25 +601,25 @@ class Warehouse(models.Model):
                 'barcode': self._valid_barcode(code + '-STOCK', company_id)
             },
             'wh_input_stock_loc_id': {
-                'name': _('Input'),
+                'name': _('Entrada'),
                 'active': reception_steps != 'one_step',
                 'usage': 'internal',
                 'barcode': self._valid_barcode(code + '-INPUT', company_id)
             },
             'wh_qc_stock_loc_id': {
-                'name': _('Quality Control'),
+                'name': _('Control de Calidad'),
                 'active': reception_steps == 'three_steps',
                 'usage': 'internal',
                 'barcode': self._valid_barcode(code + '-QUALITY', company_id)
             },
             'wh_output_stock_loc_id': {
-                'name': _('Output'),
+                'name': _('Salida'),
                 'active': delivery_steps != 'ship_only',
                 'usage': 'internal',
                 'barcode': self._valid_barcode(code + '-OUTPUT', company_id)
             },
             'wh_pack_stock_loc_id': {
-                'name': _('Packing Zone'),
+                'name': _('Zona de Embalaje'),
                 'active': delivery_steps == 'pick_pack_ship',
                 'usage': 'internal',
                 'barcode': self._valid_barcode(code + '-PACKING', company_id)
