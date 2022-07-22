@@ -3067,7 +3067,7 @@ msgstr "¿Es una ubicación de devolución?"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__scrap_location
 msgid "Is a Scrap Location?"
-msgstr "¿Es una ubicación de chatarra?"
+msgstr "¿Es una ubicación de desecho?"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_initial_demand_editable model:ir.model.fields,field_description:stock.field_stock_move_line__is_initial_demand_editable
@@ -5616,7 +5616,7 @@ msgid ""
 "                end up in a scrap location that can be used for reporting purpose."
 msgstr ""
 "Desechar un producto lo eliminará de su inventario. El producto\n"
-" terminará en una ubicación de chatarra que se puede utilizar para fines de informes."
+" terminará en una ubicación de desecho que se puede utilizar para fines de informes."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
