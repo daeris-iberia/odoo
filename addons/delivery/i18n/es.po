@@ -210,7 +210,7 @@ msgstr "Transportista"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_package_type__shipper_package_code
 msgid "Carrier Code"
-msgstr "ES Carrier Code"
+msgstr "Código de transportista"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_choose_delivery_carrier__carrier_id
@@ -338,7 +338,7 @@ msgstr "Reglas de precios de entrega"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
-msgstr "Envío de producto"
+msgstr "Producto asociado a los gastos de envío"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_rating_success
@@ -812,7 +812,7 @@ msgstr "Código estandarizado para envíos internacionales y declaración de bie
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__state_ids
 msgid "States"
-msgstr "Estados"
+msgstr "Provincias"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_move
