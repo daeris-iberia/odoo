@@ -326,7 +326,7 @@ td {
     margin:0;
     padding:0;
     color: gray;
-    background: #875A7B;
+    background: #0874AA;
     display: flex;
 }
 
@@ -375,7 +375,7 @@ td {
     overflow-x: auto;
 }
 .pos .pos-rightheader > * {
-    border-right: 1px solid #875A7B;
+    border-right: 1px solid #0874AA;
 }
 
 .pos .status-buttons-portal {
@@ -3311,11 +3311,11 @@ td {
 }
 
 .ticket-button.highlight {
-    background: rgb(104,69,95);
+    background: rgb(0,55,110);
 }
 
 .ticket-button:hover {
-    background: rgb(104,69,95);
+    background: rgb(0,55,110);
     cursor: pointer;
 }
 
@@ -3357,7 +3357,7 @@ td {
 }
 
 .cash-move-button:hover {
-    background: rgb(104,69,95);
+    background: rgb(0,55,110);
     cursor: pointer;
 }
 
@@ -3552,7 +3552,7 @@ td {
 }
 
 .pos .pos-topheader .status-buttons > div:hover {
-    background: rgb(104,69,95);
+    background: rgb(0,55,110);
 }
 
 @media screen and (max-width: 768px) {
