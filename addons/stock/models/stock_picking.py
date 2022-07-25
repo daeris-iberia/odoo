@@ -698,7 +698,7 @@ class Picking(models.Model):
                 if partner.picking_warn == 'block':
                     self.partner_id = False
                 return {'warning': {
-                    'title': ("Warning for %s") % partner.name,
+                    'title': ("Advertencia para %s") % partner.name,
                     'message': partner.picking_warn_msg
                 }}
 
