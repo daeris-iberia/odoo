@@ -3694,7 +3694,7 @@ msgstr "Rutas multietapa"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__qty_multiple
 msgid "Multiple Quantity"
-msgstr "Cantidad múltiple"
+msgstr "Múltiplo de la cantidad"
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_storage_category_capacity_unique_package_type
