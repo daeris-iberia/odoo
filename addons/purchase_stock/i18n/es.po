@@ -232,7 +232,7 @@ msgstr "Movimientos bajo el agua"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__module_stock_dropshipping
 msgid "Dropshipping"
-msgstr "Envío a domicilio"
+msgstr "Triangulación de pedidos"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__effective_date
