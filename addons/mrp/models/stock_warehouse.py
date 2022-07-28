@@ -222,7 +222,7 @@ class StockWarehouse(models.Model):
         data, next_sequence = super(StockWarehouse, self)._get_picking_type_create_values(max_sequence)
         data.update({
             'pbm_type_id': {
-                'name': _('Pick Components'),
+                'name': _('Recoger Componentes'),
                 'code': 'internal',
                 'use_create_lots': True,
                 'use_existing_lots': True,
@@ -233,7 +233,7 @@ class StockWarehouse(models.Model):
                 'company_id': self.company_id.id,
             },
             'sam_type_id': {
-                'name': _('Store Finished Product'),
+                'name': _('Almacenar Producto Terminado'),
                 'code': 'internal',
                 'use_create_lots': True,
                 'use_existing_lots': True,
@@ -244,7 +244,7 @@ class StockWarehouse(models.Model):
                 'company_id': self.company_id.id,
             },
             'manu_type_id': {
-                'name': _('Manufacturing'),
+                'name': _('Fabricación'),
                 'code': 'mrp_operation',
                 'use_create_lots': True,
                 'use_existing_lots': True,
