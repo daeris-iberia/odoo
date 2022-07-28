@@ -783,7 +783,7 @@
                                             <div class="col-6 o_kanban_card_manage_section o_kanban_manage_view">
                                                 <div role="menuitem" class="o_kanban_card_manage_title">
                                                     <span t-if="record.code.raw_value == 'internal'">Transfers</span>
-                                                    <span t-else="">View</span>
+                                                    <span t-else="">View Records</span>
                                                 </div>
                                                 <div role="menuitem">
                                                     <a name="get_stock_picking_action_picking_type" type="object">All</a>

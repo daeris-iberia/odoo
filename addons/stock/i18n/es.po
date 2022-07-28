@@ -7153,7 +7153,7 @@ msgstr "Vista"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
-msgid "View"
+msgid "View Records"
 msgstr "Ver"
 
 #. module: stock
