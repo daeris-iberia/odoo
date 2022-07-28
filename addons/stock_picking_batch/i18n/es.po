@@ -86,12 +86,12 @@ msgstr "Añadir"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree_detailed_wave
 #, python-format
 msgid "Add to Wave"
-msgstr "Añadir a la agrupación"
+msgstr "Añadir a la ola"
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action_stock_picking
 msgid "Add to batch"
-msgstr "Añadir a agrupación"
+msgstr "Añadir a lote"
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_add_to_wave_action_stock_picking
@@ -134,7 +134,7 @@ msgstr "Código de barras"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 #, python-format
 msgid "Batch Transfer"
-msgstr "Transferir agrupación"
+msgstr "Transferencia por lotes"
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
@@ -692,7 +692,7 @@ msgid ""
 msgstr ""
 "El objetivo de la transferencia por lotes es agrupar las operaciones que pueden (deben) "
 "realizarse juntas para aumentar su eficiencia. También puede ser útil asignar trabajos "
-"(una persona = una agrupación) o ayudar a la gestión del tiempo de las operaciones "
+"(una persona = un lote) o ayudar a la gestión del tiempo de las operaciones "
 "(por ejemplo, tareas a realizar a las 13:00)."
 
 #. module: stock_picking_batch
