@@ -449,7 +449,7 @@ const Wysiwyg = Widget.extend({
                                 model: "res.users",
                                 method: "search_read",
                                 args: [
-                                    [['id', '=', this.getSession().user_id]],
+                                    [['id', '=', this.getSession().uid]],
                                     ['name']
                                 ],
                             }))[0].name;
@@ -1835,36 +1835,36 @@ const Wysiwyg = Widget.extend({
         const options = this._editorOptions();
         const commands = [
             {
-                groupName: 'Bloques básicos',
-                title: 'Cita',
-                description: 'Agrega una sección de citas.',
+                groupName: 'Basic blocks',
+                title: 'Quote',
+                description: 'Add a blockquote section.',
                 fontawesome: 'fa-quote-right',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'blockquote');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: 'Código',
-                description: 'Agrega una sección de código.',
+                groupName: 'Basic blocks',
+                title: 'Code',
+                description: 'Add a code section.',
                 fontawesome: 'fa-code',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'pre');
                 },
             },
             {
-                groupName: 'Navegación',
-                title: 'Enlace',
-                description: 'Agrega un enlace.',
+                groupName: 'Navigation',
+                title: 'Link',
+                description: 'Add a link.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});
                 },
             },
             {
-                groupName: 'Navegación',
-                title: 'Botón',
-                description: 'Agrega un botón.',
+                groupName: 'Navigation',
+                title: 'Button',
+                description: 'Add a button.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});
