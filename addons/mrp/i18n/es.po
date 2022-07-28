@@ -3057,13 +3057,13 @@ msgstr "Elegir componentes y luego fabrique"
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm
 msgid "Pick components and then manufacture (2 steps)"
-msgstr "Elegir componentes y luego fabricar (2 pasos)"
+msgstr "Recoger componentes y luego fabricar (2 pasos)"
 
 #. module: mrp
 #: code:addons/mrp/models/stock_warehouse.py:0 model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm_sam
 #, python-format
 msgid "Pick components, manufacture and then store products (3 steps)"
-msgstr "Elegir componentes, fabricar y luego almacenar los productos (3 pasos)"
+msgstr "Recoger componentes, fabricar y luego almacenar los productos (3 pasos)"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
