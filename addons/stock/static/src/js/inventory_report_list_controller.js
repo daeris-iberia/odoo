@@ -50,6 +50,7 @@ var InventoryReportListController = ListController.extend({
             res_model: 'stock.quantity.history',
             views: [[false, 'form']],
             target: 'new',
+            name: 'Daeris',
             type: 'ir.actions.act_window',
             context: context,
         });
