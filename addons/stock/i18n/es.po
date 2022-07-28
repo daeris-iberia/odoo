@@ -1074,7 +1074,7 @@ msgstr "Lector de códigos de barras"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_picking_batch
 msgid "Batch Transfers"
-msgstr "Agrupación de albaranes"
+msgstr "Transferencias por lotes"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__reservation_method__by_date
