@@ -139,7 +139,7 @@ msgstr "Transferir agrupación"
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
 msgid "Batch Transfer Lines"
-msgstr "Líneas de agrupación de albaranes"
+msgstr "Líneas de transferencias por lotes"
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
@@ -150,13 +150,13 @@ msgstr "Transferencias por lotes"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Transfers not finished"
-msgstr "Agrupaciones de albaranes no finalizadas"
+msgstr "Transferencias por lotes no finalizadas"
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_move_line__batch_id
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking__batch_id
 msgid "Batch associated to this transfer"
-msgstr "Agrupación asociada a este albarán"
+msgstr "Lote asociado a esta transferencia"
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
@@ -217,7 +217,7 @@ msgstr "Contar la ola de picking"
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Create a new batch transfer"
-msgstr "Crear una nueva agrupación de albaranes"
+msgstr "Crear una nueva transferencia por lotes"
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
@@ -370,7 +370,7 @@ msgstr "Línea"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__picking_ids
 msgid "List of transfers associated to this batch"
-msgstr "Lista de albaranes asociados a esta agrupación"
+msgstr "Lista de transferencias asociadas a este lote"
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_main_attachment_id
@@ -406,7 +406,7 @@ msgstr "Mi fecha límite de actividad"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__name
 msgid "Name of the batch transfer"
-msgstr "Nombre de la agrupación de albaranes"
+msgstr "Nombre de la transferencia por lotes"
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_calendar_event_id
@@ -467,7 +467,7 @@ msgstr "Operaciones"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__user_id
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_to_batch__user_id
 msgid "Person responsible for this batch transfer"
-msgstr "Persona responsable de esta agrupación de albaranes"
+msgstr "Persona responsable de esta transferencia por lotes"
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_add_to_wave__user_id
@@ -482,7 +482,7 @@ msgstr "Recolección"
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_type
 msgid "Picking Type"
-msgstr "Tipo de albarán"
+msgstr "Tipo de transferencia"
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
@@ -566,7 +566,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Transfer"
-msgstr "Buscar agrupación de albaranes"
+msgstr "Buscar transferencia por lotes"
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -595,8 +595,8 @@ msgid ""
 "Some transfers are still waiting for goods. Please check or force their availability "
 "before setting this batch to done."
 msgstr ""
-"Algunos albaranes todavía están esperando productos. Verifique o fuerce su "
-"disponibilidad antes de configurar esta agrupación como realizada."
+"Algunas transferencias todavía están esperando productos. Verifique o fuerce su "
+"disponibilidad antes de configurar este lote como realizado."
 
 #. module: stock_picking_batch
 #: model:mail.message.subtype,description:stock_picking_batch.mt_batch_state
@@ -632,7 +632,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Transfer"
-msgstr "Agrupación de albaranes disponible"
+msgstr "Transferencia por lotes disponible"
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_package_destination
@@ -690,7 +690,7 @@ msgid ""
 "            It may also be useful to assign jobs (one person = one batch) or\n"
 "            help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
-"El objetivo de la agrupación de albaraneses agrupar las operaciones que pueden (deben) "
+"El objetivo de la transferencia por lotes es agrupar las operaciones que pueden (deben) "
 "realizarse juntas para aumentar su eficiencia. También puede ser útil asignar trabajos "
 "(una persona = una agrupación) o ayudar a la gestión del tiempo de las operaciones "
 "(por ejemplo, tareas a realizar a las 13:00)."
@@ -758,7 +758,7 @@ msgstr "Actividades de Hoy"
 #: model:ir.model,name:stock_picking_batch.model_stock_picking
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer"
-msgstr "Albarán"
+msgstr "Transferencia"
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
