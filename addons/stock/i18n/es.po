@@ -2580,7 +2580,7 @@ msgstr "Agrupar por..."
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_picking_wave
 msgid "Group your move operations in wave transfer to process them together"
-msgstr "Agrufique sus operaciones de movimiento en transferencia de onda para procesarlas juntas"
+msgstr "Agrupa tus operaciones de movimiento en transferencia por olas para procesarlas juntas"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__has_message model:ir.model.fields,field_description:stock.field_stock_production_lot__has_message model:ir.model.fields,field_description:stock.field_stock_scrap__has_message
