@@ -703,7 +703,7 @@ msgid ""
 "                    It may also be useful to assign jobs (one person = one batch) or\n"
 "                    help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
-"El objetivo de la transferencia de olas es agrupar operaciones de diferentes "
+"El objetivo de la transferencia por olas es agrupar operaciones de diferentes "
 "transferencias\n"
 "                    juntos con el fin de aumentar su eficiencia.\n"
 "                    También puede ser útil asignar trabajos (una persona = un lote) o\n"
@@ -800,18 +800,18 @@ msgstr "Validar"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__wave_id
 msgid "Wave Transfer"
-msgstr "Transferencia de olas"
+msgstr "Transferencia por olas"
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_add_to_wave
 msgid "Wave Transfer Lines"
-msgstr "Líneas de transferencia de olas"
+msgstr "Líneas de transferencia por olas"
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.action_picking_tree_wave
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_wave_menu
 msgid "Wave Transfers"
-msgstr "Transferencias de olas"
+msgstr "Transferencias por olas"
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
