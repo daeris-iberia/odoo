@@ -1776,7 +1776,7 @@ msgstr "Miradores"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.post_info
 msgid "Views"
-msgstr "Vistas"
+msgstr "Visualizaciones"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.index
