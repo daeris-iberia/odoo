@@ -1899,7 +1899,7 @@ msgstr "aventuras"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "blog. Click here to access the blog :"
-msgstr "blog. Haga clic aquí para acceder al blog:"
+msgstr ". Haz clic aquí para acceder al blog:"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.post_breadcrumbs
@@ -1924,7 +1924,7 @@ msgstr "guías"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "has been published on the"
-msgstr "ha sido publicado en el"
+msgstr "ha sido publicada en el blog"
 
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_1
