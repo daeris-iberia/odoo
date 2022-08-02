@@ -4843,7 +4843,7 @@ msgstr "Propagación del portador"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_rule__action__pull_push
 msgid "Pull & Push"
-msgstr "Jalar & Empujar"
+msgstr "Pull y Push"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_rule__action__pull
