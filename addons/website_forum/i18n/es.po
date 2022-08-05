@@ -1492,7 +1492,7 @@ msgstr "Favorito"
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_q_5 model:gamification.challenge,name:website_forum.challenge_favorite_question_5
 msgid "Favorite Question"
-msgstr "Pregunta favortia"
+msgstr "Pregunta favorita"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__favourite_ids
