@@ -660,7 +660,7 @@ td {
 }
 .pos .control-button.altlight,
 .pos .button.altlight {
-    background: #7F82AC !important;
+    background: #0874aa !important;
     border: solid 1px #756A99 !important;
     color: white !important;
 }
@@ -1222,7 +1222,7 @@ td {
     vertical-align: top;
     color: white;
     line-height: 13px;
-    background: #7f82ac;
+    background: #0874aa;
     padding: 2px 5px;
     border-radius: 2px;
 }
@@ -1233,7 +1233,7 @@ td {
     left: 5px;
     font-size: 13px;
     border-radius: 2px;
-    background-color: #7f82ac;
+    background-color: #0874aa;
     color: white;
     padding: 1px;
     width: 15px;
@@ -1243,7 +1243,7 @@ td {
     align-items: center;}
 
 .pos .product .product-info-button:hover {
-    background-color: #595b79;
+    background-color: #00376E;
 }
 
 .pos .product .product-name {
@@ -2377,8 +2377,8 @@ td {
 }
 .pos .pos-actionbar .button:active{
     color: white;
-    background: #7f82ac;
-    border: 1px solid #7f82ac;
+    background: #0874aa;
+    border: 1px solid #0874aa;
 
     -webkit-transition-property: background, border;
     -webkit-transition-duration: 0.2s;
