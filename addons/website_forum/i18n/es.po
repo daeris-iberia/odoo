@@ -1707,7 +1707,7 @@ msgstr "Agrupar por"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__faq model_terms:ir.ui.view,arch_db:website_forum.header
 msgid "Guidelines"
-msgstr "Lineamientos"
+msgstr "Directrices"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_6 model:gamification.challenge,name:website_forum.challenge_guru
