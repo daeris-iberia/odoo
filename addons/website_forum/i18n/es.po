@@ -1208,7 +1208,7 @@ msgstr "Convertir todas las respuestas en comentarios y viceversa"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
 msgid "Convert as a answer"
-msgstr "Convertir como una respuesta"
+msgstr "Convertir en respuesta"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_answers
