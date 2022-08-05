@@ -533,7 +533,7 @@ msgstr "El mensaje de grupo solo se puede vincular al grupo de correo. El modelo
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_guidelines_msg
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Guidelines"
-msgstr "Lineamientos"
+msgstr "Directrices"
 
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_guidelines
