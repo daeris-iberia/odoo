@@ -2614,6 +2614,13 @@ msgid "Read the guidelines to know how to gain karma."
 msgstr "Lea la guía para enterarse de cómo ganar karma."
 
 #. module: website_forum
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:0
+#, python-format
+msgid "karma is required to perform this action. "
+msgstr "karma es requerido para llevar a cabo esta acción. "
+
+#. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "Read: #{question.name}"
 msgstr "Leer: #{question.name}"
