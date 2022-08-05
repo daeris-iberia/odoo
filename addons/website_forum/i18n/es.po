@@ -3258,12 +3258,12 @@ msgstr "Validar pregunta"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "View"
-msgstr "Ver"
+msgstr "Visualización"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__views model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "Views"
-msgstr "Vistas"
+msgstr "Visualizaciones"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_12
