@@ -9938,7 +9938,7 @@ msgstr "grande"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "business"
-msgstr "negocios"
+msgstr " "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -10038,7 +10038,7 @@ msgstr "fonts.google.com"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "for my"
-msgstr "para mi"
+msgstr "para mi negocio de"
 
 #. module: website
 #. openerp-web
