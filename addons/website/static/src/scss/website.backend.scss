@@ -228,7 +228,7 @@
     /// Un-grouped Layout (default)
     &.o_kanban_ungrouped {
         justify-content: space-between;
-        margin: 0 0 0 ($o-kanban-record-margin - 2 * $grid-gutter-width);
+        margin: 5 0 0 ($o-kanban-record-margin - 2 * $grid-gutter-width);
 
         @include media-breakpoint-down(sm) {
             padding-left: $o-horizontal-padding - $o-kanban-record-margin;
