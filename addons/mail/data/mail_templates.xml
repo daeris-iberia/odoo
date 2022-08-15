@@ -23,7 +23,7 @@
         <t t-if="actions">
             <t t-foreach="actions" t-as="action">
                 |
-                <a t-att-href="action['url']" style="color: #875A7B; text-decoration:none !important;">
+                <a t-att-href="action['url']" style="color: #0874AA; text-decoration:none !important;">
                     <t t-esc="action['title']"/>
                 </a>
             </t>
@@ -37,7 +37,7 @@
         <hr width="100%"
             style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0 12px 0;"/>
         <p t-if="subtype.internal" style="background-color: #f2dede; padding: 5px; margin-bottom: 16px;">
-            <strong>Internal communication</strong>: Replying will post an internal note. Followers won't receive any email notification.
+            <strong>Comunicación interna</strong>: Responder publicará una nota interna. Los seguidores no recibirán ninguna notificación por correo electrónico.
         </p>
     </td>
     </tr></tbody>
@@ -51,15 +51,15 @@
 </ul>
 <div t-if="signature" t-out="signature" style="font-size: 13px;"/>
 <p style="color: #555555; margin-top:32px;">
-    Sent
+    Enviado
     <span t-if="company.name">
-    by
+    por
     <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #0874AA;">
         <span t-esc="company.name"/>
     </a>
     <span t-if="not website_url" t-esc="company.name"/>
     </span>
-    using
+    usando
     <a target="_blank" href="https://www.daeris.com?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #0874AA;">Daeris</a>.
 </p>
 </div>
