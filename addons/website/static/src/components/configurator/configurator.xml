@@ -10,7 +10,7 @@
     <t t-name="website.Configurator.WelcomeScreen" owl="1">
         <div class="o_configurator_screen h-100 d-flex flex-column o_welcome_screen">
             <div class="container-fluid pt-3 pb-2">
-                <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+                <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/daeris_logo.svg" title="Daeris Logo"/>
             </div>
             <div class="o_configurator_screen_content d-flex h-100">
                 <div class="container align-self-center o_configurator_show">
