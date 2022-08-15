@@ -8816,7 +8816,7 @@ msgstr "No registrado"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
 msgid "Update theme"
-msgstr "Tema actualizado"
+msgstr "Actualizar tema"
 
 #. module: website
 #. openerp-web
