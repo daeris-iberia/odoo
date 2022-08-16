@@ -4,7 +4,7 @@
             <field name="website_form_key">create_task</field>
             <field name="website_form_default_field_id" ref="project.field_project_task__description" />
             <field name="website_form_access">True</field>
-            <field name="website_form_label">Create a Task</field>
+            <field name="website_form_label">Crear una Tarea</field>
         </record>
 
         <function model="ir.model.fields" name="formbuilder_whitelist">

@@ -9,23 +9,23 @@ FormEditorRegistry.add('create_customer', {
         modelRequired: true,
         name: 'name',
         fillWith: 'name',
-        string: 'Your Name',
+        string: 'Tu Nombre',
     }, {
         type: 'email',
         required: true,
         fillWith: 'email',
         name: 'email',
-        string: 'Your Email',
+        string: 'Tu Correo Electrónico',
     }, {
         type: 'tel',
         fillWith: 'phone',
         name: 'phone',
-        string: 'Phone Number',
+        string: 'Teléfono',
     }, {
         type: 'char',
         name: 'company_name',
         fillWith: 'commercial_company_name',
-        string: 'Company Name',
+        string: 'Compañía',
     }],
 });
 
