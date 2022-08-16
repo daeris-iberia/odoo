@@ -6,16 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 12:04+0000\n"
-"PO-Revision-Date: 2021-11-05 13:05+0100\n"
+"POT-Creation-Date: 2022-08-16 14:55+0000\n"
+"PO-Revision-Date: 2022-08-16 16:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid ", <strong>create a project</strong> with the following information:"
+msgstr ", <strong>cree un proyecto</strong> con la siguiente información:"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid ", click on <strong>Elevated</strong> then on <strong>Apply</strong> and finally complete the form."
+msgstr ", haga clic en <strong>Elevado</strong> , luego en <strong>Aplicar</strong> y finalmente complete el formulario."
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
@@ -37,8 +47,8 @@ msgstr ""
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Callback URL: </strong>Leave blank"
-msgstr "<strong>Callback URL: </strong>Dejar en blanco"
+msgid "<strong>App Name: </strong> choose a unique name"
+msgstr "<strong>Nombre de la aplicación: </strong> elija un nombre único"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
@@ -52,8 +62,8 @@ msgstr "<strong>Nombre: </strong> Integración de Daeris con Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Website: </strong>"
-msgstr "<strong>Sitio web: </strong>"
+msgid "<strong>Use Case: </strong> Embedding Tweets in a website"
+msgstr "<strong>Caso de uso: </strong> Incrustar Tweets en un sitio web"
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_res_config_settings__twitter_api_key
@@ -68,11 +78,6 @@ msgid "API secret"
 msgstr "Secreto de la API"
 
 #. module: website_twitter
-#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "Accept terms of use and click on the Create your Twitter application button at the bottom"
-msgstr "Aceptar los términos de uso y pulsa el botón Crea tu aplicación de Twitter debajo"
-
-#. module: website_twitter
 #: code:addons/website_twitter/models/res_config_settings.py:0
 #, python-format
 msgid "Authentication credentials were missing or incorrect. Maybe screen name tweets are protected."
@@ -85,13 +90,8 @@ msgstr "Opciones de Configuración"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "Copy/Paste Consumer Key (API Key) and Consumer Secret (API Secret) keys below."
-msgstr "Copia y pega las llaves Consumer Key (Clave API) y Consumer Secret (Secreto de la API) debajo."
-
-#. module: website_twitter
-#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "Create a new Twitter application on"
-msgstr "Crear una nueva aplicación Twiter en"
+msgid "Copy/Paste the API Key and API Key Secret values into the above fields"
+msgstr "Copiar/pegar los valores de Clave de API y Secreto de clave de API en los campos anteriores"
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_tweet__create_uid
@@ -113,6 +113,11 @@ msgstr "Nombre mostrado"
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid "Favorites From"
 msgstr "Favoritos de"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "Get Elevated access by going to"
+msgstr "Obtenga acceso elevado yendo a"
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website__twitter_screen_name
@@ -157,6 +162,21 @@ msgid "Last Updated on"
 msgstr "Última actualización el"
 
 #. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "Log in or create an account on"
+msgstr "Inicie sesión o cree una cuenta en"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "On the"
+msgstr "En la"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "Once connected, and if not already done, complete the Twitter portal access process on"
+msgstr "Una vez conectado, y si aún no lo ha hecho, complete el proceso de acceso al portal de Twitter en"
+
+#. module: website_twitter
 #: code:addons/website_twitter/controllers/main.py:0
 #, python-format
 msgid "Please set a Twitter screen name to load favorites from, in the Website Settings (it does not have to be yours)"
@@ -191,11 +211,6 @@ msgstr "Nombre"
 #: model:ir.model.fields,help:website_twitter.field_res_config_settings__twitter_screen_name
 msgid "Screen Name of the Twitter Account from which you want to load favorites.It does not have to match the API Key/Secret."
 msgstr "Nombre de la cuenta de Twitter desde la que se desean cargar los favoritos. No tiene porqué ser la misma que la de la clave de API."
-
-#. module: website_twitter
-#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "Switch to the API Keys tab: <br/>"
-msgstr "Cambiar a la pestaña de claves de API:<br/>"
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/res_config_settings.py:0
@@ -283,6 +298,11 @@ msgid "Twitter Configuration"
 msgstr "Configuración de Twitter"
 
 #. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "Twitter Portal"
+msgstr "Twitter Portal"
+
+#. module: website_twitter
 #: code:addons/website_twitter/models/res_config_settings.py:0
 #, python-format
 msgid "Twitter authorization error! Please double-check your Twitter API Key and Secret!"
@@ -341,10 +361,15 @@ msgstr "Sitio de Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "https://apps.twitter.com/app/new"
-msgstr "https://apps.twitter.com/app/new"
+msgid "https://developer.twitter.com/"
+msgstr "https://developer.twitter.com/"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "with the following values:"
-msgstr "con los siguientes valores:"
+msgid "https://developer.twitter.com/en/portal/products"
+msgstr "https://developer.twitter.com/en/portal/products"
+
+#. module: website_twitter
+#: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
+msgid "https://developer.twitter.com/portal/"
+msgstr "https://developer.twitter.com/portal/"
