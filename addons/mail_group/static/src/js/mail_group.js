@@ -57,31 +57,31 @@ publicWidget.registry.MailGroup = publicWidget.Widget.extend({
 
         if (response === 'added') {
             this.isMember = true;
-            this.$target.find('.o_mg_subscribe_btn').text(_t('Unsubscribe')).removeClass('btn-primary').addClass('btn-outline-primary');
+            this.$target.find('.o_mg_subscribe_btn').text(_t('Anular suscripción')).removeClass('btn-primary').addClass('btn-outline-primary');
         } else if (response === 'removed') {
             this.isMember = false;
-            this.$target.find('.o_mg_subscribe_btn').text(_t('Subscribe')).removeClass('btn-outline-primary').addClass('btn-primary');
+            this.$target.find('.o_mg_subscribe_btn').text(_t('Suscribirse')).removeClass('btn-outline-primary').addClass('btn-primary');
         } else if (response === 'email_sent') {
             // The confirmation email has been sent
             this.$target.html(
                 $('<div class="o_mg_alert alert alert-success" role="alert"/>')
-                .text(_t('An email with instructions has been sent.'))
+                .text(_t('Se ha enviado un correo electrónico con instrucciones.'))
             );
         } else if (response === 'is_already_member') {
             this.isMember = true;
-            this.$target.find('.o_mg_subscribe_btn').text(_t('Unsubscribe')).removeClass('btn-primary').addClass('btn-outline-primary');
+            this.$target.find('.o_mg_subscribe_btn').text(_t('Anular suscripción')).removeClass('btn-primary').addClass('btn-outline-primary');
             this.$target.find('.o_mg_subscribe_form').before(
                 $('<div class="o_mg_alert alert alert-warning" role="alert"/>')
-                .text(_t('This email is already subscribed.'))
+                .text(_t('Este correo ya está suscrito.'))
             );
         } else if (response === 'is_not_member') {
             if (!this.forceUnsubscribe) {
                 this.isMember = false;
-                this.$target.find('.o_mg_subscribe_btn').text(_t('Subscribe'));
+                this.$target.find('.o_mg_subscribe_btn').text(_t('Suscribirse'));
             }
             this.$target.find('.o_mg_subscribe_form').before(
                 $('<div class="o_mg_alert alert alert-warning" role="alert"/>')
-                .text(_t('This email is not subscribed.'))
+                .text(_t('Este correo electrónico no está suscrito.'))
             );
         }
 
