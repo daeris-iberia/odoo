@@ -2,9 +2,10 @@
 <templates id="template" xml:space="preserve">
 
     <t t-name="website.Configurator.SkipButton" owl="1">
-        <div class="container-fluid py-2 pb-md-3 text-right pr-lg-5">
-            <!--button class="btn btn-link" t-on-click="skip()">Skip and start from scratch</button-->
-        </div>
+        <!--div class="container-fluid py-2 pb-md-3 text-right pr-lg-5">
+            <button class="btn btn-link" t-on-click="skip()">Skip and start from scratch</button>
+        </div-->
+        <button class="o_configurator_show btn btn-primary btn-lg px-4 py-2" t-on-click="skip()">Let's do it</button>
     </t>
 
     <t t-name="website.Configurator.WelcomeScreen" owl="1">
@@ -20,10 +21,10 @@
                 <!--div class="lead font-weight-normal mb-4 text-600">We'll set you up and running in <b>4 steps</b>
                 </div-->
                 <!--button class="o_configurator_show btn btn-primary btn-lg px-4 py-2" t-on-click="goToDescription()">Let's do it</button-->
-                <button class="o_configurator_show btn btn-primary btn-lg px-4 py-2" t-on-click="skip()">Let's do it</button>
+                <SkipButton/>
             </div>
         </div>
-        <SkipButton/>
+        <!--SkipButton/-->
     </div>
 </t>
 
