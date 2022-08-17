@@ -34,20 +34,20 @@
             <div class="form-inline">
                 <div class="form-group">
                     <span>
-                        <a href="https://daeris.com/support/help" target="_blank">Get an Access key</a>
-                        and paste it here:
-                        <input type="text" class="form-control w-auto" id="accessKeyInput" placeholder="Paste your access key here"/>
+                        <a href="https://daeris.com/support/help" target="_blank">Obtén una clave de acceso</a>
+                        y pégala aquí:
+                        <input type="text" class="form-control w-auto" id="accessKeyInput" placeholder="Pega tu clave de acceso aquí"/>
                     </span>
                 </div>
                 <div class="form-group my-md-3">
                     <span class="ml-xl-1">
-                        and paste
-                        <a href="https://daeris.com/support/help" target="_blank">Application ID</a>
-                        here:
-                        <input type="text" class="form-control w-auto" id="appIdInput" placeholder="Paste your application ID here"/>
+                        y pega el
+                        <a href="https://daeris.com/support/help" target="_blank">ID de aplicación</a>
+                        aquí:
+                        <input type="text" class="form-control w-auto" id="appIdInput" placeholder="Pega tu ID de aplicación aquí"/>
                     </span>
                 </div>
-                <button type="button" class="btn btn-primary btn-block w-auto ml-2 save_unsplash">Apply</button>
+                <button type="button" class="btn btn-primary btn-block w-auto ml-2 save_unsplash">Aplicar</button>
             </div>
         </t>
     </div>
@@ -58,33 +58,33 @@
         <t t-call="web_unsplash.dialog.error.credentials">
             <t t-if="status == 'key_not_found'">
                 <t t-set="title">
-                    Setup Unsplash to access royalty free photos.
+                    Configura Unsplash para acceder a fotos libres de regalías.
                 </t>
                 <t t-set="showUnsplashSetup" t-value="true"/>
             </t>
             <t t-elif="status == 403">
                 <t t-set="title">
-                    Search is temporarily unavailable
+                    La búsqueda no está disponible temporalmente
                 </t>
                 <t t-set="subtitle">
-                    The max number of searches is exceeded. Please retry in an hour or extend to a better account.
+                    Se supera el número máximo de búsquedas. Vuelva a intentarlo en una hora o extiéndalo a una cuenta mejor.
                 </t>
             </t>
             <t t-elif="status == 401">
                 <t t-set="title">
-                    Unauthorized Key
+                    Clave no autorizada
                 </t>
                 <t t-set="subtitle">
-                    Please check your Unsplash access key and application ID.
+                    Verifique su clave de acceso Unsplash y la identificación de la aplicación.
                 </t>
                 <t t-set="showUnsplashSetup" t-value="true"/>
             </t>
             <t t-else="">
                 <t t-set="title">
-                    Something went wrong
+                    Algo salió mal
                 </t>
                 <t t-set="subtitle">
-                    Please check your internet connection or contact administrator.
+                    Verifique su conexión a Internet o comuníquese con el administrador.
                 </t>
             </t>
         </t>
