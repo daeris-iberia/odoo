@@ -8853,7 +8853,7 @@ msgstr "Urls & Páginas"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Use Google Map on your website ("
-msgstr "Use Google Map en su sitio web ("
+msgstr "Use Google Map en su sitio web (página "
 
 #. module: website
 #. openerp-web
@@ -10207,7 +10207,7 @@ msgstr "organización, estructura"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "page, snippets, ...)"
-msgstr "página, fragmentos, ...)"
+msgstr ", fragmentos, ...)"
 
 #. module: website
 #. openerp-web
