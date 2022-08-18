@@ -290,7 +290,7 @@
                                         </div>
                                     </div>
                                     <div attrs="{'invisible': [('has_google_analytics', '=', False)]}">
-                                        <a href="https://www.odoo.com/documentation/15.0/applications/websites/website/optimize/google_analytics.html"
+                                        <a href="https://daeris.com/support/help"
                                                 class="oe_link" target="_blank">
                                             <i class="fa fa-arrow-right"/>
                                             How to get my Measurement ID
