@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="website.res_config_settings_view_form" />
         <field name="arch" type="xml">
             <xpath expr="//div[@id='google_maps_setting']" position="after">
-                <div class="col-12 col-lg-6 o_setting_box">
+                <div class="col-12 col-lg-6 o_setting_box" groups="base.group_no_one">
                     <div class="o_setting_right_pane">
                         <label for="jitsi_server_domain"/>
                         <field name="jitsi_server_domain" placeholder="meet.jit.si"/>
