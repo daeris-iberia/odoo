@@ -786,7 +786,7 @@ msgstr "Precio unitario base"
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.base_unit_action model:ir.ui.menu,name:website_sale.website_base_unit_menu
 msgid "Base Units"
-msgstr "Muebles bajos"
+msgstr "Unidades Base"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
