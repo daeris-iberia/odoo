@@ -41,7 +41,7 @@ odoo.define('point_of_sale.MoneyDetailsPopup', function(require) {
             this.el.classList.add('invisible');
         }
         confirm() {
-            let moneyDetailsNotes = this.state.total  ? 'Money details: \n' : null;
+            let moneyDetailsNotes = this.state.total  ? 'Detalles de monedas: \n' : null;
             this.env.pos.bills.forEach(bill => {
                 if (this.state.moneyDetails[bill.value]) {
                     moneyDetailsNotes += `  - ${this.state.moneyDetails[bill.value]} x ${this.env.pos.format_currency(bill.value)}\n`;
