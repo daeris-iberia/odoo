@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 08:55+0000\n"
-"PO-Revision-Date: 2021-11-05 09:57+0100\n"
+"PO-Revision-Date: 2022-08-21 07:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: pos_gift_card
 #: model_terms:ir.ui.view,arch_db:pos_gift_card.gift_card_template
@@ -83,7 +83,7 @@ msgstr "Deducido de esta tarjeta de regalo"
 #. module: pos_gift_card
 #: model:ir.model.fields,help:pos_gift_card.field_pos_config__gift_card_settings
 msgid "Defines the way you want to set your gift cards."
-msgstr "Define la forma en que desea configurar sus tarjetas de regalo."
+msgstr "Define la forma en que desea configurar tus tarjetas de regalo."
 
 #. module: pos_gift_card
 #. openerp-web

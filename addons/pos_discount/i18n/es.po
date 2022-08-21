@@ -7,20 +7,20 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 10:39+0000\n"
-"PO-Revision-Date: 2021-11-04 11:39+0100\n"
+"PO-Revision-Date: 2022-08-21 07:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: pos_discount
 #: model:ir.model.fields,help:pos_discount.field_pos_config__iface_discount
 msgid "Allow the cashier to give discounts on the whole order."
-msgstr "Permita al cajero ofrecer descuentos en todo el pedido."
+msgstr "Permite al cajero ofrecer descuentos sobre todo el pedido."
 
 #. module: pos_discount
 #. openerp-web
@@ -46,7 +46,7 @@ msgstr "Porcentaje de descuento"
 #: model:ir.model.fields,field_description:pos_discount.field_pos_config__discount_product_id
 #: model_terms:ir.ui.view,arch_db:pos_discount.pos_config_view_form_inherit_pos_discount
 msgid "Discount Product"
-msgstr "Product de descuento"
+msgstr "Producto de descuento"
 
 #. module: pos_discount
 #. openerp-web
@@ -78,8 +78,8 @@ msgid ""
 "The discount product seems misconfigured. Make sure it is flagged as 'Can "
 "be Sold' and 'Available in Point of Sale'."
 msgstr ""
-"El producto de descuento parece estar mal configurado. Asegúrese de que "
-"está marcada como 'Puede venderse' y 'Disponible en el punto de venta'."
+"El producto de descuento parece estar mal configurado. Asegúrate de que "
+"está marcado como 'Puede venderse' y 'Disponible en el punto de venta'."
 
 #. module: pos_discount
 #: model:ir.model.fields,help:pos_discount.field_pos_config__discount_product_id
