@@ -4120,7 +4120,7 @@ msgstr "Token de seguridad"
 #: code:addons/addons/website_slides/models/res_users.py:0 code:addons/website_slides/models/res_users.py:0
 #, python-format
 msgid "See our eLearning"
-msgstr "Mira nuestro eLearning"
+msgstr "Visita nuestro eLearning"
 
 #. module: website_slides
 #. openerp-web

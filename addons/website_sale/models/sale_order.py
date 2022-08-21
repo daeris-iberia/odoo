@@ -325,6 +325,7 @@ class SaleOrder(models.Model):
             'res_model': 'mail.compose.message',
             'view_id': composer_form_view_id,
             'target': 'new',
+            'name': 'Daeris',
             'context': {
                 'default_composition_mode': 'mass_mail' if len(self.ids) > 1 else 'comment',
                 'default_res_id': self.ids[0],

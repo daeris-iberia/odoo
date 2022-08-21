@@ -11,17 +11,17 @@ FormEditorRegistry.add('create_task', {
         type: 'char',
         modelRequired: true,
         name: 'name',
-        string: 'Task Title',
+        string: 'Título de la Tarea',
     }, {
         type: 'email',
         modelRequired: true,
         fillWith: 'email',
         name: 'email_from',
-        string: 'Your Email',
+        string: 'Tu Correo Electrónico',
     }, {
         type: 'char',
         name: 'description',
-        string: 'Description',
+        string: 'Descripción',
     }],
     fields: [{
         name: 'project_id',

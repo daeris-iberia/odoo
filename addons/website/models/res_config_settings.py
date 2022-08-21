@@ -165,6 +165,7 @@ class ResConfigSettings(models.TransientModel):
             'type': 'ir.actions.act_window',
             'target': 'new',
             'res_id': False,
+            'name': 'Daeris',
         }
 
     def action_open_robots(self):

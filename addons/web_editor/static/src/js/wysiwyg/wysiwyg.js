@@ -1835,36 +1835,36 @@ const Wysiwyg = Widget.extend({
         const options = this._editorOptions();
         const commands = [
             {
-                groupName: 'Basic blocks',
-                title: 'Quote',
-                description: 'Add a blockquote section.',
+                groupName: 'Bloques básicos',
+                title: 'Citas',
+                description: 'Agrega una sección de citas',
                 fontawesome: 'fa-quote-right',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'blockquote');
                 },
             },
             {
-                groupName: 'Basic blocks',
-                title: 'Code',
-                description: 'Add a code section.',
+                groupName: 'Bloques básicos',
+                title: 'Código',
+                description: 'Agrega una sección de código.',
                 fontawesome: 'fa-code',
                 callback: () => {
                     this.odooEditor.execCommand('setTag', 'pre');
                 },
             },
             {
-                groupName: 'Navigation',
-                title: 'Link',
-                description: 'Add a link.',
+                groupName: 'Navegación',
+                title: 'Enlace',
+                description: 'Agrega un enlace.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});
                 },
             },
             {
-                groupName: 'Navigation',
-                title: 'Button',
-                description: 'Add a button.',
+                groupName: 'Navegación',
+                title: 'Botón',
+                description: 'Agrega un botón.',
                 fontawesome: 'fa-link',
                 callback: () => {
                     this.toggleLinkTools({forceDialog: true});

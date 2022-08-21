@@ -12,27 +12,27 @@ FormEditorRegistry.add('apply_job', {
         modelRequired: true,
         name: 'partner_name',
         fillWith: 'name',
-        string: 'Your Name',
+        string: 'Tu Nombre',
     }, {
         type: 'email',
         required: true,
         fillWith: 'email',
         name: 'email_from',
-        string: 'Your Email',
+        string: 'Tu Correo Electrónico',
     }, {
         type: 'char',
         required: true,
         fillWith: 'phone',
         name: 'partner_phone',
-        string: 'Phone Number',
+        string: 'Teléfono',
     }, {
         type: 'text',
         name: 'description',
-        string: 'Short Introduction',
+        string: 'Descripción Breve',
     }, {
         type: 'binary',
         custom: true,
-        name: 'Resume',
+        name: 'CV',
     }],
     fields: [{
         name: 'job_id',

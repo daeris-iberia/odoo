@@ -1208,7 +1208,7 @@ msgstr "Convertir todas las respuestas en comentarios y viceversa"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
 msgid "Convert as a answer"
-msgstr "Convertir como una respuesta"
+msgstr "Convertir en respuesta"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_answers
@@ -1492,7 +1492,7 @@ msgstr "Favorito"
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_q_5 model:gamification.challenge,name:website_forum.challenge_favorite_question_5
 msgid "Favorite Question"
-msgstr "Pregunta favortia"
+msgstr "Pregunta favorita"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__favourite_ids
@@ -1707,7 +1707,7 @@ msgstr "Agrupar por"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__faq model_terms:ir.ui.view,arch_db:website_forum.header
 msgid "Guidelines"
-msgstr "Lineamientos"
+msgstr "Directrices"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_6 model:gamification.challenge,name:website_forum.challenge_guru
@@ -2614,6 +2614,13 @@ msgid "Read the guidelines to know how to gain karma."
 msgstr "Lea la guía para enterarse de cómo ganar karma."
 
 #. module: website_forum
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:0
+#, python-format
+msgid "karma is required to perform this action. "
+msgstr "karma es requerido para llevar a cabo esta acción. "
+
+#. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "Read: #{question.name}"
 msgstr "Leer: #{question.name}"
@@ -2880,14 +2887,14 @@ msgstr "Lo sentimos, la pregunta ya no está disponible."
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
 msgid "Sorry, we could not find any <b>%s</b> result <b>%s</b> %s%s%s."
-msgstr "Lo sentimos, no hemos podido encontrar ningún <b>%s</b> resultado <b>%s</b> %s%s%s."
+msgstr "Lo sentimos, no hemos podido encontrar ninguna publicación <b>%s</b> <b>%s</b> %s%s%s."
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 #, python-format
 msgid "Sorry, you cannot vote for your own posts"
-msgstr "DIsculpe, no puede votar sus propias publicaciones"
+msgstr "Disculpe, no puede votar sus propias publicaciones"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -3258,12 +3265,12 @@ msgstr "Validar pregunta"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "View"
-msgstr "Ver"
+msgstr "Visualización"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__views model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "Views"
-msgstr "Vistas"
+msgstr "Visualizaciones"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_12

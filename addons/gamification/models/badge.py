@@ -35,6 +35,7 @@ class BadgeUser(models.Model):
         :param ids: list(int) of badge users that will receive the badge
         """
         template = self.env.ref('gamification.email_template_badge_received')
+        template = template.with_context(lang='es_ES')
 
         for badge_user in self:
             self.env['mail.thread'].message_post_with_template(

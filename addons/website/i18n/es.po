@@ -8816,7 +8816,7 @@ msgstr "No registrado"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
 msgid "Update theme"
-msgstr "Tema actualizado"
+msgstr "Actualizar tema"
 
 #. module: website
 #. openerp-web
@@ -8853,7 +8853,7 @@ msgstr "Urls & Páginas"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Use Google Map on your website ("
-msgstr "Use Google Map en su sitio web ("
+msgstr "Use Google Map en su sitio web (página "
 
 #. module: website
 #. openerp-web
@@ -9938,7 +9938,7 @@ msgstr "grande"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "business"
-msgstr "negocios"
+msgstr " "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -10038,7 +10038,7 @@ msgstr "fonts.google.com"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "for my"
-msgstr "para mi"
+msgstr "para mi negocio de"
 
 #. module: website
 #. openerp-web
@@ -10207,7 +10207,7 @@ msgstr "organización, estructura"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "page, snippets, ...)"
-msgstr "página, fragmentos, ...)"
+msgstr ", fragmentos, ...)"
 
 #. module: website
 #. openerp-web
