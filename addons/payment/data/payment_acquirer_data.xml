@@ -261,7 +261,7 @@
                ])]"/>
     </record>
 
-    <record id="payment_acquirer_sepa_direct_debit" model="payment.acquirer" groups="base.group_no_one">
+    <!--record id="payment_acquirer_sepa_direct_debit" model="payment.acquirer">
         <field name="name">SEPA Direct Debit</field>
         <field name="sequence">20</field>
         <field name="image_128"
@@ -275,7 +275,7 @@
                 territorios asociados.
             </p>
         </field>
-    </record>
+    </record-->
 
     <record id="payment_acquirer_sips" model="payment.acquirer">
         <field name="name">Sips</field>
