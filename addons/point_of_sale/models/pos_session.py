@@ -429,7 +429,7 @@ class PosSession(models.Model):
                 'redirect': True
             }
 
-        self.message_post(body='Point of Sale Session ended')
+        self.message_post(body='Sesión de TPV Finalizada')
 
         return {'successful': True}
 

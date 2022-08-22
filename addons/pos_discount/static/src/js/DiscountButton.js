@@ -14,7 +14,7 @@ odoo.define('pos_discount.DiscountButton', function(require) {
         async onClick() {
             var self = this;
             const { confirmed, payload } = await this.showPopup('NumberPopup',{
-                title: this.env._t('Discount Percentage'),
+                title: this.env._t('Porcentaje de descuento'),
                 startingValue: this.env.pos.config.discount_pc,
                 isInputSelected: true
             });
@@ -30,8 +30,8 @@ odoo.define('pos_discount.DiscountButton', function(require) {
             var product  = this.env.pos.db.get_product_by_id(this.env.pos.config.discount_product_id[0]);
             if (product === undefined) {
                 await this.showPopup('ErrorPopup', {
-                    title : this.env._t("No discount product found"),
-                    body  : this.env._t("The discount product seems misconfigured. Make sure it is flagged as 'Can be Sold' and 'Available in Point of Sale'."),
+                    title : this.env._t("No se ha encontrado ningún producto de descuento"),
+                    body  : this.env._t("El producto de descuento parece estar mal configurado. Asegúrate de que está marcado como 'Puede venderse' y 'Disponible en el punto de venta'."),
                 });
                 return;
             }
