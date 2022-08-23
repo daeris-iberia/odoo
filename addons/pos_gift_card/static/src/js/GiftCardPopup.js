@@ -80,8 +80,8 @@ odoo.define("pos_gift_card.GiftCardPopup", function (require) {
         });
       } else {
         await this.showPopup('ErrorPopup', {
-          'title': this.env._t('This gift card has already been sold'),
-          'body': this.env._t('You cannot sell a gift card that has already been sold'),
+          'title': this.env._t('Esta tarjeta regalo ya ha sido vendida'),
+          'body': this.env._t('No puedes vender una tarjeta regalo que ya ha sido vendida'),
         });
       }
     }
