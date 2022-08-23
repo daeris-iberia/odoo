@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 08:55+0000\n"
-"PO-Revision-Date: 2022-08-21 07:55+0200\n"
+"PO-Revision-Date: 2022-08-22 06:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -186,7 +186,7 @@ msgstr "Configuración de punto de venta"
 #. module: pos_gift_card
 #: model:ir.model,name:pos_gift_card.model_pos_order_line
 msgid "Point of Sale Order Lines"
-msgstr "Líneas de Orden de Punto de Venta"
+msgstr "Líneas de Pedido de Punto de Venta"
 
 #. module: pos_gift_card
 #: model:ir.model,name:pos_gift_card.model_pos_order

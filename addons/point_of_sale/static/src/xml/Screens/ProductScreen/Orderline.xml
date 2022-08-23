@@ -52,11 +52,11 @@
                 </t>
                 <t t-if="props.line.get_discount_str() !== '0'">
                     <li class="info">
-                        With a
+                        Con un
                         <em>
                             <t t-esc="props.line.get_discount_str()" />%
                         </em>
-                        discount
+                        descuento
                     </li>
                 </t>
                 <t t-if="customerNote">
