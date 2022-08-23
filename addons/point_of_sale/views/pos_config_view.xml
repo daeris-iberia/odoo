@@ -192,7 +192,7 @@
                     </div>
                     <h2>Connected Devices</h2>
                     <div class="row mt16 o_settings_container" id="posbox_reference">
-                        <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="col-12 col-lg-6 o_setting_box" groups="base.group_no_one">
                             <div class="o_setting_left_pane">
                                 <field name="is_posbox"/>
                             </div>
