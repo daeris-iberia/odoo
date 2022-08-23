@@ -9,7 +9,8 @@
             <xpath expr="//group[@name='acquirer']" position="before">
                 <group invisible="context.get('stripe_onboarding', False)"
                        name="stripe_onboarding_group"
-                       attrs="{'invisible': ['|', '|', ('provider', '!=', 'stripe'), ('stripe_secret_key', '!=', False), ('stripe_publishable_key', '!=', False)]}">
+                       attrs="{'invisible': ['|', '|', ('provider', '!=', 'stripe'), ('stripe_secret_key', '!=', False), ('stripe_publishable_key', '!=', False)]}"
+                       groups="base.group_no_one">
                     <button string="Connect Stripe"
                             type="object"
                             name="action_stripe_connect_account"
@@ -21,8 +22,8 @@
                 <group attrs="{'invisible': [('provider', '!=', 'stripe')]}" name="stripe_credentials">
                     <field name="stripe_publishable_key" attrs="{'required':[('provider', '=', 'stripe'), ('state', '!=', 'disabled')]}" password="True"/>
                     <field name="stripe_secret_key" attrs="{'required':[('provider', '=', 'stripe'), ('state', '!=', 'disabled')]}" password="True"/>
-                    <label for="stripe_webhook_secret"/>
-                    <div class="o_row" col="2">
+                    <label for="stripe_webhook_secret" groups="base.group_no_one"/>
+                    <div class="o_row" col="2" groups="base.group_no_one">
                         <field name="stripe_webhook_secret" password="True"/>
                         <button string="Generate your webhook"
                                 type="object"
