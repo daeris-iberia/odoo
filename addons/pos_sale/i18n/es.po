@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-29 09:58+0000\n"
-"PO-Revision-Date: 2021-10-29 12:02+0200\n"
+"PO-Revision-Date: 2022-08-22 06:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: pos_sale
 #. openerp-web
@@ -44,7 +44,7 @@ msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Apply a down payment"
-msgstr ""
+msgstr "Aplicar un pago inicial"
 
 #. module: pos_sale
 #. openerp-web
@@ -72,9 +72,7 @@ msgstr "Cancelado"
 #: code:addons/pos_sale/static/src/js/SetSaleOrderButton.js:0
 #, python-format
 msgid "Cannot access order management screen if offline."
-msgstr ""
-"No se puede acceder a la pantalla de gestión de pedidos si está "
-"desconectado."
+msgstr "No se puede acceder a la pantalla de gestión de pedidos si estás desconectado."
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
@@ -105,7 +103,7 @@ msgstr "Entregado desde"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
-msgstr "¿Desea cargar el SN/Lotes vinculados a la Orden de Venta?"
+msgstr "¿Deseas cargar el SN/Lotes vinculados a la Orden de Venta?"
 
 #. module: pos_sale
 #: model:product.product,name:pos_sale.default_downpayment_product
@@ -128,7 +126,7 @@ msgstr "Producto para adelanto"
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "E.g. customer: Steward, date: 2020-05-09"
-msgstr "Por ejemplo: cliente: steward, fecha: 09-05-2020"
+msgstr "Por ejemplo: cliente: Jesús, fecha: 09-05-2022"
 
 #. module: pos_sale
 #. openerp-web
@@ -151,6 +149,9 @@ msgid ""
 "It seems that you didn't configure a down payment product in your point of sale.\n"
 "                        You can go to your point of sale configuration to choose one."
 msgstr ""
+"Parece que no configuraste un producto de pago inicial en tu punto de venta.\n"
+"                        Puedes ir a la configuración de tu punto de venta para "
+"elegir uno."
 
 #. module: pos_sale
 #: code:addons/pos_sale/models/sale_order.py:0
@@ -208,12 +209,12 @@ msgstr "No"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "No down payment product"
-msgstr ""
+msgstr "Sin producto de pago inicial"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
 msgid "Open POS Sessions"
-msgstr "Sesiones abiertas de punto de venta"
+msgstr "Sesiones abiertas de TPV"
 
 #. module: pos_sale
 #: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
@@ -231,7 +232,7 @@ msgstr "Pedido"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
-msgstr "Líneas de pedido transferidas al punto de venta"
+msgstr "Líneas de pedido transferidas al TPV"
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
@@ -248,12 +249,12 @@ msgstr "Porcentaje de %s"
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Configuración de punto de venta"
+msgstr "Configuración de TPV"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order_line
 msgid "Point of Sale Order Lines"
-msgstr "Líneas de Orden de Punto de Venta"
+msgstr "Líneas de Pedido de TPV"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order
@@ -385,7 +386,7 @@ msgstr "Sesión en ejecución"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_order_amount_total
 msgid "Session Sale Amount"
-msgstr "Cantidad de venta de la sesión"
+msgstr "Importe de venta de la sesión"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
@@ -397,30 +398,30 @@ msgstr "Sesiones en ejecución"
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Set Sale Order"
-msgstr "Establecer orden de venta"
+msgstr "Establecer pedido de venta"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid ""
-"Some of the products in your Sale Order are not available in POS, do you "
-"want to import them?"
+"Some of the products in your Sale Order are not available in POS, do you want to "
+"import them?"
 msgstr ""
-"Algunos de los productos de su orden de venta no están disponibles en TPV, "
-"¿desea importarlos?"
+"Algunos de los productos de tu pedido de venta no están disponibles en TPV, ¿deseas "
+"importarlos?"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
-msgstr "Fuente Línea de orden de venta"
+msgstr "Fuente de la Línea del pedido de venta"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Settle the order"
-msgstr ""
+msgstr "Liquidar el pedido"
 
 #. module: pos_sale
 #. openerp-web
@@ -437,19 +438,17 @@ msgstr "Estado"
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_order__currency_rate
 msgid ""
-"The rate of the currency to the currency of rate applicable at the date of "
-"the order"
+"The rate of the currency to the currency of rate applicable at the date of the order"
 msgstr ""
-"El tipo de cambio de la moneda a la moneda del tipo de cambio aplicable en "
-"la fecha del pedido"
+"El tipo de cambio de la moneda a la moneda del tipo de cambio aplicable en la fecha "
+"del pedido"
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__crm_team_id
 #: model:ir.model.fields,help:pos_sale.field_pos_session__crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
 msgstr ""
-"Las ventas de este punto de venta estarán relacionadas con este equipo de "
-"ventas."
+"Las ventas de este punto de venta estarán relacionadas con este equipo de ventas."
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
@@ -459,7 +458,7 @@ msgstr "Este producto se aplicará cuando se realice el pago inicial"
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
-msgstr "Este producto se utilizará como pago inicial en una orden de venta."
+msgstr "Este producto se utilizará como pago inicial en un pedido de venta."
 
 #. module: pos_sale
 #. openerp-web
@@ -504,7 +503,7 @@ msgstr "Unidades"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "What do you want to do?"
-msgstr "¿Qué quiere hacer?"
+msgstr "¿Qué quieres hacer?"
 
 #. module: pos_sale
 #. openerp-web

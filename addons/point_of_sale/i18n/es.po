@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 06:17+0000\n"
-"PO-Revision-Date: 2022-08-19 09:03+0200\n"
+"PO-Revision-Date: 2022-08-22 07:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -161,7 +161,7 @@ msgstr "<span class=\"o_form_label\">Códigos de Barra</span>"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "<span class=\"o_form_label\">Default Pricelist</span>"
-msgstr "<span class=\"o_form_label\">Lista de precios por defecto</span>"
+msgstr "<span class=\"o_form_label\">Tarifa predeterminada</span>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -467,7 +467,7 @@ msgstr "Control de efectivo avanzado"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Advanced Pricelists"
-msgstr "Listas de precios avanzadas"
+msgstr "Tarifas"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -545,7 +545,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__allowed_pricelist_ids
 msgid "Allowed Pricelists"
-msgstr "Lista de precios permitidos"
+msgstr "Tarifas permitidas"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__is_total_cost_computed
@@ -3122,11 +3122,11 @@ msgid ""
 "be valid, this pricelist must be listed here as an available pricelist. "
 "Otherwise the default pricelist will apply."
 msgstr ""
-"Disponer de varias listas de precios disponibles en el punto de venta. "
-"También puede aplicar una lista de precios para clientes específicos desde "
-"su formulario de contacto (en la pestaña de Ventas). Para ser válida, esta "
-"lista de precios tiene que enumerarse aquí como una lista de los precios "
-"disponibles. De lo contrario, se aplicará la lista de precios por defecto."
+"Disponer de varias tarifas (listas de precios) disponibles en el punto de "
+"venta. También puede aplicar una tarifa para clientes específicos desde su "
+"formulario de contacto (en la pestaña de Ventas). Para ser válida, esta "
+"tarifa tiene que enumerarse aquí como una tarifa disponible. De lo "
+"contrario, se aplicará la tarifa por defecto."
 
 #. module: point_of_sale
 #. openerp-web
@@ -4531,7 +4531,7 @@ msgstr "Precio sin IVA:"
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/ControlButtons/SetPricelistButton.xml:0
 #, python-format
 msgid "Price list"
-msgstr "Lista de precio"
+msgstr "Tarifa"
 
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__barcode_rule__type__price
@@ -4546,14 +4546,14 @@ msgstr "Producto con precio"
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__pricelist_id
 #, python-format
 msgid "Pricelist"
-msgstr "Lista de precios"
+msgstr "Tarifas"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.pos_config_menu_action_product_pricelist
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Pricelists"
-msgstr "Listas de precios"
+msgstr "Tarifas"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -5883,7 +5883,7 @@ msgstr ""
 #, python-format
 msgid "The default pricelist must be included in the available pricelists."
 msgstr ""
-"La lista de precios por defecto debe incluirse en las listas de los precios "
+"La tarifas por defecto debe incluirse en las listas de los precios "
 "disponibles."
 
 #. module: point_of_sale
@@ -5893,8 +5893,8 @@ msgid ""
 "The default pricelist must belong to no company or the company of the point "
 "of sale."
 msgstr ""
-"La lista de precios por defecto no debe pertenecer a ninguna empresa o a la "
-"empresa del punto de venta."
+"La tarifas por defecto no debe pertenecer a ninguna empresa o a la empresa "
+"del punto de venta."
 
 #. module: point_of_sale
 #. openerp-web
@@ -6773,7 +6773,7 @@ msgstr "Utilizar una posición fiscal específica por defecto"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__use_pricelist
 msgid "Use a pricelist."
-msgstr "Utilizar una lista de precios."
+msgstr "Utilizar tarifas."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
