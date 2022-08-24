@@ -265,7 +265,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 o_setting_box" id="google_drive_documents_setting">
+                            <div class="col-12 col-lg-6 o_setting_box" id="google_drive_documents_setting" groups="base.group_no_one">
                                 <div class="o_setting_left_pane">
                                     <field name="module_google_drive" />
                                 </div>
@@ -280,7 +280,7 @@
                                 </div>
                             </div>
                             <div id="product_get_pic_setting"/>
-                            <div class="col-12 col-lg-6 o_setting_box" id="google_spreadsheet_setting">
+                            <div class="col-12 col-lg-6 o_setting_box" id="google_spreadsheet_setting" groups="base.group_no_one">
                                 <div class="o_setting_left_pane">
                                     <field name="module_google_spreadsheet" />
                                 </div>
