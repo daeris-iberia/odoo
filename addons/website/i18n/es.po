@@ -2450,7 +2450,7 @@ msgstr "Elige otro tema"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "Choose your favorite"
-msgstr "Elige tu favorito"
+msgstr "Elige tu"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options model_terms:ir.ui.view,arch_db:website.s_image_gallery_options model_terms:ir.ui.view,arch_db:website.s_share_options
