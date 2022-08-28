@@ -25,7 +25,7 @@ odoo.define('point_of_sale.AbstractReceiptScreen', function (require) {
                 } else {
                     const { confirmed } = await this.showPopup('ConfirmPopup', {
                         title: printResult.message.title,
-                        body: 'Do you want to print using the web printer?',
+                        body: '¿Quieres realizar la impresión usando la impresora web?',
                     });
                     if (confirmed) {
                         // We want to call the _printWeb when the popup is fully gone
@@ -45,10 +45,10 @@ odoo.define('point_of_sale.AbstractReceiptScreen', function (require) {
                 return true;
             } catch (err) {
                 await this.showPopup('ErrorPopup', {
-                    title: this.env._t('Printing is not supported on some browsers'),
+                    title: this.env._t('La impresión no está soportada en algunos navegadores'),
                     body: this.env._t(
-                        'Printing is not supported on some browsers due to no default printing protocol ' +
-                            'is available. It is possible to print your tickets by making use of an IoT Box.'
+                        'La impresión no es compatible con algunos navegadores debido a que no existe un protocolo de impresión predeterminado ' +
+                            'disponible.'
                     ),
                 });
                 return false;

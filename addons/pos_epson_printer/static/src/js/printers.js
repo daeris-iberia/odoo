@@ -18,18 +18,18 @@ class EpsonPrintResultGenerator extends PrintResultGenerator {
         var printRes = new PrintResult({
             successful: false,
             message: {
-                title: _t('Connection to the printer failed'),
-                body: _t('Please check if the printer is still connected. \n' +
-                    'Some browsers don\'t allow HTTP calls from websites to devices in the network (for security reasons). ' +
-                    'If it is the case, you will need to follow Odoo\'s documentation for ' +
-                    '\'Self-signed certificate for ePOS printers\' and \'Secure connection (HTTPS)\' to solve the issue'
+                title: _t('La conexión a la impresora falló'),
+                body: _t('Por favor, compruebe si la impresora todavía está conectada. \n' +
+                    'Algunos navegadores no permiten llamadas HTTP desde sitios web a dispositivos en la red (por razones de seguridad). ' +
+                    'Si es el caso, deberá seguir la documentación de Daeris para' +
+                    '\'Certificado autofirmado para impresoras ePOS\' y \'Conexión segura (HTTPS)\' para resolver el problema'
                 ),
             }
         });
 
         if (window.location.protocol === 'https:') {
             printRes.message.body += _.str.sprintf(
-                _t('If you are on a secure server (HTTPS) please make sure you manually accepted the certificate by accessing %s'),
+                _t('Si está en un servidor seguro (HTTPS), asegúrese de aceptar manualmente el certificado accediendo %s'),
                 this.address
             );
         }
@@ -41,8 +41,8 @@ class EpsonPrintResultGenerator extends PrintResultGenerator {
         return new PrintResult({
             successful: false,
             message: {
-                title: _t('Printing failed'),
-                body: _t('Please check if the printer has enough paper and is ready to print.'),
+                title: _t('Error al imprimir'),
+                body: _t('Compruebe si la impresora tiene suficiente papel y está lista para imprimir.'),
             },
         });
     }
