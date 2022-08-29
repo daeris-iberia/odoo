@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 06:17+0000\n"
-"PO-Revision-Date: 2022-08-28 10:56+0200\n"
+"PO-Revision-Date: 2022-08-29 06:07+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -7176,7 +7176,7 @@ msgstr "p. ej.: dirección de la empresa, página web"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "e.g. NYC Shop"
-msgstr "por ejemplo, NYC Shop"
+msgstr "por ejemplo, Tienda BCN"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
