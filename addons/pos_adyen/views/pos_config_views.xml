@@ -6,9 +6,9 @@
         <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//div[@id='tip_product']" position="after">
-                <div groups="base.group_no_one" attrs="{'invisible': [('iface_tipproduct', '=', False)]}">
-                    <field name="adyen_ask_customer_for_tip" class="oe_inline"/>
-                    <label class="font-weight-normal" for="adyen_ask_customer_for_tip" string="Add tip through payment terminal (Adyen)"/>
+                <div attrs="{'invisible': [('iface_tipproduct', '=', False)]}">
+                    <field groups="base.group_no_one" name="adyen_ask_customer_for_tip" class="oe_inline"/>
+                    <label groups="base.group_no_one" class="font-weight-normal" for="adyen_ask_customer_for_tip" string="Add tip through payment terminal (Adyen)"/>
                 </div>
             </xpath>
         </field>
