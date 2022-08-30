@@ -157,7 +157,7 @@
             <field name="arch" type="xml">
                 <tree string="Restaurant Order Printers">
                     <field name="name" />
-                    <field name="proxy_ip" />
+                    <field name="proxy_ip" groups="base.group_no_one"/>
                     <field name="product_categories_ids" />
                 </tree>
             </field>
