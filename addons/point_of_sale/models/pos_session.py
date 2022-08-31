@@ -543,10 +543,10 @@ class PosSession(models.Model):
         for cash_move in self.cash_register_id.line_ids.sorted('create_date'):
             if cash_move.amount > 0:
                 cash_in_count += 1
-                name = f'Cash in {cash_in_count}'
+                name = f'Entrada de efectivo {cash_in_count}'
             else:
                 cash_out_count += 1
-                name = f'Cash out {cash_out_count}'
+                name = f'Retirada de efectivo {cash_out_count}'
             cash_in_out_list.append({
                 'name': cash_move.payment_ref if cash_move.payment_ref else name,
                 'amount': cash_move.amount
@@ -1542,9 +1542,9 @@ class PosSession(models.Model):
             .with_context({'active_model': 'pos.session', 'active_ids': self.ids})\
             .create({'amount': sign * amount, 'name': reason})\
             .run()
-        message_content = [f"Cash {extras['translatedType']}", f'- Amount: {extras["formattedAmount"]}']
+        message_content = [f"Efectivo {extras['translatedType']}", f'- Cantidad: {extras["formattedAmount"]}']
         if reason:
-            message_content.append(f'- Reason: {reason}')
+            message_content.append(f'- Motivo: {reason}')
         self.message_post(body='<br/>\n'.join(message_content))
 
 
