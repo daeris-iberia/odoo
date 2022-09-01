@@ -13,53 +13,54 @@
         <field name="mailing_domain">[]</field>
         <field name="reply_to_mode">new</field>
         <field name="reply_to">{{ object.company_id.email }}</field>
-        <field name="body_html" type="html">
-<table border="0" cellpadding="0" cellspacing="0" style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
-<table border="0" cellpadding="0" cellspacing="0" width="590" style="padding: 24px; background-color: white; color: #454748; border-collapse:separate;">
+        <field name="body_arch" type="html">
+<table style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center">
+<table style="padding: 24px; background-color: white; color: #454748; border-collapse:separate;" width="590" cellspacing="0" cellpadding="0" border="0">
 <tbody>
     <!-- HEADER -->
     <tr>
-        <td align="center" style="min-width: 590px;">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: white; padding: 0; border-collapse:separate;">
-                <tr><td valign="middle">
-                    <span style="font-size: 10px;">Hello</span><br/>
+        <td style="min-width: 590px;" align="center">
+            <table style="background-color: white; padding: 0; border-collapse:separate;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody><tr><td valign="middle">
+                    <span style="font-size: 10px;">Hola</span><br/>
                     <span style="font-size: 20px; font-weight: bold;">
-                        <t t-out="object.name" />
+                        <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t>
                     </span>
                 </td><td valign="middle" align="right">
                     <img t-att-src="'/logo.png?company=%s' % object.company_id.id" style="padding: 0px; margin: 0px; height: 48px;" t-att-alt="object.company_id.name"/>
                 </td></tr>
                 <tr><td colspan="2" style="text-align:center;">
-                  <hr width="100%" style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;"/>
-                </td></tr>
-            </table>
+                  <hr style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;" width="100%" contenteditable="false"/>
+                <br/></td></tr>
+            </tbody></table>
         </td>
     </tr>
     <!-- CONTENT -->
     <tr>
         <td style="min-width: 590px;">
-            <p>Estimado/a <t t-out="object.name" /></p>
-            <p>Las grandes historias tienen personalidad. Considere contar una gran historia que proporcione personalidad. Escribir una historia con personalidad para clientes potenciales ayudará a establecer una conexión en la relación. Esto se muestra en pequeñas peculiaridades como opciones de palabras o frases. Escribe desde tu punto de vista, no desde la experiencia de otra persona.</p>
-            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si trata de escribir pensando en una amplia audiencia general, su historia sonará falsa y será insulsa. Nadie estará interesado. Escribe para una persona. Si es genuino para uno, es genuino para el resto.</p>
+            <p>Apreciado/a <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t></p>
+            <p>Las grandes historias tienen personalidad. Considera contar una gran historia que proporcione personalidad. Escribir una historia con personalidad para clientes potenciales te ayudará a establecer una conexión en la relación con tus clientes. Estas se muestran en pequeñas peculiaridades como opciones particulares. Escribe desde tu punto de vista, no desde la experiencia de otra persona.</p>
+            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una 
+audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará interesado. Escribe para una persona. Si es genuino para uno, es genuino para el resto.</p>
         </td>
     </tr>
     <!-- FOOTER -->
     <tr>
-        <td align="center" style="min-width: 590px; padding: 0 8px 0 8px; font-size:11px;">
-            <hr width="100%" style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;"/>
-            <b><t t-out="object.company_id.name" /></b><br/>
+        <td style="min-width: 590px; padding: 0 8px 0 8px; font-size:11px;" align="center">
+            <hr style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;" width="100%" contenteditable="false"/>
+            <b><t t-out="object.company_id.name" data-oe-t-inline="true" contenteditable="false"></t></b><br/>
             <div style="color: #999999;">
-                <t t-out="object.company_id.phone" />
-                <t t-if="object.company_id.email">
+                <t t-out="object.company_id.phone" data-oe-t-inline="true" contenteditable="false"></t>
+                <t t-if="object.company_id.email" data-oe-t-group-active="true" data-oe-t-group="0" data-oe-t-inline="true">
                 |
                     <a t-att-href="'mailto:%s' % object.company_id.email" style="text-decoration:none; color: #999999;">
-                        <t t-out="object.company_id.email" />
+                        <t t-out="object.company_id.email" data-oe-t-inline="true" contenteditable="false"></t>
                     </a>
                 </t>
-                <t t-if="object.company_id.website">
+                <t t-if="object.company_id.website" data-oe-t-group-active="true" data-oe-t-group="1" data-oe-t-inline="true">
                 |
                     <a href="'%s' % object.company_id.website" style="text-decoration:none; color: #999999;">
-                        <t t-out="object.company_id.website" />
+                        <t t-out="object.company_id.website" data-oe-t-inline="true" contenteditable="false"></t>
                     </a>
                 </t>
             </div>
@@ -69,10 +70,71 @@
 </table>
 </td></tr>
 <!-- POWERED BY -->
-<tr><td align="center" style="min-width: 590px;">
+<tr><td style="min-width: 590px;" align="center">
         Energizado por <a target="_blank" href="https://www.daeris.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Daeris</a>
 </td></tr>
-</table></field>
+</tbody></table></field>
+        <field name="body_html" type="html">
+<table style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center">
+<table style="padding: 24px; background-color: white; color: #454748; border-collapse:separate;" width="590" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+    <!-- HEADER -->
+    <tr>
+        <td style="min-width: 590px;" align="center">
+            <table style="background-color: white; padding: 0; border-collapse:separate;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody><tr><td valign="middle">
+                    <span style="font-size: 10px;">Hola</span><br/>
+                    <span style="font-size: 20px; font-weight: bold;">
+                        <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t>
+                    </span>
+                </td><td valign="middle" align="right">
+                    <img t-att-src="'/logo.png?company=%s' % object.company_id.id" style="padding: 0px; margin: 0px; height: 48px;" t-att-alt="object.company_id.name"/>
+                </td></tr>
+                <tr><td colspan="2" style="text-align:center;">
+                  <hr style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;" width="100%" contenteditable="false"/>
+                <br/></td></tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <!-- CONTENT -->
+    <tr>
+        <td style="min-width: 590px;">
+            <p>Apreciado/a <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t></p>
+            <p>Las grandes historias tienen personalidad. Considera contar una gran historia que proporcione personalidad. Escribir una historia con personalidad para clientes potenciales te ayudará a establecer una conexión en la relación con tus clientes. Estas se muestran en pequeñas peculiaridades como opciones particulares. Escribe desde tu punto de vista, no desde la experiencia de otra persona.</p>
+            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una 
+audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará interesado. Escribe para una persona. Si es genuino para uno, es genuino para el resto.</p>
+        </td>
+    </tr>
+    <!-- FOOTER -->
+    <tr>
+        <td style="min-width: 590px; padding: 0 8px 0 8px; font-size:11px;" align="center">
+            <hr style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;" width="100%" contenteditable="false"/>
+            <b><t t-out="object.company_id.name" data-oe-t-inline="true" contenteditable="false"></t></b><br/>
+            <div style="color: #999999;">
+                <t t-out="object.company_id.phone" data-oe-t-inline="true" contenteditable="false"></t>
+                <t t-if="object.company_id.email" data-oe-t-group-active="true" data-oe-t-group="0" data-oe-t-inline="true">
+                |
+                    <a t-att-href="'mailto:%s' % object.company_id.email" style="text-decoration:none; color: #999999;">
+                        <t t-out="object.company_id.email" data-oe-t-inline="true" contenteditable="false"></t>
+                    </a>
+                </t>
+                <t t-if="object.company_id.website" data-oe-t-group-active="true" data-oe-t-group="1" data-oe-t-inline="true">
+                |
+                    <a href="'%s' % object.company_id.website" style="text-decoration:none; color: #999999;">
+                        <t t-out="object.company_id.website" data-oe-t-inline="true" contenteditable="false"></t>
+                    </a>
+                </t>
+            </div>
+        </td>
+    </tr>
+</tbody>
+</table>
+</td></tr>
+<!-- POWERED BY -->
+<tr><td style="min-width: 590px;" align="center">
+        Energizado por <a target="_blank" href="https://www.daeris.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Daeris</a>
+</td></tr>
+</tbody></table></field>
     </record>
 </data>
 </odoo>
