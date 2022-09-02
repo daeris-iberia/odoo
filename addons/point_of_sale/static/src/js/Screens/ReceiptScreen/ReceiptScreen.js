@@ -61,7 +61,7 @@ odoo.define('point_of_sale.ReceiptScreen', function (require) {
                 const orderAmountStr = this.env.pos.format_currency(orderTotalAmount - tipAmount);
                 if (!tipAmount) return orderAmountStr;
                 const tipAmountStr = this.env.pos.format_currency(tipAmount);
-                return `${orderAmountStr} + ${tipAmountStr} tip`;
+                return `${orderAmountStr} + ${tipAmountStr} propina`;
             }
             get currentOrder() {
                 return this.env.pos.get_order();

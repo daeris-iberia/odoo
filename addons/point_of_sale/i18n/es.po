@@ -5217,7 +5217,7 @@ msgstr "Seleccione un pedido"
 #: code:addons/point_of_sale/static/src/js/Popups/CashMovePopup.js:0
 #, python-format
 msgid "Select either Cash In or Cash Out before confirming."
-msgstr "Seleccione Cash In o Cash Out antes de confirmar."
+msgstr "Seleccione Entrada de efectivo o Retirada de efectivo antes de confirmar."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -5699,7 +5699,7 @@ msgstr "Importado con éxito"
 #: code:addons/point_of_sale/static/src/js/ChromeWidgets/CashMoveButton.js:0
 #, python-format
 msgid "Successfully made a cash %s of %s."
-msgstr "Hizo con éxito una %s en efectivo de %s."
+msgstr "Hizo con éxito una %s de efectivo de %s."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__cash_register_balance_end
