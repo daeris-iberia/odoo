@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-02 04:11+0000\n"
-"PO-Revision-Date: 2022-09-02 06:16+0200\n"
+"POT-Creation-Date: 2022-09-07 05:17+0000\n"
+"PO-Revision-Date: 2022-09-07 07:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -30,7 +30,8 @@ msgstr ""
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 #, python-format
 msgid "24H Stats of %(mailing_type)s \"%(mailing_name)s\""
-msgstr "Estadísticas 24H de %(mailing_type)s \"%(mailing_name)s\""
+msgstr ""
+"Estadísticas de las últimas 24H sobre %(mailing_type)s \"%(mailing_name)s\""
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
@@ -146,7 +147,7 @@ msgstr "Nº de archivos adjuntos"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 #, python-format
 msgid "BOUNCED (%i)"
-msgstr "REBOTADO (%i)"
+msgstr "REBOTADOS (%i)"
 
 #. module: mass_mailing_sms
 #: model:utm.tag,name:mass_mailing_sms.mailing_tag_0
@@ -219,8 +220,8 @@ msgstr "Código"
 msgid ""
 "Come back once some SMS Mailings are sent to check out aggregated results."
 msgstr ""
-"Regrese una vez que se envíen algunos mensajes SMS para ver los resultados "
-"agregados."
+"Vuelve una vez que se envíen algunos mensajes SMS para ver los resultados "
+"añadidos."
 
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_configuration
@@ -539,7 +540,7 @@ msgstr "Mi Marketing por SMS"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_trace_report_action_sms
 msgid "No data yet!"
-msgstr "No hay información aún!"
+msgstr "¡Aún no hay información!"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
@@ -648,7 +649,7 @@ msgstr "Promo Navidad"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 #, python-format
 msgid "RECEIVED (%i)"
-msgstr "RECIBIDO (%i)"
+msgstr "RECIBIDOS (%i)"
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
