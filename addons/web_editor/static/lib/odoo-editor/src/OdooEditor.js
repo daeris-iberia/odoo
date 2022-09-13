@@ -201,6 +201,7 @@ export class OdooEditor extends EventTarget {
                 showEmptyElementHint: true,
                 defaultLinkAttributes: {},
                 plugins: [],
+                getUnremovableElements: () => [],
                 getReadOnlyAreas: () => [],
                 getContentEditableAreas: () => [],
                 getPowerboxElement: () => {
@@ -492,7 +493,7 @@ export class OdooEditor extends EventTarget {
         }
     }
     observerFlush() {
-        this.observerApply(this.observer.takeRecords());
+        this.observerApply(this.filterMutationRecords(this.observer.takeRecords()));
     }
     observerActive(label) {
         this._observerUnactiveLabels.delete(label);
@@ -992,6 +993,26 @@ export class OdooEditor extends EventTarget {
     historyUnpauseSteps() {
         this._historyStepsActive = true;
     }
+    /**
+     * Stash the mutations of the current step to re-apply them later.
+     */
+    historyStash() {
+        if (!this._historyStashedMutations) {
+            this._historyStashedMutations = [];
+        }
+        this._historyStashedMutations.push(...this._currentStep.mutations);
+        this._currentStep.mutations = [];
+    }
+    /**
+     * Unstash the previously stashed mutations into the current step.
+     */
+    historyUnstash() {
+        if (!this._currentStep.mutations) {
+            this._currentStep.mutations = [];
+        }
+        this._currentStep.mutations.unshift(...this._historyStashedMutations);
+        this._historyStashedMutations = [];
+    }
     _historyClean() {
         this._historySteps = [];
         this._currentStep = {
@@ -1295,12 +1316,12 @@ export class OdooEditor extends EventTarget {
 
     /**
      * Find all descendants of `element` with a `data-call` attribute and bind
-     * them on mousedown to the execution of the command matching that
+     * them on click to the execution of the command matching that
      * attribute.
      */
     bindExecCommand(element) {
         for (const buttonEl of element.querySelectorAll('[data-call]')) {
-            buttonEl.addEventListener('mousedown', ev => {
+            buttonEl.addEventListener('click', ev => {
                 const sel = this.document.getSelection();
                 if (sel.anchorNode && ancestors(sel.anchorNode).includes(this.editable)) {
                     this.execCommand(buttonEl.dataset.call, buttonEl.dataset.arg1);
@@ -1639,6 +1660,9 @@ export class OdooEditor extends EventTarget {
         for (const node of this.options.getReadOnlyAreas()) {
             node.setAttribute('contenteditable', false);
         }
+        for (const element of this.options.getUnremovableElements()) {
+            element.classList.add("oe_unremovable");
+        }
         this.observerActive('_activateContenteditable');
     }
     _stopContenteditable() {
@@ -1762,6 +1786,7 @@ export class OdooEditor extends EventTarget {
         this.commandbarTablePicker = new TablePicker({
             document: this.document,
             floating: true,
+            getContextFromParentRect: this.options.getContextFromParentRect,
         });
 
         document.body.appendChild(this.commandbarTablePicker.el);
@@ -1775,90 +1800,90 @@ export class OdooEditor extends EventTarget {
 
         const mainCommands = [
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Cabecera 1'),
-                description: this.options._t('Cabecera de sección grande.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Heading 1'),
+                description: this.options._t('Big section heading.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H1');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Cabecera 2'),
-                description: this.options._t('Cabecera de sección mediana.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Heading 2'),
+                description: this.options._t('Medium section heading.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H2');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Cabecera 3'),
-                description: this.options._t('Cabecera de sección pequeña.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Heading 3'),
+                description: this.options._t('Small section heading.'),
                 fontawesome: 'fa-header',
                 callback: () => {
                     this.execCommand('setTag', 'H3');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Texto'),
-                description: this.options._t('Bloque de párrafo.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Text'),
+                description: this.options._t('Paragraph block.'),
                 fontawesome: 'fa-paragraph',
                 callback: () => {
                     this.execCommand('setTag', 'P');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Lista con viñetas'),
-                description: this.options._t('Crea una lista con viñetas simple.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Bulleted list'),
+                description: this.options._t('Create a simple bulleted list.'),
                 fontawesome: 'fa-list-ul',
                 callback: () => {
                     this.execCommand('toggleList', 'UL');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Lista numerada'),
-                description: this.options._t('Crea una lista con numeración.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Numbered list'),
+                description: this.options._t('Create a list with numbering.'),
                 fontawesome: 'fa-list-ol',
                 callback: () => {
                     this.execCommand('toggleList', 'OL');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Lista de verificación'),
-                description: this.options._t('Rastrea las tareas con una lista de verificación.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Checklist'),
+                description: this.options._t('Track tasks with a checklist.'),
                 fontawesome: 'fa-check-square-o',
                 callback: () => {
                     this.execCommand('toggleList', 'CL');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Separador'),
-                description: this.options._t('Inserta un separador de regla horizontal.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Separator'),
+                description: this.options._t('Insert an horizontal rule separator.'),
                 fontawesome: 'fa-minus',
                 callback: () => {
                     this.execCommand('insertHorizontalRule');
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Tabla'),
-                description: this.options._t('Inserta una tabla.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Table'),
+                description: this.options._t('Insert a table.'),
                 fontawesome: 'fa-table',
                 callback: () => {
                     this.commandbarTablePicker.show();
                 },
             },
             {
-                groupName: 'Bloques básicos',
-                title: this.options._t('Cambiar de dirección'),
-                description: this.options._t('Cambiar la dirección del texto.'),
+                groupName: this.options._t('Basic blocks'),
+                title: this.options._t('Switch direction'),
+                description: this.options._t('Switch the text\'s direction.'),
                 fontawesome: 'fa-exchange',
                 callback: () => {
                     this.execCommand('switchDirection');
@@ -2536,11 +2561,27 @@ export class OdooEditor extends EventTarget {
      * @private
      */
     _onSelectionChange() {
+        const selection = this.document.getSelection();
+        // When CTRL+A in the editor, sometimes the browser use the editable
+        // element as an anchor & focus node. This is an issue for the commands
+        // and the toolbar so we need to fix the selection to be based on the
+        // editable children. Calling `getDeepRange` ensure the selection is
+        // limited to the editable.
+        if (selection.anchorNode === this.editable && selection.focusNode === this.editable) {
+            getDeepRange(
+                this.editable,
+                {
+                    correctTripleClick: true,
+                    select: true,
+                });
+            // The selection is changed in `getDeepRange` and will therefore
+            // re-trigger the _onSelectionChange.
+            return;
+        }
         // Compute the current selection on selectionchange but do not record it. Leave
         // that to the command execution or the 'input' event handler.
         this._computeHistorySelection();
 
-        const selection = this.document.getSelection();
         this._updateToolbar(!selection.isCollapsed && this.isSelectionInEditable(selection));
 
         if (this._currentMouseState === 'mouseup') {
@@ -2563,8 +2604,9 @@ export class OdooEditor extends EventTarget {
      */
     isSelectionInEditable(selection) {
         selection = selection || this.document.getSelection()
-        return selection && selection.anchorNode && this.editable.contains(selection.anchorNode) &&
-            this.editable.contains(selection.focusNode);
+        return selection && selection.anchorNode &&
+            closestElement(selection.anchorNode).isContentEditable && closestElement(selection.focusNode).isContentEditable &&
+            this.editable.contains(selection.anchorNode) && this.editable.contains(selection.focusNode);
     }
 
     /**
@@ -2666,8 +2708,6 @@ export class OdooEditor extends EventTarget {
     }
 
     cleanForSave(element = this.editable) {
-        sanitize(element);
-
         this._pluginCall('cleanForSave', [element]);
         // Clean the remaining ZeroWidthspaces added by the `fillEmpty` function
         // ( contain "oe-zws-empty-inline" attr)
@@ -2688,6 +2728,8 @@ export class OdooEditor extends EventTarget {
                 emptyElement.removeAttribute('oe-zws-empty-inline');
             }
         }
+        sanitize(element);
+
         // Remove contenteditable=false on elements
         for (const el of element.querySelectorAll('[contenteditable="false"]')) {
             if (!el.hasAttribute('oe-keep-contenteditable')) {
@@ -2712,16 +2754,16 @@ export class OdooEditor extends EventTarget {
      */
     _handleCommandHint() {
         const selectors = {
-            BLOCKQUOTE: 'Cita vacía',
-            H1: 'Cabecera 1',
-            H2: 'Cabecera 2',
-            H3: 'Cabecera 3',
-            H4: 'Cabecera 4',
-            H5: 'Cabecera 5',
-            H6: 'Cabecera 6',
-            'UL LI': 'Lista',
-            'OL LI': 'Lista',
-            'CL LI': 'Para hacer',
+            BLOCKQUOTE: 'Empty quote',
+            H1: 'Heading 1',
+            H2: 'Heading 2',
+            H3: 'Heading 3',
+            H4: 'Heading 4',
+            H5: 'Heading 5',
+            H6: 'Heading 6',
+            'UL LI': 'List',
+            'OL LI': 'List',
+            'CL LI': 'To-do',
         };
 
         for (const hint of this.editable.querySelectorAll('.oe-hint')) {
@@ -2748,7 +2790,7 @@ export class OdooEditor extends EventTarget {
 
         const block = this.options.getPowerboxElement();
         if (block) {
-            this._makeHint(block, this.options._t('Teclea "/" para comandos'), true);
+            this._makeHint(block, this.options._t('Type "/" for commands'), true);
         }
 
         // placeholder hint
@@ -3007,6 +3049,7 @@ export class OdooEditor extends EventTarget {
     addImagesFiles(imageFiles) {
         for (const imageFile of imageFiles) {
             const imageNode = document.createElement('img');
+            imageNode.style.width = '100%';
             imageNode.dataset.fileName = imageFile.name;
             getImageUrl(imageFile).then((url)=> {
                 imageNode.src = url;
@@ -3022,10 +3065,10 @@ export class OdooEditor extends EventTarget {
         const sel = this.document.getSelection();
         const files = getImageFiles(ev.clipboardData);
         const clipboardHtml = ev.clipboardData.getData('text/html');
-        if (files.length) {
-            this.addImagesFiles(files);
-        } else if (clipboardHtml) {
+        if (clipboardHtml) {
             this.execCommand('insertHTML', this._prepareClipboardData(clipboardHtml));
+        } else if (files.length) {
+            this.addImagesFiles(files);
         } else {
             const text = ev.clipboardData.getData('text/plain');
             const splitAroundUrl = text.split(URL_REGEX);
@@ -3046,8 +3089,8 @@ export class OdooEditor extends EventTarget {
                     const baseEmbedCommand = [
                         {
                             groupName: 'paste',
-                            title: 'Paste as URL',
-                            description: 'Create an URL.',
+                            title: this.options._t('Paste as URL'),
+                            description: this.options._t('Create an URL.'),
                             fontawesome: 'fa-link',
                             callback: () => {
                                 this.historyUndo();
@@ -3069,8 +3112,8 @@ export class OdooEditor extends EventTarget {
                         },
                         {
                             groupName: 'paste',
-                            title: 'Paste as text',
-                            description: 'Simple text paste.',
+                            title: this.options._t('Paste as text'),
+                            description: this.options._t('Simple text paste.'),
                             fontawesome: 'fa-font',
                             callback: () => {},
                         },
@@ -3092,9 +3135,9 @@ export class OdooEditor extends EventTarget {
                         this.commandBar.open({
                             commands: [
                                 {
-                                    groupName: 'Embed',
-                                    title: 'Embed Image',
-                                    description: 'Embed the image in the document.',
+                                    groupName: this.options._t('Embed'),
+                                    title: this.options._t('Embed Image'),
+                                    description: this.options._t('Embed the image in the document.'),
                                     fontawesome: 'fa-image',
                                     shouldPreValidate: () => false,
                                     callback: () => {
@@ -3120,9 +3163,9 @@ export class OdooEditor extends EventTarget {
                         this.commandBar.open({
                             commands: [
                                 {
-                                    groupName: 'Embed',
-                                    title: 'Embed Youtube Video',
-                                    description: 'Embed the youtube video in the document.',
+                                    groupName: this.options._t('Embed'),
+                                    title: this.options._t('Embed Youtube Video'),
+                                    description: this.options._t('Embed the youtube video in the document.'),
                                     fontawesome: 'fa-youtube-play',
                                     shouldPreValidate: () => false,
                                     callback: () => {
