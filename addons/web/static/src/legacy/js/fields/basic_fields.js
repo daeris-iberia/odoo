@@ -3440,8 +3440,8 @@ var JournalDashboardGraph = AbstractField.extend({
         var labels = this.data[0].values.map(function (pt) {
             return pt.x;
         });
-        var borderColor = this.data[0].is_sample_data ? '#dddddd' : '#875a7b';
-        var backgroundColor = this.data[0].is_sample_data ? '#ebebeb' : '#dcd0d9';
+        var borderColor = this.data[0].is_sample_data ? '#dddddd' : '#0874AA';
+        var backgroundColor = this.data[0].is_sample_data ? '#ebebeb' : '#D1ECFF';
         return {
             type: 'line',
             data: {
@@ -3483,7 +3483,7 @@ var JournalDashboardGraph = AbstractField.extend({
         this.data[0].values.forEach(function (pt) {
             data.push(pt.value);
             labels.push(pt.label);
-            var color = pt.type === 'past' ? '#ccbdc8' : (pt.type === 'future' ? '#a5d8d7' : '#ebebeb');
+            var color = pt.type === 'past' ? '#D1ECFF' : (pt.type === 'future' ? '#D1ECFF' : '#ebebeb');
             backgroundColor.push(color);
         });
         return {
