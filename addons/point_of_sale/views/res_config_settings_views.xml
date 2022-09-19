@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box"
+                        <div class="col-12 col-lg-6 o_setting_box" groups="base.group_no_one"
                             id="vantiv_payment_terminal_setting"
                             title="The transactions are processed by Vantiv. Set your Vantiv credentials on the related payment method.">
                             <div class="o_setting_left_pane">
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" title="The transactions are processed by Six. Set the IP address of the terminal on the related payment method.">
+                        <div class="col-12 col-lg-6 o_setting_box" groups="base.group_no_one" title="The transactions are processed by Six. Set the IP address of the terminal on the related payment method.">
                             <div class="o_setting_left_pane">
                                 <field name="module_pos_six"/>
                             </div>
