@@ -4728,7 +4728,7 @@ class AccountMoveLine(models.Model):
                 for line in self.filtered(lambda l: l.move_id.id == move_id):
                     tracking_value_ids = line._mail_track(ref_fields, modified_lines)[1]
                     if tracking_value_ids:
-                        msg = f"{html_escape(_('Journal Item'))} <a href=# data-oe-model=account.move.line data-oe-id={line.id}>#{line.id}</a> {html_escape(_('updated'))}"
+                        msg = f"{html_escape(_('Apunte contable'))} <a href=# data-oe-model=account.move.line data-oe-id={line.id}>#{line.id}</a> {html_escape(_('actualizado'))}"
                         line.move_id._message_log(
                             body=msg,
                             tracking_value_ids=tracking_value_ids
