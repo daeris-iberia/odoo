@@ -1,0 +1,188 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_eu_oss
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-27 04:33+0000\n"
+"PO-Revision-Date: 2022-09-27 06:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: l10n_eu_oss
+#: model:ir.model,name:l10n_eu_oss.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "Plantilla de Plan de Cuentas"
+
+#. module: l10n_eu_oss
+#: model:ir.model,name:l10n_eu_oss.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_eu_oss
+#: model:ir.model,name:l10n_eu_oss.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: l10n_eu_oss
+#: model:ir.model.fields,field_description:l10n_eu_oss.field_res_config_settings__l10n_eu_oss_eu_country
+msgid "Is European country?"
+msgstr "¿Es país europeo?"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_10_0
+#, fuzzy
+msgid "OSS 10.0%"
+msgstr "OSS 10,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_12_0
+#, fuzzy
+msgid "OSS 12.0%"
+msgstr "OSS 12,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_13_0
+#, fuzzy
+msgid "OSS 13.0%"
+msgstr "OSS 13,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_13_5
+#, fuzzy
+msgid "OSS 13.5%"
+msgstr "OSS 13,5%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_15_0
+#, fuzzy
+msgid "OSS 15.0%"
+msgstr "OSS 15,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_17_0
+#, fuzzy
+msgid "OSS 17.0%"
+msgstr "OSS 17,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_18_0
+#, fuzzy
+msgid "OSS 18.0%"
+msgstr "OSS 18,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_19_0
+#, fuzzy
+msgid "OSS 19.0%"
+msgstr "OSS 19,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_20_0
+#, fuzzy
+msgid "OSS 20.0%"
+msgstr "OSS 20,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_21_0
+#, fuzzy
+msgid "OSS 21.0%"
+msgstr "OSS 21,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_22_0
+#, fuzzy
+msgid "OSS 22.0%"
+msgstr "OSS 22,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_23_0
+#, fuzzy
+msgid "OSS 23.0%"
+msgstr "OSS 23,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_24_0
+#, fuzzy
+msgid "OSS 24.0%"
+msgstr "OSS 24,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_25_0
+#, fuzzy
+msgid "OSS 25.0%"
+msgstr "OSS 25,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_27_0
+#, fuzzy
+msgid "OSS 27.0%"
+msgstr "OSS 27,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_4_0
+#, fuzzy
+msgid "OSS 4.0%"
+msgstr "OSS 4.0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_4_8
+#, fuzzy
+msgid "OSS 4.8%"
+msgstr "OSS 4,8%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_5_0
+#, fuzzy
+msgid "OSS 5.0%"
+msgstr "OSS 5.0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_5_5
+#, fuzzy
+msgid "OSS 5.5%"
+msgstr "OSS 5,5%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_6_0
+#, fuzzy
+msgid "OSS 6.0%"
+msgstr "OSS 6,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_7_0
+#, fuzzy
+msgid "OSS 7.0%"
+msgstr "OSS 7.0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_8_0
+#, fuzzy
+msgid "OSS 8.0%"
+msgstr "OSS 8.0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_9_0
+#, fuzzy
+msgid "OSS 9.0%"
+msgstr "OSS 9,0%"
+
+#. module: l10n_eu_oss
+#: model:account.tax.group,name:l10n_eu_oss.oss_tax_group_9_5
+#, fuzzy
+msgid "OSS 9.5%"
+msgstr "OSS 9,5%"
+
+#. module: l10n_eu_oss
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss.res_config_settings_view_form
+#, fuzzy
+msgid "Refresh tax mapping"
+msgstr "Actualizar el mapeo de impuestos"
