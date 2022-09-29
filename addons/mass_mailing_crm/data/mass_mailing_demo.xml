@@ -40,7 +40,7 @@
         <td style="min-width: 590px;">
             <p>Apreciado/a <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t></p>
             <p>Las grandes historias tienen personalidad. Considera contar una gran historia que proporcione personalidad. Escribir una historia con personalidad para clientes potenciales te ayudará a establecer una conexión en la relación con tus clientes. Estas se muestran en pequeñas peculiaridades como opciones particulares. Escribe desde tu punto de vista, no desde la experiencia de otra persona.</p>
-            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una 
+            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una
 audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará interesado. Escribe para una persona. Si es genuino para uno, es genuino para el resto.</p>
         </td>
     </tr>
@@ -101,7 +101,7 @@ audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará inter
         <td style="min-width: 590px;">
             <p>Apreciado/a <t t-out="object.name" data-oe-t-inline="true" contenteditable="false"></t></p>
             <p>Las grandes historias tienen personalidad. Considera contar una gran historia que proporcione personalidad. Escribir una historia con personalidad para clientes potenciales te ayudará a establecer una conexión en la relación con tus clientes. Estas se muestran en pequeñas peculiaridades como opciones particulares. Escribe desde tu punto de vista, no desde la experiencia de otra persona.</p>
-            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una 
+            <p>Las grandes historias son para todos, incluso cuando están escritas para una sola persona. Si tratas de escribir pensando en una
 audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará interesado. Escribe para una persona. Si es genuino para uno, es genuino para el resto.</p>
         </td>
     </tr>
@@ -120,7 +120,7 @@ audiencia amplia, tu historia sonará falsa y será insulsa. Nadie estará inter
                 </t>
                 <t t-if="object.company_id.website" data-oe-t-group-active="true" data-oe-t-group="1" data-oe-t-inline="true">
                 |
-                    <a href="'%s' % object.company_id.website" style="text-decoration:none; color: #999999;">
+                    <a t-att-href="'%s' % object.company_id.website" style="text-decoration:none; color: #999999;">
                         <t t-out="object.company_id.website" data-oe-t-inline="true" contenteditable="false"></t>
                     </a>
                 </t>

@@ -343,7 +343,7 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_type_view_form
 msgid "Event Sponsor Levels"
-msgstr ""
+msgstr "イベントスポンサーレベル"
 
 #. module: website_event_exhibitor
 #: model:ir.actions.act_window,name:website_event_exhibitor.event_sponsor_action
@@ -485,7 +485,7 @@ msgstr "公開済"
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Jitsi Name"
-msgstr ""
+msgstr "Jitsi名"
 
 #. module: website_event_exhibitor
 #. openerp-web
@@ -668,7 +668,7 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Opening Hours"
-msgstr ""
+msgstr "営業時間"
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__hour_from
@@ -760,7 +760,7 @@ msgstr "シルバー"
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__subtitle
 msgid "Slogan"
-msgstr ""
+msgstr "スローガン"
 
 #. module: website_event_exhibitor
 #: code:addons/website_event_exhibitor/models/event_sponsor.py:0
@@ -788,7 +788,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:website_event_exhibitor.event_sponsor_type_action
 #: model:ir.ui.menu,name:website_event_exhibitor.menu_event_sponsor_type
 msgid "Sponsor Levels"
-msgstr ""
+msgstr "スポンサーレベル"
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__mobile
@@ -824,7 +824,7 @@ msgstr "スポンサー画像"
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__sponsor_type_id
 msgid "Sponsoring Level"
-msgstr ""
+msgstr "スポンサーレベル"
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_event__sponsor_ids
