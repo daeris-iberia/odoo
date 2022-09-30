@@ -15,10 +15,10 @@
 # Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2022
 # Martin Trigaux, 2022
 # Tim Siu Lai <tl@roomsfor.hk>, 2022
-# Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Nankyung Yoon <n.yoon@glavisarchitects.com>, 2022
 # Noma Yuki, 2022
 # 江口和志 <sandwhale1010@gmail.com>, 2022
+# Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
 # 
 msgid ""
@@ -1332,6 +1332,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                                            <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">お名前</span>\n"
+"                                                            <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -2074,7 +2076,7 @@ msgstr "添付"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_attachment__copy_ids
 msgid "Attachment using a copy of me"
-msgstr "私のコピーを使った添付"
+msgstr "自分のコピーを使った添付"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
@@ -2725,7 +2727,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
 msgid "Clean"
-msgstr ""
+msgstr "クリーニング"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -2945,7 +2947,7 @@ msgstr "連絡先等"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_search
 msgid "Connected"
-msgstr ""
+msgstr "接続済"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__has_google_search_console
@@ -4578,7 +4580,7 @@ msgstr "セッションクッキー、認証、分析については、"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Force your user to create an account per website"
-msgstr "ウェブサイトに基づいてアカウントを作成させる"
+msgstr "ユーザにウェブサイト毎にアカウントを作成させる"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -4818,7 +4820,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Google Map"
-msgstr ""
+msgstr "グーグルマップ"
 
 #. module: website
 #. openerp-web
@@ -4973,7 +4975,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Hamburger menu"
-msgstr ""
+msgstr "ハンバーガーメニュー"
 
 #. module: website
 #. openerp-web
@@ -5301,7 +5303,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_website__social_default_image
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "If set, replaces the website logo as the default social share image."
-msgstr ""
+msgstr "設定すると、Webサイトのロゴがデフォルトのソーシャル共有画像として置き換えられます。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
@@ -6813,7 +6815,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.actions.act_window,help:website.website_visitors_action
 msgid "No Visitors yet!"
-msgstr ""
+msgstr "まだ訪問者はいません!"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
@@ -7651,7 +7653,7 @@ msgstr "このウェブ上のページをプロモートする"
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
 msgid "Promotions"
-msgstr ""
+msgstr "プロモーション"
 
 #. module: website
 #. openerp-web
@@ -8593,7 +8595,7 @@ msgstr "スライドショー"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Slogan"
-msgstr ""
+msgstr "スローガン"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -9288,6 +9290,13 @@ msgid "There is no data currently available."
 msgstr "現在利用可能なデータはありません。"
 
 #. module: website
+#. openerp-web
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "There is no field available for this option."
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid ""
 "There is no website available for this company. You could create a new one."
@@ -9671,7 +9680,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Tuna and Salmon Burger"
-msgstr ""
+msgstr "ツナとサーモンのバーガー"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -9812,7 +9821,7 @@ msgstr "未公開"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_search
 msgid "Unregistered"
-msgstr ""
+msgstr "登録なし"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
@@ -10219,14 +10228,14 @@ msgstr "訪問数"
 #: model_terms:ir.actions.act_window,help:website.website_visitor_view_action
 msgid ""
 "Wait for visitors to come to your website to see the pages they viewed."
-msgstr ""
+msgstr "訪問者が閲覧したページを確認するためには、訪問者がウェブサイトに来るのを待ちましょう。"
 
 #. module: website
 #: model_terms:ir.actions.act_window,help:website.website_visitors_action
 msgid ""
 "Wait for visitors to come to your website to see their history and engage "
 "with them."
-msgstr ""
+msgstr "訪問者の履歴を確認し彼らと関わりを持つためには、訪問者がウェブサイトに来るのを待ちましょう。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -10405,7 +10414,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.ir_model_view
 msgid "Website Forms"
-msgstr ""
+msgstr "ウェブサイトフォーム"
 
 #. module: website
 #. openerp-web
