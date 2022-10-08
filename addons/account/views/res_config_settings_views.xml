@@ -385,8 +385,8 @@
                                 </div>
                             </div>
                         </div>
-                        <h2>Vendor Bills</h2>
-                        <div class="row mt16 o_settings_container" id="account_vendor_bills">
+                        <h2 groups="base.group_no_one">Vendor Bills</h2>
+                        <div class="row mt16 o_settings_container" id="account_vendor_bills" groups="base.group_no_one">
                             <div class="col-12 col-lg-6 o_setting_box" id="account_ocr_settings">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_invoice_extract" widget="upgrade_boolean"/>
@@ -415,8 +415,8 @@
                                 </div>
                             </div>
                         </div>
-                        <h2>Vendor Payments</h2>
-                        <div class="row mt16 o_settings_container" id="print_vendor_checks_setting_container">
+                        <h2 groups="base.group_no_one">Vendor Payments</h2>
+                        <div class="row mt16 o_settings_container" id="print_vendor_checks_setting_container" groups="base.group_no_one">
                             <div class="col-12 col-lg-6 o_setting_box" id="print_checks" groups="account.group_account_user">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_check_printing"/>
@@ -572,8 +572,8 @@
                         </t>
 
                         <t groups="account.group_account_user">
-                            <h2>Fiscal Periods</h2>
-                            <div class="row mt16 o_settings_container" id="accounting_reports">
+                            <h2 groups="base.group_no_one">Fiscal Periods</h2>
+                            <div class="row mt16 o_settings_container" id="accounting_reports" groups="base.group_no_one">
                                 <div class="col-12 col-lg-6 o_setting_box" id="fiscalyear" invisible="1" groups="account.group_account_user"/>
                                 <div class="col-12 col-lg-6 o_setting_box" id="dynamic_report" invisible="1" groups="account.group_account_user">
                                     <div class="o_setting_left_pane">
