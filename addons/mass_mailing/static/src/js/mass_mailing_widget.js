@@ -110,7 +110,7 @@ var MassMailingFieldHtml = FieldHtml.extend({
         const $editable = this.wysiwyg.getEditable().find('.o_editable');
         this.$editorMessageElements = $editable
             .not('[data-editor-message]')
-            .attr('data-editor-message', _t('DRAG BUILDING BLOCKS HERE'));
+            .attr('data-editor-message', _t('ARRASTRE BLOQUES AQUÍ'));
         $editable.filter(':empty').attr('contenteditable', false);
     },
     /**
