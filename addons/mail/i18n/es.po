@@ -2014,7 +2014,7 @@ msgstr "Crear chat grupal"
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Create new %(document)s"
-msgstr "Crear nuevos %(document)s"
+msgstr "Crear nuevo %(document)s"
 
 #. module: mail
 #: code:addons/addons/mail/models/mail_thread.py:0
