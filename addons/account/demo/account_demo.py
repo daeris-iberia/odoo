@@ -169,7 +169,7 @@ class AccountChartTemplate(models.Model):
                 'decimal_separator': ',',
                 'line_ids': [
                     Command.create({
-                        'label': 'Due amount',
+                        'label': 'Importe vencido',
                         'account_id': self._get_demo_account(
                             'income',
                             'account.data_account_type_revenue',
@@ -179,7 +179,7 @@ class AccountChartTemplate(models.Model):
                         'amount_string': r'BRT: ([\d,]+)',
                     }),
                     Command.create({
-                        'label': 'Bank Fees',
+                        'label': 'Comisiones bancarias',
                         'account_id': self._get_demo_account(
                             'cost_of_goods_sold',
                             'account.data_account_type_direct_costs',
