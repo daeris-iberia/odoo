@@ -811,6 +811,7 @@ class Users(models.Model):
             'type': 'ir.actions.client',
             'tag': 'change_password',
             'target': 'new',
+            'name': 'Daeris',
         }
 
     @api.model
