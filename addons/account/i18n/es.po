@@ -3352,7 +3352,7 @@ msgstr "Facturas a pagar"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills to Validate"
-msgstr "Facturas a Validar"
+msgstr "Facturas a Confirmar"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:0
@@ -7709,7 +7709,7 @@ msgstr "Facturas que te pertenecen"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Invoices to Validate"
-msgstr "Facturas a validar"
+msgstr "Facturas a confirmar"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__reconciled_bill_ids
@@ -8499,12 +8499,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Late Activities"
-msgstr "Actividades tardías"
+msgstr "Actividades vencidas"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Late Bills"
-msgstr "Facturas tardías"
+msgstr "Facturas vencidas"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -12891,7 +12891,7 @@ msgstr "Impuestos vencidos"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_invoice_tree
 msgid "Tax Excluded"
-msgstr "Impuestos no incluidos"
+msgstr "Importe sin impuestos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__tax_exigibility
