@@ -548,11 +548,11 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
                 'font-size': '15px',
                 position: 'absolute',
                 top: '5px',
-                [_t.database.parameters.direction === 'rtl' ? 'left' : 'right']: odoo.debug && this.nodeOptions.codeview ? '40px' : '5px',
+                [_t.database.parameters.direction === 'rtl' ? 'left' : 'right']: this.nodeOptions.codeview ? '40px' : '5px',
             });
         }
         $container.append($button);
-        if (odoo.debug && this.nodeOptions.codeview) {
+        if (this.nodeOptions.codeview) {
             const $codeviewButtonToolbar = $(`
                 <div id="codeview-btn-group" class="btn-group">
                     <button class="o_codeview_btn btn btn-primary">
