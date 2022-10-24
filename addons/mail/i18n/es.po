@@ -45,7 +45,7 @@ msgstr "\"%s\" requiere acceso al micrófono"
 #: code:addons/mail/models/mail_activity.py:0
 #, python-format
 msgid "%(activity_name)s: %(summary)s assigned to you"
-msgstr "%(activity_name)s: %(summary)s asignado a usted"
+msgstr "%(activity_name)s: %(summary)s asignado/a a tí"
 
 #. module: mail
 #: code:addons/addons/mail/models/res_partner.py:0
@@ -63,14 +63,14 @@ msgstr ""
 #: code:addons/mail/wizard/mail_wizard_invite.py:0
 #, python-format
 msgid "%(user_name)s invited you to follow %(document)s document: %(title)s"
-msgstr "%(user_name)s le invitó a seguir %(document)s el documento: %(title)s"
+msgstr "%(user_name)s te invitó a seguir %(document)s el documento: %(title)s"
 
 #. module: mail
 #: code:addons/addons/mail/wizard/mail_wizard_invite.py:0
 #: code:addons/mail/wizard/mail_wizard_invite.py:0
 #, python-format
 msgid "%(user_name)s invited you to follow a new document."
-msgstr "%(user_name)s le invitó a seguir un nuevo documento."
+msgstr "%(user_name)s te invitó a seguir un nuevo documento."
 
 #. module: mail
 #. openerp-web
@@ -94,7 +94,7 @@ msgstr "%d mensajes"
 #: code:addons/mail/static/src/js/activity.js:0
 #, python-format
 msgid "%d days overdue"
-msgstr "%d días de retraso"
+msgstr "%d días de vencimiento"
 
 #. module: mail
 #. openerp-web
@@ -117,7 +117,7 @@ msgstr "%s (copia)"
 #: code:addons/mail/static/src/models/thread/thread.js:0
 #, python-format
 msgid "%s and %s are typing..."
-msgstr "%s y %s están escribiendo.."
+msgstr "%s y %s están escribiendo..."
 
 #. module: mail
 #. openerp-web
@@ -172,7 +172,7 @@ msgstr "%s ha reaccionado con %s"
 #: code:addons/mail/static/src/models/thread/thread.js:0
 #, python-format
 msgid "%s is typing..."
-msgstr "%s esta escribiendo..."
+msgstr "%s está escribiendo..."
 
 #. module: mail
 #: code:addons/addons/mail/models/mail_channel_partner.py:0
@@ -187,7 +187,7 @@ msgstr "%s comenzó una conferencia en vivo"
 #: code:addons/mail/static/src/models/thread/thread.js:0
 #, python-format
 msgid "%s, %s and more are typing..."
-msgstr "%s, %s y más están escribiendo.."
+msgstr "%s, %s y más están escribiendo..."
 
 #. module: mail
 #. openerp-web
@@ -250,7 +250,7 @@ msgstr "-&gt;"
 #: code:addons/mail/static/src/components/channel_invitation_form/channel_invitation_form.xml:0
 #, python-format
 msgid ". Narrow your search to see more choices."
-msgstr ". Limite su búsqueda para ver más opciones."
+msgstr ". Limita tu búsqueda para ver más opciones."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_assigned
@@ -302,10 +302,10 @@ msgid ""
 "            Type <b>/command</b> to execute a command.<br>"
 msgstr ""
 "<br><br>\n"
-"            Escriba <b>@username</b> para mencionar a alguien y captar su "
+"            Escribe <b>@username</b> para mencionar a alguien y captar su "
 "atención.<br>\n"
-"            Escriba <b>#channel</b> para mencionar un canal.<br>\n"
-"            Escriba <b>/command</b> para ejecutar un comando.<br>"
+"            Escribe <b>#channel</b> para mencionar un canal.<br>\n"
+"            Escribe <b>/command</b> para ejecutar un comando.<br>"
 
 #. module: mail
 #: code:addons/addons/mail/models/mail_channel.py:0
@@ -359,8 +359,8 @@ msgid ""
 "<p><b>Chat with coworkers</b> in real-time using direct messages.</"
 "p><p><i>You might need to invite users from the Settings app first.</i></p>"
 msgstr ""
-"<p><b>Chatee con sus compañeros</b> en tiempo real usando mensajes directos."
-"</p><p><i>Puede que necesite invitar a usuarios de la aplicación de "
+"<p><b>Chatea con tus compañeros</b> en tiempo real usando mensajes directos."
+"</p><p><i>Puede que necesites invitar a usuarios de la aplicación de "
 "configuración primero.</i></p>"
 
 #. module: mail
@@ -8653,7 +8653,7 @@ msgstr "alias %(name)s: %(error)s"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_assigned
 msgid "assigned you an activity"
-msgstr "le asignó una actividad"
+msgstr "te asignó la actividad"
 
 #. module: mail
 #: code:addons/addons/mail/models/mail_alias.py:0
@@ -9059,7 +9059,7 @@ msgstr "este documento"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_assigned
 msgid "to close for"
-msgstr "cerrar por"
+msgstr "con fecha de vencimiento el"
 
 #. module: mail
 #. openerp-web
