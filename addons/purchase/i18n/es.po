@@ -2445,7 +2445,7 @@ msgstr "Enviar recordatorio"
 #. module: purchase
 #: model:res.groups,name:purchase.group_send_reminder
 msgid "Send an automatic reminder email to confirm delivery"
-msgstr "Envíe un correo electrónico de recordatorio automático para confirmar la entrega"
+msgstr "Envía un recordatorio (email auto) para confirmar la entrega"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
