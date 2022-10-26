@@ -402,7 +402,7 @@
             sequence="10"/>
 
         <menuitem id="menu_website_add_features" parent="website.menu_website_global_configuration"
-            sequence="20" groups="base.group_system" action="action_website_add_features"/>
+            sequence="20" groups="base.group_no_one" action="action_website_add_features"/>
 
         <menuitem name="Websites"
             id="menu_website_websites_list"
