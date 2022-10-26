@@ -39,7 +39,8 @@
                                             <field name="chart_template_id" options="{'no_open': True, 'no_create': True}"/>
                                         </div>
                                         <div class="mt8">
-                                            <button name="%(account.open_account_charts_modules)d" icon="fa-arrow-right" type="action" string="Install More Packages" discard="0" class="btn-link"/>
+                                            <!--Hide install more packages feature-->
+                                            <button name="%(account.open_account_charts_modules)d" icon="fa-arrow-right" type="action" string="Install More Packages" discard="0" class="btn-link" groups="base.group_no_one"/>
                                         </div>
                                     </div>
                                 </div>
