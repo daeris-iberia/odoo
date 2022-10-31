@@ -16,7 +16,7 @@ pads (by default, http://etherpad.com/).
     'data': [
         'views/res_config_settings_views.xml',
     ],
-    'demo': ['data/pad_demo.xml'],
+    'demo': [],
     'web': True,
     'assets': {
         'web.assets_backend': [
