@@ -73,7 +73,7 @@
         </a>
         <br/><br/>
         Your Client ID: <input type="text" name="ga_client_id" t-att-value="ga_key" style="width: 100%"></input>
-        <a href="https://daeris.com/support/help" target="_blank">
+        <a href="https://docs.daeris.com/aplicaciones/sitios_web/sitio_web/optimizar/google_analytics.html" target="_blank">
             <i class="fa fa-arrow-right"/>
             How to get my Client ID
         </a>
