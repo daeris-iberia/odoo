@@ -16,7 +16,7 @@ class PaymentWizard(models.TransientModel):
 
     payment_method = fields.Selection(selection_add=[
         ('digital_signature', "Electronic signature"),
-        ('stripe', "Credit & Debit card (via Stripe)"),
+        #('stripe', "Credit & Debit card (via Stripe)"),
         ('paypal', "PayPal"),
         ('other', "Other payment acquirer"),
         ('manual', "Custom payment instructions"),
