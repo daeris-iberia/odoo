@@ -10,14 +10,14 @@ class PaymentWizard(models.TransientModel):
 
     payment_method = fields.Selection([
         ('paypal', "PayPal"),
-        ('stripe', "Credit card (via Stripe)"),
+        #('stripe', "Credit card (via Stripe)"),
         ('other', "Other payment acquirer"),
         ('manual', "Custom payment instructions"),
     ], string="Payment Method", default=lambda self: self._get_default_payment_acquirer_onboarding_value('payment_method'))
 
     paypal_user_type = fields.Selection([
-        ('new_user', "I don't have a Paypal account"),
-        ('existing_user', 'I have a Paypal account')], string="Paypal User Type", default='new_user')
+        ('new_user', "No tengo una cuenta de PayPal"),
+        ('existing_user', 'Tengo una cuenta de PayPal')], string="Paypal User Type", default='new_user')
     paypal_email_account = fields.Char("Email", default=lambda self: self._get_default_payment_acquirer_onboarding_value('paypal_email_account'))
     paypal_seller_account = fields.Char("Merchant Account ID", default=lambda self: self._get_default_payment_acquirer_onboarding_value('paypal_seller_account'))
     paypal_pdt_token = fields.Char("PDT Identity Token", default=lambda self: self._get_default_payment_acquirer_onboarding_value('paypal_pdt_token'))
