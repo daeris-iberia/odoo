@@ -4848,7 +4848,7 @@ msgstr "¡Regístrate!"
 #: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
 #, python-format
 msgid "Sign in"
-msgstr "Identificarse"
+msgstr "Iniciar sesión"
 
 #. module: website_slides
 #. openerp-web

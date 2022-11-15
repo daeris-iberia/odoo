@@ -899,7 +899,7 @@ msgstr "Mostrar como herencia opcional"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_sign_in
 msgid "Sign in"
-msgstr "Identificarse"
+msgstr "Iniciar sesión"
 
 #. module: portal
 #. openerp-web
