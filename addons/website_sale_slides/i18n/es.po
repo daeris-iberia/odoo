@@ -141,7 +141,7 @@ msgstr "Pedido de venta"
 #: code:addons/website_sale_slides/static/src/xml/slide_course_join.xml:0
 #, python-format
 msgid "Sign in"
-msgstr "Identificarse"
+msgstr "Iniciar sesión"
 
 #. module: website_sale_slides
 #. openerp-web

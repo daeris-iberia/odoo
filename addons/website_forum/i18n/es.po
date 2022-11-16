@@ -2825,7 +2825,7 @@ msgstr "Mostrar resultados para"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "Sign in"
-msgstr "Identificarse"
+msgstr "Iniciar sesión"
 
 #. module: website_forum
 #. openerp-web

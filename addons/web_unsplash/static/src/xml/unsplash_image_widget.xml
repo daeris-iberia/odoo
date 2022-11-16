@@ -34,7 +34,7 @@
             <div class="form-inline">
                 <div class="form-group">
                     <span>
-                        <a href="https://daeris.com/support/help" target="_blank">Obtén una clave de acceso</a>
+                        <a href="https://docs.daeris.com/aplicaciones/sitios_web/sitio_web/optimizar/unsplash.html" target="_blank">Obtén una clave de acceso</a>
                         y pégala aquí:
                         <input type="text" class="form-control w-auto" id="accessKeyInput" placeholder="Pega tu clave de acceso aquí"/>
                     </span>
@@ -42,7 +42,7 @@
                 <div class="form-group my-md-3">
                     <span class="ml-xl-1">
                         y pega el
-                        <a href="https://daeris.com/support/help" target="_blank">ID de aplicación</a>
+                        <a href="https://docs.daeris.com/aplicaciones/sitios_web/sitio_web/optimizar/unsplash.html" target="_blank">ID de aplicación</a>
                         aquí:
                         <input type="text" class="form-control w-auto" id="appIdInput" placeholder="Pega tu ID de aplicación aquí"/>
                     </span>
