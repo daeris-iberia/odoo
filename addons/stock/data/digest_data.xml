@@ -7,15 +7,9 @@
             <field name="group_id" ref="stock.group_stock_user" />
             <field name="tip_description" type="html">
 <div>
-    <p class="tip_title">Tip: Speed up inventory operations with barcodes</p>
-    <div class="tip_twocol">
-        <div class="tip_twocol_left" style="float: left; width: 45%;">
-            <img src="/stock/static/src/img/barcode.gif" class="tip_twocol_img" />
-        </div>
-        <div style="float: left; width: 55%;">
-            <p class="tip_content" style="margin: 0;">Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast and works even without a stable internet connection. It supports all flows: inventory adjustments, batch picking, moving lots or pallets, low inventory checks, etc. Go to the "Apps" menu to activate the barcode interface.</p>
-        </div>
-    </div>
+    <p class="tip_title">Consejo: acelera las operaciones de inventario con códigos de barras</p>
+    <p class="tip_content" style="margin: 0;">Es posible utilizar el lector de códigos de barras para introducir productos en las operaciones de una transferencia de inventario. Para activar esta función, navega a la pantalla Inventario ‣ Configuración ‣ Ajustes y marca la opción Escaneo de código de barras de inventario.</p>
+    <p class="tip_content" style="margin: 0;">A partir de ese momento, al crear una nueva transferencia de inventario desde la pantalla Inventario ‣ Operaciones ‣ Transferencias, aparecerá el campo Código de barras en el listado de operaciones. Si posicionas el cursor sobre el campo de código de barras, y escaneas un código de barras con el lector, el sistema informará de forma automática el producto sobre el listado</p>
     <div style="clear: both;" />
 </div>
             </field>
