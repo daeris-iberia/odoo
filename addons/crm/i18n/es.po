@@ -1141,7 +1141,7 @@ msgstr "Descripción"
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Did you know emails sent to  generate opportunities in your pipeline?<br>"
-msgstr "¿Conocías los correos electrónicos enviados para generar oportunidades en tu pipeline?<br>"
+msgstr "¿Sabías que los correos electrónicos enviados al seudónimo  del equipo de ventas generan oportunidades en tu pipeline?"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
