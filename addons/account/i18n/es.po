@@ -7940,7 +7940,7 @@ msgstr "Asientos contables por fecha"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 #, python-format
 msgid "Journal Entry"
-msgstr "Entrada de diario"
+msgstr "Factura"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
