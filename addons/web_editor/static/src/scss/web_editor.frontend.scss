@@ -1,6 +1,6 @@
 @include media-breakpoint-down(sm) {
     img, .media_iframe_video, span.fa, i.fa {
-        &:not(.animatron ){
+        &:not(.animatron ):not(.animamov){
             transform: none !important;
         }
     }
