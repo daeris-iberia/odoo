@@ -7276,7 +7276,7 @@ msgstr "Archivo de texto"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_bounce_catchall
 msgid "The"
-msgstr "El"
+msgstr "El equipo de "
 
 #. module: mail
 #: code:addons/addons/mail/models/ir_actions_server.py:0
@@ -9046,7 +9046,7 @@ msgstr "modelo de destino no especificado"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_bounce_catchall
 msgid "team."
-msgstr "equipo."
+msgstr "."
 
 #. module: mail
 #. openerp-web
