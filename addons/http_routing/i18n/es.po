@@ -95,7 +95,7 @@ msgstr "No tienes autorización para ver la página que buscas."
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
 msgid "Traceback"
-msgstr "Raatrear"
+msgstr "Rastrear"
 
 #. module: http_routing
 #: model:ir.model,name:http_routing.model_ir_ui_view
