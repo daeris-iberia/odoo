@@ -7,7 +7,7 @@
                 <t t-esc="nGuests" />
             </span>
             <span> </span>
-            <span>Guests</span>
+            <span>Clientes</span>
         </div>
     </t>
 

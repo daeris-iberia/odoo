@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 04:28+0000\n"
-"PO-Revision-Date: 2022-08-30 07:26+0200\n"
+"POT-Creation-Date: 2023-03-08 06:47+0000\n"
+"PO-Revision-Date: 2023-03-08 07:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -37,6 +37,16 @@ msgid ""
 msgstr ""
 "<span class=\"fa fa-lg fa-cutlery\" title=\"Para bares y restaurantes\" role="
 "\"img\" aria-label=\"Para bares y restaurantes\"/>"
+
+#. module: pos_restaurant
+#: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
+msgid ""
+"<span groups=\"base.group_no_one\" class=\"fa fa-lg fa-cutlery\" title=\"For "
+"bars and restaurants\" role=\"img\" aria-label=\"For bars and restaurants\"/>"
+msgstr ""
+"<span groups=\"base.group_no_one\" class=\"fa fa-lg fa-cutlery\" title="
+"\"Para bares y restaurantes\" role=\"img\" aria-label=\"Para bares y "
+"restaurantes\"/>"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
@@ -220,12 +230,6 @@ msgid "Background Image"
 msgstr "Imagen de fondo"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_bacon
-#: model:product.template,name:pos_restaurant.pos_food_bacon_product_template
-msgid "Bacon Burger"
-msgstr "Hamburguesa Bacon"
-
-#. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/PrintBillButton.xml:0
 #, python-format
@@ -263,18 +267,6 @@ msgid "CANCELLED"
 msgstr "CANCELADO"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_cheeseburger
-#: model:product.template,name:pos_restaurant.pos_food_cheeseburger_product_template
-msgid "Cheese Burger"
-msgstr "Hamburguesa con queso"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_chicken
-#: model:product.template,name:pos_restaurant.pos_food_chicken_product_template
-msgid "Chicken Curry Sandwich"
-msgstr "Sándwich de pollo al curry"
-
-#. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #, python-format
@@ -289,21 +281,16 @@ msgid "Close Tab"
 msgstr "Cerrar pestaña"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_club
-#: model:product.template,name:pos_restaurant.pos_food_club_product_template
-msgid "Club Sandwich"
-msgstr "Sándwich Club"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.coke
-#: model:product.template,name:pos_restaurant.coke_product_template
-msgid "Coca-Cola"
-msgstr "Coca-Cola"
-
-#. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__color
 msgid "Color"
 msgstr "Color"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/js/ChromeWidgets/TicketButton.js:0
+#, python-format
+msgid "Connection Error"
+msgstr "Error de conexión"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__create_uid
@@ -339,9 +326,11 @@ msgid "Display Name"
 msgstr "Nombre mostrado"
 
 #. module: pos_restaurant
-#: model:pos.category,name:pos_restaurant.drinks
-msgid "Drinks"
-msgstr "Bebidas"
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/js/ChromeWidgets/TicketButton.js:0
+#, python-format
+msgid "Due to a connection error, the orders are not synchronized."
+msgstr "Debido a un error de conexión, los pedidos no se sincronizan."
 
 #. module: pos_restaurant
 #. openerp-web
@@ -420,23 +409,12 @@ msgid "Floors & Tables"
 msgstr "Salas y mesas"
 
 #. module: pos_restaurant
-#: model:pos.category,name:pos_restaurant.food
-msgid "Food"
-msgstr "Comida"
-
-#. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "For convenience, we are providing the following gratuity calculations:"
 msgstr ""
 "Para mayor comodidad, proporcionamos los siguientes cálculos de propina:"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_funghi
-#: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
-msgid "Funghi"
-msgstr "Champiñones"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -565,42 +543,6 @@ msgid "Logo"
 msgstr "Logo"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_maki
-#: model:product.template,name:pos_restaurant.pos_food_maki_product_template
-msgid "Lunch Maki 18pc"
-msgstr "Maki 18pc"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_salmon
-#: model:product.template,name:pos_restaurant.pos_food_salmon_product_template
-msgid "Lunch Salmon 20pc"
-msgstr "Salmón 20pc"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_temaki
-#: model:product.template,name:pos_restaurant.pos_food_temaki_product_template
-msgid "Lunch Temaki mix 3pc"
-msgstr "Temaki mix 3pc"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_margherita
-#: model:product.template,name:pos_restaurant.pos_food_margherita_product_template
-msgid "Margherita"
-msgstr "Margherita"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.minute_maid
-#: model:product.template,name:pos_restaurant.minute_maid_product_template
-msgid "Minute Maid"
-msgstr "Minute Maid"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_mozza
-#: model:product.template,name:pos_restaurant.pos_food_mozza_product_template
-msgid "Mozzarella Sandwich"
-msgstr "Sándwich de mozzarella"
-
-#. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_dirty
 msgid "Mp Dirty"
 msgstr "Mp Dirty"
@@ -722,18 +664,6 @@ msgstr "Impresora POS"
 #, python-format
 msgid "PRO FORMA"
 msgstr "PRO FORMA"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_4formaggi
-#: model:product.template,name:pos_restaurant.pos_food_4formaggi_product_template
-msgid "Pasta 4 formaggi "
-msgstr "Pasta 4 quesos"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_bolo
-#: model:product.template,name:pos_restaurant.pos_food_bolo_product_template
-msgid "Pasta Bolognese"
-msgstr "Pasta boloñesa"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -921,12 +851,6 @@ msgid "Round Shape"
 msgstr "Forma redonda"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_chirashi
-#: model:product.template,name:pos_restaurant.pos_food_chirashi_product_template
-msgid "Salmon and Avocado"
-msgstr "Salmón y Aguacate"
-
-#. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__seats
@@ -975,12 +899,6 @@ msgstr "Firma"
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_skip
 msgid "Skip line when sending ticket to kitchen printers."
 msgstr "Evita las colas al enviar el ticket a las impresoras de cocina."
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_tuna
-#: model:product.template,name:pos_restaurant.pos_food_tuna_product_template
-msgid "Spicy Tuna Sandwich"
-msgstr "Sándwich de atún picante"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1223,46 +1141,6 @@ msgid "Unable to get orders count"
 msgstr "No se puede obtener el recuento de pedidos"
 
 #. module: pos_restaurant
-#: model:product.product,uom_name:pos_restaurant.coke
-#: model:product.product,uom_name:pos_restaurant.minute_maid
-#: model:product.product,uom_name:pos_restaurant.pos_food_4formaggi
-#: model:product.product,uom_name:pos_restaurant.pos_food_bacon
-#: model:product.product,uom_name:pos_restaurant.pos_food_bolo
-#: model:product.product,uom_name:pos_restaurant.pos_food_cheeseburger
-#: model:product.product,uom_name:pos_restaurant.pos_food_chicken
-#: model:product.product,uom_name:pos_restaurant.pos_food_chirashi
-#: model:product.product,uom_name:pos_restaurant.pos_food_club
-#: model:product.product,uom_name:pos_restaurant.pos_food_funghi
-#: model:product.product,uom_name:pos_restaurant.pos_food_maki
-#: model:product.product,uom_name:pos_restaurant.pos_food_margherita
-#: model:product.product,uom_name:pos_restaurant.pos_food_mozza
-#: model:product.product,uom_name:pos_restaurant.pos_food_salmon
-#: model:product.product,uom_name:pos_restaurant.pos_food_temaki
-#: model:product.product,uom_name:pos_restaurant.pos_food_tuna
-#: model:product.product,uom_name:pos_restaurant.pos_food_vege
-#: model:product.product,uom_name:pos_restaurant.water
-#: model:product.template,uom_name:pos_restaurant.coke_product_template
-#: model:product.template,uom_name:pos_restaurant.minute_maid_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_4formaggi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_bacon_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_bolo_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_cheeseburger_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_chicken_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_chirashi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_club_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_funghi_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_maki_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_margherita_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_mozza_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_salmon_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_temaki_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_tuna_product_template
-#: model:product.template,uom_name:pos_restaurant.pos_food_vege_product_template
-#: model:product.template,uom_name:pos_restaurant.water_product_template
-msgid "Units"
-msgstr "Unidades"
-
-#. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/TipScreen.js:0
 #, python-format
@@ -1282,21 +1160,9 @@ msgid "VAT:"
 msgstr "CIF/NIF:"
 
 #. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.pos_food_vege
-#: model:product.template,name:pos_restaurant.pos_food_vege_product_template
-msgid "Vegetarian"
-msgstr "Vegetariano"
-
-#. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__position_v
 msgid "Vertical Position"
 msgstr "Posición Vertical"
-
-#. module: pos_restaurant
-#: model:product.product,name:pos_restaurant.water
-#: model:product.template,name:pos_restaurant.water_product_template
-msgid "Water"
-msgstr "Agua"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__width
@@ -1385,3 +1251,66 @@ msgstr "descuento"
 #, python-format
 msgid "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
 msgstr "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
+
+#~ msgid "Bacon Burger"
+#~ msgstr "Hamburguesa Bacon"
+
+#~ msgid "Cheese Burger"
+#~ msgstr "Hamburguesa con queso"
+
+#~ msgid "Chicken Curry Sandwich"
+#~ msgstr "Sándwich de pollo al curry"
+
+#~ msgid "Club Sandwich"
+#~ msgstr "Sándwich Club"
+
+#~ msgid "Coca-Cola"
+#~ msgstr "Coca-Cola"
+
+#~ msgid "Drinks"
+#~ msgstr "Bebidas"
+
+#~ msgid "Food"
+#~ msgstr "Comida"
+
+#~ msgid "Funghi"
+#~ msgstr "Champiñones"
+
+#~ msgid "Lunch Maki 18pc"
+#~ msgstr "Maki 18pc"
+
+#~ msgid "Lunch Salmon 20pc"
+#~ msgstr "Salmón 20pc"
+
+#~ msgid "Lunch Temaki mix 3pc"
+#~ msgstr "Temaki mix 3pc"
+
+#~ msgid "Margherita"
+#~ msgstr "Margherita"
+
+#~ msgid "Minute Maid"
+#~ msgstr "Minute Maid"
+
+#~ msgid "Mozzarella Sandwich"
+#~ msgstr "Sándwich de mozzarella"
+
+#~ msgid "Pasta 4 formaggi "
+#~ msgstr "Pasta 4 quesos"
+
+#~ msgid "Pasta Bolognese"
+#~ msgstr "Pasta boloñesa"
+
+#~ msgid "Salmon and Avocado"
+#~ msgstr "Salmón y Aguacate"
+
+#~ msgid "Spicy Tuna Sandwich"
+#~ msgstr "Sándwich de atún picante"
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
+
+#~ msgid "Vegetarian"
+#~ msgstr "Vegetariano"
+
+#~ msgid "Water"
+#~ msgstr "Agua"

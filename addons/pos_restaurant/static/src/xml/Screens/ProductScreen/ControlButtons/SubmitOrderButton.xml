@@ -5,7 +5,7 @@
         <span class="control-button" t-att-class="addedClasses">
             <i class="fa fa-cutlery"></i>
             <span> </span>
-            <span>Order</span>
+            <span>Pedido</span>
         </span>
     </t>
 
